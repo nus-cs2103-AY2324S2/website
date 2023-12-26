@@ -1,0 +1,35 @@
+2023-12-21T11:07:49.730Z - info: Website generation (lazy) started at 7:07:44 pm
+2023-12-21T11:08:00.517Z - info: Building assets...
+2023-12-21T11:08:07.112Z - info: Assets built
+2023-12-21T11:08:07.113Z - info: Generating landing page...
+2023-12-21T11:08:07.644Z - info: Landing page built, other pages will be built as you navigate to them!
+2023-12-21T11:08:08.556Z - info: Site data built
+2023-12-21T11:08:08.557Z - info: Website generation (lazy) complete! Total build time: 23.591s
+2023-12-21T11:08:09.763Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2023-12-21T11:08:09.763Z - info: Press CTRL+C to stop ...
+2023-12-21T11:08:29.307Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\tp-pe as some of its dependencies were changed since the last visit
+2023-12-21T11:08:30.368Z - info: Site data built
+2023-12-21T11:08:30.369Z - info: Lazy website regeneration complete! Total build time: 1.063s
+2023-12-21T11:10:44.877Z - info: [7:10:44 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_course-CS2113\timetables-fragment.md
+2023-12-21T11:10:44.878Z - info: Synchronizing opened pages list before reload
+2023-12-21T11:10:44.880Z - info: Current opened pages, from most-to-least recent:
+2023-12-21T11:10:44.880Z - info: 1. admin/tp-pe
+2023-12-21T11:10:44.904Z - info: [7:10:44 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_course-CS2103\timetables-fragment.md
+2023-12-21T11:10:44.905Z - info: Synchronizing opened pages list before reload
+2023-12-21T11:10:44.905Z - info: Current opened pages, from most-to-least recent:
+2023-12-21T11:10:44.905Z - info: 1. admin/tp-pe
+2023-12-21T11:10:45.885Z - info: Assets built
+2023-12-21T11:10:52.137Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\tutorials as some of its dependencies were changed since the last visit
+2023-12-21T11:10:52.656Z - info: Site data built
+2023-12-21T11:10:52.657Z - info: Lazy website regeneration complete! Total build time: 0.52s
+2023-12-21T11:11:09.025Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\lectures as some of its dependencies were changed since the last visit
+2023-12-21T11:11:09.337Z - info: Site data built
+2023-12-21T11:11:09.337Z - info: Lazy website regeneration complete! Total build time: 0.312s
+2023-12-21T11:31:07.155Z - info: [7:31:07 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tutorials.md
+2023-12-21T11:31:07.156Z - info: Synchronizing opened pages list before reload
+2023-12-21T11:31:07.157Z - info: Current opened pages, from most-to-least recent:
+2023-12-21T11:31:07.157Z - info: 1. admin/lectures
+2023-12-21T11:31:08.170Z - info: No pages needed to be rebuilt
+2023-12-21T11:31:15.009Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\tutorials as some of its dependencies were changed since the last visit
+2023-12-21T11:31:15.454Z - info: Site data built
+2023-12-21T11:31:15.455Z - info: Lazy website regeneration complete! Total build time: 0.446s
