@@ -477,3 +477,58 @@
 2024-01-07T17:53:25.060Z - info: Website regeneration complete! Total build time: 1.229s
 2024-01-07T18:12:21.333Z - info: Website generation started at 2:12:19 am
 2024-01-07T18:12:29.953Z - info: Building assets...
+2024-01-07T18:12:35.666Z - info: Assets built
+2024-01-07T18:12:35.666Z - info: Generating pages...
+2024-01-07T18:12:48.043Z - debug:  
+2024-01-07T18:12:48.044Z - debug:  
+2024-01-07T18:12:48.046Z - debug:  
+2024-01-07T18:12:48.047Z - debug:  
+2024-01-07T18:12:48.048Z - debug:  
+2024-01-07T18:12:48.048Z - debug:  
+2024-01-07T18:12:48.049Z - debug:  
+2024-01-07T18:12:48.049Z - debug:  
+2024-01-07T18:12:48.203Z - debug:  
+2024-01-07T18:12:48.289Z - debug:  
+2024-01-07T18:12:48.295Z - debug:  
+2024-01-07T18:12:50.012Z - debug:  
+2024-01-07T18:12:50.014Z - debug:  
+2024-01-07T18:12:50.015Z - debug:  
+2024-01-07T18:12:50.039Z - debug:  
+2024-01-07T18:12:50.303Z - debug:  
+2024-01-07T18:14:24.110Z - debug:  
+2024-01-07T18:14:38.061Z - debug:  
+2024-01-07T18:14:38.085Z - debug:  
+2024-01-07T18:14:47.115Z - info: Pages built
+2024-01-07T18:14:48.274Z - info: Site data built
+2024-01-07T18:14:48.275Z - info: Website generation complete! Total build time: 148.382s
+2024-01-07T18:14:48.275Z - info: Build success!
+2024-01-07T18:19:27.128Z - info: The website has been deployed at: https://nus-cs2103-ay2324s2.github.io/website
+2024-01-07T18:20:51.208Z - info: Website generation started at 2:20:45 am
+2024-01-07T18:21:02.581Z - info: Building assets...
+2024-01-07T18:21:09.563Z - info: Assets built
+2024-01-07T18:21:09.564Z - info: Generating pages...
+2024-01-07T18:21:27.201Z - debug:  
+2024-01-07T18:21:27.202Z - debug:  
+2024-01-07T18:21:27.205Z - debug:  
+2024-01-07T18:21:27.208Z - debug:  
+2024-01-07T18:21:27.208Z - debug:  
+2024-01-07T18:21:27.209Z - debug:  
+2024-01-07T18:21:27.663Z - debug:  
+2024-01-07T18:21:29.587Z - debug:  
+2024-01-07T18:21:29.588Z - debug:  
+2024-01-07T18:21:29.588Z - debug:  
+2024-01-07T18:21:29.589Z - debug:  
+2024-01-07T18:21:29.589Z - debug:  
+2024-01-07T18:21:29.589Z - debug:  
+2024-01-07T18:21:29.589Z - debug:  
+2024-01-07T18:21:29.711Z - debug:  
+2024-01-07T18:21:29.939Z - debug:  
+2024-01-07T18:23:31.365Z - debug:  
+2024-01-07T18:23:45.445Z - debug:  
+2024-01-07T18:23:45.469Z - debug:  
+2024-01-07T18:23:52.537Z - info: Pages built
+2024-01-07T18:23:53.345Z - info: Site data built
+2024-01-07T18:23:53.345Z - info: Website generation complete! Total build time: 187.463s
+2024-01-07T18:23:53.345Z - info: Build success!
+2024-01-07T18:24:16.666Z - info: Website generation started at 2:24:11 am
+2024-01-07T18:24:27.041Z - info: Building assets...
