@@ -1,2 +1,97 @@
 2024-01-09T16:05:39.894Z - info: Website generation started at 12:05:38 am
 2024-01-09T16:05:48.282Z - info: Building assets...
+2024-01-09T16:05:54.181Z - info: Assets built
+2024-01-09T16:05:54.181Z - info: Generating pages...
+2024-01-09T16:06:06.878Z - debug:  
+2024-01-09T16:06:06.879Z - debug:  
+2024-01-09T16:06:06.880Z - debug:  
+2024-01-09T16:06:06.880Z - debug:  
+2024-01-09T16:06:07.087Z - debug:  
+2024-01-09T16:06:07.136Z - debug:  
+2024-01-09T16:06:07.141Z - debug:  
+2024-01-09T16:06:08.547Z - debug:  
+2024-01-09T16:06:08.548Z - debug:  
+2024-01-09T16:06:08.548Z - debug:  
+2024-01-09T16:06:08.548Z - debug:  
+2024-01-09T16:06:08.548Z - debug:  
+2024-01-09T16:06:08.548Z - debug:  
+2024-01-09T16:06:08.548Z - debug:  
+2024-01-09T16:06:08.548Z - debug:  
+2024-01-09T16:06:08.599Z - debug:  
+2024-01-09T16:06:08.776Z - debug:  
+2024-01-09T16:07:36.963Z - debug:  
+2024-01-09T16:07:55.929Z - debug:  
+2024-01-09T16:07:55.951Z - debug:  
+2024-01-09T16:08:03.631Z - info: Pages built
+2024-01-09T16:08:04.460Z - info: Site data built
+2024-01-09T16:08:04.460Z - info: Website generation complete! Total build time: 146.284s
+2024-01-09T16:08:04.460Z - info: Build success!
+2024-01-09T16:10:39.098Z - info: The website has been deployed at: https://nus-cs2103-ay2324s2.github.io/website
+2024-01-09T16:11:15.917Z - info: Website generation (lazy) started at 12:11:12 am
+2024-01-09T16:11:23.720Z - info: Building assets...
+2024-01-09T16:11:29.082Z - info: Assets built
+2024-01-09T16:11:29.083Z - info: Generating landing page...
+2024-01-09T16:11:29.625Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-01-09T16:11:30.354Z - info: Site data built
+2024-01-09T16:11:30.354Z - info: Website generation (lazy) complete! Total build time: 18.258s
+2024-01-09T16:11:31.194Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-01-09T16:11:31.194Z - info: Press CTRL+C to stop ...
+2024-01-09T16:13:17.666Z - info: [12:13:17 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\gitAndGithub\reviewPRs\text.md
+2024-01-09T16:13:17.667Z - info: Synchronizing opened pages list before reload
+2024-01-09T16:13:17.667Z - info: Current opened pages, from most-to-least recent:
+2024-01-09T16:13:17.667Z - info: 1. index
+2024-01-09T16:13:18.689Z - info: Assets built
+2024-01-09T16:15:35.124Z - info: [12:15:35 am] Reload for file add: C:\repos\nus-cs2103\cs2103-website-base\book\gitAndGithub\reviewPRs\images\splitVsUnifiedDiffView.png
+2024-01-09T16:15:35.124Z - info: Synchronizing opened pages list before reload
+2024-01-09T16:15:35.124Z - info: Current opened pages, from most-to-least recent:
+2024-01-09T16:15:35.124Z - info: 1. index
+2024-01-09T16:15:40.526Z - info: [12:15:40 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\gitAndGithub\reviewPRs\images\splitVsUnifiedDiffView.png
+2024-01-09T16:15:40.526Z - info: Synchronizing opened pages list before reload
+2024-01-09T16:15:40.526Z - info: Current opened pages, from most-to-least recent:
+2024-01-09T16:15:40.526Z - info: 1. index
+2024-01-09T16:15:41.542Z - info: Assets built
+2024-01-09T16:15:57.806Z - info: [12:15:57 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\gitAndGithub\reviewPRs\text.md
+2024-01-09T16:15:57.806Z - info: Synchronizing opened pages list before reload
+2024-01-09T16:15:57.807Z - info: Current opened pages, from most-to-least recent:
+2024-01-09T16:15:57.807Z - info: 1. index
+2024-01-09T16:15:58.822Z - info: Assets built
+2024-01-09T16:16:08.469Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\schedule\week4\index as some of its dependencies were changed since the last visit
+2024-01-09T16:16:09.394Z - info: Site data built
+2024-01-09T16:16:09.394Z - info: Lazy website regeneration complete! Total build time: 0.925s
+2024-01-09T16:16:12.844Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\schedule\week4\project as some of its dependencies were changed since the last visit
+2024-01-09T16:16:14.183Z - info: Site data built
+2024-01-09T16:16:14.183Z - info: Lazy website regeneration complete! Total build time: 1.339s
+2024-01-09T16:17:00.775Z - info: [12:17:00 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\gitAndGithub\reviewPRs\text.md
+2024-01-09T16:17:00.776Z - info: Synchronizing opened pages list before reload
+2024-01-09T16:17:00.776Z - info: Current opened pages, from most-to-least recent:
+2024-01-09T16:17:00.776Z - info: 1. schedule/week4/project
+2024-01-09T16:17:01.782Z - info: Rebuilding 1 pages
+2024-01-09T16:17:03.007Z - info: Site data built
+2024-01-09T16:17:03.008Z - info: Pages rebuilt
+2024-01-09T16:17:03.008Z - info: Website regeneration complete! Total build time: 1.227s
+2024-01-09T16:17:29.615Z - info: [12:17:29 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\gitAndGithub\reviewPRs\text.md
+2024-01-09T16:17:29.615Z - info: Synchronizing opened pages list before reload
+2024-01-09T16:17:29.615Z - info: Current opened pages, from most-to-least recent:
+2024-01-09T16:17:29.615Z - info: 1. schedule/week4/project
+2024-01-09T16:17:30.626Z - info: Rebuilding 1 pages
+2024-01-09T16:17:31.834Z - info: Site data built
+2024-01-09T16:17:31.834Z - info: Pages rebuilt
+2024-01-09T16:17:31.834Z - info: Website regeneration complete! Total build time: 1.209s
+2024-01-09T16:17:40.935Z - info: [12:17:40 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\gitAndGithub\reviewPRs\text.md
+2024-01-09T16:17:40.935Z - info: Synchronizing opened pages list before reload
+2024-01-09T16:17:40.935Z - info: Current opened pages, from most-to-least recent:
+2024-01-09T16:17:40.935Z - info: 1. schedule/week4/project
+2024-01-09T16:17:41.953Z - info: Rebuilding 1 pages
+2024-01-09T16:17:42.994Z - info: Site data built
+2024-01-09T16:17:42.995Z - info: Pages rebuilt
+2024-01-09T16:17:42.995Z - info: Website regeneration complete! Total build time: 1.044s
+2024-01-09T16:17:56.628Z - info: [12:17:56 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\gitAndGithub\reviewPRs\text.md
+2024-01-09T16:17:56.628Z - info: Synchronizing opened pages list before reload
+2024-01-09T16:17:56.628Z - info: Current opened pages, from most-to-least recent:
+2024-01-09T16:17:56.629Z - info: 1. schedule/week4/project
+2024-01-09T16:17:57.637Z - info: Rebuilding 1 pages
+2024-01-09T16:17:58.817Z - info: Site data built
+2024-01-09T16:17:58.817Z - info: Pages rebuilt
+2024-01-09T16:17:58.817Z - info: Website regeneration complete! Total build time: 1.181s
+2024-01-09T16:19:20.388Z - info: Website generation started at 12:19:18 am
+2024-01-09T16:19:27.867Z - info: Building assets...
