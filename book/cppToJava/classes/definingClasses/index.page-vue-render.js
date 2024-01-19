@@ -47,12 +47,12 @@ with(this){return _c('p',[_c('strong',[_c('code',{pre:true,attrs:{"class":"line-
 with(this){return _c('h5',{attrs:{"id":"instance-methods"}},[_v("Instance methods"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#instance-methods","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("You can add methods to a class that can then be used from the objects of that class.")]),_v(" These "),_c('em',[_v("instance")]),_v(" methods do not have the "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("static")]),_v(" keyword in their method signature. Instance methods can access attributes of the class.")])}
+with(this){return _c('p',[_c('strong',[_v("You can add methods to a class which can then be used from the objects of that class.")]),_v(" These "),_c('em',[_v("instance")]),_v(" methods do not have the "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("static")]),_v(" keyword in their method signature. Instance methods can access attributes of the class.")])}
 },function anonymous(
 ) {
 with(this){return _c('h5',{attrs:{"id":"exercises"}},[_c('span',[_c('span',{staticClass:"glyphicon glyphicon-question-sign",attrs:{"aria-hidden":"true"}})]),_c('span',[_c('span',{staticClass:"glyphicon glyphicon-ok-sign",attrs:{"aria-hidden":"true"}})]),_v(" Exercises:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#exercises","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Fri, 19 Jan 2024, 10:23:40 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Fri, 19 Jan 2024, 12:27:42 GMT+8]")])])])}
 }];
   

@@ -563,7 +563,7 @@ with(this){return _c('p',[_c('strong',[_c('code',{pre:true,attrs:{"class":"line-
 with(this){return _c('h5',{attrs:{"id":"instance-methods"}},[_v("Instance methods"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#instance-methods","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("You can add methods to a class that can then be used from the objects of that class.")]),_v(" These "),_c('em',[_v("instance")]),_v(" methods do not have the "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("static")]),_v(" keyword in their method signature. Instance methods can access attributes of the class.")])}
+with(this){return _c('p',[_c('strong',[_v("You can add methods to a class which can then be used from the objects of that class.")]),_v(" These "),_c('em',[_v("instance")]),_v(" methods do not have the "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("static")]),_v(" keyword in their method signature. Instance methods can access attributes of the class.")])}
 },function anonymous(
 ) {
 with(this){return _c('h4',{attrs:{"id":"getters-and-setters"}},[_v("Getters and Setters "),_c('span',{staticClass:"badge bg-light text-dark"},[_c('small',[_c('small',[_c('span',{staticClass:"glyphicon glyphicon-education",attrs:{"aria-hidden":"true"}}),_v(": "),_c('span',{staticClass:"glyphicon glyphicon-flash",attrs:{"aria-hidden":"true"}})])])]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#getters-and-setters","onclick":"event.stopPropagation()"}})])}
@@ -1196,6 +1196,6 @@ with(this){return _c('div',{staticClass:"indented-less"},[_c('h4',{attrs:{"id":"
 with(this){return _c('div',{staticClass:"indented-less"},[_c('div',[_c('p',[_v("JavaFX is a technology for building Java-based GUIs. Previously it was a part Java itself, but has become a third-party dependency since then. It is now being maintained by "),_c('a',{attrs:{"href":"https://wiki.openjdk.java.net/display/OpenJFX"}},[_v("OpenJDK")]),_v(".")]),_v(" "),_c('p',[_v("Refer to the "),_c('a',{attrs:{"href":"https://se-education.org/guides/tutorials/javaFx.html"}},[_c('em',[_v("JavaFX tutorial")]),_v(" @SE-EDU/guides")]),_v(" to learn how to get started with JavaFX.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Fri, 19 Jan 2024, 10:23:40 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Fri, 19 Jan 2024, 12:27:42 GMT+8]")])])])}
 }];
   
