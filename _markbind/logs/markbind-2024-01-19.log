@@ -912,3 +912,116 @@
 2024-01-19T05:35:25.035Z - info: Website regeneration complete! Total build time: 1.202s
 2024-01-19T05:35:59.134Z - info: Website generation started at 1:35:57 pm
 2024-01-19T05:36:06.604Z - info: Building assets...
+2024-01-19T05:36:11.624Z - info: Assets built
+2024-01-19T05:36:11.624Z - info: Generating pages...
+2024-01-19T05:36:22.839Z - debug:  
+2024-01-19T05:36:22.840Z - debug:  
+2024-01-19T05:36:22.841Z - debug:  
+2024-01-19T05:36:22.841Z - debug:  
+2024-01-19T05:36:22.841Z - debug:  
+2024-01-19T05:36:24.331Z - debug:  
+2024-01-19T05:36:24.331Z - debug:  
+2024-01-19T05:36:24.331Z - debug:  
+2024-01-19T05:36:24.331Z - debug:  
+2024-01-19T05:36:24.332Z - debug:  
+2024-01-19T05:36:24.332Z - debug:  
+2024-01-19T05:36:24.332Z - debug:  
+2024-01-19T05:36:24.332Z - debug:  
+2024-01-19T05:36:24.332Z - debug:  
+2024-01-19T05:36:24.332Z - debug:  
+2024-01-19T05:36:24.332Z - debug:  
+2024-01-19T05:36:24.520Z - debug:  
+2024-01-19T05:37:53.840Z - debug:  
+2024-01-19T05:38:05.493Z - debug:  
+2024-01-19T05:38:05.578Z - debug:  
+2024-01-19T05:38:12.699Z - info: Pages built
+2024-01-19T05:38:13.639Z - info: Site data built
+2024-01-19T05:38:13.639Z - info: Website generation complete! Total build time: 135.802s
+2024-01-19T05:38:13.639Z - info: Build success!
+2024-01-19T05:39:28.488Z - info: The website has been deployed at: https://nus-cs2103-ay2324s2.github.io/website
+2024-01-19T10:30:55.942Z - info: Website generation (lazy) started at 6:30:50 pm
+2024-01-19T10:31:04.805Z - info: Building assets...
+2024-01-19T10:31:10.068Z - info: Assets built
+2024-01-19T10:31:10.069Z - info: Generating landing page...
+2024-01-19T10:31:10.900Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-01-19T10:31:11.616Z - info: Site data built
+2024-01-19T10:31:11.617Z - info: Website generation (lazy) complete! Total build time: 21.387s
+2024-01-19T10:31:12.436Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-01-19T10:31:12.437Z - info: Press CTRL+C to stop ...
+2024-01-19T10:31:59.904Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\instructors as some of its dependencies were changed since the last visit
+2024-01-19T10:32:00.340Z - info: Site data built
+2024-01-19T10:32:00.341Z - info: Lazy website regeneration complete! Total build time: 0.438s
+2024-01-19T10:32:15.419Z - info: [6:32:15 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tutors-info.md
+2024-01-19T10:32:15.419Z - info: Synchronizing opened pages list before reload
+2024-01-19T10:32:15.419Z - info: Current opened pages, from most-to-least recent:
+2024-01-19T10:32:15.419Z - info: 1. admin/instructors
+2024-01-19T10:32:16.424Z - info: Rebuilding 1 pages
+2024-01-19T10:32:16.623Z - info: Site data built
+2024-01-19T10:32:16.624Z - info: Pages rebuilt
+2024-01-19T10:32:16.624Z - info: Website regeneration complete! Total build time: 0.2s
+2024-01-19T10:38:34.198Z - info: [6:38:34 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\instructors.md
+2024-01-19T10:38:34.198Z - info: Synchronizing opened pages list before reload
+2024-01-19T10:38:34.198Z - info: Current opened pages, from most-to-least recent:
+2024-01-19T10:38:34.199Z - info: 1. admin/instructors
+2024-01-19T10:38:35.212Z - info: Rebuilding 1 pages
+2024-01-19T10:38:35.495Z - info: Site data built
+2024-01-19T10:38:35.495Z - info: Pages rebuilt
+2024-01-19T10:38:35.495Z - info: Website regeneration complete! Total build time: 0.284s
+2024-01-19T10:40:00.598Z - info: [6:40:00 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\instructors.md
+2024-01-19T10:40:00.599Z - info: Synchronizing opened pages list before reload
+2024-01-19T10:40:00.599Z - info: Current opened pages, from most-to-least recent:
+2024-01-19T10:40:00.599Z - info: 1. admin/instructors
+2024-01-19T10:40:01.604Z - info: Rebuilding 1 pages
+2024-01-19T10:40:01.882Z - info: Site data built
+2024-01-19T10:40:01.882Z - info: Pages rebuilt
+2024-01-19T10:40:01.882Z - info: Website regeneration complete! Total build time: 0.279s
+2024-01-19T10:40:46.396Z - info: [6:40:46 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\instructors.md
+2024-01-19T10:40:46.396Z - info: Synchronizing opened pages list before reload
+2024-01-19T10:40:46.396Z - info: Current opened pages, from most-to-least recent:
+2024-01-19T10:40:46.396Z - info: 1. admin/instructors
+2024-01-19T10:40:47.399Z - info: Rebuilding 1 pages
+2024-01-19T10:40:47.596Z - info: Site data built
+2024-01-19T10:40:47.596Z - info: Pages rebuilt
+2024-01-19T10:40:47.596Z - info: Website regeneration complete! Total build time: 0.198s
+2024-01-19T10:43:35.854Z - info: [6:43:35 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\instructors.md
+2024-01-19T10:43:35.854Z - info: Synchronizing opened pages list before reload
+2024-01-19T10:43:35.855Z - info: Current opened pages, from most-to-least recent:
+2024-01-19T10:43:35.855Z - info: 1. admin/instructors
+2024-01-19T10:43:36.861Z - info: Rebuilding 1 pages
+2024-01-19T10:43:37.122Z - info: Site data built
+2024-01-19T10:43:37.122Z - info: Pages rebuilt
+2024-01-19T10:43:37.122Z - info: Website regeneration complete! Total build time: 0.262s
+2024-01-19T10:45:56.071Z - info: [6:45:56 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\instructors.md
+2024-01-19T10:45:56.072Z - info: Synchronizing opened pages list before reload
+2024-01-19T10:45:56.072Z - info: Current opened pages, from most-to-least recent:
+2024-01-19T10:45:56.072Z - info: 1. admin/instructors
+2024-01-19T10:45:57.090Z - info: Rebuilding 1 pages
+2024-01-19T10:45:57.335Z - info: Site data built
+2024-01-19T10:45:57.335Z - info: Pages rebuilt
+2024-01-19T10:45:57.335Z - info: Website regeneration complete! Total build time: 0.247s
+2024-01-19T10:46:31.609Z - info: [6:46:31 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\instructors.md
+2024-01-19T10:46:31.609Z - info: Synchronizing opened pages list before reload
+2024-01-19T10:46:31.609Z - info: Current opened pages, from most-to-least recent:
+2024-01-19T10:46:31.609Z - info: 1. admin/instructors
+2024-01-19T10:46:32.613Z - info: Rebuilding 1 pages
+2024-01-19T10:46:32.817Z - info: Site data built
+2024-01-19T10:46:32.817Z - info: Pages rebuilt
+2024-01-19T10:46:32.817Z - info: Website regeneration complete! Total build time: 0.205s
+2024-01-19T10:47:21.930Z - info: [6:47:21 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\instructors.md
+2024-01-19T10:47:21.930Z - info: Synchronizing opened pages list before reload
+2024-01-19T10:47:21.930Z - info: Current opened pages, from most-to-least recent:
+2024-01-19T10:47:21.930Z - info: 1. admin/instructors
+2024-01-19T10:47:22.935Z - info: Rebuilding 1 pages
+2024-01-19T10:47:23.129Z - info: Site data built
+2024-01-19T10:47:23.130Z - info: Pages rebuilt
+2024-01-19T10:47:23.130Z - info: Website regeneration complete! Total build time: 0.196s
+2024-01-19T10:49:42.029Z - info: [6:49:42 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\instructors.md
+2024-01-19T10:49:42.029Z - info: Synchronizing opened pages list before reload
+2024-01-19T10:49:42.030Z - info: Current opened pages, from most-to-least recent:
+2024-01-19T10:49:42.030Z - info: 1. admin/instructors
+2024-01-19T10:49:43.037Z - info: Rebuilding 1 pages
+2024-01-19T10:49:43.290Z - info: Site data built
+2024-01-19T10:49:43.291Z - info: Pages rebuilt
+2024-01-19T10:49:43.291Z - info: Website regeneration complete! Total build time: 0.255s
+2024-01-19T10:50:31.388Z - info: Website generation started at 6:50:30 pm
+2024-01-19T10:50:39.119Z - info: Building assets...
