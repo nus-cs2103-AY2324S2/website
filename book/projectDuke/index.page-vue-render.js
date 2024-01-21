@@ -44,7 +44,7 @@ with(this){return _c('h3',{attrs:{"id":"level-0-rename-greet-exit"}},[_v("Level 
 with(this){return _c('p',[_c('strong',[_v("(a) Give your chatbot a new name")]),_v(", to differentiate it from the placeholder name "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("Duke")]),_v("."),_c('br'),_v(" "),_c('strong',[_v("Avoid these common choices")]),_v(" as well: "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("Chatty")]),_v(", "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("Jarvis")]),_v(", "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("ChatBot")]),_v(", "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("Chad")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("(b) Implement an initial "),_c('em',[_v("skeletal")]),_v(" version")]),_v(" of the it that simply greets the user and exits.\n"),_c('br'),_v("\nExample:")])}
+with(this){return _c('p',[_c('strong',[_v("(b) Implement an initial "),_c('em',[_v("skeletal")]),_v(" version")]),_v(" of it that simply greets the user and exits.\n"),_c('br'),_v("\nExample:")])}
 },function anonymous(
 ) {
 with(this){return _c('code',{pre:true,attrs:{"class":"no-line-numbers hljs"}},[_c('span',[_v("____________________________________________________________\n")]),_c('span',[_v(" Hello! I'm [YOUR CHATBOT NAME]\n")]),_c('span',[_v(" What can I do for you?\n")]),_c('span',[_v("____________________________________________________________\n")]),_c('span',[_v(" Bye. Hope to see you again soon!\n")]),_c('span',[_v("____________________________________________________________\n")])])}
@@ -566,6 +566,6 @@ with(this){return _c('h3',{attrs:{"id":"d-merchandise"}},[_c('span',{staticClass
 with(this){return _c('p',[_v("Support managing info about merchandise "),_c('span',{staticClass:"dimmed"},[_v("e.g., a property agent to keep track of properties, a collector of stamps keep track of items in the collection")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Sun, 21 Jan 2024, 14:17:18 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Sun, 21 Jan 2024, 19:41:13 GMT+8]")])])])}
 }];
   
