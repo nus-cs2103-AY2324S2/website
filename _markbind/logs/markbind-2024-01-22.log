@@ -1,0 +1,70 @@
+2024-01-22T07:24:41.123Z - info: Website generation started at 3:24:40 pm
+2024-01-22T07:24:47.699Z - info: Building assets...
+2024-01-22T07:24:52.579Z - info: Assets built
+2024-01-22T07:24:52.580Z - info: Generating pages...
+2024-01-22T07:25:14.265Z - debug:  
+2024-01-22T07:25:14.268Z - debug:  
+2024-01-22T07:25:14.270Z - debug:  
+2024-01-22T07:25:14.277Z - debug:  
+2024-01-22T07:25:14.278Z - debug:  
+2024-01-22T07:25:14.283Z - debug:  
+2024-01-22T07:25:14.283Z - debug:  
+2024-01-22T07:25:14.284Z - debug:  
+2024-01-22T07:25:14.312Z - debug:  
+2024-01-22T07:25:14.314Z - debug:  
+2024-01-22T07:25:14.314Z - debug:  
+2024-01-22T07:25:14.391Z - debug:  
+2024-01-22T07:25:14.400Z - debug:  
+2024-01-22T07:25:14.400Z - debug:  
+2024-01-22T07:25:14.451Z - debug:  
+2024-01-22T07:25:16.742Z - debug:  
+2024-01-22T07:25:16.914Z - debug:  
+2024-01-22T07:27:16.551Z - debug:  
+2024-01-22T07:27:32.556Z - debug:  
+2024-01-22T07:27:32.579Z - debug:  
+2024-01-22T07:27:40.995Z - info: Pages built
+2024-01-22T07:27:41.863Z - info: Site data built
+2024-01-22T07:27:41.863Z - info: Website generation complete! Total build time: 181.407s
+2024-01-22T07:27:41.863Z - info: Build success!
+2024-01-22T07:27:42.807Z - error: uncaughtException: Failed to get remote.origin.url (task must either be run in a git repository with a configured origin remote or must be configured with the "repo" option). date=Mon Jan 22 2024 15:27:42 GMT+0800 (Singapore Standard Time), pid=29444, uid=null, gid=null, cwd=C:\repos\nus-cs2103\cs2103-website-base, execPath=C:\Program Files\nodejs\node.exe, version=v20.10.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\index.js, deploy], rss=1200795648, heapTotal=1142370304, heapUsed=445745952, external=2383399, arrayBuffers=25082, loadavg=[0, 0, 0], uptime=12981.406
+Error: Failed to get remote.origin.url (task must either be run in a git repository with a configured origin remote or must be configured with the "repo" option).
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\gh-pages\lib\git.js:208:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-22T07:33:51.920Z - info: Website generation started at 3:33:46 pm
+2024-01-22T07:34:02.240Z - info: Building assets...
+2024-01-22T07:34:09.523Z - info: Assets built
+2024-01-22T07:34:09.524Z - info: Generating pages...
+2024-01-22T07:34:31.543Z - debug:  
+2024-01-22T07:34:31.624Z - debug:  
+2024-01-22T07:34:31.624Z - debug:  
+2024-01-22T07:34:31.703Z - debug:  
+2024-01-22T07:34:31.732Z - debug:  
+2024-01-22T07:34:33.968Z - debug:  
+2024-01-22T07:34:33.976Z - debug:  
+2024-01-22T07:34:33.976Z - debug:  
+2024-01-22T07:34:33.977Z - debug:  
+2024-01-22T07:34:33.977Z - debug:  
+2024-01-22T07:34:33.977Z - debug:  
+2024-01-22T07:34:33.977Z - debug:  
+2024-01-22T07:34:33.977Z - debug:  
+2024-01-22T07:34:33.978Z - debug:  
+2024-01-22T07:34:33.978Z - debug:  
+2024-01-22T07:34:33.979Z - debug:  
+2024-01-22T07:34:34.223Z - debug:  
+2024-01-22T07:36:52.987Z - debug:  
+2024-01-22T07:37:09.012Z - debug:  
+2024-01-22T07:37:09.030Z - debug:  
+2024-01-22T07:37:17.750Z - info: Pages built
+2024-01-22T07:37:18.844Z - info: Site data built
+2024-01-22T07:37:18.844Z - info: Website generation complete! Total build time: 212.74s
+2024-01-22T07:37:18.845Z - info: Build success!
+2024-01-22T07:37:20.175Z - error: uncaughtException: Failed to get remote.origin.url (task must either be run in a git repository with a configured origin remote or must be configured with the "repo" option). date=Mon Jan 22 2024 15:37:20 GMT+0800 (Singapore Standard Time), pid=14652, uid=null, gid=null, cwd=C:\repos\nus-cs2103\cs2103-website-base, execPath=C:\Program Files\nodejs\node.exe, version=v20.10.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\index.js, deploy], rss=1230790656, heapTotal=1174216704, heapUsed=794518936, external=2927455, arrayBuffers=569138, loadavg=[0, 0, 0], uptime=13558.765
+Error: Failed to get remote.origin.url (task must either be run in a git repository with a configured origin remote or must be configured with the "repo" option).
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\gh-pages\lib\git.js:208:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-01-22T07:40:13.719Z - info: Website generation started at 3:40:06 pm
+2024-01-22T07:40:22.625Z - info: Building assets...
+2024-01-22T07:40:29.351Z - info: Assets built
+2024-01-22T07:40:29.352Z - info: Generating pages...
+2024-01-22T07:42:31.039Z - info: Website generation started at 3:42:28 pm
+2024-01-22T07:42:40.026Z - info: Building assets...
