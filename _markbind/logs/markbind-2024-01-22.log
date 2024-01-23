@@ -332,3 +332,30 @@ Error: Failed to get remote.origin.url (task must either be run in a git reposit
 2024-01-22T15:38:13.533Z - info: Website regeneration complete! Total build time: 2.281s
 2024-01-22T15:46:45.138Z - info: Website generation started at 11:46:42 pm
 2024-01-22T15:46:53.083Z - info: Building assets...
+2024-01-22T15:46:59.056Z - info: Assets built
+2024-01-22T15:46:59.057Z - info: Generating pages...
+2024-01-22T15:47:26.507Z - debug:  
+2024-01-22T15:47:26.508Z - debug:  
+2024-01-22T15:47:26.509Z - debug:  
+2024-01-22T15:47:26.509Z - debug:  
+2024-01-22T15:47:26.510Z - debug:  
+2024-01-22T15:47:26.511Z - debug:  
+2024-01-22T15:47:26.512Z - debug:  
+2024-01-22T15:47:27.035Z - debug:  
+2024-01-22T15:47:27.036Z - debug:  
+2024-01-22T15:47:27.038Z - debug:  
+2024-01-22T15:47:27.038Z - debug:  
+2024-01-22T15:47:27.038Z - debug:  
+2024-01-22T15:47:27.039Z - debug:  
+2024-01-22T15:47:27.040Z - debug:  
+2024-01-22T15:47:27.040Z - debug:  
+2024-01-22T15:47:29.883Z - debug:  
+2024-01-22T15:47:30.153Z - debug:  
+2024-01-22T15:49:33.635Z - debug:  
+2024-01-22T15:49:47.503Z - debug:  
+2024-01-22T15:49:47.513Z - debug:  
+2024-01-22T15:49:55.651Z - info: Pages built
+2024-01-22T15:49:56.711Z - info: Site data built
+2024-01-22T15:49:56.711Z - info: Website generation complete! Total build time: 194.049s
+2024-01-22T15:49:56.711Z - info: Build success!
+2024-01-22T15:52:22.633Z - info: The website has been deployed at: https://nus-cs2103-ay2324s2.github.io/website
