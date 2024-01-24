@@ -44,7 +44,7 @@ with(this){return _c('p',[_c('strong',[_v("0. Observe that you are normally in t
 with(this){return _c('p',[_c('strong',[_v("1. Start a branch named "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("feature1")]),_v(" and switch to the new branch.")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("2. Create some commits in the new branch.")]),_v(" "),_c('span',{staticClass:"dimmed"},[_v("Just commit as per normal. Commits you add while on a certain branch will become part of that branch.")]),_c('br'),_v("\nNote how the "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("master")]),_v(" label and the "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("HEAD")]),_v(" label moves to the new commit (The "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("HEAD")]),_v(" label of the local repo is represented as "),_c('span',{staticClass:"fas fa-dot-circle",attrs:{"aria-hidden":"true"}}),_v(" in Sourcetree).")])}
+with(this){return _c('p',[_c('strong',[_v("2. Create some commits in the new branch.")]),_v(" "),_c('span',{staticClass:"dimmed"},[_v("Just commit as per normal. Commits you add while on a certain branch will become part of that branch.")]),_c('br'),_v("\nNote how the "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("master")]),_v(" label and the "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("HEAD")]),_v(" label moves to the new commit (The "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("HEAD")]),_v(" label of the local repo is represented as "),_c('span',{staticClass:"fas fa-dot-circle",attrs:{"aria-hidden":"true"}}),_v(" in Sourcetree, as illustrated in the screenshot below).")])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('strong',[_v("3. Switch to the "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("master")]),_v(" branch.")]),_v(" Note how the changes you did in the "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("feature1")]),_v(" branch are no longer in the working directory.")])}
@@ -83,6 +83,6 @@ with(this){return _c('p',[_v("That is because "),_c('strong',[_v("Git does a "),
 with(this){return _c('p',[_c('strong',[_v("It is possible to force Git to create a merge commit even if fast forwarding is possible.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Tue, 23 Jan 2024, 16:21:37 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Wed, 24 Jan 2024, 20:08:10 GMT+8]")])])])}
 }];
   
