@@ -56,7 +56,7 @@ with(this){return _c('li',[_c('p',[_c('strong',[_v("Avoid directing the question
 with(this){return _c('li',[_c('p',[_c('strong',[_v("Generalize the problem.")]),_v(" \"How to write tasks to a text file using Java\" is too specific to what you are working on. You are more likely to find help if you post a thread called (or search for) \"How to write to a file using Java\".")])])}
 },function anonymous(
 ) {
-with(this){return _c('li',[_c('p',[_c('strong',[_v("Remember to thank those you try to help, and close the issue")]),_v(" after the issue has been resolved.")])])}
+with(this){return _c('li',[_c('p',[_c('strong',[_v("Remember to thank those who try to help, and close the issue")]),_v(" after the issue has been resolved.")])])}
 },function anonymous(
 ) {
 with(this){return _c('li',[_c('p',[_c('strong',[_v("Share the solution")]),_v(". If you eventually managed to solve the problem on your own, share the solution in the thread for the benefit of others, and give closure to those who tried to help you. Don't leave the thread hanging or close it with something like "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("Never mind. I figured it out")]),_v(".")])])}
@@ -74,6 +74,6 @@ with(this){return _c('ul',{staticStyle:{"list-style-type":"none","padding-inline
 with(this){return _c('p',[_c('span',{staticClass:"float-start algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/appendixC-faq.html"}},[_c('span',[_c('span',{staticClass:"far fa-arrow-alt-circle-left",attrs:{"aria-hidden":"true"}}),_v(" Apdx C: FAQ")])])]),_c('span',{staticClass:"float-end algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/appendixE-gitHub.html"}},[_c('span',[_v("Apdx E: Using GitHub "),_c('span',{staticClass:"far fa-arrow-alt-circle-right",attrs:{"aria-hidden":"true"}})])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Thu, 25 Jan 2024, 20:44:35 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Thu, 25 Jan 2024, 22:45:43 GMT+8]")])])])}
 }];
   
