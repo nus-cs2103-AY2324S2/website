@@ -1,2 +1,59 @@
 2024-01-25T09:45:56.027Z - info: Website generation started at 5:45:49 pm
 2024-01-25T09:46:04.421Z - info: Building assets...
+2024-01-25T09:46:10.976Z - info: Assets built
+2024-01-25T09:46:10.977Z - info: Generating pages...
+2024-01-25T09:46:32.186Z - debug:  
+2024-01-25T09:46:32.187Z - debug:  
+2024-01-25T09:46:32.478Z - debug:  
+2024-01-25T09:46:32.554Z - debug:  
+2024-01-25T09:46:32.584Z - debug:  
+2024-01-25T09:46:32.584Z - debug:  
+2024-01-25T09:46:32.614Z - debug:  
+2024-01-25T09:46:32.618Z - debug:  
+2024-01-25T09:46:32.619Z - debug:  
+2024-01-25T09:46:32.619Z - debug:  
+2024-01-25T09:46:34.553Z - debug:  
+2024-01-25T09:46:34.553Z - debug:  
+2024-01-25T09:46:34.554Z - debug:  
+2024-01-25T09:46:34.554Z - debug:  
+2024-01-25T09:46:34.554Z - debug:  
+2024-01-25T09:46:34.554Z - debug:  
+2024-01-25T09:46:34.844Z - debug:  
+2024-01-25T09:48:27.740Z - debug:  
+2024-01-25T09:48:47.083Z - debug:  
+2024-01-25T09:48:47.204Z - debug:  
+2024-01-25T09:48:55.198Z - info: Pages built
+2024-01-25T09:48:56.254Z - info: Site data built
+2024-01-25T09:48:56.254Z - info: Website generation complete! Total build time: 186.381s
+2024-01-25T09:48:56.254Z - info: Build success!
+2024-01-25T09:50:59.764Z - info: The website has been deployed at: https://nus-cs2103-ay2324s2.github.io/website
+2024-01-25T09:57:27.386Z - info: Website generation (lazy) started at 5:57:22 pm
+2024-01-25T09:57:34.412Z - info: Building assets...
+2024-01-25T09:57:39.059Z - info: Assets built
+2024-01-25T09:57:39.060Z - info: Generating landing page...
+2024-01-25T09:57:39.911Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-01-25T09:57:40.762Z - info: Site data built
+2024-01-25T09:57:40.763Z - info: Website generation (lazy) complete! Total build time: 18.019s
+2024-01-25T09:57:40.797Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-01-25T09:57:40.797Z - info: Press CTRL+C to stop ...
+2024-01-25T09:57:50.503Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\schedule\week2\topics as some of its dependencies were changed since the last visit
+2024-01-25T09:57:52.490Z - info: Site data built
+2024-01-25T09:57:52.491Z - info: Lazy website regeneration complete! Total build time: 1.988s
+2024-01-25T10:02:18.285Z - info: [6:02:18 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\gitAndGithub\tag\text.md
+2024-01-25T10:02:18.286Z - info: Synchronizing opened pages list before reload
+2024-01-25T10:02:18.287Z - info: Current opened pages, from most-to-least recent:
+2024-01-25T10:02:18.287Z - info: 1. schedule/week2/topics
+2024-01-25T10:02:19.302Z - info: Rebuilding 1 pages
+2024-01-25T10:02:20.805Z - info: Site data built
+2024-01-25T10:02:20.805Z - info: Pages rebuilt
+2024-01-25T10:02:20.805Z - info: Website regeneration complete! Total build time: 1.504s
+2024-01-25T10:04:34.942Z - info: [6:04:34 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\gitAndGithub\tag\text.md
+2024-01-25T10:04:34.943Z - info: Synchronizing opened pages list before reload
+2024-01-25T10:04:34.943Z - info: Current opened pages, from most-to-least recent:
+2024-01-25T10:04:34.943Z - info: 1. schedule/week2/topics
+2024-01-25T10:04:35.958Z - info: Rebuilding 1 pages
+2024-01-25T10:04:38.713Z - info: Site data built
+2024-01-25T10:04:38.714Z - info: Pages rebuilt
+2024-01-25T10:04:38.714Z - info: Website regeneration complete! Total build time: 2.758s
+2024-01-25T10:05:36.270Z - info: Website generation started at 6:05:33 pm
+2024-01-25T10:05:45.274Z - info: Building assets...
