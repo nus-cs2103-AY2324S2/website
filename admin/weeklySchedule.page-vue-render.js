@@ -26,7 +26,7 @@ with(this){return _c('p',[_c('strong',[_v("We are not strict with most interim w
 with(this){return _c('p',[_c('strong',[_v("It's OK to make occasional mistakes in weekly tasks")]),_v(" (making mistakes is a natural part of learning new things after all). If a weekly task was not accepted as 'done' due to a mistake you made, go ahead and rectify the mistake as soon as you can -- our grading scripts will not penalize such mistakes if they are corrected soon after.")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("We wont wait forever though.")]),_v(" Note that for most interim deliverables, we stop checking about one week after the deadline is over. So, work/corrections done more than one week after the deadline might not get noticed at all by our grading scripts, even as late submissions.")])}
+with(this){return _c('p',[_c('strong',[_v("We won't wait forever though.")]),_v(" Note that for most interim deliverables, we stop checking about one week after the deadline is over. So, work/corrections done more than one week after the deadline might not get noticed at all by our grading scripts, even as late submissions.")])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"the-typical-weekly-cycle"}},[_v("The typical weekly cycle"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#the-typical-weekly-cycle","onclick":"event.stopPropagation()"}})])}
@@ -59,6 +59,6 @@ with(this){return _c('ul',[_c('li',[_v("Downtime (or catch-up on missed tasks)")
 with(this){return _c('p',[_c('span',{staticClass:"float-start algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/courseExpectations.html"}},[_c('span',[_c('span',{staticClass:"far fa-arrow-alt-circle-left",attrs:{"aria-hidden":"true"}}),_v(" Course Expectations")])])]),_c('span',{staticClass:"float-end algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/lectures.html"}},[_c('span',[_v("Weekly Briefings "),_c('span',{staticClass:"far fa-arrow-alt-circle-right",attrs:{"aria-hidden":"true"}})])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Sat, 27 Jan 2024, 16:27:55 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Sun, 28 Jan 2024, 2:19:24 GMT+8]")])])])}
 }];
   
