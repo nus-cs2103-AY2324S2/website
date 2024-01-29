@@ -92,9 +92,9 @@ with(this){return _c('ul',[_c('li',[_v("After forming teams, "),_c('strong',[_v(
 with(this){return _c('span',[_c('span',[_c('span',{staticClass:"fas fa-users",attrs:{"aria-hidden":"true"}})]),_v(" "),_c('span',{staticClass:"dimmed"},[_v("Team Task")]),_v(": Check up on team's collective iP status")])}
 },function anonymous(
 ) {
-with(this){return _c('div',[_c('ul',[_c('li',[_v("Check with all team members if any of them needs help with iP, and source within the team to provide the needed help as much as you can e.g., offer to sit with them while they do the iP so that you can try to help when needed."),_c('br'),_v(" "),_c('span',{staticClass:"dimmed"},[_v("Mentorship within the team is highly-encouraged and monitored. It is also a good opportunity to build team spirit. And it is in your interest to help team members level up before the tP begins.")])])])])}
+with(this){return _c('div',[_c('ul',[_c('li',[_v("Check with all team members if any of them needs help doing the iP, and source within the team to provide the needed help as much as you can "),_c('span',{staticClass:"dimmed"},[_v("e.g., offer to sit with them while they do the iP so that you can try to help when needed.")]),_c('br'),_v(" "),_c('span',{staticClass:"badge rounded-pill bg-success text-white"},[_c('span',{staticClass:"fas fa-lightbulb",attrs:{"aria-hidden":"true"}})]),_v(" Mentorship within the team is highly-encouraged and rewarded. Besides, it is in your interest to help team members level up before the tP coding begins, and also, a good early opportunity to build team spirit.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Tue, 30 Jan 2024, 1:22:16 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Tue, 30 Jan 2024, 1:41:58 GMT+8]")])])])}
 }];
   
