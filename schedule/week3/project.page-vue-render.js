@@ -95,6 +95,6 @@ with(this){return _c('span',[_c('span',[_c('span',{staticClass:"fas fa-users",at
 with(this){return _c('div',[_c('ul',[_c('li',[_v("Check with all team members if any of them needs help doing the iP, and source within the team to provide the needed help as much as you can "),_c('span',{staticClass:"dimmed"},[_v("e.g., offer to sit with them while they do the iP so that you can try to help when needed.")]),_c('br'),_v(" "),_c('span',{staticClass:"badge rounded-pill bg-success text-white"},[_c('span',{staticClass:"fas fa-lightbulb",attrs:{"aria-hidden":"true"}})]),_v(" Mentorship within the team is highly-encouraged and rewarded. Besides, it is in your interest to help team members level up before the tP coding begins, and also, a good early opportunity to build team spirit.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Tue, 30 Jan 2024, 18:18:48 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Tue, 30 Jan 2024, 18:34:19 GMT+8]")])])])}
 }];
   
