@@ -275,7 +275,7 @@ with(this){return _c('p',[_v("Gradle support is provided as a separate branch (n
 with(this){return _c('p',[_v("Refer to the "),_c('a',{attrs:{"href":"https://se-education.org/guides/tutorials/gradle.html"}},[_c('em',[_v("Gradle tutorial")]),_v(" @SE-EDU")]),_v(" to learn how to use Gradle (in the context of this project).")])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('strong',[_v("Minimal")]),_v(": Set up gradle so that you can build and run Duke using gradle.")]),_v(" "),_c('li',[_c('strong',[_v("Recommended")]),_v(": Set up gradle to run unit tests.")]),_v(" "),_c('li',[_c('strong',[_v("Stretch Goal")]),_v(": Use gradle to automate more things in your project.")])])}
+with(this){return _c('ul',[_c('li',[_c('strong',[_v("Minimal")]),_v(": Set up gradle so that you can build and run Duke using gradle.")]),_v(" "),_c('li',[_c('strong',[_v("Recommended")]),_v(": Be able to run JUnit tests using Gradle (this can only be done after you've reached the "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("A-Junit")]),_v(" increment.")]),_v(" "),_c('li',[_c('strong',[_v("Stretch Goal")]),_v(": Use gradle to automate more things in your project, as you progress through the project.")])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"a-ci"}},[_c('span',{staticClass:"badge rounded-pill bg-primary"},[_v("A-CI")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#a-ci","onclick":"event.stopPropagation()"}})])}
@@ -563,6 +563,6 @@ with(this){return _c('h3',{attrs:{"id":"d-merchandise"}},[_c('span',{staticClass
 with(this){return _c('p',[_v("Support managing info about merchandise "),_c('span',{staticClass:"dimmed"},[_v("e.g., a property agent to keep track of properties, a collector of stamps keep track of items in the collection")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Tue, 30 Jan 2024, 14:56:21 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Tue, 30 Jan 2024, 17:00:45 GMT+8]")])])])}
 }];
   
