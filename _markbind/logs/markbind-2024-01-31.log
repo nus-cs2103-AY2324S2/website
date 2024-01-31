@@ -1,0 +1,38 @@
+2024-01-31T05:13:59.134Z - info: Website generation (lazy) started at 1:13:53 pm
+2024-01-31T05:14:07.537Z - info: Building assets...
+2024-01-31T05:14:13.160Z - info: Assets built
+2024-01-31T05:14:13.161Z - info: Generating landing page...
+2024-01-31T05:14:14.300Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-01-31T05:14:15.274Z - info: Site data built
+2024-01-31T05:14:15.274Z - info: Website generation (lazy) complete! Total build time: 21.973s
+2024-01-31T05:14:15.320Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-01-31T05:14:15.320Z - info: Press CTRL+C to stop ...
+2024-01-31T05:15:40.354Z - info: [1:15:40 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tutorials.md
+2024-01-31T05:15:40.356Z - info: Synchronizing opened pages list before reload
+2024-01-31T05:15:40.358Z - info: Current opened pages, from most-to-least recent:
+2024-01-31T05:15:40.359Z - info: 1. index
+2024-01-31T05:15:41.373Z - info: No pages needed to be rebuilt
+2024-01-31T05:17:21.734Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\tutorials as some of its dependencies were changed since the last visit
+2024-01-31T05:17:22.183Z - info: Site data built
+2024-01-31T05:17:22.184Z - info: Lazy website regeneration complete! Total build time: 0.45s
+2024-01-31T05:17:32.873Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\schedule\week3\tutorial as some of its dependencies were changed since the last visit
+2024-01-31T05:17:33.340Z - info: Site data built
+2024-01-31T05:17:33.340Z - info: Lazy website regeneration complete! Total build time: 0.467s
+2024-01-31T05:19:48.970Z - info: [1:19:48 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\schedule\week3\tutorial-cs2103-fragment.md
+2024-01-31T05:19:48.971Z - info: Synchronizing opened pages list before reload
+2024-01-31T05:19:48.971Z - info: Current opened pages, from most-to-least recent:
+2024-01-31T05:19:48.972Z - info: 1. schedule/week3/tutorial
+2024-01-31T05:19:49.978Z - info: Rebuilding 1 pages
+2024-01-31T05:19:50.539Z - info: Site data built
+2024-01-31T05:19:50.539Z - info: Pages rebuilt
+2024-01-31T05:19:50.540Z - info: Website regeneration complete! Total build time: 0.563s
+2024-01-31T05:20:27.820Z - info: [1:20:27 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\schedule\week3\tutorial-cs2103-fragment.md
+2024-01-31T05:20:27.821Z - info: Synchronizing opened pages list before reload
+2024-01-31T05:20:27.821Z - info: Current opened pages, from most-to-least recent:
+2024-01-31T05:20:27.821Z - info: 1. schedule/week3/tutorial
+2024-01-31T05:20:28.826Z - info: Rebuilding 1 pages
+2024-01-31T05:20:29.371Z - info: Site data built
+2024-01-31T05:20:29.372Z - info: Pages rebuilt
+2024-01-31T05:20:29.372Z - info: Website regeneration complete! Total build time: 0.546s
+2024-01-31T05:21:13.282Z - info: Website generation started at 1:21:10 pm
+2024-01-31T05:21:19.201Z - info: Building assets...

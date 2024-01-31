@@ -17,6 +17,6 @@ with(this){return _c('div',[_c('h4',{attrs:{"id":"component-diagrams"}},[_c('spa
 with(this){return _c('p',[_c('strong',[_v("A "),_c('em',[_v("component diagram")]),_v(" is used to show how a system is divided into components and how they are connected to each other through interfaces.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Tue, 30 Jan 2024, 19:22:01 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Wed, 31 Jan 2024, 13:21:23 GMT+8]")])])])}
 }];
   
