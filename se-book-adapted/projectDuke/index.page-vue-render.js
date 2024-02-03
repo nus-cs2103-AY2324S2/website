@@ -41,7 +41,7 @@ with(this){return _c('p',[_c('strong',[_v("(b) Implement an initial "),_c('em',[
 with(this){return _c('code',{pre:true,attrs:{"class":"no-line-numbers hljs"}},[_c('span',[_v("____________________________________________________________\n")]),_c('span',[_v(" Hello! I'm [YOUR CHATBOT NAME]\n")]),_c('span',[_v(" What can I do for you?\n")]),_c('span',[_v("____________________________________________________________\n")]),_c('span',[_v(" Bye. Hope to see you again soon!\n")]),_c('span',[_v("____________________________________________________________\n")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("Horizontal lines are optional.")])])}
+with(this){return _c('ul',[_c('li',[_v("Horizontal lines are optional.")]),_v(" "),_c('li',[_v("Recommended to rename "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("Duke.java")]),_v(" to match the chatbot name you selected, and remove all traces of "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("Duke")]),_v(" from the source code.")])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"level-1-echo"}},[_v("Level 1. Echo"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#level-1-echo","onclick":"event.stopPropagation()"}})])}
@@ -557,6 +557,6 @@ with(this){return _c('h3',{attrs:{"id":"d-merchandise"}},[_c('span',{staticClass
 with(this){return _c('p',[_v("Support managing info about merchandise "),_c('span',{staticClass:"dimmed"},[_v("e.g., a property agent to keep track of properties, a collector of stamps keep track of items in the collection")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Sat, 3 Feb 2024, 19:46:40 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Sun, 4 Feb 2024, 1:13:53 GMT+8]")])])])}
 }];
   

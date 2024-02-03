@@ -1,0 +1,58 @@
+2024-02-03T16:03:57.916Z - info: Website generation (lazy) started at 12:03:51 am
+2024-02-03T16:04:07.606Z - info: Building assets...
+2024-02-03T16:04:13.811Z - info: Assets built
+2024-02-03T16:04:13.812Z - info: Generating landing page...
+2024-02-03T16:04:15.137Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-02-03T16:04:16.263Z - info: Site data built
+2024-02-03T16:04:16.263Z - info: Website generation (lazy) complete! Total build time: 25.101s
+2024-02-03T16:04:16.312Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-02-03T16:04:16.312Z - info: Press CTRL+C to stop ...
+2024-02-03T16:04:27.524Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\schedule\week4\project as some of its dependencies were changed since the last visit
+2024-02-03T16:04:30.980Z - info: Site data built
+2024-02-03T16:04:30.981Z - info: Lazy website regeneration complete! Total build time: 3.457s
+2024-02-03T16:06:38.038Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\schedule\week1\index as some of its dependencies were changed since the last visit
+2024-02-03T16:06:38.897Z - info: Site data built
+2024-02-03T16:06:38.897Z - info: Lazy website regeneration complete! Total build time: 0.859s
+2024-02-03T16:06:42.643Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\schedule\week2\index as some of its dependencies were changed since the last visit
+2024-02-03T16:06:43.334Z - info: Site data built
+2024-02-03T16:06:43.334Z - info: Lazy website regeneration complete! Total build time: 0.691s
+2024-02-03T16:06:46.950Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\schedule\week2\project as some of its dependencies were changed since the last visit
+2024-02-03T16:06:48.640Z - info: Site data built
+2024-02-03T16:06:48.640Z - info: Lazy website regeneration complete! Total build time: 1.69s
+2024-02-03T16:08:44.289Z - info: [12:08:44 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\projectDuke\text.md
+2024-02-03T16:08:44.291Z - info: Synchronizing opened pages list before reload
+2024-02-03T16:08:44.292Z - info: Current opened pages, from most-to-least recent:
+2024-02-03T16:08:44.293Z - info: 1. schedule/week2/project
+2024-02-03T16:08:45.303Z - info: Rebuilding 1 pages
+2024-02-03T16:08:46.933Z - info: Site data built
+2024-02-03T16:08:46.933Z - info: Pages rebuilt
+2024-02-03T16:08:46.933Z - info: Website regeneration complete! Total build time: 1.631s
+2024-02-03T16:09:27.846Z - info: [12:09:27 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\projectDuke\text.md
+2024-02-03T16:09:27.846Z - info: Synchronizing opened pages list before reload
+2024-02-03T16:09:27.846Z - info: Current opened pages, from most-to-least recent:
+2024-02-03T16:09:27.847Z - info: 1. schedule/week2/project
+2024-02-03T16:09:28.852Z - info: Rebuilding 1 pages
+2024-02-03T16:09:30.756Z - info: Site data built
+2024-02-03T16:09:30.756Z - info: Pages rebuilt
+2024-02-03T16:09:30.757Z - info: Website regeneration complete! Total build time: 1.905s
+2024-02-03T16:09:52.277Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\tutorials as some of its dependencies were changed since the last visit
+2024-02-03T16:09:52.795Z - info: Site data built
+2024-02-03T16:09:52.796Z - info: Lazy website regeneration complete! Total build time: 0.519s
+2024-02-03T16:11:40.804Z - info: [12:11:40 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tutorials.md
+2024-02-03T16:11:40.805Z - info: Synchronizing opened pages list before reload
+2024-02-03T16:11:40.806Z - info: Current opened pages, from most-to-least recent:
+2024-02-03T16:11:40.806Z - info: 1. admin/tutorials
+2024-02-03T16:11:41.820Z - info: Rebuilding 1 pages
+2024-02-03T16:11:42.125Z - info: Site data built
+2024-02-03T16:11:42.126Z - info: Pages rebuilt
+2024-02-03T16:11:42.126Z - info: Website regeneration complete! Total build time: 0.307s
+2024-02-03T16:15:08.700Z - info: [12:15:08 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tutorials.md
+2024-02-03T16:15:08.701Z - info: Synchronizing opened pages list before reload
+2024-02-03T16:15:08.701Z - info: Current opened pages, from most-to-least recent:
+2024-02-03T16:15:08.701Z - info: 1. admin/tutorials
+2024-02-03T16:15:09.709Z - info: Rebuilding 1 pages
+2024-02-03T16:15:10.149Z - info: Site data built
+2024-02-03T16:15:10.149Z - info: Pages rebuilt
+2024-02-03T16:15:10.149Z - info: Website regeneration complete! Total build time: 0.441s
+2024-02-03T17:13:39.147Z - info: Website generation started at 1:13:36 am
+2024-02-03T17:13:47.577Z - info: Building assets...
