@@ -175,3 +175,63 @@
 2024-02-03T17:56:34.856Z - info: Lazy website regeneration complete! Total build time: 2.106s
 2024-02-03T18:00:19.368Z - info: Website generation started at 2:00:17 am
 2024-02-03T18:00:27.271Z - info: Building assets...
+2024-02-03T18:00:34.292Z - info: Assets built
+2024-02-03T18:00:34.294Z - info: Generating pages...
+2024-02-03T18:01:02.108Z - debug:  
+2024-02-03T18:01:02.110Z - debug:  
+2024-02-03T18:01:02.111Z - debug:  
+2024-02-03T18:01:02.111Z - debug:  
+2024-02-03T18:01:02.113Z - debug:  
+2024-02-03T18:01:02.639Z - debug:  
+2024-02-03T18:01:02.678Z - debug:  
+2024-02-03T18:01:02.731Z - debug:  
+2024-02-03T18:01:02.731Z - debug:  
+2024-02-03T18:01:02.753Z - debug:  
+2024-02-03T18:01:02.754Z - debug:  
+2024-02-03T18:01:02.810Z - debug:  
+2024-02-03T18:01:03.081Z - debug:  
+2024-02-03T18:01:03.228Z - debug:  
+2024-02-03T18:01:06.783Z - debug:  
+2024-02-03T18:01:06.785Z - debug:  
+2024-02-03T18:01:07.062Z - debug:  
+2024-02-03T18:03:05.724Z - debug:  
+2024-02-03T18:03:29.971Z - debug:  
+2024-02-03T18:03:30.031Z - debug:  
+2024-02-03T18:03:41.280Z - info: Pages built
+2024-02-03T18:03:42.442Z - info: Site data built
+2024-02-03T18:03:42.443Z - info: Website generation complete! Total build time: 205.201s
+2024-02-03T18:03:42.443Z - info: Build success!
+2024-02-03T18:06:02.406Z - info: The website has been deployed at: https://nus-cs2103-ay2324s2.github.io/website
+2024-02-04T12:24:16.300Z - info: Website generation (lazy) started at 8:24:10 pm
+2024-02-04T12:24:24.472Z - info: Building assets...
+2024-02-04T12:24:30.347Z - info: Assets built
+2024-02-04T12:24:30.348Z - info: Generating landing page...
+2024-02-04T12:24:31.682Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-02-04T12:24:32.678Z - info: Site data built
+2024-02-04T12:24:32.678Z - info: Website generation (lazy) complete! Total build time: 22.295s
+2024-02-04T12:24:32.721Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-02-04T12:24:32.722Z - info: Press CTRL+C to stop ...
+2024-02-04T12:25:03.820Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\index as some of its dependencies were changed since the last visit
+2024-02-04T12:25:04.382Z - info: Site data built
+2024-02-04T12:25:04.383Z - info: Lazy website regeneration complete! Total build time: 0.564s
+2024-02-04T12:25:07.522Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\appendixB-policies as some of its dependencies were changed since the last visit
+2024-02-04T12:25:08.019Z - info: Site data built
+2024-02-04T12:25:08.019Z - info: Lazy website regeneration complete! Total build time: 0.498s
+2024-02-04T12:27:57.772Z - info: [8:27:57 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\policies-fragment.md
+2024-02-04T12:27:57.772Z - info: Synchronizing opened pages list before reload
+2024-02-04T12:27:57.773Z - info: Current opened pages, from most-to-least recent:
+2024-02-04T12:27:57.773Z - info: 1. admin/appendixB-policies
+2024-02-04T12:27:58.792Z - info: Rebuilding 1 pages
+2024-02-04T12:27:59.323Z - info: Site data built
+2024-02-04T12:27:59.323Z - info: Pages rebuilt
+2024-02-04T12:27:59.324Z - info: Website regeneration complete! Total build time: 0.533s
+2024-02-04T12:28:22.314Z - info: [8:28:22 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\policies-fragment.md
+2024-02-04T12:28:22.315Z - info: Synchronizing opened pages list before reload
+2024-02-04T12:28:22.315Z - info: Current opened pages, from most-to-least recent:
+2024-02-04T12:28:22.316Z - info: 1. admin/appendixB-policies
+2024-02-04T12:28:23.321Z - info: Rebuilding 1 pages
+2024-02-04T12:28:23.833Z - info: Site data built
+2024-02-04T12:28:23.833Z - info: Pages rebuilt
+2024-02-04T12:28:23.834Z - info: Website regeneration complete! Total build time: 0.512s
+2024-02-04T12:28:48.350Z - info: Website generation started at 8:28:45 pm
+2024-02-04T12:28:58.400Z - info: Building assets...
