@@ -48,3 +48,66 @@
 2024-02-05T16:02:50.181Z - info: Website regeneration complete! Total build time: 1.799s
 2024-02-05T16:03:26.043Z - info: Website generation started at 12:03:24 am
 2024-02-05T16:03:32.538Z - info: Building assets...
+2024-02-05T16:03:39.323Z - info: Assets built
+2024-02-05T16:03:39.324Z - info: Generating pages...
+2024-02-05T16:04:02.002Z - debug:  
+2024-02-05T16:04:02.003Z - debug:  
+2024-02-05T16:04:02.004Z - debug:  
+2024-02-05T16:04:02.004Z - debug:  
+2024-02-05T16:04:02.005Z - debug:  
+2024-02-05T16:04:02.006Z - debug:  
+2024-02-05T16:04:02.007Z - debug:  
+2024-02-05T16:04:02.007Z - debug:  
+2024-02-05T16:04:02.008Z - debug:  
+2024-02-05T16:04:02.009Z - debug:  
+2024-02-05T16:04:02.443Z - debug:  
+2024-02-05T16:04:02.445Z - debug:  
+2024-02-05T16:04:02.450Z - debug:  
+2024-02-05T16:04:02.451Z - debug:  
+2024-02-05T16:04:02.455Z - debug:  
+2024-02-05T16:04:04.857Z - debug:  
+2024-02-05T16:04:05.111Z - debug:  
+2024-02-05T16:06:11.361Z - debug:  
+2024-02-05T16:06:32.510Z - debug:  
+2024-02-05T16:06:32.543Z - debug:  
+2024-02-05T16:06:42.899Z - info: Pages built
+2024-02-05T16:06:43.897Z - info: Site data built
+2024-02-05T16:06:43.898Z - info: Website generation complete! Total build time: 199.706s
+2024-02-05T16:06:43.898Z - info: Build success!
+2024-02-05T16:12:42.018Z - info: The website has been deployed at: https://nus-cs2103-ay2324s2.github.io/website
+2024-02-06T12:36:51.740Z - info: Website generation (lazy) started at 8:36:44 pm
+2024-02-06T12:37:01.568Z - info: Building assets...
+2024-02-06T12:37:08.454Z - info: Assets built
+2024-02-06T12:37:08.455Z - info: Generating landing page...
+2024-02-06T12:37:10.002Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-02-06T12:37:11.320Z - info: Site data built
+2024-02-06T12:37:11.321Z - info: Website generation (lazy) complete! Total build time: 27.018s
+2024-02-06T12:37:11.779Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-02-06T12:37:11.779Z - info: Press CTRL+C to stop ...
+2024-02-06T12:38:16.152Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\git-trail\index as some of its dependencies were changed since the last visit
+2024-02-06T12:38:18.360Z - info: Site data built
+2024-02-06T12:38:18.361Z - info: Lazy website regeneration complete! Total build time: 2.211s
+2024-02-06T12:39:18.712Z - info: [8:39:18 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\gitAndGithub\branch\text.md
+2024-02-06T12:39:18.713Z - info: Synchronizing opened pages list before reload
+2024-02-06T12:39:18.714Z - info: Current opened pages, from most-to-least recent:
+2024-02-06T12:39:18.714Z - info: 1. git-trail/index
+2024-02-06T12:39:19.722Z - info: Rebuilding 1 pages
+2024-02-06T12:39:21.235Z - info: Site data built
+2024-02-06T12:39:21.236Z - info: Pages rebuilt
+2024-02-06T12:39:21.236Z - info: Website regeneration complete! Total build time: 1.515s
+2024-02-06T12:40:09.116Z - info: [8:40:09 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\gitAndGithub\branch\text.md
+2024-02-06T12:40:09.118Z - info: Synchronizing opened pages list before reload
+2024-02-06T12:40:09.118Z - info: Current opened pages, from most-to-least recent:
+2024-02-06T12:40:09.119Z - info: 1. git-trail/index
+2024-02-06T12:40:10.126Z - info: Rebuilding 1 pages
+2024-02-06T12:40:11.657Z - info: Site data built
+2024-02-06T12:40:11.658Z - info: Pages rebuilt
+2024-02-06T12:40:11.658Z - info: Website regeneration complete! Total build time: 1.533s
+2024-02-06T12:40:40.494Z - info: [8:40:40 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\gitAndGithub\branch\text.md
+2024-02-06T12:40:40.495Z - info: Synchronizing opened pages list before reload
+2024-02-06T12:40:40.495Z - info: Current opened pages, from most-to-least recent:
+2024-02-06T12:40:40.495Z - info: 1. git-trail/index
+2024-02-06T12:40:41.498Z - info: Rebuilding 1 pages
+2024-02-06T12:40:42.496Z - info: Site data built
+2024-02-06T12:40:42.497Z - info: Pages rebuilt
+2024-02-06T12:40:42.497Z - info: Website regeneration complete! Total build time: 1s
