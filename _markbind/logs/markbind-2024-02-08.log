@@ -1,0 +1,64 @@
+2024-02-07T16:17:18.230Z - info: Website generation (lazy) started at 12:17:11 am
+2024-02-07T16:17:27.204Z - info: Building assets...
+2024-02-07T16:17:33.634Z - info: Assets built
+2024-02-07T16:17:33.635Z - info: Generating landing page...
+2024-02-07T16:17:34.978Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-02-07T16:17:36.061Z - info: Site data built
+2024-02-07T16:17:36.062Z - info: Website generation (lazy) complete! Total build time: 24.143s
+2024-02-07T16:17:36.571Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-02-07T16:17:36.571Z - info: Press CTRL+C to stop ...
+2024-02-07T16:17:44.199Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\schedule\week4\topics as some of its dependencies were changed since the last visit
+2024-02-07T16:18:00.481Z - debug:  
+2024-02-07T16:18:02.302Z - debug:  
+2024-02-07T16:18:02.303Z - debug:  
+2024-02-07T16:18:02.303Z - debug:  
+2024-02-07T16:18:02.304Z - debug:  
+2024-02-07T16:18:02.304Z - debug:  
+2024-02-07T16:18:02.307Z - debug:  
+2024-02-07T16:18:04.284Z - debug:  
+2024-02-07T16:18:04.284Z - debug:  
+2024-02-07T16:18:04.284Z - debug:  
+2024-02-07T16:18:04.290Z - debug:  
+2024-02-07T16:18:04.290Z - debug:  
+2024-02-07T16:18:05.003Z - info: Site data built
+2024-02-07T16:18:05.003Z - info: Lazy website regeneration complete! Total build time: 20.805s
+2024-02-07T16:19:30.037Z - info: [12:19:30 am] Reload for file add: C:\repos\nus-cs2103\cs2103-website-base\book\diagrams\uml\classDiagrams\associationsAsAttributes\~$board.pptx
+2024-02-07T16:19:30.038Z - info: Synchronizing opened pages list before reload
+2024-02-07T16:19:30.039Z - info: Current opened pages, from most-to-least recent:
+2024-02-07T16:19:30.040Z - info: 1. schedule/week4/topics
+2024-02-07T16:19:35.954Z - info: [12:19:35 am] Reload for file deletion: C:\repos\nus-cs2103\cs2103-website-base\book\diagrams\uml\classDiagrams\associationsAsAttributes\~$board.pptx
+2024-02-07T16:19:35.954Z - info: Synchronizing opened pages list before reload
+2024-02-07T16:19:35.954Z - info: Current opened pages, from most-to-least recent:
+2024-02-07T16:19:35.954Z - info: 1. schedule/week4/topics
+2024-02-07T16:19:40.118Z - info: Assets built
+2024-02-07T16:19:40.123Z - info: [12:19:40 am] Reload for file add: C:\repos\nus-cs2103\cs2103-website-base\book\diagrams\uml\classDiagrams\associationsAsAttributes\~$squareMultiplicity.pptx
+2024-02-07T16:19:40.124Z - info: Synchronizing opened pages list before reload
+2024-02-07T16:19:40.124Z - info: Current opened pages, from most-to-least recent:
+2024-02-07T16:19:40.124Z - info: 1. schedule/week4/topics
+2024-02-07T16:19:43.119Z - debug: Assets removed
+2024-02-07T16:19:44.128Z - info: Assets built
+2024-02-07T16:20:40.802Z - info: [12:20:40 am] Reload for file add: C:\repos\nus-cs2103\cs2103-website-base\book\diagrams\uml\classDiagrams\associationsAsAttributes\pptEBB2.tmp
+2024-02-07T16:20:40.803Z - info: Synchronizing opened pages list before reload
+2024-02-07T16:20:40.803Z - info: Current opened pages, from most-to-least recent:
+2024-02-07T16:20:40.803Z - info: 1. schedule/week4/topics
+2024-02-07T16:20:44.233Z - info: [12:20:44 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\diagrams\uml\classDiagrams\associationsAsAttributes\squareMultiplicity.pptx
+2024-02-07T16:20:44.233Z - info: Synchronizing opened pages list before reload
+2024-02-07T16:20:44.233Z - info: Current opened pages, from most-to-least recent:
+2024-02-07T16:20:44.233Z - info: 1. schedule/week4/topics
+2024-02-07T16:20:44.332Z - info: [12:20:44 am] Reload for file deletion: C:\repos\nus-cs2103\cs2103-website-base\book\diagrams\uml\classDiagrams\associationsAsAttributes\pptEBB2.tmp
+2024-02-07T16:20:44.332Z - info: Synchronizing opened pages list before reload
+2024-02-07T16:20:44.332Z - info: Current opened pages, from most-to-least recent:
+2024-02-07T16:20:44.332Z - info: 1. schedule/week4/topics
+2024-02-07T16:20:48.281Z - info: Assets built
+2024-02-07T16:20:49.296Z - debug: Assets removed
+2024-02-07T16:21:27.985Z - info: [12:21:27 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\uml\classDiagrams\associationsAsAttributes\what\images\squareMultiplicity.png
+2024-02-07T16:21:27.985Z - info: Synchronizing opened pages list before reload
+2024-02-07T16:21:27.985Z - info: Current opened pages, from most-to-least recent:
+2024-02-07T16:21:27.985Z - info: 1. schedule/week4/topics
+2024-02-07T16:21:28.365Z - info: [12:21:28 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\uml\classDiagrams\associationsAsAttributes\what\images\squareMultiplicity.png
+2024-02-07T16:21:28.365Z - info: Synchronizing opened pages list before reload
+2024-02-07T16:21:28.365Z - info: Current opened pages, from most-to-least recent:
+2024-02-07T16:21:28.365Z - info: 1. schedule/week4/topics
+2024-02-07T16:21:29.009Z - info: Assets built
+2024-02-07T16:22:02.190Z - info: Website generation started at 12:22:00 am
+2024-02-07T16:22:10.917Z - info: Building assets...
