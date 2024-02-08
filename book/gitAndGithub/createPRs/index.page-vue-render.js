@@ -47,7 +47,7 @@ with(this){return _c('code',{pre:true,attrs:{"class":"no-line-numbers hljs"}},[_
 with(this){return _c('li',[_c('p',[_v("Go to the receiving repo to verify that your PR appears there in the "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("Pull requests")]),_v(" tab.\n")])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("The next step of the PR life cycle is the PR "),_c('em',[_v("review")]),_v(".")]),_v(" The members of the repo that received your PR can now review your proposed changes.")])}
+with(this){return _c('p',[_c('strong',[_v("The next step of the PR lifecycle is the PR "),_c('em',[_v("review")]),_v(".")]),_v(" The members of the repo that received your PR can now review your proposed changes.")])}
 },function anonymous(
 ) {
 with(this){return _c('ul',[_c('li',[_v("If they like the changes, they can "),_c('em',[_v("merge")]),_v(" the changes to their repo, which also closes the PR automatically.")]),_v(" "),_c('li',[_v("If they don't like it at all, they can simply close the PR too i.e., they reject your proposed change.")]),_v(" "),_c('li',[_v("In most cases, they will add comments to the PR to suggest further changes. When that happens, GitHub will notify you.")])])}
@@ -80,6 +80,6 @@ with(this){return _c('li',[_v("Push the PR branch to your fork. As the updated c
 with(this){return _c('div',[_c('div',[_c('br'),_v(" "),_c('h5',{attrs:{"id":"resources"}},[_c('span',[_c('span',{staticClass:"fas fa-paperclip",attrs:{"aria-hidden":"true"}})]),_v(" Resources:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#resources","onclick":"event.stopPropagation()"}})]),_v(" "),_c('div',[_c('ul',[_c('li',[_c('a',{attrs:{"href":"https://help.github.com/articles/creating-a-pull-request/"}},[_v("GitHub's own documentation on creating a PR")])])])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Thu, 8 Feb 2024, 0:22:16 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Thu, 8 Feb 2024, 23:39:59 GMT+8]")])])])}
 }];
   
