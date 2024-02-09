@@ -29,6 +29,6 @@ with(this){return _c('p',[_c('strong',[_v("Be careful not to overuse patterns.")
 with(this){return _c('ul',[_c('li',[_v("there is substantial improvement in  the design, not just superficial.")]),_v(" "),_c('li',[_v("the associated tradeoffs are carefully considered. There are times when a design pattern is not appropriate (or an overkill).")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Thu, 8 Feb 2024, 23:39:59 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Fri, 9 Feb 2024, 14:31:49 GMT+8]")])])])}
 }];
   
