@@ -1,0 +1,104 @@
+2024-02-11T03:52:56.952Z - info: Website generation (lazy) started at 11:52:47 am
+2024-02-11T03:53:09.575Z - info: Building assets...
+2024-02-11T03:53:17.842Z - info: Assets built
+2024-02-11T03:53:17.843Z - info: Generating landing page...
+2024-02-11T03:53:19.744Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-02-11T03:53:21.313Z - info: Site data built
+2024-02-11T03:53:21.315Z - info: Website generation (lazy) complete! Total build time: 33.498s
+2024-02-11T03:53:21.899Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-02-11T03:53:21.899Z - info: Press CTRL+C to stop ...
+2024-02-11T03:54:08.503Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\schedule\week5\topics as some of its dependencies were changed since the last visit
+2024-02-11T03:54:14.050Z - info: Site data built
+2024-02-11T03:54:14.050Z - info: Lazy website regeneration complete! Total build time: 5.548s
+2024-02-11T03:55:08.458Z - info: [11:55:08 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\userStories\introduction\q-tick-correctStatementsAboutUserStories.md
+2024-02-11T03:55:08.459Z - info: Synchronizing opened pages list before reload
+2024-02-11T03:55:08.459Z - info: Current opened pages, from most-to-least recent:
+2024-02-11T03:55:08.460Z - info: 1. schedule/week5/topics
+2024-02-11T03:55:09.473Z - info: Rebuilding 1 pages
+2024-02-11T03:55:12.586Z - info: Site data built
+2024-02-11T03:55:12.587Z - info: Pages rebuilt
+2024-02-11T03:55:12.587Z - info: Website regeneration complete! Total build time: 3.115s
+2024-02-11T03:56:06.143Z - info: [11:56:06 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\userStories\introduction\q-tick-correctStatementsAboutUserStories.md
+2024-02-11T03:56:06.144Z - info: Synchronizing opened pages list before reload
+2024-02-11T03:56:06.145Z - info: Current opened pages, from most-to-least recent:
+2024-02-11T03:56:06.145Z - info: 1. schedule/week5/topics
+2024-02-11T03:56:07.161Z - info: Rebuilding 1 pages
+2024-02-11T03:56:10.672Z - info: Site data built
+2024-02-11T03:56:10.673Z - info: Pages rebuilt
+2024-02-11T03:56:10.673Z - info: Website regeneration complete! Total build time: 3.513s
+2024-02-11T03:56:44.246Z - info: [11:56:44 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\userStories\introduction\q-tick-correctStatementsAboutUserStories.md
+2024-02-11T03:56:44.247Z - info: Synchronizing opened pages list before reload
+2024-02-11T03:56:44.248Z - info: Current opened pages, from most-to-least recent:
+2024-02-11T03:56:44.248Z - info: 1. schedule/week5/topics
+2024-02-11T03:56:45.264Z - info: Rebuilding 1 pages
+2024-02-11T03:56:47.978Z - info: Site data built
+2024-02-11T03:56:47.979Z - info: Pages rebuilt
+2024-02-11T03:56:47.979Z - info: Website regeneration complete! Total build time: 2.721s
+2024-02-11T03:58:04.473Z - info: [11:58:04 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\userStories\introduction\q-tick-correctStatementsAboutUserStories.md
+2024-02-11T03:58:04.473Z - info: Synchronizing opened pages list before reload
+2024-02-11T03:58:04.474Z - info: Current opened pages, from most-to-least recent:
+2024-02-11T03:58:04.474Z - info: 1. schedule/week5/topics
+2024-02-11T03:58:05.487Z - info: Rebuilding 1 pages
+2024-02-11T03:58:08.102Z - info: Site data built
+2024-02-11T03:58:08.102Z - info: Pages rebuilt
+2024-02-11T03:58:08.102Z - info: Website regeneration complete! Total build time: 2.617s
+2024-02-11T03:59:11.508Z - info: [11:59:11 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\userStories\introduction\q-tick-correctStatementsAboutUserStories.md
+2024-02-11T03:59:11.509Z - info: Synchronizing opened pages list before reload
+2024-02-11T03:59:11.509Z - info: Current opened pages, from most-to-least recent:
+2024-02-11T03:59:11.509Z - info: 1. schedule/week5/topics
+2024-02-11T03:59:12.526Z - info: Rebuilding 1 pages
+2024-02-11T03:59:15.752Z - info: Site data built
+2024-02-11T03:59:15.752Z - info: Pages rebuilt
+2024-02-11T03:59:15.753Z - info: Website regeneration complete! Total build time: 3.227s
+2024-02-11T04:03:08.276Z - info: [12:03:08 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\userStories\introduction\q-tick-correctStatementsAboutUserStories.md
+2024-02-11T04:03:08.276Z - info: Synchronizing opened pages list before reload
+2024-02-11T04:03:08.277Z - info: Current opened pages, from most-to-least recent:
+2024-02-11T04:03:08.277Z - info: 1. schedule/week5/topics
+2024-02-11T04:03:08.310Z - info: [12:03:08 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\_markbind\variables.md
+2024-02-11T04:03:08.310Z - info: Synchronizing opened pages list before reload
+2024-02-11T04:03:08.311Z - info: Current opened pages, from most-to-least recent:
+2024-02-11T04:03:08.311Z - info: 1. schedule/week5/topics
+2024-02-11T04:03:09.280Z - info: Rebuilding 1 pages
+2024-02-11T04:03:11.333Z - info: Site data built
+2024-02-11T04:03:11.334Z - info: Pages rebuilt
+2024-02-11T04:03:11.334Z - info: Website regeneration complete! Total build time: 2.055s
+2024-02-11T04:04:49.771Z - info: Website generation (lazy) started at 12:04:46 pm
+2024-02-11T04:04:59.708Z - info: Building assets...
+2024-02-11T04:05:06.912Z - info: Assets built
+2024-02-11T04:05:06.913Z - info: Generating landing page...
+2024-02-11T04:05:08.490Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-02-11T04:05:09.598Z - info: Site data built
+2024-02-11T04:05:09.599Z - info: Website generation (lazy) complete! Total build time: 22.795s
+2024-02-11T04:05:09.658Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-02-11T04:05:09.658Z - info: Press CTRL+C to stop ...
+2024-02-11T04:05:22.156Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\schedule\week5\topics as some of its dependencies were changed since the last visit
+2024-02-11T04:05:26.649Z - info: Site data built
+2024-02-11T04:05:26.649Z - info: Lazy website regeneration complete! Total build time: 4.493s
+2024-02-11T04:08:47.215Z - info: [12:08:47 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\userStories\introduction\q-tick-correctStatementsAboutUserStories.md
+2024-02-11T04:08:47.216Z - info: Synchronizing opened pages list before reload
+2024-02-11T04:08:47.217Z - info: Current opened pages, from most-to-least recent:
+2024-02-11T04:08:47.217Z - info: 1. schedule/week5/topics
+2024-02-11T04:08:47.217Z - info: 2. index
+2024-02-11T04:08:47.243Z - info: [12:08:47 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\_markbind\variables.md
+2024-02-11T04:08:47.244Z - info: Synchronizing opened pages list before reload
+2024-02-11T04:08:47.244Z - info: Current opened pages, from most-to-least recent:
+2024-02-11T04:08:47.245Z - info: 1. schedule/week5/topics
+2024-02-11T04:08:47.245Z - info: 2. index
+2024-02-11T04:08:48.225Z - info: Rebuilding 1 pages
+2024-02-11T04:08:50.745Z - info: Site data built
+2024-02-11T04:08:50.746Z - info: Pages rebuilt
+2024-02-11T04:08:50.746Z - info: Website regeneration complete! Total build time: 2.522s
+2024-02-11T04:09:31.586Z - info: Website generation (lazy) started at 12:09:29 pm
+2024-02-11T04:09:39.641Z - info: Building assets...
+2024-02-11T04:09:45.568Z - info: Assets built
+2024-02-11T04:09:45.569Z - info: Generating landing page...
+2024-02-11T04:09:46.898Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-02-11T04:09:47.796Z - info: Site data built
+2024-02-11T04:09:47.797Z - info: Website generation (lazy) complete! Total build time: 18.539s
+2024-02-11T04:09:47.840Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-02-11T04:09:47.841Z - info: Press CTRL+C to stop ...
+2024-02-11T04:09:58.981Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\schedule\week5\topics as some of its dependencies were changed since the last visit
+2024-02-11T04:10:02.932Z - info: Site data built
+2024-02-11T04:10:02.932Z - info: Lazy website regeneration complete! Total build time: 3.952s
+2024-02-11T04:12:34.223Z - info: Website generation started at 12:12:30 pm
+2024-02-11T04:12:48.834Z - info: Building assets...
