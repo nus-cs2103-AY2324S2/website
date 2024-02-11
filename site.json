@@ -62,7 +62,7 @@
   },
   "enableSearch": false,
   "headingIndexingLevel": 5,
-  "plugins": ["filterTags", "googleAnalytics", "algolia", "codeBlockCopyButtons"],
+  "plugins": ["filterTags", "googleAnalytics", "algolia", "codeBlockCopyButtons", "codeBlockWrapButtons"],
   "pluginsContext": {
     "filterTags" : {
       "tags": ["m--cs2103"]

@@ -34,6 +34,25 @@ Ensure the <code class="line-numbers hljs inline no-lang" data-v-661c1b61>Track?
 </svg>
 
     </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn" data-v-661c1b61>
+    <div class="function-btn-body" data-v-661c1b61>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-661c1b61>
+    <g id="surface1" data-v-661c1b61>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-661c1b61></path>
+    </g>
+</svg>
+
+    </div>
     </button></div></pre><p data-v-661c1b61>The <code class="line-numbers hljs inline no-lang" data-v-661c1b61>-u</code> (or <code class="line-numbers hljs inline no-lang" data-v-661c1b61>--set-upstream</code>) flag tells Git that you wish the local branch to 'track' the remote branch that will be created as a result of this push.</p> <p data-v-661c1b61><span data-v-661c1b61><span aria-hidden="true" class="fas fa-paperclip" data-v-661c1b61></span></span> See <a href="https://git-scm.com/docs/git-push" data-v-661c1b61>git-scm.com/docs/git-push</a> for details of the <code class="line-numbers hljs inline no-lang" data-v-661c1b61>push</code> command.</p></div> <hr data-v-661c1b61></div></div></div></div> <div id="pulling-a-new-branch"><p><strong><strong>[B] Pulling a remote branch for the first time</strong></strong></p> <p>Here, let's see how to fetch a new branch (i.e., it does not exist in your local repo yet) from a remote repo.</p> <div class="printable-tabs" data-v-70a68808><ul role="tablist" class="nav nav-tabs d-print-none nav-tabs" data-v-70a68808></ul> <div class="tab-content" data-v-70a68808><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-661c1b61><div class="nav-tabs printable-tab-header" data-v-661c1b61><div class="nav-link active" data-v-661c1b61>Sourcetree</div></div>  <div data-v-661c1b61><p data-v-661c1b61><strong data-v-661c1b61>1. Check the list of remote branches</strong> by expanding the <code class="line-numbers hljs inline no-lang" data-v-661c1b61>REMOTES</code> menu on the left edge of Sourcetree. If the branch you expected to find is missing, you can click the <code class="line-numbers hljs inline no-lang" data-v-661c1b61>Fetch</code> button (in the top toolbar) to refresh the information shown under remotes.</p> <span eager="" class="image-wrapper"><img src="/website/book/gitAndGithub/remoteBranches/images/listRemoteBranches.png" width="" class="img-fluid rounded"> <span class="image-caption"></span></span> <p data-v-661c1b61></p> <p data-v-661c1b61><strong data-v-661c1b61>2. Double-click the branch name</strong> (e.g., <code class="line-numbers hljs inline no-lang" data-v-661c1b61>tweak-requirements</code> branch in the <code class="line-numbers hljs inline no-lang" data-v-661c1b61>myfork</code> remote), which should open the checkout dialog shown below.</p> <span eager="" class="image-wrapper"><img src="/website/book/gitAndGithub/remoteBranches/images/checkoutBranchDialog.png" width="" class="img-fluid rounded"> <span class="image-caption"></span></span> <p data-v-661c1b61></p> <p data-v-661c1b61><strong data-v-661c1b61>3. Go with the default settings</strong> (shown above) should be fine. Once you click <code class="line-numbers hljs inline no-lang" data-v-661c1b61>OK</code>, the branch will appear in your local repo. Furthermore, that repo will switch to that branch, and the local branch will <span data-mb-component-type="tooltip" tabindex="0" class="trigger"><!----> <!----></span> the remote branch as well.</p></div> <hr data-v-661c1b61></div> <div role="tabpanel" class="tab-pane active printable-tab-pane algolia-no-index tab-pane-hide" data-v-661c1b61><div class="nav-tabs printable-tab-header" data-v-661c1b61><div class="nav-link active" data-v-661c1b61>CLI</div></div>  <div data-v-661c1b61><p data-v-661c1b61><strong data-v-661c1b61>1. Fetch details from the remote.</strong> e.g., if the remote is named <code class="line-numbers hljs inline no-lang" data-v-661c1b61>myfork</code></p> <pre data-v-661c1b61><code class="no-line-numbers hljs" data-v-661c1b61><span data-v-661c1b61>$ git fetch myfork
 </span></code><div class="function-btn-container" data-v-661c1b61><button onclick="copyCodeBlock(this)" class="function-btn" data-v-661c1b61>
     <div class="function-btn-body" data-v-661c1b61>
@@ -51,6 +70,25 @@ Ensure the <code class="line-numbers hljs inline no-lang" data-v-661c1b61>Track?
 </svg>
 
     </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn" data-v-661c1b61>
+    <div class="function-btn-body" data-v-661c1b61>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-661c1b61>
+    <g id="surface1" data-v-661c1b61>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-661c1b61></path>
+    </g>
+</svg>
+
+    </div>
     </button></div></pre><p data-v-661c1b61><strong data-v-661c1b61>2. List the branches</strong> to see the name of the branch you want to pull.</p> <pre data-v-661c1b61><code class="no-line-numbers hljs" data-v-661c1b61><span data-v-661c1b61>$ git branch -a
 </span></code><div class="function-btn-container" data-v-661c1b61><button onclick="copyCodeBlock(this)" class="function-btn" data-v-661c1b61>
     <div class="function-btn-body" data-v-661c1b61>
@@ -64,6 +102,25 @@ Ensure the <code class="line-numbers hljs inline no-lang" data-v-661c1b61>Track?
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
       5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-661c1b61></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn" data-v-661c1b61>
+    <div class="function-btn-body" data-v-661c1b61>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-661c1b61>
+    <g id="surface1" data-v-661c1b61>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-661c1b61></path>
     </g>
 </svg>
 
@@ -87,6 +144,25 @@ Ensure the <code class="line-numbers hljs inline no-lang" data-v-661c1b61>Track?
 </svg>
 
     </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn" data-v-661c1b61>
+    <div class="function-btn-body" data-v-661c1b61>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-661c1b61>
+    <g id="surface1" data-v-661c1b61>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-661c1b61></path>
+    </g>
+</svg>
+
+    </div>
     </button></div></pre><p data-v-661c1b61><code class="line-numbers hljs inline no-lang" data-v-661c1b61>-a</code> flag tells Git to list both local and remote branches.</p> <p data-v-661c1b61><strong data-v-661c1b61>3. Create a matching local branch and switch to it.</strong></p> <pre data-v-661c1b61><code class="no-line-numbers hljs" data-v-661c1b61><span data-v-661c1b61>$ git switch -c branch1 myfork/branch1
 </span></code><div class="function-btn-container" data-v-661c1b61><button onclick="copyCodeBlock(this)" class="function-btn" data-v-661c1b61>
     <div class="function-btn-body" data-v-661c1b61>
@@ -100,6 +176,25 @@ Ensure the <code class="line-numbers hljs inline no-lang" data-v-661c1b61>Track?
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
       5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-661c1b61></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn" data-v-661c1b61>
+    <div class="function-btn-body" data-v-661c1b61>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-661c1b61>
+    <g id="surface1" data-v-661c1b61>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-661c1b61></path>
     </g>
 </svg>
 
@@ -122,6 +217,25 @@ Ensure the <code class="line-numbers hljs inline no-lang" data-v-661c1b61>Track?
 </svg>
 
     </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn" data-v-661c1b61>
+    <div class="function-btn-body" data-v-661c1b61>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-661c1b61>
+    <g id="surface1" data-v-661c1b61>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-661c1b61></path>
+    </g>
+</svg>
+
+    </div>
     </button></div></pre><p data-v-661c1b61><code class="line-numbers hljs inline no-lang" data-v-661c1b61>-c</code> flag tells Git to create a new local branch.</p></div> <hr data-v-661c1b61></div></div></div></div> <div id="syncing-branches"><p><strong><strong>[C] Syncing branches</strong></strong></p> <p>In this section we assume that you have a local branch that is already tracking a remote branch (e.g., as a result of doing [A] or [B] above).</p> <p><strong>To push new changes in the local branch to the corresponding remote branch:</strong></p> <div class="printable-tabs" data-v-70a68808><ul role="tablist" class="nav nav-tabs d-print-none nav-tabs" data-v-70a68808></ul> <div class="tab-content" data-v-70a68808><div role="tabpanel" class="tab-pane active printable-tab-pane tab-pane-hide" data-v-661c1b61><div class="nav-tabs printable-tab-header" data-v-661c1b61><div class="nav-link active" data-v-661c1b61>Sourcetree</div></div>  <div data-v-661c1b61><p data-v-661c1b61>Similar to how you pushed a new branch (in [A]):</p> <span eager="" class="image-wrapper"><img src="/website/book/gitAndGithub/remoteBranches/images/pushBranchToFork.png" width="" class="img-fluid rounded"> <span class="image-caption"></span></span> <p data-v-661c1b61></p></div> <hr data-v-661c1b61></div> <div role="tabpanel" class="tab-pane active printable-tab-pane algolia-no-index tab-pane-hide" data-v-661c1b61><div class="nav-tabs printable-tab-header" data-v-661c1b61><div class="nav-link active" data-v-661c1b61>CLI</div></div>  <div data-v-661c1b61><p data-v-661c1b61>Similar to [A] above, but omit the <code class="line-numbers hljs inline no-lang" data-v-661c1b61>-u</code> flag. e.g.,</p> <pre data-v-661c1b61><code class="no-line-numbers hljs" data-v-661c1b61><span data-v-661c1b61>$ git push origin add-intro
 </span></code><div class="function-btn-container" data-v-661c1b61><button onclick="copyCodeBlock(this)" class="function-btn" data-v-661c1b61>
     <div class="function-btn-body" data-v-661c1b61>
@@ -135,6 +249,25 @@ Ensure the <code class="line-numbers hljs inline no-lang" data-v-661c1b61>Track?
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
       5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-661c1b61></path>
+    </g>
+</svg>
+
+    </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn" data-v-661c1b61>
+    <div class="function-btn-body" data-v-661c1b61>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-661c1b61>
+    <g id="surface1" data-v-661c1b61>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-661c1b61></path>
     </g>
 </svg>
 
@@ -156,6 +289,25 @@ Ensure the <code class="line-numbers hljs inline no-lang" data-v-661c1b61>Track?
 </svg>
 
     </div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn" data-v-661c1b61>
+    <div class="function-btn-body" data-v-661c1b61>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-661c1b61>
+    <g id="surface1" data-v-661c1b61>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-661c1b61></path>
+    </g>
+</svg>
+
+    </div>
     </button></div></pre><p data-v-661c1b61><strong data-v-661c1b61>2. Pull the updated in the remote branch to the local branch</strong>, using <code class="line-numbers hljs inline no-lang" data-v-661c1b61>git pull &lt;remote&gt; &lt;branch&gt;</code> e.g.,</p> <pre data-v-661c1b61><code class="no-line-numbers hljs" data-v-661c1b61><span data-v-661c1b61>$ git pull origin branch1
 </span></code><div class="function-btn-container" data-v-661c1b61><button onclick="copyCodeBlock(this)" class="function-btn" data-v-661c1b61>
     <div class="function-btn-body" data-v-661c1b61>
@@ -173,7 +325,26 @@ Ensure the <code class="line-numbers hljs inline no-lang" data-v-661c1b61>Track?
 </svg>
 
     </div>
-    </button></div></pre></div> <hr data-v-661c1b61></div></div></div> <div class="alert box-container seamless" data-v-4d146e2c><!----> <div class="header-and-body" data-v-4d146e2c><!----> <div class="box-body-wrapper" data-v-4d146e2c><div class="icon-wrapper  text-info" data-v-4d146e2c><i class="fas fa-info" data-v-4d146e2c></i></div> <div aria-hidden="true" class="vertical-divider alert-info" data-v-4d146e2c></div> <div class="contents" data-v-4d146e2c><p data-v-4d146e2c><strong data-v-4d146e2c>If you pull but your local branch has new commits the remote branch doesn't have</strong>, Git will automatically perform a merge between the local branch and the remote branch.</p></div> <!----></div></div></div> <div></div> <div id="extras"></div></div></div> <div></div></div></div></div></div></div></div> <nav id="page-nav" class="fixed-header-padding" data-v-e6005420><div class="nav-component slim-scroll" data-v-e6005420></div> <!----></nav> <div aria-hidden="true" class="scroll-top-button fa-lg d-print-none" style="display:none;bottom:2%;right:2%;position:fixed;"><i class="fas fa-arrow-circle-up"></i></div></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 5.2.0</a>, generated on Sun, 11 Feb 2024, 14:10:21 GMT+8]</small></div></footer></div>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn" data-v-661c1b61>
+    <div class="function-btn-body" data-v-661c1b61>
+      
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-661c1b61>
+    <g id="surface1" data-v-661c1b61>
+      <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
+      2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
+      9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
+      7.4492188 9.3222656 L 7.4492188 0.93164062 L 10.25 0.93164062 L 10.25 2.5351562 L
+      11.166016 2.5351562 L 11.166016 0 L 1.109375 0 z M 10.84375 5.1054688 L 10.84375
+      6.6074219 C 12.268027 6.6074219 13.40625 7.7456444 13.40625 9.1699219 C 13.40625
+      10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
+      12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
+      11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
+      5.1054688 z " data-v-661c1b61></path>
+    </g>
+</svg>
+
+    </div>
+    </button></div></pre></div> <hr data-v-661c1b61></div></div></div> <div class="alert box-container seamless" data-v-4d146e2c><!----> <div class="header-and-body" data-v-4d146e2c><!----> <div class="box-body-wrapper" data-v-4d146e2c><div class="icon-wrapper  text-info" data-v-4d146e2c><i class="fas fa-info" data-v-4d146e2c></i></div> <div aria-hidden="true" class="vertical-divider alert-info" data-v-4d146e2c></div> <div class="contents" data-v-4d146e2c><p data-v-4d146e2c><strong data-v-4d146e2c>If you pull but your local branch has new commits the remote branch doesn't have</strong>, Git will automatically perform a merge between the local branch and the remote branch.</p></div> <!----></div></div></div> <div></div> <div id="extras"></div></div></div> <div></div></div></div></div></div></div></div> <nav id="page-nav" class="fixed-header-padding" data-v-e6005420><div class="nav-component slim-scroll" data-v-e6005420></div> <!----></nav> <div aria-hidden="true" class="scroll-top-button fa-lg d-print-none" style="display:none;bottom:2%;right:2%;position:fixed;"><i class="fas fa-arrow-circle-up"></i></div></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 5.2.0</a>, generated on Sun, 11 Feb 2024, 18:40:39 GMT+8]</small></div></footer></div>
 </body><script src="/website/markbind/js/bootstrap-utility.min.js"></script>
 <script>
   MarkBind.setup()
@@ -217,6 +388,17 @@ Ensure the <code class="line-numbers hljs inline no-lang" data-v-661c1b61>Track?
 
         document.execCommand('copy');
         document.body.removeChild(textElement);
+    }
+    </script>
+    <script>
+    function toggleCodeBlockWrap(element) {
+      const pre = element.parentElement.parentElement;
+      const classList = pre.querySelector('code').classList; 
+      if (classList.contains('wrap')) {
+          classList.remove('wrap');
+      } else {
+          classList.add('wrap')
+      }
     }
     </script>
 </html>
