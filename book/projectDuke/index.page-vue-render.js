@@ -554,7 +554,7 @@ with(this){return _c('p',[_v("Support recording info about places "),_c('span',{
 with(this){return _c('h3',{attrs:{"id":"d-trivia"}},[_c('span',{staticClass:"badge rounded-pill bg-danger"},[_v("D-Trivia")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#d-trivia","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("Provide the ability to learn/memorize things"),_c('span',{staticClass:"dimmed"},[_v("e.g., learn vocabulary, answers to questions")])])}
+with(this){return _c('p',[_v("Provide the ability to learn/memorize things "),_c('span',{staticClass:"dimmed"},[_v("e.g., learn vocabulary, answers to questions")])])}
 },function anonymous(
 ) {
 with(this){return _c('h3',{attrs:{"id":"d-clients"}},[_c('span',{staticClass:"badge rounded-pill bg-danger"},[_v("D-Clients")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#d-clients","onclick":"event.stopPropagation()"}})])}
@@ -569,6 +569,6 @@ with(this){return _c('h3',{attrs:{"id":"d-merchandise"}},[_c('span',{staticClass
 with(this){return _c('p',[_v("Support managing info about merchandise "),_c('span',{staticClass:"dimmed"},[_v("e.g., a property agent to keep track of properties, a collector of stamps keep track of items in the collection")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Sat, 24 Feb 2024, 0:33:05 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Sun, 25 Feb 2024, 21:25:13 GMT+8]")])])])}
 }];
   

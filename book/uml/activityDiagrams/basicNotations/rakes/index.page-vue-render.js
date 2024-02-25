@@ -17,6 +17,6 @@ with(this){return _c('div',[_c('h4',{attrs:{"id":"rakes"}},[_c('span',[_v("Rakes
 with(this){return _c('p',[_c('strong',[_v("The rake notation is used to indicate that a part of the activity is given as a separate diagram.")])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.2.0")]),_v(", generated on Sat, 24 Feb 2024, 0:33:05 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Sun, 25 Feb 2024, 21:25:13 GMT+8]")])])])}
 }];
   
