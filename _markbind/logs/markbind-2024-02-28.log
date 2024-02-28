@@ -1,0 +1,60 @@
+2024-02-28T08:15:40.434Z - info: Website generation (lazy) started at 4:15:35 pm
+2024-02-28T08:15:46.775Z - info: Building assets...
+2024-02-28T08:15:51.196Z - info: Assets built
+2024-02-28T08:15:51.197Z - info: Generating landing page...
+2024-02-28T08:15:52.774Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-02-28T08:15:53.607Z - info: Site data built
+2024-02-28T08:15:53.607Z - info: Website generation (lazy) complete! Total build time: 18.146s
+2024-02-28T08:15:53.972Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-02-28T08:15:53.972Z - info: Press CTRL+C to stop ...
+2024-02-28T08:17:13.561Z - info: [4:17:13 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\schedule\index.md
+2024-02-28T08:17:13.562Z - info: Synchronizing opened pages list before reload
+2024-02-28T08:17:13.562Z - info: Current opened pages, from most-to-least recent:
+2024-02-28T08:17:13.562Z - info: 1. index
+2024-02-28T08:17:14.573Z - info: Rebuilding 1 pages
+2024-02-28T08:17:15.337Z - info: Site data built
+2024-02-28T08:17:15.337Z - info: Pages rebuilt
+2024-02-28T08:17:15.338Z - info: Website regeneration complete! Total build time: 0.764s
+2024-02-28T08:17:42.296Z - info: [4:17:42 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\schedule\index.md
+2024-02-28T08:17:42.297Z - info: Synchronizing opened pages list before reload
+2024-02-28T08:17:42.298Z - info: Current opened pages, from most-to-least recent:
+2024-02-28T08:17:42.298Z - info: 1. index
+2024-02-28T08:17:43.322Z - info: Rebuilding 1 pages
+2024-02-28T08:17:44.151Z - info: Site data built
+2024-02-28T08:17:44.151Z - info: Pages rebuilt
+2024-02-28T08:17:44.152Z - info: Website regeneration complete! Total build time: 0.837s
+2024-02-28T08:17:54.012Z - info: [4:17:54 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\schedule\index.md
+2024-02-28T08:17:54.013Z - info: Synchronizing opened pages list before reload
+2024-02-28T08:17:54.013Z - info: Current opened pages, from most-to-least recent:
+2024-02-28T08:17:54.013Z - info: 1. index
+2024-02-28T08:17:55.021Z - info: Rebuilding 1 pages
+2024-02-28T08:17:55.753Z - info: Site data built
+2024-02-28T08:17:55.753Z - info: Pages rebuilt
+2024-02-28T08:17:55.753Z - info: Website regeneration complete! Total build time: 0.733s
+2024-02-28T08:18:58.196Z - info: [4:18:58 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\schedule\index.md
+2024-02-28T08:18:58.196Z - info: Synchronizing opened pages list before reload
+2024-02-28T08:18:58.197Z - info: Current opened pages, from most-to-least recent:
+2024-02-28T08:18:58.197Z - info: 1. index
+2024-02-28T08:18:59.206Z - info: Rebuilding 1 pages
+2024-02-28T08:18:59.883Z - info: Site data built
+2024-02-28T08:18:59.883Z - info: Pages rebuilt
+2024-02-28T08:18:59.883Z - info: Website regeneration complete! Total build time: 0.679s
+2024-02-28T08:19:03.879Z - info: [4:19:03 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\schedule\index.md
+2024-02-28T08:19:03.879Z - info: Synchronizing opened pages list before reload
+2024-02-28T08:19:03.880Z - info: Current opened pages, from most-to-least recent:
+2024-02-28T08:19:03.880Z - info: 1. index
+2024-02-28T08:19:04.889Z - info: Rebuilding 1 pages
+2024-02-28T08:19:05.563Z - info: Site data built
+2024-02-28T08:19:05.563Z - info: Pages rebuilt
+2024-02-28T08:19:05.563Z - info: Website regeneration complete! Total build time: 0.675s
+2024-02-28T13:18:39.884Z - info: Website generation (lazy) started at 9:18:36 pm
+2024-02-28T13:18:50.789Z - info: Building assets...
+2024-02-28T13:18:58.368Z - info: Assets built
+2024-02-28T13:18:58.370Z - info: Generating landing page...
+2024-02-28T13:19:00.099Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-02-28T13:19:01.075Z - info: Site data built
+2024-02-28T13:19:01.076Z - info: Website generation (lazy) complete! Total build time: 24.386s
+2024-02-28T13:19:01.522Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-02-28T13:19:01.522Z - info: Press CTRL+C to stop ...
+2024-02-28T13:19:59.479Z - info: Website generation started at 9:19:56 pm
+2024-02-28T13:20:05.866Z - info: Building assets...
