@@ -1,0 +1,252 @@
+2024-03-01T16:05:05.181Z - info: Website generation (lazy) started at 12:05:02 am
+2024-03-01T16:05:13.217Z - info: Building assets...
+2024-03-01T16:05:22.668Z - info: Assets built
+2024-03-01T16:05:22.669Z - info: Generating landing page...
+2024-03-01T16:05:24.732Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-03-01T16:05:25.836Z - info: Site data built
+2024-03-01T16:05:25.836Z - info: Website generation (lazy) complete! Total build time: 22.937s
+2024-03-01T16:05:26.982Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:52457
+2024-03-01T16:05:26.982Z - info: Press CTRL+C to stop ...
+2024-03-01T16:05:37.695Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\schedule\week7\project as some of its dependencies were changed since the last visit
+2024-03-01T16:05:40.877Z - info: Site data built
+2024-03-01T16:05:40.878Z - info: Lazy website regeneration complete! Total build time: 3.183s
+2024-03-01T16:06:29.330Z - info: [12:06:29 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:06:29.331Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:06:29.331Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:06:29.332Z - info: 1. schedule/week7/project
+2024-03-01T16:06:30.352Z - info: Rebuilding 1 pages
+2024-03-01T16:06:32.634Z - info: Site data built
+2024-03-01T16:06:32.635Z - info: Pages rebuilt
+2024-03-01T16:06:32.635Z - info: Website regeneration complete! Total build time: 2.284s
+2024-03-01T16:07:58.730Z - info: [12:07:58 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:07:58.731Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:07:58.732Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:07:58.733Z - info: 1. schedule/week7/project
+2024-03-01T16:07:59.757Z - info: Rebuilding 1 pages
+2024-03-01T16:08:02.255Z - info: Site data built
+2024-03-01T16:08:02.255Z - info: Pages rebuilt
+2024-03-01T16:08:02.255Z - info: Website regeneration complete! Total build time: 2.501s
+2024-03-01T16:12:21.655Z - info: [12:12:21 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:12:21.656Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:12:21.657Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:12:21.657Z - info: 1. schedule/week7/project
+2024-03-01T16:12:22.668Z - info: Rebuilding 1 pages
+2024-03-01T16:12:24.951Z - info: Site data built
+2024-03-01T16:12:24.952Z - info: Pages rebuilt
+2024-03-01T16:12:24.952Z - info: Website regeneration complete! Total build time: 2.285s
+2024-03-01T16:12:35.774Z - info: [12:12:35 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:12:35.775Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:12:35.775Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:12:35.775Z - info: 1. schedule/week7/project
+2024-03-01T16:12:36.790Z - info: Rebuilding 1 pages
+2024-03-01T16:12:38.616Z - info: Site data built
+2024-03-01T16:12:38.616Z - info: Pages rebuilt
+2024-03-01T16:12:38.616Z - info: Website regeneration complete! Total build time: 1.827s
+2024-03-01T16:13:26.965Z - info: [12:13:26 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:13:26.965Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:13:26.966Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:13:26.966Z - info: 1. schedule/week7/project
+2024-03-01T16:13:27.980Z - info: Rebuilding 1 pages
+2024-03-01T16:13:30.642Z - info: Site data built
+2024-03-01T16:13:30.642Z - info: Pages rebuilt
+2024-03-01T16:13:30.643Z - info: Website regeneration complete! Total build time: 2.664s
+2024-03-01T16:13:44.612Z - info: [12:13:44 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:13:44.612Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:13:44.613Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:13:44.613Z - info: 1. schedule/week7/project
+2024-03-01T16:13:45.623Z - info: Rebuilding 1 pages
+2024-03-01T16:13:47.562Z - info: Site data built
+2024-03-01T16:13:47.562Z - info: Pages rebuilt
+2024-03-01T16:13:47.562Z - info: Website regeneration complete! Total build time: 1.94s
+2024-03-01T16:14:34.046Z - info: [12:14:34 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:14:34.047Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:14:34.047Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:14:34.047Z - info: 1. schedule/week7/project
+2024-03-01T16:14:35.064Z - info: Rebuilding 1 pages
+2024-03-01T16:14:37.397Z - info: Site data built
+2024-03-01T16:14:37.397Z - info: Pages rebuilt
+2024-03-01T16:14:37.398Z - info: Website regeneration complete! Total build time: 2.335s
+2024-03-01T16:16:01.773Z - info: [12:16:01 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:16:01.774Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:16:01.774Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:16:01.774Z - info: 1. schedule/week7/project
+2024-03-01T16:16:02.787Z - info: Rebuilding 1 pages
+2024-03-01T16:16:05.054Z - info: Site data built
+2024-03-01T16:16:05.054Z - info: Pages rebuilt
+2024-03-01T16:16:05.055Z - info: Website regeneration complete! Total build time: 2.269s
+2024-03-01T16:19:19.855Z - info: [12:19:19 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:19:19.856Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:19:19.857Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:19:19.857Z - info: 1. schedule/week7/project
+2024-03-01T16:19:20.875Z - info: Rebuilding 1 pages
+2024-03-01T16:19:23.302Z - info: Site data built
+2024-03-01T16:19:23.302Z - info: Pages rebuilt
+2024-03-01T16:19:23.302Z - info: Website regeneration complete! Total build time: 2.429s
+2024-03-01T16:19:49.415Z - info: [12:19:49 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:19:49.415Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:19:49.416Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:19:49.416Z - info: 1. schedule/week7/project
+2024-03-01T16:19:50.430Z - info: Rebuilding 1 pages
+2024-03-01T16:19:53.118Z - info: Site data built
+2024-03-01T16:19:53.119Z - info: Pages rebuilt
+2024-03-01T16:19:53.119Z - info: Website regeneration complete! Total build time: 2.691s
+2024-03-01T16:20:09.260Z - info: [12:20:09 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:20:09.261Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:20:09.261Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:20:09.262Z - info: 1. schedule/week7/project
+2024-03-01T16:20:10.278Z - info: Rebuilding 1 pages
+2024-03-01T16:20:12.591Z - info: Site data built
+2024-03-01T16:20:12.591Z - info: Pages rebuilt
+2024-03-01T16:20:12.591Z - info: Website regeneration complete! Total build time: 2.316s
+2024-03-01T16:20:48.261Z - info: [12:20:48 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:20:48.261Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:20:48.263Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:20:48.264Z - info: 1. schedule/week7/project
+2024-03-01T16:20:49.270Z - info: Rebuilding 1 pages
+2024-03-01T16:20:51.432Z - info: Site data built
+2024-03-01T16:20:51.432Z - info: Pages rebuilt
+2024-03-01T16:20:51.432Z - info: Website regeneration complete! Total build time: 2.163s
+2024-03-01T16:21:51.336Z - info: [12:21:51 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:21:51.336Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:21:51.337Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:21:51.337Z - info: 1. schedule/week7/project
+2024-03-01T16:21:52.344Z - info: Rebuilding 1 pages
+2024-03-01T16:21:54.865Z - info: Site data built
+2024-03-01T16:21:54.865Z - info: Pages rebuilt
+2024-03-01T16:21:54.865Z - info: Website regeneration complete! Total build time: 2.522s
+2024-03-01T16:22:23.903Z - info: [12:22:23 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:22:23.904Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:22:23.904Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:22:23.905Z - info: 1. schedule/week7/project
+2024-03-01T16:22:24.920Z - info: Rebuilding 1 pages
+2024-03-01T16:22:26.780Z - info: Site data built
+2024-03-01T16:22:26.780Z - info: Pages rebuilt
+2024-03-01T16:22:26.780Z - info: Website regeneration complete! Total build time: 1.861s
+2024-03-01T16:23:46.766Z - info: [12:23:46 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:23:46.767Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:23:46.767Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:23:46.767Z - info: 1. schedule/week7/project
+2024-03-01T16:23:47.776Z - info: Rebuilding 1 pages
+2024-03-01T16:23:49.932Z - info: Site data built
+2024-03-01T16:23:49.933Z - info: Pages rebuilt
+2024-03-01T16:23:49.933Z - info: Website regeneration complete! Total build time: 2.159s
+2024-03-01T16:27:08.185Z - info: [12:27:08 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:27:08.185Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:27:08.186Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:27:08.186Z - info: 1. schedule/week7/project
+2024-03-01T16:27:09.196Z - info: Rebuilding 1 pages
+2024-03-01T16:27:11.107Z - info: Site data built
+2024-03-01T16:27:11.107Z - info: Pages rebuilt
+2024-03-01T16:27:11.107Z - info: Website regeneration complete! Total build time: 1.912s
+2024-03-01T16:27:58.842Z - info: [12:27:58 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:27:58.843Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:27:58.843Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:27:58.844Z - info: 1. schedule/week7/project
+2024-03-01T16:27:59.861Z - info: Rebuilding 1 pages
+2024-03-01T16:28:01.899Z - info: Site data built
+2024-03-01T16:28:01.900Z - info: Pages rebuilt
+2024-03-01T16:28:01.900Z - info: Website regeneration complete! Total build time: 2.04s
+2024-03-01T16:28:15.853Z - info: [12:28:15 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:28:15.853Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:28:15.854Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:28:15.854Z - info: 1. schedule/week7/project
+2024-03-01T16:28:16.866Z - info: Rebuilding 1 pages
+2024-03-01T16:28:18.661Z - info: Site data built
+2024-03-01T16:28:18.661Z - info: Pages rebuilt
+2024-03-01T16:28:18.661Z - info: Website regeneration complete! Total build time: 1.797s
+2024-03-01T16:28:29.685Z - info: [12:28:29 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:28:29.686Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:28:29.687Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:28:29.687Z - info: 1. schedule/week7/project
+2024-03-01T16:28:30.703Z - info: Rebuilding 1 pages
+2024-03-01T16:28:32.695Z - info: Site data built
+2024-03-01T16:28:32.695Z - info: Pages rebuilt
+2024-03-01T16:28:32.696Z - info: Website regeneration complete! Total build time: 1.994s
+2024-03-01T16:28:53.392Z - info: [12:28:53 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:28:53.393Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:28:53.393Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:28:53.394Z - info: 1. schedule/week7/project
+2024-03-01T16:28:54.411Z - info: Rebuilding 1 pages
+2024-03-01T16:28:56.250Z - info: Site data built
+2024-03-01T16:28:56.250Z - info: Pages rebuilt
+2024-03-01T16:28:56.250Z - info: Website regeneration complete! Total build time: 1.841s
+2024-03-01T16:32:11.280Z - info: [12:32:11 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:32:11.281Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:32:11.281Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:32:11.282Z - info: 1. schedule/week7/project
+2024-03-01T16:32:12.301Z - info: Rebuilding 1 pages
+2024-03-01T16:32:14.191Z - info: Site data built
+2024-03-01T16:32:14.191Z - info: Pages rebuilt
+2024-03-01T16:32:14.192Z - info: Website regeneration complete! Total build time: 1.891s
+2024-03-01T16:32:26.638Z - info: [12:32:26 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:32:26.639Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:32:26.639Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:32:26.639Z - info: 1. schedule/week7/project
+2024-03-01T16:32:27.645Z - info: Rebuilding 1 pages
+2024-03-01T16:32:29.496Z - info: Site data built
+2024-03-01T16:32:29.497Z - info: Pages rebuilt
+2024-03-01T16:32:29.497Z - info: Website regeneration complete! Total build time: 1.853s
+2024-03-01T16:35:26.035Z - info: [12:35:26 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:35:26.036Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:35:26.036Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:35:26.036Z - info: 1. schedule/week7/project
+2024-03-01T16:35:27.053Z - info: Rebuilding 1 pages
+2024-03-01T16:35:28.911Z - info: Site data built
+2024-03-01T16:35:28.911Z - info: Pages rebuilt
+2024-03-01T16:35:28.911Z - info: Website regeneration complete! Total build time: 1.86s
+2024-03-01T16:41:21.356Z - info: [12:41:21 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:41:21.356Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:41:21.356Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:41:21.357Z - info: 1. schedule/week7/project
+2024-03-01T16:41:22.374Z - info: Rebuilding 1 pages
+2024-03-01T16:41:24.538Z - info: Site data built
+2024-03-01T16:41:24.539Z - info: Pages rebuilt
+2024-03-01T16:41:24.539Z - info: Website regeneration complete! Total build time: 2.167s
+2024-03-01T16:43:30.498Z - info: [12:43:30 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:43:30.498Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:43:30.499Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:43:30.499Z - info: 1. schedule/week7/project
+2024-03-01T16:43:31.507Z - info: Rebuilding 1 pages
+2024-03-01T16:43:33.381Z - info: Site data built
+2024-03-01T16:43:33.382Z - info: Pages rebuilt
+2024-03-01T16:43:33.382Z - info: Website regeneration complete! Total build time: 1.876s
+2024-03-01T16:43:42.353Z - info: [12:43:42 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:43:42.354Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:43:42.354Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:43:42.354Z - info: 1. schedule/week7/project
+2024-03-01T16:43:43.369Z - info: Rebuilding 1 pages
+2024-03-01T16:43:45.180Z - info: Site data built
+2024-03-01T16:43:45.180Z - info: Pages rebuilt
+2024-03-01T16:43:45.181Z - info: Website regeneration complete! Total build time: 1.814s
+2024-03-01T16:44:38.978Z - info: [12:44:38 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:44:38.979Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:44:38.979Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:44:38.979Z - info: 1. schedule/week7/project
+2024-03-01T16:44:39.984Z - info: Rebuilding 1 pages
+2024-03-01T16:44:42.354Z - info: Site data built
+2024-03-01T16:44:42.354Z - info: Pages rebuilt
+2024-03-01T16:44:42.354Z - info: Website regeneration complete! Total build time: 2.371s
+2024-03-01T16:45:15.895Z - info: [12:45:15 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-tasks-fragment.md
+2024-03-01T16:45:15.896Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:45:15.896Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:45:15.897Z - info: 1. schedule/week7/project
+2024-03-01T16:45:16.904Z - info: Rebuilding 1 pages
+2024-03-01T16:45:19.140Z - info: Site data built
+2024-03-01T16:45:19.141Z - info: Pages rebuilt
+2024-03-01T16:45:19.141Z - info: Website regeneration complete! Total build time: 2.238s
+2024-03-01T16:47:16.848Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\index as some of its dependencies were changed since the last visit
+2024-03-01T16:47:17.456Z - info: Site data built
+2024-03-01T16:47:17.457Z - info: Lazy website regeneration complete! Total build time: 0.61s
+2024-03-01T16:47:21.609Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\participation as some of its dependencies were changed since the last visit
+2024-03-01T16:47:21.887Z - info: Site data built
+2024-03-01T16:47:21.887Z - info: Lazy website regeneration complete! Total build time: 0.278s
+2024-03-01T16:48:59.186Z - info: [12:48:59 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\participation.md
+2024-03-01T16:48:59.187Z - info: Synchronizing opened pages list before reload
+2024-03-01T16:48:59.187Z - info: Current opened pages, from most-to-least recent:
+2024-03-01T16:48:59.188Z - info: 1. admin/participation
+2024-03-01T16:49:00.209Z - info: Rebuilding 1 pages
+2024-03-01T16:49:00.413Z - info: Site data built
+2024-03-01T16:49:00.414Z - info: Pages rebuilt
+2024-03-01T16:49:00.414Z - info: Website regeneration complete! Total build time: 0.207s
+2024-03-01T16:52:55.426Z - info: Website generation started at 12:52:52 am
+2024-03-01T16:53:03.874Z - info: Building assets...
