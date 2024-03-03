@@ -274,3 +274,39 @@
 2024-03-03T14:43:05.012Z - info: Website regeneration complete! Total build time: 2.975s
 2024-03-03T14:44:34.851Z - info: Website generation started at 10:44:31 pm
 2024-03-03T14:44:47.084Z - info: Building assets...
+2024-03-03T14:44:56.249Z - info: Assets built
+2024-03-03T14:44:56.250Z - info: Generating pages...
+2024-03-03T14:45:32.988Z - debug:  
+2024-03-03T14:45:32.989Z - debug:  
+2024-03-03T14:45:32.990Z - debug:  
+2024-03-03T14:45:32.991Z - debug:  
+2024-03-03T14:45:32.991Z - debug:  
+2024-03-03T14:45:32.992Z - debug:  
+2024-03-03T14:45:33.607Z - debug:  
+2024-03-03T14:45:33.608Z - debug:  
+2024-03-03T14:45:33.609Z - debug:  
+2024-03-03T14:45:33.610Z - debug:  
+2024-03-03T14:45:33.625Z - debug:  
+2024-03-03T14:45:33.664Z - debug:  
+2024-03-03T14:45:33.691Z - debug:  
+2024-03-03T14:45:33.756Z - debug:  
+2024-03-03T14:45:33.873Z - debug:  
+2024-03-03T14:45:36.499Z - debug:  
+2024-03-03T14:45:36.746Z - debug:  
+2024-03-03T14:48:11.663Z - debug:  
+2024-03-03T14:48:34.980Z - debug:  
+2024-03-03T14:48:35.004Z - debug:  
+2024-03-03T14:48:46.947Z - info: Pages built
+2024-03-03T14:48:48.072Z - info: Site data built
+2024-03-03T14:48:48.073Z - info: Website generation complete! Total build time: 256.806s
+2024-03-03T14:48:48.073Z - info: Build success!
+2024-03-03T14:54:18.984Z - info: The website has been deployed at: https://nus-cs2103-ay2324s2.github.io/website
+2024-03-03T15:59:33.245Z - info: Website generation (lazy) started at 11:59:26 pm
+2024-03-03T15:59:40.871Z - info: Building assets...
+2024-03-03T15:59:47.164Z - info: Assets built
+2024-03-03T15:59:47.166Z - info: Generating landing page...
+2024-03-03T15:59:48.664Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-03-03T15:59:49.771Z - info: Site data built
+2024-03-03T15:59:49.772Z - info: Website generation (lazy) complete! Total build time: 23.39s
+2024-03-03T15:59:49.868Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-03-03T15:59:49.869Z - info: Press CTRL+C to stop ...

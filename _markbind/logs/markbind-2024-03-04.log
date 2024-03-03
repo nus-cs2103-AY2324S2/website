@@ -1,0 +1,115 @@
+2024-03-03T16:12:40.338Z - info: [12:12:40 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\site.json
+2024-03-03T16:12:40.354Z - info: Synchronizing opened pages list before reload
+2024-03-03T16:12:40.355Z - info: Current opened pages, from most-to-least recent:
+2024-03-03T16:12:40.356Z - info: 1. index
+2024-03-03T16:12:44.852Z - info: Pages or site config modified, updating pages...
+2024-03-03T16:12:48.529Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\index as some of its dependencies were changed since the last visit
+2024-03-03T16:12:49.709Z - info: Site data built
+2024-03-03T16:12:49.709Z - info: Lazy website regeneration complete! Total build time: 1.18s
+2024-03-03T16:12:49.717Z - info: Site data built
+2024-03-03T16:47:08.571Z - info: [12:47:08 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\site.json
+2024-03-03T16:47:08.572Z - info: Synchronizing opened pages list before reload
+2024-03-03T16:47:08.572Z - info: Current opened pages, from most-to-least recent:
+2024-03-03T16:47:08.573Z - info: 1. index
+2024-03-03T16:47:13.103Z - info: Pages or site config modified, updating pages...
+2024-03-03T16:47:17.215Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\index as some of its dependencies were changed since the last visit
+2024-03-03T16:47:18.286Z - info: Site data built
+2024-03-03T16:47:18.286Z - info: Lazy website regeneration complete! Total build time: 1.071s
+2024-03-03T16:47:18.293Z - info: Site data built
+2024-03-03T16:48:23.798Z - info: Website generation (lazy) started at 12:48:19 am
+2024-03-03T16:48:32.709Z - info: Building assets...
+2024-03-03T16:48:38.731Z - info: Assets built
+2024-03-03T16:48:38.732Z - info: Generating landing page...
+2024-03-03T16:48:40.124Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-03-03T16:48:41.207Z - info: Site data built
+2024-03-03T16:48:41.208Z - info: Website generation (lazy) complete! Total build time: 21.512s
+2024-03-03T16:48:41.276Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-03-03T16:48:41.277Z - info: Press CTRL+C to stop ...
+2024-03-03T17:58:19.157Z - info: [1:58:19 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\site.json
+2024-03-03T17:58:19.158Z - info: Synchronizing opened pages list before reload
+2024-03-03T17:58:19.158Z - info: No pages are currently opened
+2024-03-03T17:58:23.965Z - info: Pages or site config modified, updating pages...
+2024-03-03T17:58:27.781Z - warn:  RangeError: Invalid array length
+    at ProgressBar.render (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\lib\progress\node-progress.js:188:14)
+    at Site.<anonymous> (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:873:25)
+    at Generator.next (<anonymous>)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:27:12)
+    at Site.runPageGenerationTasks (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:870:16)
+    at Site.<anonymous> (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:578:28)
+    at Generator.next (<anonymous>)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:27:12)
+    at Site._rebuildPagesBeingViewed (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:566:16)
+    at Site.<anonymous> (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:654:28)
+    at Generator.next (<anonymous>)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\Site\index.js:31:71
+2024-03-03T17:58:29.260Z - info: Site data built
+2024-03-03T17:59:16.833Z - info: [1:59:16 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_course-CS2103\mid-semester-survey-results.md
+2024-03-03T17:59:16.833Z - info: Synchronizing opened pages list before reload
+2024-03-03T17:59:16.833Z - info: No pages are currently opened
+2024-03-03T17:59:17.839Z - info: Assets built
+2024-03-03T17:59:24.488Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\mid-semester-survey-results as some of its dependencies were changed since the last visit
+2024-03-03T17:59:24.989Z - info: Site data built
+2024-03-03T17:59:24.990Z - info: Lazy website regeneration complete! Total build time: 0.501s
+2024-03-03T18:00:29.671Z - info: Website generation (lazy) started at 2:00:29 am
+2024-03-03T18:00:36.999Z - info: Building assets...
+2024-03-03T18:00:42.549Z - info: Assets built
+2024-03-03T18:00:42.550Z - info: Generating landing page...
+2024-03-03T18:00:43.962Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-03-03T18:00:45.043Z - info: Site data built
+2024-03-03T18:00:45.044Z - info: Website generation (lazy) complete! Total build time: 15.421s
+2024-03-03T18:00:45.091Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-03-03T18:00:45.092Z - info: Press CTRL+C to stop ...
+2024-03-03T18:02:28.654Z - info: [2:02:28 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_course-CS2103\mid-semester-survey-results.md
+2024-03-03T18:02:28.654Z - info: Synchronizing opened pages list before reload
+2024-03-03T18:02:28.655Z - info: Current opened pages, from most-to-least recent:
+2024-03-03T18:02:28.655Z - info: 1. index
+2024-03-03T18:02:29.663Z - info: Assets built
+2024-03-03T18:02:30.243Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\mid-semester-survey-results as some of its dependencies were changed since the last visit
+2024-03-03T18:02:30.847Z - info: Site data built
+2024-03-03T18:02:30.847Z - info: Lazy website regeneration complete! Total build time: 0.605s
+2024-03-03T18:05:33.070Z - info: [2:05:33 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_course-CS2103\mid-semester-survey-results.md
+2024-03-03T18:05:33.071Z - info: Synchronizing opened pages list before reload
+2024-03-03T18:05:33.071Z - info: Current opened pages, from most-to-least recent:
+2024-03-03T18:05:33.071Z - info: 1. admin/mid-semester-survey-results
+2024-03-03T18:05:34.086Z - info: Rebuilding 1 pages
+2024-03-03T18:05:34.345Z - info: Site data built
+2024-03-03T18:05:34.345Z - info: Pages rebuilt
+2024-03-03T18:05:34.346Z - info: Website regeneration complete! Total build time: 0.262s
+2024-03-03T18:12:02.811Z - info: [2:12:02 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_course-CS2103\mid-semester-survey-results.md
+2024-03-03T18:12:02.812Z - info: Synchronizing opened pages list before reload
+2024-03-03T18:12:02.812Z - info: Current opened pages, from most-to-least recent:
+2024-03-03T18:12:02.812Z - info: 1. admin/mid-semester-survey-results
+2024-03-03T18:12:03.816Z - info: Rebuilding 1 pages
+2024-03-03T18:12:04.149Z - info: Site data built
+2024-03-03T18:12:04.149Z - info: Pages rebuilt
+2024-03-03T18:12:04.149Z - info: Website regeneration complete! Total build time: 0.334s
+2024-03-03T18:17:08.275Z - info: [2:17:08 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_course-CS2103\mid-semester-survey-results.md
+2024-03-03T18:17:08.275Z - info: Synchronizing opened pages list before reload
+2024-03-03T18:17:08.276Z - info: Current opened pages, from most-to-least recent:
+2024-03-03T18:17:08.276Z - info: 1. admin/mid-semester-survey-results
+2024-03-03T18:17:09.291Z - info: Rebuilding 1 pages
+2024-03-03T18:17:09.659Z - info: Site data built
+2024-03-03T18:17:09.660Z - info: Pages rebuilt
+2024-03-03T18:17:09.660Z - info: Website regeneration complete! Total build time: 0.37s
+2024-03-03T18:22:10.911Z - info: [2:22:10 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_course-CS2103\mid-semester-survey-results.md
+2024-03-03T18:22:10.911Z - info: Synchronizing opened pages list before reload
+2024-03-03T18:22:10.912Z - info: Current opened pages, from most-to-least recent:
+2024-03-03T18:22:10.912Z - info: 1. admin/mid-semester-survey-results
+2024-03-03T18:22:11.924Z - info: Rebuilding 1 pages
+2024-03-03T18:22:12.253Z - info: Site data built
+2024-03-03T18:22:12.253Z - info: Pages rebuilt
+2024-03-03T18:22:12.253Z - info: Website regeneration complete! Total build time: 0.332s
+2024-03-03T18:25:11.042Z - info: [2:25:11 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_course-CS2103\mid-semester-survey-results.md
+2024-03-03T18:25:11.042Z - info: Synchronizing opened pages list before reload
+2024-03-03T18:25:11.042Z - info: Current opened pages, from most-to-least recent:
+2024-03-03T18:25:11.043Z - info: 1. admin/mid-semester-survey-results
+2024-03-03T18:25:12.048Z - info: Rebuilding 1 pages
+2024-03-03T18:25:12.391Z - info: Site data built
+2024-03-03T18:25:12.392Z - info: Pages rebuilt
+2024-03-03T18:25:12.392Z - info: Website regeneration complete! Total build time: 0.345s
+2024-03-03T18:26:21.775Z - info: Website generation started at 2:26:19 am
+2024-03-03T18:26:31.845Z - info: Building assets...
