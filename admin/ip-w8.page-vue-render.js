@@ -47,12 +47,12 @@ with(this){return _c('li',[_c('p',[_c('strong',[_v("Submit your evaluation")]),_
 with(this){return _c('li',[_c('p',[_c('strong',[_v("Repeat the above steps for the 2nd iP")]),_v(" allocated to you (use the survey "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("iP Peer Evaluation 2")]),_v(")."),_c('br'),_v("\nIf "),_c('em',[_v("both")]),_v(" iPs crash or fail severely in a similar fashion, the problem may be on your side. Please contact the teaching team to ask how to proceed.")])])}
 },function anonymous(
 ) {
-with(this){return _c('li',[_c('p',[_c('span',{staticClass:"dimmed"},[_c('strong',[_v("Take note of the effort required for a "),_c('em',[_v("typical")]),_v(" iP")]),_v(": After seeing two more iPs, you should now be in a better position to estimate how much you need to do for the tP (reason: the expected workload for the tP is that each team member puts in about one "),_c('em',[_v("typical")]),_v(" iP worth of effort).")])])])}
+with(this){return _c('li',[_c('p',[_c('span',{staticClass:"dimmed"},[_c('strong',[_v("Take note of the effort required for a "),_c('em',[_v("typical")]),_v(" iP")]),_v(": After seeing two more iPs, you should now be in a better position to estimate how much you need to do for the tP (reason: the expected workload for the tP is estimated with reference to the effort required for a "),_c('em',[_v("typical")]),_v(" iP).")])])])}
 },function anonymous(
 ) {
 with(this){return _c('p',[_c('span',{staticClass:"float-start algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/ip-w7.html"}},[_c('span',[_c('span',{staticClass:"far fa-arrow-alt-circle-left",attrs:{"aria-hidden":"true"}}),_v(" iP: Week 7")])])]),_c('span',{staticClass:"float-end algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/ip-grading.html"}},[_c('span',[_v("iP: Grading "),_c('span',{staticClass:"far fa-arrow-alt-circle-right",attrs:{"aria-hidden":"true"}})])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Mon, 4 Mar 2024, 2:26:39 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Tue, 5 Mar 2024, 18:41:17 GMT+8]")])])])}
 }];
   

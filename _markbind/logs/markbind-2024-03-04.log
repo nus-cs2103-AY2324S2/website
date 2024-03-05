@@ -113,3 +113,78 @@
 2024-03-03T18:25:12.392Z - info: Website regeneration complete! Total build time: 0.345s
 2024-03-03T18:26:21.775Z - info: Website generation started at 2:26:19 am
 2024-03-03T18:26:31.845Z - info: Building assets...
+2024-03-03T18:26:39.729Z - info: Assets built
+2024-03-03T18:26:39.730Z - info: Generating pages...
+2024-03-03T18:27:13.211Z - debug:  
+2024-03-03T18:27:13.212Z - debug:  
+2024-03-03T18:27:13.214Z - debug:  
+2024-03-03T18:27:13.214Z - debug:  
+2024-03-03T18:27:13.216Z - debug:  
+2024-03-03T18:27:13.217Z - debug:  
+2024-03-03T18:27:13.218Z - debug:  
+2024-03-03T18:27:13.219Z - debug:  
+2024-03-03T18:27:13.219Z - debug:  
+2024-03-03T18:27:13.220Z - debug:  
+2024-03-03T18:27:13.221Z - debug:  
+2024-03-03T18:27:13.221Z - debug:  
+2024-03-03T18:27:13.221Z - debug:  
+2024-03-03T18:27:13.221Z - debug:  
+2024-03-03T18:27:13.509Z - debug:  
+2024-03-03T18:27:15.699Z - debug:  
+2024-03-03T18:27:15.915Z - debug:  
+2024-03-03T18:29:16.979Z - debug:  
+2024-03-03T18:29:32.618Z - debug:  
+2024-03-03T18:29:32.630Z - debug:  
+2024-03-03T18:29:43.354Z - info: Pages built
+2024-03-03T18:29:44.279Z - info: Site data built
+2024-03-03T18:29:44.279Z - info: Website generation complete! Total build time: 205.102s
+2024-03-03T18:29:44.279Z - info: Build success!
+2024-03-03T18:31:49.264Z - info: The website has been deployed at: https://nus-cs2103-ay2324s2.github.io/website
+2024-03-04T15:23:23.269Z - info: Website generation (lazy) started at 11:23:15 pm
+2024-03-04T15:23:32.003Z - info: Building assets...
+2024-03-04T15:23:37.741Z - info: Assets built
+2024-03-04T15:23:37.742Z - info: Generating landing page...
+2024-03-04T15:23:38.777Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-03-04T15:23:40.021Z - info: Site data built
+2024-03-04T15:23:40.022Z - info: Website generation (lazy) complete! Total build time: 24.383s
+2024-03-04T15:23:40.522Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-03-04T15:23:40.522Z - info: Press CTRL+C to stop ...
+2024-03-04T15:23:52.644Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\mid-semester-survey-results as some of its dependencies were changed since the last visit
+2024-03-04T15:23:54.390Z - info: Site data built
+2024-03-04T15:23:54.390Z - info: Lazy website regeneration complete! Total build time: 1.746s
+2024-03-04T15:43:41.617Z - info: [11:43:41 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_course-TIC2002\mid-semester-survey-results.md
+2024-03-04T15:43:41.618Z - info: Synchronizing opened pages list before reload
+2024-03-04T15:43:41.619Z - info: Current opened pages, from most-to-least recent:
+2024-03-04T15:43:41.619Z - info: 1. admin/mid-semester-survey-results
+2024-03-04T15:43:41.619Z - info: 2. index
+2024-03-04T15:43:42.635Z - info: Rebuilding 1 pages
+2024-03-04T15:43:42.790Z - info: Site data built
+2024-03-04T15:43:42.791Z - info: Pages rebuilt
+2024-03-04T15:43:42.791Z - info: Website regeneration complete! Total build time: 0.159s
+2024-03-04T15:45:12.434Z - info: [11:45:12 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_course-TIC2002\mid-semester-survey-results.md
+2024-03-04T15:45:12.434Z - info: Synchronizing opened pages list before reload
+2024-03-04T15:45:12.434Z - info: Current opened pages, from most-to-least recent:
+2024-03-04T15:45:12.434Z - info: 1. admin/mid-semester-survey-results
+2024-03-04T15:45:12.434Z - info: 2. index
+2024-03-04T15:45:13.440Z - info: Rebuilding 1 pages
+2024-03-04T15:45:13.567Z - info: Site data built
+2024-03-04T15:45:13.567Z - info: Pages rebuilt
+2024-03-04T15:45:13.567Z - info: Website regeneration complete! Total build time: 0.128s
+2024-03-04T15:53:57.414Z - info: [11:53:57 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_course-TIC2002\mid-semester-survey-results.md
+2024-03-04T15:53:57.414Z - info: Synchronizing opened pages list before reload
+2024-03-04T15:53:57.414Z - info: Current opened pages, from most-to-least recent:
+2024-03-04T15:53:57.414Z - info: 1. admin/mid-semester-survey-results
+2024-03-04T15:53:57.414Z - info: 2. index
+2024-03-04T15:53:58.419Z - info: Rebuilding 1 pages
+2024-03-04T15:53:58.549Z - info: Site data built
+2024-03-04T15:53:58.549Z - info: Pages rebuilt
+2024-03-04T15:53:58.549Z - info: Website regeneration complete! Total build time: 0.131s
+2024-03-04T15:58:57.950Z - info: [11:58:57 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\_course-TIC2002\mid-semester-survey-results.md
+2024-03-04T15:58:57.951Z - info: Synchronizing opened pages list before reload
+2024-03-04T15:58:57.951Z - info: Current opened pages, from most-to-least recent:
+2024-03-04T15:58:57.951Z - info: 1. admin/mid-semester-survey-results
+2024-03-04T15:58:57.951Z - info: 2. index
+2024-03-04T15:58:58.958Z - info: Rebuilding 1 pages
+2024-03-04T15:58:59.134Z - info: Site data built
+2024-03-04T15:58:59.134Z - info: Pages rebuilt
+2024-03-04T15:58:59.134Z - info: Website regeneration complete! Total build time: 0.179s
