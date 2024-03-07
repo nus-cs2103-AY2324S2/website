@@ -20,7 +20,7 @@ with(this){return _c('ul',[_c('li',[_v("-1 for each "),_c('em',[_v("professional
 with(this){return _c('ul',[_c('li',[_v("No penalty for scoring low on "),_c('em',[_v("competency criteria")]),_v(".")])])}
 },function anonymous(
 ) {
-with(this){return _c('div',{staticClass:"indented"},[_c('p',[_v("Low attendance/participation can affect participation marks directly (i.e., attended fewer than 7) or indirectly (i.e., it might result in low peer evaluation ratings).")])])}
+with(this){return _c('div',{staticClass:"indented"},[_c('p',[_v("Low attendance/participation can affect participation marks directly (i.e., participated in fewer than 7) or indirectly (i.e., it might result in low peer evaluation ratings).")])])}
 },function anonymous(
 ) {
 with(this){return _c('ul',[_c('li',[_v("Alicia earned 1/2, 3/5, "),_c('span',{staticClass:"underline"},[_v("2/5")]),_v(", 5/5, 5/5, 5/5, 5/5, 5/5, 5/5, 5/5, 4/5, 5/5 in the first 12 weeks. As she received at least half of the points in 11 of the weeks, she gets 5 participation marks. Bonus marks are not applicable as she has full marks already.")]),_v(" "),_c('li',[_v("Benjamin managed to get at least half of the participation points in 9 weeks only, which gives him 5-1 = 4 participation marks. But he participated in 10 briefings, and hence get a bonus mark to make it 5/5.")]),_v(" "),_c('li',[_v("Chun Ming met the participation points bar in 8 weeks only, giving him 5-2 = 3 marks. He lost 2 more marks because he received multiple negative ratings for two criteria, giving him 1/5 participation marks.")])])}
@@ -35,6 +35,6 @@ with(this){return _c('ul',[_c('li',[_c('strong',[_v("Q: What if I missed a parti
 with(this){return _c('p',[_c('span',{staticClass:"float-start algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/exams.html"}},[_c('span',[_c('span',{staticClass:"far fa-arrow-alt-circle-left",attrs:{"aria-hidden":"true"}}),_v(" Exams")])])]),_c('span',{staticClass:"float-end algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/gradeBreakdown.html"}},[_c('span',[_v("Grade Breakdown "),_c('span',{staticClass:"far fa-arrow-alt-circle-right",attrs:{"aria-hidden":"true"}})])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Thu, 7 Mar 2024, 12:42:16 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Thu, 7 Mar 2024, 12:48:04 GMT+8]")])])])}
 }];
   
