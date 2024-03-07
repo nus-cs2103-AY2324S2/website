@@ -164,13 +164,13 @@ with(this){return _c('h4',{attrs:{"id":"using-milestones"}},[_v("Using Milestone
 with(this){return _c('p',[_c('mark',[_v("Given below are the conditions to satisfy for a milestone to be considered "),_c('em',[_v("properly managed")])]),_v(":")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Planning a Milestone")]),_v(" (to do within the first week of the iteration):"),_c('br')])}
+with(this){return _c('p',[_c('strong',[_c('strong',[_v("Planning a Milestone")])]),_v(" (to be done within the first week of the iteration):"),_c('br')])}
 },function anonymous(
 ) {
 with(this){return _c('ul',[_c('li',[_c('p',[_c('strong',[_v("Issues assigned to the milestone, team members assigned to issues")]),_v(": Used "),_c('a',{attrs:{"href":"https://help.github.com/articles/about-milestones/"}},[_v("GitHub milestones")]),_v(" to indicate which issues are to be handled for which milestone by assigning issues to suitable milestones. Ensured issues are assigned to team members. "),_c('span',{staticClass:"dimmed"},[_v("Note that you can change the milestone plan along the way as necessary.")])])]),_v(" "),_c('li',[_c('p',[_c('strong',[_v("Deadline set for the milestones")]),_v(" (in the GitHub milestone). "),_c('span',{staticClass:"dimmed"},[_v("Your internal milestones can be set earlier than the deadlines we have set, to give you a buffer.")])])])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("Wrapping up a Milestone")]),_v(":"),_c('br')])}
+with(this){return _c('p',[_c('strong',[_c('strong',[_v("Wrapping up a Milestone")])]),_v(":"),_c('br')])}
 },function anonymous(
 ) {
 with(this){return _c('li',[_c('p',[_c('strong',[_v("A working product tagged")]),_v(" with the correct tag (e.g. "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("v1.3")]),_v(") and is pushed to the main repo or a "),_c('strong',[_v("product "),_c('em',[_v("release")]),_v(" done on GitHub")]),_v(" ("),_c('a',{attrs:{"href":"https://github.com/se-edu/addressbook-level3/releases/"}},[_v("example")]),_v(").")])])}
@@ -182,6 +182,6 @@ with(this){return _c('li',[_c('p',[_c('strong',[_v("CI passing")]),_v(" for the 
 with(this){return _c('p',[_c('span',{staticClass:"float-start algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/appendixD-help.html"}},[_c('span',[_c('span',{staticClass:"far fa-arrow-alt-circle-left",attrs:{"aria-hidden":"true"}}),_v(" Apdx D: Getting Help")])])]),_c('span',{staticClass:"float-end algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/appendixF-teamworkIssues.html"}},[_c('span',[_v("Apdx F: Handling Team Issues "),_c('span',{staticClass:"far fa-arrow-alt-circle-right",attrs:{"aria-hidden":"true"}})])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Thu, 7 Mar 2024, 12:48:04 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Fri, 8 Mar 2024, 1:12:01 GMT+8]")])])])}
 }];
   

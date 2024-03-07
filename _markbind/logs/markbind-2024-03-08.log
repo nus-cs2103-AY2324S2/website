@@ -1,0 +1,94 @@
+2024-03-07T16:36:29.946Z - info: Website generation (lazy) started at 12:36:21 am
+2024-03-07T16:36:40.865Z - info: Building assets...
+2024-03-07T16:36:47.827Z - info: Assets built
+2024-03-07T16:36:47.828Z - info: Generating landing page...
+2024-03-07T16:36:49.525Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-03-07T16:36:50.896Z - info: Site data built
+2024-03-07T16:36:50.896Z - info: Website generation (lazy) complete! Total build time: 29.198s
+2024-03-07T16:36:51.480Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-03-07T16:36:51.481Z - info: Press CTRL+C to stop ...
+2024-03-07T16:37:59.732Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\tutorials as some of its dependencies were changed since the last visit
+2024-03-07T16:38:00.427Z - info: Site data built
+2024-03-07T16:38:00.427Z - info: Lazy website regeneration complete! Total build time: 0.695s
+2024-03-07T16:38:34.744Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\participation as some of its dependencies were changed since the last visit
+2024-03-07T16:38:35.166Z - info: Site data built
+2024-03-07T16:38:35.166Z - info: Lazy website regeneration complete! Total build time: 0.422s
+2024-03-07T16:39:30.274Z - info: [12:39:30 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tutorials.md
+2024-03-07T16:39:30.275Z - info: Synchronizing opened pages list before reload
+2024-03-07T16:39:30.275Z - info: Current opened pages, from most-to-least recent:
+2024-03-07T16:39:30.276Z - info: 1. admin/tutorials
+2024-03-07T16:39:31.282Z - info: Rebuilding 1 pages
+2024-03-07T16:39:31.684Z - info: Site data built
+2024-03-07T16:39:31.684Z - info: Pages rebuilt
+2024-03-07T16:39:31.684Z - info: Website regeneration complete! Total build time: 0.403s
+2024-03-07T16:39:51.182Z - info: [12:39:51 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tutorials.md
+2024-03-07T16:39:51.183Z - info: Synchronizing opened pages list before reload
+2024-03-07T16:39:51.183Z - info: Current opened pages, from most-to-least recent:
+2024-03-07T16:39:51.184Z - info: 1. admin/tutorials
+2024-03-07T16:39:52.197Z - info: Rebuilding 1 pages
+2024-03-07T16:39:52.713Z - info: Site data built
+2024-03-07T16:39:52.713Z - info: Pages rebuilt
+2024-03-07T16:39:52.714Z - info: Website regeneration complete! Total build time: 0.517s
+2024-03-07T16:58:45.750Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\schedule\week8\index as some of its dependencies were changed since the last visit
+2024-03-07T16:58:46.924Z - info: Site data built
+2024-03-07T16:58:46.925Z - info: Lazy website regeneration complete! Total build time: 1.175s
+2024-03-07T16:59:01.160Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\schedule\week8\admin as some of its dependencies were changed since the last visit
+2024-03-07T16:59:01.620Z - info: Site data built
+2024-03-07T16:59:01.620Z - info: Lazy website regeneration complete! Total build time: 0.46s
+2024-03-07T16:59:16.936Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\schedule\week8\topics as some of its dependencies were changed since the last visit
+2024-03-07T16:59:39.501Z - debug:  
+2024-03-07T16:59:39.502Z - debug:  
+2024-03-07T16:59:39.503Z - debug:  
+2024-03-07T16:59:39.503Z - debug:  
+2024-03-07T16:59:39.507Z - debug:  
+2024-03-07T16:59:40.024Z - debug:  
+2024-03-07T16:59:40.763Z - debug:  
+2024-03-07T16:59:41.212Z - debug:  
+2024-03-07T16:59:41.446Z - debug:  
+2024-03-07T16:59:41.701Z - debug:  
+2024-03-07T16:59:41.727Z - debug:  
+2024-03-07T16:59:41.910Z - debug:  
+2024-03-07T16:59:42.035Z - debug:  
+2024-03-07T16:59:42.072Z - debug:  
+2024-03-07T16:59:42.786Z - info: Site data built
+2024-03-07T16:59:42.786Z - info: Lazy website regeneration complete! Total build time: 25.85s
+2024-03-07T17:02:21.366Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\schedule\week8\project as some of its dependencies were changed since the last visit
+2024-03-07T17:02:23.330Z - info: Site data built
+2024-03-07T17:02:23.331Z - info: Lazy website regeneration complete! Total build time: 1.966s
+2024-03-07T17:03:16.227Z - info: [1:03:16 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\ip-tasks-fragment.md
+2024-03-07T17:03:16.228Z - info: Synchronizing opened pages list before reload
+2024-03-07T17:03:16.228Z - info: Current opened pages, from most-to-least recent:
+2024-03-07T17:03:16.229Z - info: 1. schedule/week8/project
+2024-03-07T17:03:17.242Z - info: Rebuilding 1 pages
+2024-03-07T17:03:18.875Z - info: Site data built
+2024-03-07T17:03:18.875Z - info: Pages rebuilt
+2024-03-07T17:03:18.876Z - info: Website regeneration complete! Total build time: 1.635s
+2024-03-07T17:05:01.973Z - info: [1:05:01 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\ip-tasks-fragment.md
+2024-03-07T17:05:01.974Z - info: Synchronizing opened pages list before reload
+2024-03-07T17:05:01.974Z - info: Current opened pages, from most-to-least recent:
+2024-03-07T17:05:01.974Z - info: 1. schedule/week8/project
+2024-03-07T17:05:02.984Z - info: Rebuilding 1 pages
+2024-03-07T17:05:04.599Z - info: Site data built
+2024-03-07T17:05:04.599Z - info: Pages rebuilt
+2024-03-07T17:05:04.600Z - info: Website regeneration complete! Total build time: 1.619s
+2024-03-07T17:07:13.980Z - info: [1:07:13 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\appendixE-gitHub.md
+2024-03-07T17:07:13.981Z - info: Synchronizing opened pages list before reload
+2024-03-07T17:07:13.981Z - info: Current opened pages, from most-to-least recent:
+2024-03-07T17:07:13.981Z - info: 1. schedule/week8/project
+2024-03-07T17:07:14.991Z - info: Rebuilding 1 pages
+2024-03-07T17:07:16.649Z - info: Site data built
+2024-03-07T17:07:16.649Z - info: Pages rebuilt
+2024-03-07T17:07:16.649Z - info: Website regeneration complete! Total build time: 1.66s
+2024-03-07T17:07:52.536Z - info: [1:07:52 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\appendixE-gitHub.md
+2024-03-07T17:07:52.537Z - info: Synchronizing opened pages list before reload
+2024-03-07T17:07:52.537Z - info: Current opened pages, from most-to-least recent:
+2024-03-07T17:07:52.538Z - info: 1. schedule/week8/project
+2024-03-07T17:07:53.555Z - info: Rebuilding 1 pages
+2024-03-07T17:07:55.163Z - info: Site data built
+2024-03-07T17:07:55.163Z - info: Pages rebuilt
+2024-03-07T17:07:55.163Z - info: Website regeneration complete! Total build time: 1.608s
+2024-03-07T17:09:52.880Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\schedule\week8\tutorial as some of its dependencies were changed since the last visit
+2024-03-07T17:09:54.012Z - info: Site data built
+2024-03-07T17:09:54.012Z - info: Lazy website regeneration complete! Total build time: 1.133s
+2024-03-07T17:11:48.503Z - info: Website generation started at 1:11:46 am
+2024-03-07T17:11:56.180Z - info: Building assets...
