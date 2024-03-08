@@ -59,6 +59,6 @@ with(this){return _c('ul',[_c('li',[_v("Downtime (or catch-up on missed tasks)")
 with(this){return _c('p',[_c('span',{staticClass:"float-start algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/courseBriefings.html"}},[_c('span',[_c('span',{staticClass:"far fa-arrow-alt-circle-left",attrs:{"aria-hidden":"true"}}),_v(" Course Briefing Videos")])])]),_c('span',{staticClass:"float-end algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/lectures.html"}},[_c('span',[_v("Weekly Briefings "),_c('span',{staticClass:"far fa-arrow-alt-circle-right",attrs:{"aria-hidden":"true"}})])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Fri, 8 Mar 2024, 1:12:01 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Fri, 8 Mar 2024, 13:32:10 GMT+8]")])])])}
 }];
   

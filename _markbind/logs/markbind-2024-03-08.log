@@ -92,3 +92,47 @@
 2024-03-07T17:09:54.012Z - info: Lazy website regeneration complete! Total build time: 1.133s
 2024-03-07T17:11:48.503Z - info: Website generation started at 1:11:46 am
 2024-03-07T17:11:56.180Z - info: Building assets...
+2024-03-07T17:12:01.776Z - info: Assets built
+2024-03-07T17:12:01.777Z - info: Generating pages...
+2024-03-07T17:12:27.513Z - debug:  
+2024-03-07T17:12:27.575Z - debug:  
+2024-03-07T17:12:27.676Z - debug:  
+2024-03-07T17:12:27.695Z - debug:  
+2024-03-07T17:12:27.699Z - debug:  
+2024-03-07T17:12:27.720Z - debug:  
+2024-03-07T17:12:27.832Z - debug:  
+2024-03-07T17:12:27.846Z - debug:  
+2024-03-07T17:12:27.846Z - debug:  
+2024-03-07T17:12:30.169Z - debug:  
+2024-03-07T17:12:30.169Z - debug:  
+2024-03-07T17:12:30.169Z - debug:  
+2024-03-07T17:12:30.170Z - debug:  
+2024-03-07T17:12:30.170Z - debug:  
+2024-03-07T17:12:30.170Z - debug:  
+2024-03-07T17:12:30.170Z - debug:  
+2024-03-07T17:12:30.393Z - debug:  
+2024-03-07T17:14:22.567Z - debug:  
+2024-03-07T17:14:36.801Z - debug:  
+2024-03-07T17:14:36.830Z - debug:  
+2024-03-07T17:14:47.452Z - info: Pages built
+2024-03-07T17:14:48.446Z - info: Site data built
+2024-03-07T17:14:48.446Z - info: Website generation complete! Total build time: 182.193s
+2024-03-07T17:14:48.446Z - info: Build success!
+2024-03-07T17:18:06.985Z - info: The website has been deployed at: https://nus-cs2103-ay2324s2.github.io/website
+2024-03-08T05:14:20.326Z - info: Website generation (lazy) started at 1:14:13 pm
+2024-03-08T05:14:27.955Z - info: Building assets...
+2024-03-08T05:14:32.770Z - info: Assets built
+2024-03-08T05:14:32.770Z - info: Generating landing page...
+2024-03-08T05:14:34.026Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-03-08T05:14:34.991Z - info: Site data built
+2024-03-08T05:14:34.992Z - info: Website generation (lazy) complete! Total build time: 21.266s
+2024-03-08T05:14:35.424Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-03-08T05:14:35.424Z - info: Press CTRL+C to stop ...
+2024-03-08T05:23:01.767Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\index as some of its dependencies were changed since the last visit
+2024-03-08T05:23:01.995Z - info: Site data built
+2024-03-08T05:23:01.995Z - info: Lazy website regeneration complete! Total build time: 0.23s
+2024-03-08T05:23:07.167Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\specifyingRequirements as some of its dependencies were changed since the last visit
+2024-03-08T05:23:07.954Z - info: Site data built
+2024-03-08T05:23:07.954Z - info: Lazy website regeneration complete! Total build time: 0.789s
+2024-03-08T05:32:00.836Z - info: Website generation started at 1:31:59 pm
+2024-03-08T05:32:06.318Z - info: Building assets...
