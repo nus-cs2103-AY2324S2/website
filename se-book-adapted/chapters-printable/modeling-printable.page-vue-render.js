@@ -110,7 +110,7 @@ with(this){return _c('p',[_c('strong',[_v("CCDs do not contain solution-specific
 with(this){return _c('p',[_c('strong',[_v("CCDs represents the class "),_c('em',[_v("structure")]),_v(" of the problem domain")]),_v(" and not their behavior, just like class diagrams. To show behavior, use other diagrams such as sequence diagrams.")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("CCD notation is a subset of the class diagram notation (omitsmethods and navigability).")])])}
+with(this){return _c('p',[_c('strong',[_v("CCD notation is a subset of the class diagram notation (omits methods and navigability).")])])}
 },function anonymous(
 ) {
 with(this){return _c('div',[_c('h2',{attrs:{"id":"modeling-behaviors"}},[_c('span',[_v("Modeling behaviors")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#modeling-behaviors","onclick":"event.stopPropagation()"}})])])}
@@ -161,6 +161,6 @@ with(this){return _c('p',[_v("Note that the behavior of the "),_c('code',{pre:tr
 with(this){return _c('p',[_v("Given below are the interactions between the player and the "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("TextUi")]),_v(" for the whole game.")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Fri, 15 Mar 2024, 19:22:28 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Sun, 17 Mar 2024, 14:04:25 GMT+8]")])])])}
 }];
   

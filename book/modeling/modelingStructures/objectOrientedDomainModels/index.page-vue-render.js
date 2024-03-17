@@ -26,12 +26,12 @@ with(this){return _c('p',[_c('strong',[_v("CCDs do not contain solution-specific
 with(this){return _c('p',[_c('strong',[_v("CCDs represents the class "),_c('em',[_v("structure")]),_v(" of the problem domain")]),_v(" and not their behavior, just like class diagrams. To show behavior, use other diagrams such as sequence diagrams.")])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_c('strong',[_v("CCD notation is a subset of the class diagram notation (omitsmethods and navigability).")])])}
+with(this){return _c('p',[_c('strong',[_v("CCD notation is a subset of the class diagram notation (omits methods and navigability).")])])}
 },function anonymous(
 ) {
 with(this){return _c('h5',{attrs:{"id":"exercises"}},[_c('span',[_c('span',{staticClass:"glyphicon glyphicon-question-sign",attrs:{"aria-hidden":"true"}})]),_c('span',[_c('span',{staticClass:"glyphicon glyphicon-ok-sign",attrs:{"aria-hidden":"true"}})]),_v(" Exercises:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#exercises","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Fri, 15 Mar 2024, 19:22:28 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Sun, 17 Mar 2024, 14:04:25 GMT+8]")])])])}
 }];
   
