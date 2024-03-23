@@ -86,6 +86,6 @@ with(this){return _c('span',{staticClass:"dimmed"},[_v("Reason: You are "),_c('e
 with(this){return _c('li',[_c('span',{staticClass:"badge rounded-pill bg-success text-white"},[_c('span',{staticClass:"fas fa-lightbulb",attrs:{"aria-hidden":"true"}})]),_v(" If you want to smoke-test your JAR file on an OS that is not available within your team, you can post a request in the forum to see if anyone else in the class can help you smoke-test it on that OS.")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Sat, 23 Mar 2024, 18:16:18 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Sun, 24 Mar 2024, 2:49:39 GMT+8]")])])])}
 }];
   
