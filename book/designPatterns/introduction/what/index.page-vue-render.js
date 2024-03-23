@@ -14,12 +14,12 @@ with(this){return _c('p',[_c('span',{staticClass:"dimmed"},[_c('strong',[_c('spa
 with(this){return _c('div',[_c('h4',{attrs:{"id":"what"}},[_c('span',[_v("What")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#what","onclick":"event.stopPropagation()"}})])])}
 },function anonymous(
 ) {
-with(this){return _c('p',[_v("After repeated attempts at solving such problems, better solutions are discovered and refined over time. These solutions are known as design patterns, "),_c('strong',[_v("a term popularized by the seminal book")]),_v(" "),_c('a',{attrs:{"href":"https://en.wikipedia.org/wiki/Design_Patterns"}},[_c('strong',[_c('em',[_v("Design Patterns: Elements of Reusable Object-Oriented Software")]),_v(" by the so-called \"Gang of Four\" (GoF)")])]),_v(" written by Eric Gamma, Richard Helm, Ralph Johnson, and John Vlissides.")])}
+with(this){return _c('p',[_v("After repeated attempts at solving such problems, better solutions are discovered and refined over time. These solutions are known as design patterns, "),_c('strong',[_v("a term popularized by the seminal book")]),_v(" "),_c('a',{attrs:{"href":"https://en.wikipedia.org/wiki/Design_Patterns"}},[_c('strong',[_c('em',[_v("Design Patterns: Elements of Reusable Object-Oriented Software")]),_v(" by the so-called \"Gang of Four\" (GoF)")])]),_v(" written by Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.")])}
 },function anonymous(
 ) {
 with(this){return _c('h5',{attrs:{"id":"exercises"}},[_c('span',[_c('span',{staticClass:"glyphicon glyphicon-question-sign",attrs:{"aria-hidden":"true"}})]),_c('span',[_c('span',{staticClass:"glyphicon glyphicon-ok-sign",attrs:{"aria-hidden":"true"}})]),_v(" Exercises:"),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#exercises","onclick":"event.stopPropagation()"}})])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Fri, 22 Mar 2024, 17:35:30 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Sat, 23 Mar 2024, 11:54:45 GMT+8]")])])])}
 }];
   
