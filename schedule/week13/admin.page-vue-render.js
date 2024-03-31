@@ -23,7 +23,7 @@ with(this){return _c('span',{staticClass:"badge bg-danger  font-weight-normal"},
 with(this){return _c('span',{staticClass:"badge bg-secondary  font-weight-normal"},[_c('span',[_c('span',{staticClass:"far fa-clock",attrs:{"aria-hidden":"true"}}),_v(" Thu, Apr 18th 2359")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("Submission will open within one day after the final submission (i.e., sometime in Tue, Apr 16th)."),_c('br'),_c('span',[_c('span',{staticClass:"badge rounded-pill bg-success text-white"},[_c('span',{staticClass:"fas fa-lightbulb",attrs:{"aria-hidden":"true"}})]),_v(" If you did not receive the submission link, you can get TEAMMATES to resend the link by going to "),_c('a',{attrs:{"href":"https://teammatesv4.appspot.com/web/front/help/session-links-recovery"}},[_v("TEAMMATES link recovery page")]),_v("\nand entering your NUSNET email address (try the "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("e______@u.nus.edu")]),_v(" before tyring the 'friendly' email address). Remember to check your spam folder as well.")])])])}
+with(this){return _c('ul',[_c('li',[_v("Submission will open within one day after the final submission (i.e., sometime in Tue, Apr 16th)."),_c('br'),_c('span',[_c('span',{staticClass:"badge rounded-pill bg-success text-white"},[_c('span',{staticClass:"fas fa-lightbulb",attrs:{"aria-hidden":"true"}})]),_v(" If you did not receive the submission link, you can get TEAMMATES to resend the link by going to "),_c('a',{attrs:{"href":"https://teammatesv4.appspot.com/web/front/help/session-links-recovery"}},[_v("TEAMMATES link recovery page")]),_v("\nand entering your NUSNET email address (try the "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("e______@u.nus.edu")]),_v(" before trying the 'friendly' email address). Remember to check your spam folder as well.")])])])}
 },function anonymous(
 ) {
 with(this){return _c('span',[_v("Submit the "),_c('em',[_v("PE-Readiness Quiz")])])}
@@ -35,6 +35,6 @@ with(this){return _c('span',{staticClass:"badge bg-secondary  font-weight-normal
 with(this){return _c('div',[_c('ul',[_c('li',[_v("Submit this quiz (on Canvas) to confirm that you know important details about the PE.")])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.3.0")]),_v(", generated on Fri, 29 Mar 2024, 23:38:33 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Sun, 31 Mar 2024, 13:25:53 GMT+8]")])])])}
 }];
   
