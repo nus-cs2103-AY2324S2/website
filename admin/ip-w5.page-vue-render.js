@@ -47,6 +47,6 @@ with(this){return _c('p',[_c('span',{staticClass:"badge rounded-pill bg-success 
 with(this){return _c('p',[_c('span',{staticClass:"float-start algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/ip-w4.html"}},[_c('span',[_c('span',{staticClass:"far fa-arrow-alt-circle-left",attrs:{"aria-hidden":"true"}}),_v(" iP: Week 4")])])]),_c('span',{staticClass:"float-end algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/ip-w6.html"}},[_c('span',[_v("iP: Week 6 "),_c('span',{staticClass:"far fa-arrow-alt-circle-right",attrs:{"aria-hidden":"true"}})])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Sun, 31 Mar 2024, 13:25:53 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Tue, 2 Apr 2024, 14:37:22 GMT+8]")])])])}
 }];
   

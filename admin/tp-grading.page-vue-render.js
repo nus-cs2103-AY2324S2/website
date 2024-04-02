@@ -59,7 +59,7 @@ with(this){return _c('ul',[_c('li',[_v("Step 1: Evaluate the effort for the enti
 with(this){return _c('ul',[_c('li',[_v("Step 2: Evaluate how much of that effort can be attributed to you. This is evaluated by team members, and tutors.")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_v("Baseline: If your team received a value higher than "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("10")]),_v(" in step 1 and the team agrees that you did roughly an equal share of implementation work, you should receive full marks for effort.")])])}
+with(this){return _c('ul',[_c('li',[_v("Baseline: If your team received a value higher than "),_c('code',{pre:true,attrs:{"class":"line-numbers hljs inline no-lang"}},[_v("5")]),_v(" in step 1 and the team agrees that you did roughly an equal share of implementation work, you should receive full marks for effort.")])])}
 },function anonymous(
 ) {
 with(this){return _c('h4',{attrs:{"id":"3-project-grading-qa-10-marks"}},[_c('div',{staticClass:"bg-warning text-dark p-1"},[_v("3. Project Grading: QA "),_c('span',{staticClass:"dimmed"},[_v("["),_c('span',[_c('span',{staticClass:"fas fa-user",attrs:{"aria-hidden":"true"}})]),_v(" 10 marks]")])]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#3-project-grading-qa-10-marks","onclick":"event.stopPropagation()"}})])}
@@ -128,6 +128,6 @@ with(this){return _c('ul',[_c('li',[_v("Do close to an equal share of the team t
 with(this){return _c('p',[_c('span',{staticClass:"float-start algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/tp-pe.html"}},[_c('span',[_c('span',{staticClass:"far fa-arrow-alt-circle-left",attrs:{"aria-hidden":"true"}}),_v(" tP: Practical Exam")])])]),_c('span',{staticClass:"float-end algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/tp-supervision.html"}},[_c('span',[_v("tP: Supervision "),_c('span',{staticClass:"far fa-arrow-alt-circle-right",attrs:{"aria-hidden":"true"}})])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Sun, 31 Mar 2024, 13:25:53 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Tue, 2 Apr 2024, 14:37:22 GMT+8]")])])])}
 }];
   
