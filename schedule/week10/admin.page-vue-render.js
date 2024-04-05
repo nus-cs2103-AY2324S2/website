@@ -14,6 +14,6 @@ with(this){return _c('h1',{attrs:{"id":"week-10-fri-mar-22nd-admin"}},[_v("Week 
 with(this){return _c('div',[_c('ul',[_c('li',[_c('strong',[_v("Weekly quiz")]),_v(": Read weekly topics allocated for this week and submit the weekly quiz before the quiz deadline "),_c('span',{staticClass:"dimmed"},[_v("(i.e., before the following\nweekly briefing)")]),_v(".")])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Wed, 3 Apr 2024, 18:11:25 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Fri, 5 Apr 2024, 10:07:26 GMT+8]")])])])}
 }];
   
