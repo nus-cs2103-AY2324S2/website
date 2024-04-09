@@ -17,6 +17,6 @@ with(this){return _c('div',[_c('h4',{attrs:{"id":"overriding"}},[_c('span',[_v("
 with(this){return _c('p',[_c('strong',[_v("Method "),_c('em',[_v("overriding")]),_v(" is when a subclass changes the behavior inherited from the parent class")]),_v(" by re-implementing the method. Overridden methods have the same name, the same type signature, and the same (or a subtype of the) return type.")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Tue, 9 Apr 2024, 20:18:02 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Tue, 9 Apr 2024, 20:27:05 GMT+8]")])])])}
 }];
   
