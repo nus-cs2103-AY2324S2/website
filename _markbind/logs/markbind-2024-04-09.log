@@ -5976,3 +5976,30 @@ Missing reference in C:\repos\nus-cs2103\cs2103-website-base\admin\tp-w10.md
 2024-04-09T12:22:33.907Z - info: The website has been deployed at: https://nus-cs2103-ay2324s2.github.io/website
 2024-04-09T12:26:53.104Z - info: Website generation started at 8:26:47 pm
 2024-04-09T12:27:00.143Z - info: Building assets...
+2024-04-09T12:27:05.423Z - info: Assets built
+2024-04-09T12:27:05.425Z - info: Generating pages...
+2024-04-09T12:27:30.897Z - debug:  
+2024-04-09T12:27:30.901Z - debug:  
+2024-04-09T12:27:31.127Z - debug:  
+2024-04-09T12:27:31.127Z - debug:  
+2024-04-09T12:27:31.305Z - debug:  
+2024-04-09T12:27:31.371Z - debug:  
+2024-04-09T12:27:33.759Z - debug:  
+2024-04-09T12:27:33.759Z - debug:  
+2024-04-09T12:27:33.759Z - debug:  
+2024-04-09T12:27:33.760Z - debug:  
+2024-04-09T12:27:33.760Z - debug:  
+2024-04-09T12:27:33.760Z - debug:  
+2024-04-09T12:27:33.760Z - debug:  
+2024-04-09T12:27:33.760Z - debug:  
+2024-04-09T12:27:33.760Z - debug:  
+2024-04-09T12:27:33.761Z - debug:  
+2024-04-09T12:27:33.991Z - debug:  
+2024-04-09T12:29:37.116Z - debug:  
+2024-04-09T12:29:52.933Z - debug:  
+2024-04-09T12:29:52.944Z - debug:  
+2024-04-09T12:30:04.322Z - info: Pages built
+2024-04-09T12:30:05.318Z - info: Site data built
+2024-04-09T12:30:05.318Z - info: Website generation complete! Total build time: 197.722s
+2024-04-09T12:30:05.318Z - info: Build success!
+2024-04-09T12:31:44.224Z - info: The website has been deployed at: https://nus-cs2103-ay2324s2.github.io/website
