@@ -440,3 +440,218 @@
 2024-04-12T06:21:40.293Z - info: Website regeneration complete! Total build time: 0.577s
 2024-04-12T06:22:21.012Z - info: Website generation started at 2:22:17 pm
 2024-04-12T06:22:31.761Z - info: Building assets...
+2024-04-12T06:22:37.088Z - info: Assets built
+2024-04-12T06:22:37.089Z - info: Generating pages...
+2024-04-12T06:22:53.913Z - debug:  
+2024-04-12T06:22:53.978Z - debug:  
+2024-04-12T06:22:54.088Z - debug:  
+2024-04-12T06:22:54.088Z - debug:  
+2024-04-12T06:22:54.305Z - debug:  
+2024-04-12T06:22:54.317Z - debug:  
+2024-04-12T06:22:54.375Z - debug:  
+2024-04-12T06:22:54.385Z - debug:  
+2024-04-12T06:22:54.385Z - debug:  
+2024-04-12T06:22:54.407Z - debug:  
+2024-04-12T06:22:54.408Z - debug:  
+2024-04-12T06:22:54.414Z - debug:  
+2024-04-12T06:22:56.861Z - debug:  
+2024-04-12T06:22:56.862Z - debug:  
+2024-04-12T06:22:56.862Z - debug:  
+2024-04-12T06:22:56.862Z - debug:  
+2024-04-12T06:22:57.067Z - debug:  
+2024-04-12T06:24:57.048Z - debug:  
+2024-04-12T06:25:13.059Z - debug:  
+2024-04-12T06:25:13.075Z - debug:  
+2024-04-12T06:25:24.714Z - info: Pages built
+2024-04-12T06:25:25.713Z - info: Site data built
+2024-04-12T06:25:25.714Z - info: Website generation complete! Total build time: 188.576s
+2024-04-12T06:25:25.714Z - info: Build success!
+2024-04-12T06:27:03.038Z - info: The website has been deployed at: https://nus-cs2103-ay2324s2.github.io/website
+2024-04-12T11:32:24.495Z - info: Website generation (lazy) started at 7:32:18 pm
+2024-04-12T11:32:32.998Z - info: Building assets...
+2024-04-12T11:32:38.648Z - info: Assets built
+2024-04-12T11:32:38.649Z - info: Generating landing page...
+2024-04-12T11:32:39.758Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-04-12T11:32:40.817Z - info: Site data built
+2024-04-12T11:32:40.818Z - info: Website generation (lazy) complete! Total build time: 22.368s
+2024-04-12T11:32:40.875Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-04-12T11:32:40.875Z - info: Press CTRL+C to stop ...
+2024-04-12T11:34:27.966Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\index as some of its dependencies were changed since the last visit
+2024-04-12T11:34:28.630Z - info: Site data built
+2024-04-12T11:34:28.631Z - info: Lazy website regeneration complete! Total build time: 0.666s
+2024-04-12T11:34:36.877Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\exams as some of its dependencies were changed since the last visit
+2024-04-12T11:34:37.217Z - info: Site data built
+2024-04-12T11:34:37.217Z - info: Lazy website regeneration complete! Total build time: 0.34s
+2024-04-12T11:42:38.946Z - info: [7:42:38 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\exams.md
+2024-04-12T11:42:38.947Z - info: Synchronizing opened pages list before reload
+2024-04-12T11:42:38.947Z - info: Current opened pages, from most-to-least recent:
+2024-04-12T11:42:38.948Z - info: 1. admin/exams
+2024-04-12T11:42:39.964Z - info: Rebuilding 1 pages
+2024-04-12T11:42:40.183Z - info: Site data built
+2024-04-12T11:42:40.183Z - info: Pages rebuilt
+2024-04-12T11:42:40.183Z - info: Website regeneration complete! Total build time: 0.221s
+2024-04-12T11:43:35.695Z - info: [7:43:35 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\exams.md
+2024-04-12T11:43:35.695Z - info: Synchronizing opened pages list before reload
+2024-04-12T11:43:35.695Z - info: Current opened pages, from most-to-least recent:
+2024-04-12T11:43:35.696Z - info: 1. admin/exams
+2024-04-12T11:43:36.711Z - info: Rebuilding 1 pages
+2024-04-12T11:43:37.022Z - info: Site data built
+2024-04-12T11:43:37.022Z - info: Pages rebuilt
+2024-04-12T11:43:37.023Z - info: Website regeneration complete! Total build time: 0.312s
+2024-04-12T11:43:55.091Z - info: [7:43:55 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\exams.md
+2024-04-12T11:43:55.092Z - info: Synchronizing opened pages list before reload
+2024-04-12T11:43:55.092Z - info: Current opened pages, from most-to-least recent:
+2024-04-12T11:43:55.092Z - info: 1. admin/exams
+2024-04-12T11:43:56.098Z - info: Rebuilding 1 pages
+2024-04-12T11:43:56.312Z - info: Site data built
+2024-04-12T11:43:56.313Z - info: Pages rebuilt
+2024-04-12T11:43:56.313Z - info: Website regeneration complete! Total build time: 0.216s
+2024-04-12T11:45:18.541Z - info: [7:45:18 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\exams.md
+2024-04-12T11:45:18.541Z - info: Synchronizing opened pages list before reload
+2024-04-12T11:45:18.541Z - info: Current opened pages, from most-to-least recent:
+2024-04-12T11:45:18.542Z - info: 1. admin/exams
+2024-04-12T11:45:19.549Z - info: Rebuilding 1 pages
+2024-04-12T11:45:19.906Z - info: Site data built
+2024-04-12T11:45:19.906Z - info: Pages rebuilt
+2024-04-12T11:45:19.906Z - info: Website regeneration complete! Total build time: 0.358s
+2024-04-12T11:46:37.786Z - info: [7:46:37 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\exams.md
+2024-04-12T11:46:37.786Z - info: Synchronizing opened pages list before reload
+2024-04-12T11:46:37.787Z - info: Current opened pages, from most-to-least recent:
+2024-04-12T11:46:37.787Z - info: 1. admin/exams
+2024-04-12T11:46:38.795Z - info: Rebuilding 1 pages
+2024-04-12T11:46:39.026Z - info: Site data built
+2024-04-12T11:46:39.026Z - info: Pages rebuilt
+2024-04-12T11:46:39.027Z - info: Website regeneration complete! Total build time: 0.233s
+2024-04-12T11:47:47.259Z - info: [7:47:47 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\exams.md
+2024-04-12T11:47:47.260Z - info: Synchronizing opened pages list before reload
+2024-04-12T11:47:47.260Z - info: Current opened pages, from most-to-least recent:
+2024-04-12T11:47:47.260Z - info: 1. admin/exams
+2024-04-12T11:47:48.269Z - info: Rebuilding 1 pages
+2024-04-12T11:47:48.531Z - info: Site data built
+2024-04-12T11:47:48.532Z - info: Pages rebuilt
+2024-04-12T11:47:48.532Z - info: Website regeneration complete! Total build time: 0.264s
+2024-04-12T11:49:23.705Z - info: [7:49:23 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\exams.md
+2024-04-12T11:49:23.705Z - info: Synchronizing opened pages list before reload
+2024-04-12T11:49:23.706Z - info: Current opened pages, from most-to-least recent:
+2024-04-12T11:49:23.706Z - info: 1. admin/exams
+2024-04-12T11:49:24.725Z - info: Rebuilding 1 pages
+2024-04-12T11:49:24.999Z - info: Site data built
+2024-04-12T11:49:24.999Z - info: Pages rebuilt
+2024-04-12T11:49:25.000Z - info: Website regeneration complete! Total build time: 0.276s
+2024-04-12T11:55:46.935Z - info: [7:55:46 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\exams.md
+2024-04-12T11:55:46.935Z - info: Synchronizing opened pages list before reload
+2024-04-12T11:55:46.935Z - info: Current opened pages, from most-to-least recent:
+2024-04-12T11:55:46.936Z - info: 1. admin/exams
+2024-04-12T11:55:47.950Z - info: Rebuilding 1 pages
+2024-04-12T11:55:48.573Z - info: Site data built
+2024-04-12T11:55:48.573Z - info: Pages rebuilt
+2024-04-12T11:55:48.574Z - info: Website regeneration complete! Total build time: 0.624s
+2024-04-12T11:56:29.862Z - info: [7:56:29 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\exams.md
+2024-04-12T11:56:29.862Z - info: Synchronizing opened pages list before reload
+2024-04-12T11:56:29.862Z - info: Current opened pages, from most-to-least recent:
+2024-04-12T11:56:29.862Z - info: 1. admin/exams
+2024-04-12T11:56:30.877Z - info: Rebuilding 1 pages
+2024-04-12T11:56:31.146Z - info: Site data built
+2024-04-12T11:56:31.146Z - info: Pages rebuilt
+2024-04-12T11:56:31.146Z - info: Website regeneration complete! Total build time: 0.27s
+2024-04-12T11:57:09.695Z - info: [7:57:09 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\exams.md
+2024-04-12T11:57:09.696Z - info: Synchronizing opened pages list before reload
+2024-04-12T11:57:09.697Z - info: Current opened pages, from most-to-least recent:
+2024-04-12T11:57:09.698Z - info: 1. admin/exams
+2024-04-12T11:57:10.710Z - info: Rebuilding 1 pages
+2024-04-12T11:57:11.147Z - info: Site data built
+2024-04-12T11:57:11.147Z - info: Pages rebuilt
+2024-04-12T11:57:11.147Z - info: Website regeneration complete! Total build time: 0.438s
+2024-04-12T12:00:22.707Z - info: [8:00:22 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\exams.md
+2024-04-12T12:00:22.707Z - info: Synchronizing opened pages list before reload
+2024-04-12T12:00:22.708Z - info: Current opened pages, from most-to-least recent:
+2024-04-12T12:00:22.708Z - info: 1. admin/exams
+2024-04-12T12:00:23.715Z - info: Rebuilding 1 pages
+2024-04-12T12:00:23.973Z - info: Site data built
+2024-04-12T12:00:23.974Z - info: Pages rebuilt
+2024-04-12T12:00:23.974Z - info: Website regeneration complete! Total build time: 0.26s
+2024-04-12T12:00:52.024Z - info: [8:00:52 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\exams.md
+2024-04-12T12:00:52.025Z - info: Synchronizing opened pages list before reload
+2024-04-12T12:00:52.025Z - info: Current opened pages, from most-to-least recent:
+2024-04-12T12:00:52.025Z - info: 1. admin/exams
+2024-04-12T12:00:53.041Z - info: Rebuilding 1 pages
+2024-04-12T12:00:53.480Z - info: Site data built
+2024-04-12T12:00:53.481Z - info: Pages rebuilt
+2024-04-12T12:00:53.481Z - info: Website regeneration complete! Total build time: 0.441s
+2024-04-12T12:01:03.342Z - info: [8:01:03 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\exams.md
+2024-04-12T12:01:03.342Z - info: Synchronizing opened pages list before reload
+2024-04-12T12:01:03.342Z - info: Current opened pages, from most-to-least recent:
+2024-04-12T12:01:03.343Z - info: 1. admin/exams
+2024-04-12T12:01:04.361Z - info: Rebuilding 1 pages
+2024-04-12T12:01:04.630Z - info: Site data built
+2024-04-12T12:01:04.630Z - info: Pages rebuilt
+2024-04-12T12:01:04.630Z - info: Website regeneration complete! Total build time: 0.27s
+2024-04-12T12:02:09.208Z - info: [8:02:09 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\exams.md
+2024-04-12T12:02:09.209Z - info: Synchronizing opened pages list before reload
+2024-04-12T12:02:09.209Z - info: Current opened pages, from most-to-least recent:
+2024-04-12T12:02:09.209Z - info: 1. admin/exams
+2024-04-12T12:02:10.228Z - info: Rebuilding 1 pages
+2024-04-12T12:02:10.494Z - info: Site data built
+2024-04-12T12:02:10.494Z - info: Pages rebuilt
+2024-04-12T12:02:10.494Z - info: Website regeneration complete! Total build time: 0.267s
+2024-04-12T12:04:41.829Z - info: [8:04:41 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\exams.md
+2024-04-12T12:04:41.830Z - info: Synchronizing opened pages list before reload
+2024-04-12T12:04:41.830Z - info: Current opened pages, from most-to-least recent:
+2024-04-12T12:04:41.831Z - info: 1. admin/exams
+2024-04-12T12:04:42.851Z - info: Rebuilding 1 pages
+2024-04-12T12:04:43.244Z - info: Site data built
+2024-04-12T12:04:43.245Z - info: Pages rebuilt
+2024-04-12T12:04:43.245Z - info: Website regeneration complete! Total build time: 0.394s
+2024-04-12T12:06:55.687Z - info: [8:06:55 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\exams.md
+2024-04-12T12:06:55.687Z - info: Synchronizing opened pages list before reload
+2024-04-12T12:06:55.687Z - info: Current opened pages, from most-to-least recent:
+2024-04-12T12:06:55.688Z - info: 1. admin/exams
+2024-04-12T12:06:56.702Z - info: Rebuilding 1 pages
+2024-04-12T12:06:57.017Z - info: Site data built
+2024-04-12T12:06:57.018Z - info: Pages rebuilt
+2024-04-12T12:06:57.018Z - info: Website regeneration complete! Total build time: 0.317s
+2024-04-12T12:07:02.922Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\lectures as some of its dependencies were changed since the last visit
+2024-04-12T12:07:03.134Z - info: Site data built
+2024-04-12T12:07:03.135Z - info: Lazy website regeneration complete! Total build time: 0.214s
+2024-04-12T12:08:33.465Z - info: [8:08:33 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\exams.md
+2024-04-12T12:08:33.466Z - info: Synchronizing opened pages list before reload
+2024-04-12T12:08:33.466Z - info: Current opened pages, from most-to-least recent:
+2024-04-12T12:08:33.466Z - info: 1. admin/exams
+2024-04-12T12:08:34.475Z - info: Rebuilding 1 pages
+2024-04-12T12:08:34.708Z - info: Site data built
+2024-04-12T12:08:34.709Z - info: Pages rebuilt
+2024-04-12T12:08:34.709Z - info: Website regeneration complete! Total build time: 0.235s
+2024-04-12T12:09:23.969Z - info: [8:09:23 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\exams.md
+2024-04-12T12:09:23.969Z - info: Synchronizing opened pages list before reload
+2024-04-12T12:09:23.969Z - info: Current opened pages, from most-to-least recent:
+2024-04-12T12:09:23.970Z - info: 1. admin/exams
+2024-04-12T12:09:24.977Z - info: Rebuilding 1 pages
+2024-04-12T12:09:25.363Z - info: Site data built
+2024-04-12T12:09:25.364Z - info: Pages rebuilt
+2024-04-12T12:09:25.364Z - info: Website regeneration complete! Total build time: 0.39s
+2024-04-12T12:09:37.983Z - info: [8:09:37 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\exams.md
+2024-04-12T12:09:37.983Z - info: Synchronizing opened pages list before reload
+2024-04-12T12:09:37.983Z - info: Current opened pages, from most-to-least recent:
+2024-04-12T12:09:37.983Z - info: 1. admin/exams
+2024-04-12T12:09:39.001Z - info: Rebuilding 1 pages
+2024-04-12T12:09:39.273Z - info: Site data built
+2024-04-12T12:09:39.274Z - info: Pages rebuilt
+2024-04-12T12:09:39.274Z - info: Website regeneration complete! Total build time: 0.275s
+2024-04-12T12:09:50.181Z - info: [8:09:50 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\exams.md
+2024-04-12T12:09:50.181Z - info: Synchronizing opened pages list before reload
+2024-04-12T12:09:50.182Z - info: Current opened pages, from most-to-least recent:
+2024-04-12T12:09:50.182Z - info: 1. admin/exams
+2024-04-12T12:09:51.198Z - info: Rebuilding 1 pages
+2024-04-12T12:09:51.457Z - info: Site data built
+2024-04-12T12:09:51.458Z - info: Pages rebuilt
+2024-04-12T12:09:51.459Z - info: Website regeneration complete! Total build time: 0.261s
+2024-04-12T12:11:06.535Z - info: [8:11:06 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\exams.md
+2024-04-12T12:11:06.536Z - info: Synchronizing opened pages list before reload
+2024-04-12T12:11:06.536Z - info: Current opened pages, from most-to-least recent:
+2024-04-12T12:11:06.536Z - info: 1. admin/exams
+2024-04-12T12:11:07.551Z - info: Rebuilding 1 pages
+2024-04-12T12:11:07.931Z - info: Site data built
+2024-04-12T12:11:07.931Z - info: Pages rebuilt
+2024-04-12T12:11:07.931Z - info: Website regeneration complete! Total build time: 0.38s
+2024-04-12T12:13:01.780Z - info: Website generation started at 8:12:59 pm
+2024-04-12T12:13:09.169Z - info: Building assets...
