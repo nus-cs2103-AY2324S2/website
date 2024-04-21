@@ -17,6 +17,6 @@ with(this){return _c('div',[_c('h4',{attrs:{"id":"prioritizing-requirements"}},[
 with(this){return _c('p',[_c('strong',[_v("Requirements can be prioritized based on the importance and urgency")]),_v(", while keeping in mind the constraints of schedule, budget, staff resources, quality goals, and other constraints.")])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Sun, 21 Apr 2024, 13:23:03 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Sun, 21 Apr 2024, 23:18:35 GMT+8]")])])])}
 }];
   
