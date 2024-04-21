@@ -1,0 +1,14 @@
+2024-04-21T05:07:37.458Z - info: Website generation (lazy) started at 1:07:31 pm
+2024-04-21T05:07:46.217Z - info: Building assets...
+2024-04-21T05:07:52.447Z - info: Assets built
+2024-04-21T05:07:52.448Z - info: Generating landing page...
+2024-04-21T05:07:53.615Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-04-21T05:07:55.003Z - info: Site data built
+2024-04-21T05:07:55.003Z - info: Website generation (lazy) complete! Total build time: 23.949s
+2024-04-21T05:07:55.427Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-04-21T05:07:55.427Z - info: Press CTRL+C to stop ...
+2024-04-21T05:21:22.449Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\tp-pe as some of its dependencies were changed since the last visit
+2024-04-21T05:21:23.865Z - info: Site data built
+2024-04-21T05:21:23.865Z - info: Lazy website regeneration complete! Total build time: 1.417s
+2024-04-21T05:22:50.202Z - info: Website generation started at 1:22:48 pm
+2024-04-21T05:22:58.680Z - info: Building assets...
