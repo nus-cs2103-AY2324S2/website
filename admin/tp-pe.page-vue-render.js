@@ -113,7 +113,7 @@ with(this){return _c('div',{staticClass:"indented-level1"},[_c('div',{staticClas
 with(this){return _c('ul',[_c('li',[_v("If you do not respond to a dev response, we'll assume that you agree with it.")]),_v(" "),_c('li',[_v("Procedure:")])])}
 },function anonymous(
 ) {
-with(this){return _c('ul',[_c('li',[_c('strong',[_v("FAQs:")]),_v(" "),_c('ol',[_c('li',[_c('strong',[_v("Q.")]),_v(" What if the team rejected my bug report without giving a reason?"),_c('br'),_v(" "),_c('strong',[_v("A.")]),_v(" You can disagree with the rejection, and the teaching team will rule in your favor in the next phase.")])])])])}
+with(this){return _c('ul',[_c('li',[_c('strong',[_v("FAQs:")]),_v(" "),_c('ol',[_c('li',[_c('strong',[_v("Q.")]),_v(" What if the team rejected my bug report without giving a reason?"),_c('br'),_v(" "),_c('strong',[_v("A.")]),_v(" You can disagree with the rejection, and the teaching team will likely rule in your favor in the next phase.")]),_v(" "),_c('li',[_c('strong',[_v("Q.")]),_v(" Can I add more information about the bug when I object to a dev team's response?"),_c('br'),_v(" "),_c('strong',[_v("A.")]),_v(" Yes, you may. Given that the dev team did not get to see this addition info when they triaged the bug, the weight such additional info add to your case is lower than if you had that info in the initial bug report. Nevertheless, it can still help your cause, especially if the dev team should have thought about that info on their own, even if they were missing in the initial bug report.")])])])])}
 },function anonymous(
 ) {
 with(this){return _c('h4',{attrs:{"id":"pe-phase-4-tutor-moderation"}},[_c('span',{staticClass:"badge bg-success"},[_v("PE")]),_v(" "),_c('span',{staticClass:"text-success"},[_v("Phase 4: Tutor Moderation")]),_c('a',{staticClass:"fa fa-anchor",attrs:{"href":"#pe-phase-4-tutor-moderation","onclick":"event.stopPropagation()"}})])}
@@ -122,6 +122,6 @@ with(this){return _c('h4',{attrs:{"id":"pe-phase-4-tutor-moderation"}},[_c('span
 with(this){return _c('p',[_c('span',{staticClass:"float-start algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/tp-ped.html"}},[_c('span',[_c('span',{staticClass:"far fa-arrow-alt-circle-left",attrs:{"aria-hidden":"true"}}),_v(" tP: Practical Exam Dry Run")])])]),_c('span',{staticClass:"float-end algolia-no-index"},[_c('a',{staticClass:"badge bg-light text-dark",attrs:{"href":"/website/admin/tp-grading.html"}},[_c('span',[_v("tP: Grading "),_c('span',{staticClass:"far fa-arrow-alt-circle-right",attrs:{"aria-hidden":"true"}})])])])])}
 },function anonymous(
 ) {
-with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Mon, 22 Apr 2024, 13:23:56 GMT+8]")])])])}
+with(this){return _c('footer',[_c('div',{staticClass:"text-center"},[_c('small',[_v("["),_c('span',[_c('strong',[_v("Powered by")])]),_v(" "),_c('img',{attrs:{"src":"https://markbind.org/favicon.ico","width":"30"}}),_v(" "),_c('a',{attrs:{"href":"https://markbind.org/"}},[_v("MarkBind 5.4.0")]),_v(", generated on Wed, 24 Apr 2024, 2:34:10 GMT+8]")])])])}
 }];
   
