@@ -3,11 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MarkBind 5.4.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1"><title>CS2103/T - C++ to Java: Objects: Getters and Setters</title> <link rel="stylesheet" href="/website/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/website/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/website/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/website/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/website/markbind/css/markbind.min.css"><script src="/website/markbind/js/polyfill.min.js"></script>
-    <script src="/website/markbind/js/vue.min.js"></script>
-    <script src="/website/markbind/js/markbind.min.js"></script>
-    <script src="index.page-vue-render.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.0/dist/style.css"><link rel="preconnect" href="https://3DU4XTBX4T-dsn.algolia.net" crossorigin><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
+    <meta name="generator" content="MarkBind 5.5.2">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><title>CS2103/T - C++ to Java: Objects: Getters and Setters</title> <link rel="stylesheet" href="/website/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/website/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/website/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/website/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/website/markbind/css/markbind.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.0/dist/style.css"><link rel="preconnect" href="https://3DU4XTBX4T-dsn.algolia.net" crossorigin><link rel="stylesheet" href="/website/plugins/dataTable/datatables.min.css"><link rel="stylesheet" href="/website/plugins/dataTable/datatables-additional.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
     
 <link rel="stylesheet" href="/website/css/main.css">
 <link rel="icon" href="/website/favicon.ico"></head>
@@ -108,48 +105,48 @@
 </svg>
 
     </div>
-    </button></div></pre></div> <div><div><br> <h5 id="exercises"><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span></span> Exercises:<a href="#exercises" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <div><div><div expanded="" class="card-container" data-v-3602e6fc><div class="card expandable-card border-dark" data-v-3602e6fc><div class="card-header header-toggle bg-dark border-dark" data-v-3602e6fc><div class="caret-wrapper" data-v-3602e6fc><!----></div> <div class="header-wrapper card-title bg-dark text-white" data-v-3602e6fc><h3 id="key-exercise-add-getters-setters-to-the-circle-class" data-v-3602e6fc><small data-v-3602e6fc><small data-v-3602e6fc><span data-v-3602e6fc><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign" data-v-3602e6fc></span></span> [Key Exercise] add getters/setters to the <code class="line-numbers hljs inline no-lang" data-v-3602e6fc>Circle</code> class</small></small><a href="#key-exercise-add-getters-setters-to-the-circle-class" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-3602e6fc></a></h3></div> <div class="button-wrapper" data-v-3602e6fc><button type="button" class="collapse-button btn btn-outline-light" data-v-3602e6fc><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button> <button type="button" class="close-button btn btn-outline-light" data-v-3602e6fc><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-3602e6fc></span></button> <button type="button" class="popup-button btn btn-outline-light" style="display:none;" data-v-3602e6fc><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-3602e6fc></span></button></div></div> <div class="card-collapse" data-v-3602e6fc><div class="card-body" data-v-3602e6fc> <p data-v-3602e6fc>Consider the <code class="line-numbers hljs inline no-lang" data-v-3602e6fc>Circle</code> class below:</p> <pre data-v-3602e6fc><code class="line-numbers hljs java" data-v-3602e6fc><span data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>public</span> <span class="hljs-class" data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>class</span> <span class="hljs-title" data-v-3602e6fc>Circle</span> </span>{
-</span><span data-v-3602e6fc>    <span class="hljs-keyword" data-v-3602e6fc>private</span> <span class="hljs-keyword" data-v-3602e6fc>int</span> x;
-</span><span data-v-3602e6fc>    <span class="hljs-keyword" data-v-3602e6fc>private</span> <span class="hljs-keyword" data-v-3602e6fc>int</span> y;
-</span><span data-v-3602e6fc>    <span class="hljs-keyword" data-v-3602e6fc>private</span> <span class="hljs-keyword" data-v-3602e6fc>double</span> radius;
-</span><span data-v-3602e6fc>
-</span><span data-v-3602e6fc>    <span class="hljs-function" data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>public</span> <span class="hljs-title" data-v-3602e6fc>Circle</span><span class="hljs-params" data-v-3602e6fc>()</span></span>{
-</span><span data-v-3602e6fc>        <span class="hljs-keyword" data-v-3602e6fc>this</span>(<span class="hljs-number" data-v-3602e6fc>0</span>, <span class="hljs-number" data-v-3602e6fc>0</span>, <span class="hljs-number" data-v-3602e6fc>0</span>);
-</span><span data-v-3602e6fc>    }
-</span><span data-v-3602e6fc>
-</span><span data-v-3602e6fc>    <span class="hljs-function" data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>public</span> <span class="hljs-title" data-v-3602e6fc>Circle</span><span class="hljs-params" data-v-3602e6fc>(<span class="hljs-keyword" data-v-3602e6fc>int</span> x, <span class="hljs-keyword" data-v-3602e6fc>int</span> y, <span class="hljs-keyword" data-v-3602e6fc>double</span> radius)</span></span>{
-</span><span data-v-3602e6fc>        <span class="hljs-keyword" data-v-3602e6fc>this</span>.x = x;
-</span><span data-v-3602e6fc>        <span class="hljs-keyword" data-v-3602e6fc>this</span>.y = y;
-</span><span data-v-3602e6fc>        <span class="hljs-keyword" data-v-3602e6fc>this</span>.radius = radius;
-</span><span data-v-3602e6fc>    }
-</span><span data-v-3602e6fc>
-</span><span data-v-3602e6fc>    <span class="hljs-function" data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>public</span> <span class="hljs-keyword" data-v-3602e6fc>int</span> <span class="hljs-title" data-v-3602e6fc>getArea</span><span class="hljs-params" data-v-3602e6fc>()</span></span>{
-</span><span data-v-3602e6fc>        <span class="hljs-keyword" data-v-3602e6fc>double</span> area = Math.PI * Math.pow(radius, <span class="hljs-number" data-v-3602e6fc>2</span>);
-</span><span data-v-3602e6fc>        <span class="hljs-keyword" data-v-3602e6fc>return</span> (<span class="hljs-keyword" data-v-3602e6fc>int</span>)area;
-</span><span data-v-3602e6fc>    }
-</span><span data-v-3602e6fc>
-</span><span data-v-3602e6fc>}
-</span></code><div class="function-btn-container" data-v-3602e6fc><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-3602e6fc>
-    <div class="function-btn-body" data-v-3602e6fc>
+    </button></div></pre></div> <div><div><br> <h5 id="exercises"><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span></span> Exercises:<a href="#exercises" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <div><div><div expanded="" class="card-container" data-v-c545cba4><div class="card expandable-card border-dark" data-v-c545cba4><div class="card-header header-toggle bg-dark border-dark" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><!----></div> <div class="header-wrapper card-title bg-dark text-white" data-v-c545cba4><h3 id="key-exercise-add-getters-setters-to-the-circle-class" data-v-c545cba4><small data-v-c545cba4><small data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign" data-v-c545cba4></span></span> [Key Exercise] add getters/setters to the <code class="line-numbers hljs inline no-lang" data-v-c545cba4>Circle</code> class</small></small><a href="#key-exercise-add-getters-setters-to-the-circle-class" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h3></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button> <button type="button" class="close-button btn btn-outline-light" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><div class="card-body" data-v-c545cba4> <p data-v-c545cba4>Consider the <code class="line-numbers hljs inline no-lang" data-v-c545cba4>Circle</code> class below:</p> <pre data-v-c545cba4><code class="line-numbers hljs java" data-v-c545cba4><span data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-class" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>class</span> <span class="hljs-title" data-v-c545cba4>Circle</span> </span>{
+</span><span data-v-c545cba4>    <span class="hljs-keyword" data-v-c545cba4>private</span> <span class="hljs-keyword" data-v-c545cba4>int</span> x;
+</span><span data-v-c545cba4>    <span class="hljs-keyword" data-v-c545cba4>private</span> <span class="hljs-keyword" data-v-c545cba4>int</span> y;
+</span><span data-v-c545cba4>    <span class="hljs-keyword" data-v-c545cba4>private</span> <span class="hljs-keyword" data-v-c545cba4>double</span> radius;
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-title" data-v-c545cba4>Circle</span><span class="hljs-params" data-v-c545cba4>()</span></span>{
+</span><span data-v-c545cba4>        <span class="hljs-keyword" data-v-c545cba4>this</span>(<span class="hljs-number" data-v-c545cba4>0</span>, <span class="hljs-number" data-v-c545cba4>0</span>, <span class="hljs-number" data-v-c545cba4>0</span>);
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-title" data-v-c545cba4>Circle</span><span class="hljs-params" data-v-c545cba4>(<span class="hljs-keyword" data-v-c545cba4>int</span> x, <span class="hljs-keyword" data-v-c545cba4>int</span> y, <span class="hljs-keyword" data-v-c545cba4>double</span> radius)</span></span>{
+</span><span data-v-c545cba4>        <span class="hljs-keyword" data-v-c545cba4>this</span>.x = x;
+</span><span data-v-c545cba4>        <span class="hljs-keyword" data-v-c545cba4>this</span>.y = y;
+</span><span data-v-c545cba4>        <span class="hljs-keyword" data-v-c545cba4>this</span>.radius = radius;
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-keyword" data-v-c545cba4>int</span> <span class="hljs-title" data-v-c545cba4>getArea</span><span class="hljs-params" data-v-c545cba4>()</span></span>{
+</span><span data-v-c545cba4>        <span class="hljs-keyword" data-v-c545cba4>double</span> area = Math.PI * Math.pow(radius, <span class="hljs-number" data-v-c545cba4>2</span>);
+</span><span data-v-c545cba4>        <span class="hljs-keyword" data-v-c545cba4>return</span> (<span class="hljs-keyword" data-v-c545cba4>int</span>)area;
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>}
+</span></code><div class="function-btn-container" data-v-c545cba4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-3602e6fc>
-    <g id="surface1" data-v-3602e6fc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-3602e6fc></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-c545cba4></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-3602e6fc>
-    <div class="function-btn-body" data-v-3602e6fc>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-3602e6fc>
-    <g id="surface1" data-v-3602e6fc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -159,51 +156,51 @@
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-3602e6fc></path>
+      5.1054688 z " data-v-c545cba4></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><p data-v-3602e6fc>Update it as follows so that code given below produces the given output.</p> <ul data-v-3602e6fc><li data-v-3602e6fc>Add getter/setter methods for all three attributes</li> <li data-v-3602e6fc>Update the setters and constructors such that if the radius supplied is negative, the code automatically set the radius to 0 instead.</li></ul> <pre data-v-3602e6fc><code class="line-numbers hljs java" data-v-3602e6fc><span data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>public</span> <span class="hljs-class" data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>class</span> <span class="hljs-title" data-v-3602e6fc>Main</span> </span>{
-</span><span data-v-3602e6fc>    <span class="hljs-function" data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>public</span> <span class="hljs-keyword" data-v-3602e6fc>static</span> <span class="hljs-keyword" data-v-3602e6fc>void</span> <span class="hljs-title" data-v-3602e6fc>main</span><span class="hljs-params" data-v-3602e6fc>(String[] args)</span> </span>{
-</span><span data-v-3602e6fc>        Circle c = <span class="hljs-keyword" data-v-3602e6fc>new</span> Circle(<span class="hljs-number" data-v-3602e6fc>1</span>,<span class="hljs-number" data-v-3602e6fc>2</span>, <span class="hljs-number" data-v-3602e6fc>5</span>);
-</span><span data-v-3602e6fc>
-</span><span data-v-3602e6fc>        c.setX(<span class="hljs-number" data-v-3602e6fc>4</span>);
-</span><span data-v-3602e6fc>        c.setY(<span class="hljs-number" data-v-3602e6fc>5</span>);
-</span><span data-v-3602e6fc>        c.setRadius(<span class="hljs-number" data-v-3602e6fc>6</span>);
-</span><span data-v-3602e6fc>        System.out.println(<span class="hljs-string" data-v-3602e6fc>&quot;x      : &quot;</span> + c.getX());
-</span><span data-v-3602e6fc>        System.out.println(<span class="hljs-string" data-v-3602e6fc>&quot;y      : &quot;</span> + c.getY());
-</span><span data-v-3602e6fc>        System.out.println(<span class="hljs-string" data-v-3602e6fc>&quot;radius : &quot;</span> + c.getRadius());
-</span><span data-v-3602e6fc>        System.out.println(<span class="hljs-string" data-v-3602e6fc>&quot;area   : &quot;</span> + c.getArea());
-</span><span data-v-3602e6fc>
-</span><span data-v-3602e6fc>        c.setRadius(-<span class="hljs-number" data-v-3602e6fc>5</span>);
-</span><span data-v-3602e6fc>        System.out.println(<span class="hljs-string" data-v-3602e6fc>&quot;radius : &quot;</span> + c.getRadius());
-</span><span data-v-3602e6fc>        c = <span class="hljs-keyword" data-v-3602e6fc>new</span> Circle(<span class="hljs-number" data-v-3602e6fc>1</span>, <span class="hljs-number" data-v-3602e6fc>1</span>, -<span class="hljs-number" data-v-3602e6fc>4</span>);
-</span><span data-v-3602e6fc>        System.out.println(<span class="hljs-string" data-v-3602e6fc>&quot;radius : &quot;</span> + c.getRadius());
-</span><span data-v-3602e6fc>
-</span><span data-v-3602e6fc>    }
-</span><span data-v-3602e6fc>}
-</span></code><div class="function-btn-container" data-v-3602e6fc><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-3602e6fc>
-    <div class="function-btn-body" data-v-3602e6fc>
+    </button></div></pre><p data-v-c545cba4>Update it as follows so that code given below produces the given output.</p> <ul data-v-c545cba4><li data-v-c545cba4>Add getter/setter methods for all three attributes</li> <li data-v-c545cba4>Update the setters and constructors such that if the radius supplied is negative, the code automatically set the radius to 0 instead.</li></ul> <pre data-v-c545cba4><code class="line-numbers hljs java" data-v-c545cba4><span data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-class" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>class</span> <span class="hljs-title" data-v-c545cba4>Main</span> </span>{
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-keyword" data-v-c545cba4>static</span> <span class="hljs-keyword" data-v-c545cba4>void</span> <span class="hljs-title" data-v-c545cba4>main</span><span class="hljs-params" data-v-c545cba4>(String[] args)</span> </span>{
+</span><span data-v-c545cba4>        Circle c = <span class="hljs-keyword" data-v-c545cba4>new</span> Circle(<span class="hljs-number" data-v-c545cba4>1</span>,<span class="hljs-number" data-v-c545cba4>2</span>, <span class="hljs-number" data-v-c545cba4>5</span>);
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>        c.setX(<span class="hljs-number" data-v-c545cba4>4</span>);
+</span><span data-v-c545cba4>        c.setY(<span class="hljs-number" data-v-c545cba4>5</span>);
+</span><span data-v-c545cba4>        c.setRadius(<span class="hljs-number" data-v-c545cba4>6</span>);
+</span><span data-v-c545cba4>        System.out.println(<span class="hljs-string" data-v-c545cba4>&quot;x      : &quot;</span> + c.getX());
+</span><span data-v-c545cba4>        System.out.println(<span class="hljs-string" data-v-c545cba4>&quot;y      : &quot;</span> + c.getY());
+</span><span data-v-c545cba4>        System.out.println(<span class="hljs-string" data-v-c545cba4>&quot;radius : &quot;</span> + c.getRadius());
+</span><span data-v-c545cba4>        System.out.println(<span class="hljs-string" data-v-c545cba4>&quot;area   : &quot;</span> + c.getArea());
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>        c.setRadius(-<span class="hljs-number" data-v-c545cba4>5</span>);
+</span><span data-v-c545cba4>        System.out.println(<span class="hljs-string" data-v-c545cba4>&quot;radius : &quot;</span> + c.getRadius());
+</span><span data-v-c545cba4>        c = <span class="hljs-keyword" data-v-c545cba4>new</span> Circle(<span class="hljs-number" data-v-c545cba4>1</span>, <span class="hljs-number" data-v-c545cba4>1</span>, -<span class="hljs-number" data-v-c545cba4>4</span>);
+</span><span data-v-c545cba4>        System.out.println(<span class="hljs-string" data-v-c545cba4>&quot;radius : &quot;</span> + c.getRadius());
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>}
+</span></code><div class="function-btn-container" data-v-c545cba4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-3602e6fc>
-    <g id="surface1" data-v-3602e6fc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-3602e6fc></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-c545cba4></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-3602e6fc>
-    <div class="function-btn-body" data-v-3602e6fc>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-3602e6fc>
-    <g id="surface1" data-v-3602e6fc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -213,38 +210,38 @@
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-3602e6fc></path>
+      5.1054688 z " data-v-c545cba4></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><p data-v-3602e6fc><span data-v-3602e6fc><span aria-hidden="true" class="fas fa-arrow-down" data-v-3602e6fc></span></span></p> <pre data-v-3602e6fc><code class="line-numbers hljs" data-v-3602e6fc><span data-v-3602e6fc>x      : 4
-</span><span data-v-3602e6fc>y      : 5
-</span><span data-v-3602e6fc>radius : 6.0
-</span><span data-v-3602e6fc>area   : 113
-</span><span data-v-3602e6fc>radius : 0.0
-</span><span data-v-3602e6fc>radius : 0.0
-</span></code><div class="function-btn-container" data-v-3602e6fc><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-3602e6fc>
-    <div class="function-btn-body" data-v-3602e6fc>
+    </button></div></pre><p data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-arrow-down" data-v-c545cba4></span></span></p> <pre data-v-c545cba4><code class="line-numbers hljs" data-v-c545cba4><span data-v-c545cba4>x      : 4
+</span><span data-v-c545cba4>y      : 5
+</span><span data-v-c545cba4>radius : 6.0
+</span><span data-v-c545cba4>area   : 113
+</span><span data-v-c545cba4>radius : 0.0
+</span><span data-v-c545cba4>radius : 0.0
+</span></code><div class="function-btn-container" data-v-c545cba4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-3602e6fc>
-    <g id="surface1" data-v-3602e6fc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-3602e6fc></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-c545cba4></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-3602e6fc>
-    <div class="function-btn-body" data-v-3602e6fc>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-3602e6fc>
-    <g id="surface1" data-v-3602e6fc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -254,13 +251,17 @@
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-3602e6fc></path>
+      5.1054688 z " data-v-c545cba4></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><div class="algolia-no-index card-container" data-v-3602e6fc><div class="card expandable-card border-0" data-v-3602e6fc><div class="card-header header-toggle bg-white border-0" data-v-3602e6fc><div class="caret-wrapper" data-v-3602e6fc><span class="glyphicon glyphicon-chevron-right" data-v-3602e6fc></span></div> <div class="header-wrapper card-title bg-white" data-v-3602e6fc><p data-v-3602e6fc>Hint</p></div> <div class="button-wrapper" data-v-3602e6fc><button type="button" class="collapse-button btn btn-outline-secondary" style="display:none;" data-v-3602e6fc><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down"></span></button> <button type="button" class="close-button btn btn-outline-secondary seamless-button" data-v-3602e6fc><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-3602e6fc></span></button> <button type="button" class="popup-button btn btn-outline-secondary seamless-button" style="display:none;" data-v-3602e6fc><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-3602e6fc></span></button></div></div> <div class="card-collapse" data-v-3602e6fc><!----> <hr style="display:;" data-v-3602e6fc></div> <!----></div></div> <!----> <div class="bottom-button-wrapper" data-v-3602e6fc><button type="button" class="collapse-button btn btn-outline-secondary" data-v-3602e6fc><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button></div></div> <hr style="display:none;" data-v-3602e6fc></div> <!----></div></div></div></div></div></div></div></div></div></div></div></div> <nav id="page-nav" class="fixed-header-padding" data-v-e6005420><div class="nav-component slim-scroll" data-v-e6005420></div> <!----></nav> <div aria-hidden="true" class="scroll-top-button fa-lg d-print-none" style="display:none;bottom:2%;right:2%;position:fixed;"><i class="fas fa-arrow-circle-up"></i></div></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 5.4.0</a>, generated on Wed, 24 Apr 2024, 15:20:58 GMT+8]</small></div></footer></div>
+    </button></div></pre><div class="algolia-no-index card-container" data-v-c545cba4><div class="card expandable-card card-seamless border-0" data-v-c545cba4><div class="card-header header-toggle bg-transparent border-0" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><span class="glyphicon glyphicon-chevron-right" data-v-c545cba4></span></div> <div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-c545cba4><p data-v-c545cba4>Hint</p></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down"></span></button> <button type="button" class="close-button btn btn-outline-light seamless-button" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light seamless-button" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><!----> <hr style="display:;" data-v-c545cba4></div> <!----></div></div> <!----> <div class="bottom-button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-secondary" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button></div></div> <hr style="display:none;" data-v-c545cba4></div> <!----></div></div></div></div></div></div></div></div></div></div></div></div> <nav id="page-nav" class="fixed-header-padding" data-v-e6005420><div class="nav-component slim-scroll" data-v-e6005420></div> <!----></nav> <div aria-hidden="true" class="scroll-top-button fa-lg d-print-none" style="display:none;bottom:2%;right:2%;position:fixed;"><i class="fas fa-arrow-circle-up"></i></div></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 5.5.2</a>, generated on Fri, 3 May 2024, 17:50:55 GMT+8]</small></div></footer></div>
 </body><script src="/website/markbind/js/bootstrap-utility.min.js"></script>
+<script src="/website/markbind/js/polyfill.min.js"></script>
+<script src="/website/markbind/js/vue.min.js"></script>
+<script src="/website/markbind/js/markbind.min.js"></script>
+<script src="index.page-vue-render.js"></script>
 <script>
   MarkBind.setup()
 </script>
@@ -316,4 +317,55 @@
       }
     }
     </script>
+    <script src="/website/plugins/dataTable/datatables.min.js"></script>
+    
+  <script>
+    function getTableOptions(el) {
+      const options = {};
+      if ($(el).hasClass('sortable-table')) {
+        options.searching = false;
+        options.paging = false;
+        options.info = false;
+      } else if ($(el).hasClass('searchable-table')) {
+        options.ordering = false;
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      } else if ($(el).hasClass('sortable-searchable-table')) {
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      }
+      return options;
+    }
+
+    Vue.directive('datatable', {
+      inserted: function(el, binding) {
+        const options = binding.value || {};
+        const tableOptions = getTableOptions(el);
+        $(el).DataTable({ ...tableOptions, ...options });
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+      $('table.sortable-table, table.searchable-table, table.sortable-searchable-table').each(function() {
+        const options = getTableOptions(this);
+        $(this).DataTable(options);
+      });
+    });
+  </script>
+
+    <script type="module">
+    import mermaid from 'https://unpkg.com/mermaid@10/dist/mermaid.esm.min.mjs';
+    document.addEventListener('DOMContentLoaded', () => {
+      mermaid.initialize({});
+      Vue.directive('mermaid', {
+        inserted: function(el) {
+          mermaid.run({
+            nodes: [el]
+          });
+        }
+      });
+    });
+  </script>
 </html>

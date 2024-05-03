@@ -3,11 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MarkBind 5.4.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1"><title>CS2103/T - C++ to Java: Inheritance: The Object Class</title> <link rel="stylesheet" href="/website/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/website/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/website/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/website/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/website/markbind/css/markbind.min.css"><script src="/website/markbind/js/polyfill.min.js"></script>
-    <script src="/website/markbind/js/vue.min.js"></script>
-    <script src="/website/markbind/js/markbind.min.js"></script>
-    <script src="index.page-vue-render.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.0/dist/style.css"><link rel="preconnect" href="https://3DU4XTBX4T-dsn.algolia.net" crossorigin><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
+    <meta name="generator" content="MarkBind 5.5.2">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><title>CS2103/T - C++ to Java: Inheritance: The Object Class</title> <link rel="stylesheet" href="/website/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/website/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/website/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/website/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/website/markbind/css/markbind.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.0/dist/style.css"><link rel="preconnect" href="https://3DU4XTBX4T-dsn.algolia.net" crossorigin><link rel="stylesheet" href="/website/plugins/dataTable/datatables.min.css"><link rel="stylesheet" href="/website/plugins/dataTable/datatables-additional.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
     
 <link rel="stylesheet" href="/website/css/main.css">
 <link rel="icon" href="/website/favicon.ico"></head>
@@ -16,38 +13,38 @@
 </script>
 <body >
 <div id="app" data-server-rendered="true"><header sticky=""><div placement="top" data-v-7c0fd418><nav class="navbar navbar-expand-md d-print-none navbar-dark bg-dark" data-v-7c0fd418><div class="container-fluid" data-v-7c0fd418><div class="navbar-left" data-v-7c0fd418><a href="/website/index.html" title="Home" class="navbar-brand" data-v-7c0fd418><span class="badge rounded-pill bg-success" data-v-7c0fd418>CS2103/T <small data-v-7c0fd418>2024 Jan-Apr</small></span></a></div> <div class="navbar-default" data-v-7c0fd418><ul class="navbar-nav me-auto mt-2 mt-lg-0" data-v-7c0fd418> <li class="nav-link algolia-no-index dropdown" data-v-ccda25c0><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle nav-link" data-v-ccda25c0><strong data-v-ccda25c0>Schedule</strong></a> <ul class="dropdown-menu" data-v-ccda25c0> <li data-v-ccda25c0><a href="/website/schedule/timeline.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Full Timeline</strong></span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week1/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 1</strong> [Mon, Jan 15th] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week2/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 2</strong> [Fri, Jan 19th] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week3/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 3</strong> [Fri, Jan 26th] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week4/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 4</strong> [Fri, Feb 2nd] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week5/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 5</strong> [Fri, Feb 9th] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week6/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 6</strong> [Fri, Feb 16th] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week7/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 7</strong> [Fri, Feb 23rd] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week8/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 8</strong> [Fri, Mar 8th] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week9/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 9</strong> [Fri, Mar 15th] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week10/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 10</strong> [Fri, Mar 22nd] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week11/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 11</strong> [Fri, Mar 29th] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week12/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 12</strong> [Fri, Apr 5th] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week13/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 13</strong> [Fri, Apr 12th]  <span aria-hidden="true" class="fas fa-arrow-circle-left" data-v-ccda25c0></span></span></a></li></ul></li> <li data-v-7c0fd418><a href="/website/se-book-adapted/index.html" class="nav-link" data-v-7c0fd418><span data-v-7c0fd418><strong data-v-7c0fd418>Textbook</strong></span></a></li> <li data-v-7c0fd418><a href="/website/admin/index.html" class="nav-link" data-v-7c0fd418><span data-v-7c0fd418><strong data-v-7c0fd418>Admin Info</strong></span></a></li> <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" data-v-7c0fd418><a href="https://nus-cs2103-ay2324s2.github.io/dashboards" target="_blank" highlight-on="none" class="nav-link" data-v-7c0fd418><span data-v-7c0fd418><strong data-v-7c0fd418>Dashboards</strong></span></a></li> <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" class="nav-link algolia-no-index dropdown" data-v-ccda25c0><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle nav-link" data-v-ccda25c0><strong data-v-ccda25c0>Project Links</strong></a> <ul class="dropdown-menu" data-v-ccda25c0> <span data-v-ccda25c0><strong data-v-ccda25c0> Individual Project (iP):</strong></span> <li data-v-ccda25c0><a href="/website/admin/ip-overview.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-drafting-compass" data-v-ccda25c0></span></span></span> Individual Project Info</a></li> <li data-v-ccda25c0><a href="https://github.com/nus-cs2103-AY2324S2/ip" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-code-branch" data-v-ccda25c0></span></span></span> iP Upstream Repo</a></li> <li tags="m--cs2103 m--tic4001 m--tic4002" data-v-ccda25c0><a href="/website/admin/ip-showcase.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="glyphicon glyphicon-list-alt" data-v-ccda25c0></span> iP Showcase</span></a></li> <li data-v-ccda25c0><a href="https://nus-cs2103-ay2324s2.github.io/ip-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=java~md~fxml~sh~bat~gradle~txt" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-chart-area" data-v-ccda25c0></span> iP Code Dashboard</span></a></li> <li data-v-ccda25c0><a href="https://nus-cs2103-ay2324s2.github.io/dashboards/contents/ip-progress.html" target="_blank" class="dropdown-item text-success" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-trophy" data-v-ccda25c0></span> iP Progress Dashboard</span></a></li> <hr data-v-ccda25c0> <span data-v-ccda25c0><strong data-v-ccda25c0> Team Project (tP):</strong></span> <li data-v-ccda25c0><a href="/website/admin/tp-expectations.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-drafting-compass" data-v-ccda25c0></span></span></span> Team Project Info</a></li> <li tags="m--cs2103 m--cs2113 m--tic4002" data-v-ccda25c0><a href="https://github.com/nus-cs2103-AY2324S2/tp" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-code-branch" data-v-ccda25c0></span></span></span> tP Upstream Repo (AB3)</a></li> <li data-v-ccda25c0><a href="/website/admin/teamList.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="glyphicon glyphicon-list-alt" data-v-ccda25c0></span> Team List</span></a></li> <li data-v-ccda25c0><a href="https://nus-cs2103-ay2324s2.github.io/tp-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=docs~functional-code~test-code~other" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-chart-area" data-v-ccda25c0></span> tP Code Dashboard</span></a></li> <li data-v-ccda25c0><a href="https://nus-cs2103-ay2324s2.github.io/dashboards/contents/tp-progress.html" target="_blank" class="dropdown-item text-success" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-trophy" data-v-ccda25c0></span> tP Progress Dashboard</span></a></li></ul></li> <li class="nav-link algolia-no-index dropdown" data-v-ccda25c0><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle nav-link" data-v-ccda25c0><strong data-v-ccda25c0>Other Links</strong></a> <ul class="dropdown-menu" data-v-ccda25c0> <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" data-v-ccda25c0><a href="https://github.com/nus-cs2103-AY2324S2/forum/issues" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-bug" data-v-ccda25c0></span> Report Bugs</span></a></li> <li data-v-ccda25c0><a href="https://github.com/nus-cs2103-AY2324S2/forum/issues" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-comment" data-v-ccda25c0></span> Forum</span></a></li> <li data-v-ccda25c0><a href="/website/admin/instructors.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-user-tie" data-v-ccda25c0></span> Instructors</span></a></li> <li data-v-ccda25c0><a href="https://canvas.nus.edu.sg/courses/56105/announcements" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="glyphicon glyphicon-bullhorn" data-v-ccda25c0></span> Announcements</span></a></li> <li data-v-ccda25c0><a href="https://canvas.nus.edu.sg/courses/56105/files" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-file-upload" data-v-ccda25c0></span> Files (handouts, submissions etc.)</span></a></li> <li tags="m--cs2113 m--cs2103" data-v-ccda25c0><a href="/website/admin/tutorials.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="glyphicon glyphicon-calendar" data-v-ccda25c0></span> Tutorial Schedule</span></a></li> <li data-v-ccda25c0><a href="https://teams.microsoft.com/l/team/19%3AYCe26jtZ6Trwa-l0rrppXwjAAojUIcYQRpKFiBES4FI1%40thread.tacv2/conversations?groupId=0e16445f-71b1-4996-be7a-fec0560a1e17&amp;tenantId=" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-users-cog" data-v-ccda25c0></span> MS Teams link</span></a></li> <li data-v-ccda25c0><a href="/website/git-trail/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-route" data-v-ccda25c0></span> Git Learning Trail</span></a></li> <li tags="m--cs2103 m--cs2113 m--tic2002 m--tic4001 m--tic4002" data-v-ccda25c0><a href="https://se-education.org/guides/conventions/java/intermediate.html" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-code" data-v-ccda25c0></span> Java Coding Standard</span></a></li> <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" data-v-ccda25c0><a href="https://se-education.org/guides/conventions/git.html" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fab fa-git-square" data-v-ccda25c0></span> Git Conventions</span></a></li> <li tags="m--cs2103 m--cs2113" data-v-ccda25c0><a href="https://nus-cs2103-ay2324s2.github.io/dashboards/contents/forum-activities.html" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-trophy" data-v-ccda25c0></span> Forum Activities Dashboard</span></a></li> <li data-v-ccda25c0><a href="https://nus-cs2103-ay2324s2.github.io/dashboards/contents/participation.html" target="_blank" class="dropdown-item text-success" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-trophy" data-v-ccda25c0></span> Participation Dashboard</span></a></li></ul></li></ul></div> <ul class="navbar-nav navbar-right" data-v-7c0fd418><li class="nav-link" data-v-7c0fd418><form class="navbar-form" data-v-7c0fd418><div class="dropdown" style="position:relative;" data-v-cea1a814><div id="algolia-search-input" data-v-cea1a814></div> <ul class="dropdown-menu search-dropdown-menu d-none dropdown-menu-end" data-v-cea1a814></ul></div></form></li></ul></div></nav> <div class="lower-navbar-container" style="display:none;" data-v-7c0fd418><!----> <!----></div></div></header> <div id="flex-body"><div id="content-wrapper" class="fixed-header-padding"><div><link rel="stylesheet" href="/website/book/css/textbook.css"> <div class="website-content"><p><span class="badge bg-light text-dark"><span><span class="dimmed"><span><span><span aria-hidden="true" class="fas fa-trophy"></span></span> Can use Object class</span></span></span></span></p><p></p><p></p> <p></p> <div><p><span class="dimmed"><strong><span>C++ to Java → Inheritance →
-</span></strong></span></p> <div id="title-and-body"><div><h4 id="the-object-class"><span>The <code class="line-numbers hljs inline no-lang">Object</code> class</span><a href="#the-object-class" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4></div> <div id="main"><div><p>As you know, all Java objects inherit from the <code class="line-numbers hljs inline no-lang">Object</code> class. Let us look at some of the useful methods in the <code class="line-numbers hljs inline no-lang">Object</code> class that can be used by other classes.</p> <h5 id="the-tostring-method">The <code class="line-numbers hljs inline no-lang">toString</code> method<a href="#the-tostring-method" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <div class="indented"><p><strong>Every class inherits a <code class="line-numbers hljs inline no-lang">toString</code> method from the <code class="line-numbers hljs inline no-lang">Object</code> class that is used by Java to get a string representation of the object</strong> <span class="dimmed">e.g., for printing</span>. By default, it simply returns the type of the object and its address (in hexadecimal).</p> <div class="alert box-container alert-default" data-v-0eabf1c4><!----> <div class="header-and-body" data-v-0eabf1c4><!----> <div class="box-body-wrapper" data-v-0eabf1c4><!----> <!----> <div class="contents" data-v-0eabf1c4><p data-v-0eabf1c4><span data-v-0eabf1c4><span aria-hidden="true" class="fas fa-cube" data-v-0eabf1c4></span></span> Suppose you defined a class called <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>Time</code>, to represent a moment in time. If you create a <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>Time</code> object and display it with println:</p> <pre data-v-0eabf1c4><code class="line-numbers hljs java" data-v-0eabf1c4><span data-v-0eabf1c4><span class="hljs-class" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>class</span> <span class="hljs-title" data-v-0eabf1c4>Time</span> </span>{
-</span><span data-v-0eabf1c4>    <span class="hljs-keyword" data-v-0eabf1c4>int</span> hours;
-</span><span data-v-0eabf1c4>    <span class="hljs-keyword" data-v-0eabf1c4>int</span> minutes;
-</span><span data-v-0eabf1c4>    <span class="hljs-keyword" data-v-0eabf1c4>int</span> seconds;
-</span><span data-v-0eabf1c4>
-</span><span data-v-0eabf1c4>    Time(<span class="hljs-keyword" data-v-0eabf1c4>int</span> hours, <span class="hljs-keyword" data-v-0eabf1c4>int</span> minutes, <span class="hljs-keyword" data-v-0eabf1c4>int</span> seconds) {
-</span><span data-v-0eabf1c4>        <span class="hljs-keyword" data-v-0eabf1c4>this</span>.hours = hours;
-</span><span data-v-0eabf1c4>        <span class="hljs-keyword" data-v-0eabf1c4>this</span>.minutes = minutes;
-</span><span data-v-0eabf1c4>        <span class="hljs-keyword" data-v-0eabf1c4>this</span>.seconds = seconds;
-</span><span data-v-0eabf1c4>    }
-</span><span data-v-0eabf1c4>}
-</span></code><div class="function-btn-container" data-v-0eabf1c4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+</span></strong></span></p> <div id="title-and-body"><div><h4 id="the-object-class"><span>The <code class="line-numbers hljs inline no-lang">Object</code> class</span><a href="#the-object-class" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h4></div> <div id="main"><div><p>As you know, all Java objects inherit from the <code class="line-numbers hljs inline no-lang">Object</code> class. Let us look at some of the useful methods in the <code class="line-numbers hljs inline no-lang">Object</code> class that can be used by other classes.</p> <h5 id="the-tostring-method">The <code class="line-numbers hljs inline no-lang">toString</code> method<a href="#the-tostring-method" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <div class="indented"><p><strong>Every class inherits a <code class="line-numbers hljs inline no-lang">toString</code> method from the <code class="line-numbers hljs inline no-lang">Object</code> class that is used by Java to get a string representation of the object</strong> <span class="dimmed">e.g., for printing</span>. By default, it simply returns the type of the object and its address (in hexadecimal).</p> <div class="alert box-container alert-default" data-v-6607c59e><!----> <div class="header-and-body" data-v-6607c59e><!----> <div class="box-body-wrapper" data-v-6607c59e><!----> <!----> <div class="contents" data-v-6607c59e><p data-v-6607c59e><span data-v-6607c59e><span aria-hidden="true" class="fas fa-cube" data-v-6607c59e></span></span> Suppose you defined a class called <code class="line-numbers hljs inline no-lang" data-v-6607c59e>Time</code>, to represent a moment in time. If you create a <code class="line-numbers hljs inline no-lang" data-v-6607c59e>Time</code> object and display it with println:</p> <pre data-v-6607c59e><code class="line-numbers hljs java" data-v-6607c59e><span data-v-6607c59e><span class="hljs-class" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>class</span> <span class="hljs-title" data-v-6607c59e>Time</span> </span>{
+</span><span data-v-6607c59e>    <span class="hljs-keyword" data-v-6607c59e>int</span> hours;
+</span><span data-v-6607c59e>    <span class="hljs-keyword" data-v-6607c59e>int</span> minutes;
+</span><span data-v-6607c59e>    <span class="hljs-keyword" data-v-6607c59e>int</span> seconds;
+</span><span data-v-6607c59e>
+</span><span data-v-6607c59e>    Time(<span class="hljs-keyword" data-v-6607c59e>int</span> hours, <span class="hljs-keyword" data-v-6607c59e>int</span> minutes, <span class="hljs-keyword" data-v-6607c59e>int</span> seconds) {
+</span><span data-v-6607c59e>        <span class="hljs-keyword" data-v-6607c59e>this</span>.hours = hours;
+</span><span data-v-6607c59e>        <span class="hljs-keyword" data-v-6607c59e>this</span>.minutes = minutes;
+</span><span data-v-6607c59e>        <span class="hljs-keyword" data-v-6607c59e>this</span>.seconds = seconds;
+</span><span data-v-6607c59e>    }
+</span><span data-v-6607c59e>}
+</span></code><div class="function-btn-container" data-v-6607c59e><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-0eabf1c4></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -57,34 +54,34 @@
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-0eabf1c4></path>
+      5.1054688 z " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><pre data-v-0eabf1c4><code class="line-numbers hljs java" data-v-0eabf1c4><span data-v-0eabf1c4> Time t = <span class="hljs-keyword" data-v-0eabf1c4>new</span> Time(<span class="hljs-number" data-v-0eabf1c4>5</span>, <span class="hljs-number" data-v-0eabf1c4>20</span>, <span class="hljs-number" data-v-0eabf1c4>13</span>);
-</span><span data-v-0eabf1c4> System.out.println(t);
-</span></code><div class="function-btn-container" data-v-0eabf1c4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button></div></pre><pre data-v-6607c59e><code class="line-numbers hljs java" data-v-6607c59e><span data-v-6607c59e> Time t = <span class="hljs-keyword" data-v-6607c59e>new</span> Time(<span class="hljs-number" data-v-6607c59e>5</span>, <span class="hljs-number" data-v-6607c59e>20</span>, <span class="hljs-number" data-v-6607c59e>13</span>);
+</span><span data-v-6607c59e> System.out.println(t);
+</span></code><div class="function-btn-container" data-v-6607c59e><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-0eabf1c4></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -94,42 +91,42 @@
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-0eabf1c4></path>
+      5.1054688 z " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><p data-v-0eabf1c4><span data-v-0eabf1c4><span aria-hidden="true" class="fas fa-arrow-right" data-v-0eabf1c4></span></span> <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>Time@80cc7c0</code> <span class="dimmed" data-v-0eabf1c4>(the address part can vary)</span></p></div> <!----></div></div></div> <p><strong>You can override the <code class="line-numbers hljs inline no-lang">toString</code> method in your classes</strong> to provide a more meaningful string representation of the objects of that class.</p> <div class="alert box-container alert-default" data-v-0eabf1c4><!----> <div class="header-and-body" data-v-0eabf1c4><!----> <div class="box-body-wrapper" data-v-0eabf1c4><!----> <!----> <div class="contents" data-v-0eabf1c4><p data-v-0eabf1c4><span data-v-0eabf1c4><span aria-hidden="true" class="fas fa-cube" data-v-0eabf1c4></span></span> Here's an example of overriding the <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>toString</code> method of the <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>Time</code> class:</p> <pre data-v-0eabf1c4><code class="line-numbers hljs java" data-v-0eabf1c4><span data-v-0eabf1c4><span class="hljs-class" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>class</span> <span class="hljs-title" data-v-0eabf1c4>Time</span></span>{
-</span><span data-v-0eabf1c4>
-</span><span data-v-0eabf1c4>     <span class="hljs-comment" data-v-0eabf1c4>//...</span>
-</span><span data-v-0eabf1c4>
-</span><span data-v-0eabf1c4>     <span class="highlighted" data-v-0eabf1c4><span class="hljs-meta" data-v-0eabf1c4>@Override</span></span>
-</span><span data-v-0eabf1c4>     <span class="hljs-function" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>public</span> String <span class="hljs-title" data-v-0eabf1c4>toString</span><span class="hljs-params" data-v-0eabf1c4>()</span> </span>{
-</span><span data-v-0eabf1c4>         <span class="hljs-keyword" data-v-0eabf1c4>return</span> String.format(<span class="hljs-string" data-v-0eabf1c4>&quot;%02d:%02d:%02d\n&quot;</span>,
-</span><span data-v-0eabf1c4>                 <span class="hljs-keyword" data-v-0eabf1c4>this</span>.hours, <span class="hljs-keyword" data-v-0eabf1c4>this</span>.minutes, <span class="hljs-keyword" data-v-0eabf1c4>this</span>.seconds);
-</span><span data-v-0eabf1c4>     }
-</span><span data-v-0eabf1c4>}
-</span></code><div class="function-btn-container" data-v-0eabf1c4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button></div></pre><p data-v-6607c59e><span data-v-6607c59e><span aria-hidden="true" class="fas fa-arrow-right" data-v-6607c59e></span></span> <code class="line-numbers hljs inline no-lang" data-v-6607c59e>Time@80cc7c0</code> <span class="dimmed" data-v-6607c59e>(the address part can vary)</span></p></div> <!----></div></div></div> <p><strong>You can override the <code class="line-numbers hljs inline no-lang">toString</code> method in your classes</strong> to provide a more meaningful string representation of the objects of that class.</p> <div class="alert box-container alert-default" data-v-6607c59e><!----> <div class="header-and-body" data-v-6607c59e><!----> <div class="box-body-wrapper" data-v-6607c59e><!----> <!----> <div class="contents" data-v-6607c59e><p data-v-6607c59e><span data-v-6607c59e><span aria-hidden="true" class="fas fa-cube" data-v-6607c59e></span></span> Here's an example of overriding the <code class="line-numbers hljs inline no-lang" data-v-6607c59e>toString</code> method of the <code class="line-numbers hljs inline no-lang" data-v-6607c59e>Time</code> class:</p> <pre data-v-6607c59e><code class="line-numbers hljs java" data-v-6607c59e><span data-v-6607c59e><span class="hljs-class" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>class</span> <span class="hljs-title" data-v-6607c59e>Time</span></span>{
+</span><span data-v-6607c59e>
+</span><span data-v-6607c59e>     <span class="hljs-comment" data-v-6607c59e>//...</span>
+</span><span data-v-6607c59e>
+</span><span data-v-6607c59e>     <span class="highlighted" data-v-6607c59e><span class="hljs-meta" data-v-6607c59e>@Override</span></span>
+</span><span data-v-6607c59e>     <span class="hljs-function" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>public</span> String <span class="hljs-title" data-v-6607c59e>toString</span><span class="hljs-params" data-v-6607c59e>()</span> </span>{
+</span><span data-v-6607c59e>         <span class="hljs-keyword" data-v-6607c59e>return</span> String.format(<span class="hljs-string" data-v-6607c59e>&quot;%02d:%02d:%02d\n&quot;</span>,
+</span><span data-v-6607c59e>                 <span class="hljs-keyword" data-v-6607c59e>this</span>.hours, <span class="hljs-keyword" data-v-6607c59e>this</span>.minutes, <span class="hljs-keyword" data-v-6607c59e>this</span>.seconds);
+</span><span data-v-6607c59e>     }
+</span><span data-v-6607c59e>}
+</span></code><div class="function-btn-container" data-v-6607c59e><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-0eabf1c4></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -139,34 +136,34 @@
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-0eabf1c4></path>
+      5.1054688 z " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><pre data-v-0eabf1c4><code class="line-numbers hljs java" data-v-0eabf1c4><span data-v-0eabf1c4> Time t = <span class="hljs-keyword" data-v-0eabf1c4>new</span> Time(<span class="hljs-number" data-v-0eabf1c4>5</span>, <span class="hljs-number" data-v-0eabf1c4>20</span>, <span class="hljs-number" data-v-0eabf1c4>13</span>);
-</span><span data-v-0eabf1c4> System.out.println(t);
-</span></code><div class="function-btn-container" data-v-0eabf1c4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button></div></pre><pre data-v-6607c59e><code class="line-numbers hljs java" data-v-6607c59e><span data-v-6607c59e> Time t = <span class="hljs-keyword" data-v-6607c59e>new</span> Time(<span class="hljs-number" data-v-6607c59e>5</span>, <span class="hljs-number" data-v-6607c59e>20</span>, <span class="hljs-number" data-v-6607c59e>13</span>);
+</span><span data-v-6607c59e> System.out.println(t);
+</span></code><div class="function-btn-container" data-v-6607c59e><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-0eabf1c4></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -176,35 +173,35 @@
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-0eabf1c4></path>
+      5.1054688 z " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><p data-v-0eabf1c4><span data-v-0eabf1c4><span aria-hidden="true" class="fas fa-arrow-right" data-v-0eabf1c4></span></span> <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>05:20:13</code></p></div> <!----></div></div></div> <p><span class="badge rounded-pill bg-success text-white"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <code class="line-numbers hljs inline no-lang">@Override</code> is an optional annotation you can use to indicate that the method is overriding a method from the parent class.</p></div> <h5 id="the-equals-method">The <code class="line-numbers hljs inline no-lang">equals</code> method<a href="#the-equals-method" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <div class="indented"><p><strong>There are two ways to check whether values are equal: the <code class="line-numbers hljs inline no-lang">==</code> operator and the <code class="line-numbers hljs inline no-lang">equals</code> method. With objects you can use either one, but they are not the same.</strong></p> <ul><li>The <code class="line-numbers hljs inline no-lang">==</code> operator checks whether objects are identical; that is, whether they are the same object.</li> <li>The <code class="line-numbers hljs inline no-lang">equals</code> method checks whether they are equivalent; that is, whether they have the same value.</li></ul> <p>The definition of identity is always the same, so the <code class="line-numbers hljs inline no-lang">==</code> operator always does the same thing.</p> <div class="alert box-container alert-default" data-v-0eabf1c4><!----> <div class="header-and-body" data-v-0eabf1c4><!----> <div class="box-body-wrapper" data-v-0eabf1c4><!----> <!----> <div class="contents" data-v-0eabf1c4><p data-v-0eabf1c4><span data-v-0eabf1c4><span aria-hidden="true" class="fas fa-cube" data-v-0eabf1c4></span></span> Consider the following variables:</p> <pre data-v-0eabf1c4><code class="line-numbers hljs java" data-v-0eabf1c4><span data-v-0eabf1c4>Time time1 = <span class="hljs-keyword" data-v-0eabf1c4>new</span> Time(<span class="hljs-number" data-v-0eabf1c4>9</span>, <span class="hljs-number" data-v-0eabf1c4>30</span>, <span class="hljs-number" data-v-0eabf1c4>0</span>);
-</span><span data-v-0eabf1c4>Time time2 = time1;
-</span><span data-v-0eabf1c4>Time time3 = <span class="hljs-keyword" data-v-0eabf1c4>new</span> Time(<span class="hljs-number" data-v-0eabf1c4>9</span>, <span class="hljs-number" data-v-0eabf1c4>30</span>, <span class="hljs-number" data-v-0eabf1c4>0</span>);
-</span></code><div class="function-btn-container" data-v-0eabf1c4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button></div></pre><p data-v-6607c59e><span data-v-6607c59e><span aria-hidden="true" class="fas fa-arrow-right" data-v-6607c59e></span></span> <code class="line-numbers hljs inline no-lang" data-v-6607c59e>05:20:13</code></p></div> <!----></div></div></div> <p><span class="badge rounded-pill bg-success text-white"><span aria-hidden="true" class="fas fa-lightbulb"></span></span> <code class="line-numbers hljs inline no-lang">@Override</code> is an optional annotation you can use to indicate that the method is overriding a method from the parent class.</p></div> <h5 id="the-equals-method">The <code class="line-numbers hljs inline no-lang">equals</code> method<a href="#the-equals-method" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <div class="indented"><p><strong>There are two ways to check whether values are equal: the <code class="line-numbers hljs inline no-lang">==</code> operator and the <code class="line-numbers hljs inline no-lang">equals</code> method. With objects you can use either one, but they are not the same.</strong></p> <ul><li>The <code class="line-numbers hljs inline no-lang">==</code> operator checks whether objects are identical; that is, whether they are the same object.</li> <li>The <code class="line-numbers hljs inline no-lang">equals</code> method checks whether they are equivalent; that is, whether they have the same value.</li></ul> <p>The definition of identity is always the same, so the <code class="line-numbers hljs inline no-lang">==</code> operator always does the same thing.</p> <div class="alert box-container alert-default" data-v-6607c59e><!----> <div class="header-and-body" data-v-6607c59e><!----> <div class="box-body-wrapper" data-v-6607c59e><!----> <!----> <div class="contents" data-v-6607c59e><p data-v-6607c59e><span data-v-6607c59e><span aria-hidden="true" class="fas fa-cube" data-v-6607c59e></span></span> Consider the following variables:</p> <pre data-v-6607c59e><code class="line-numbers hljs java" data-v-6607c59e><span data-v-6607c59e>Time time1 = <span class="hljs-keyword" data-v-6607c59e>new</span> Time(<span class="hljs-number" data-v-6607c59e>9</span>, <span class="hljs-number" data-v-6607c59e>30</span>, <span class="hljs-number" data-v-6607c59e>0</span>);
+</span><span data-v-6607c59e>Time time2 = time1;
+</span><span data-v-6607c59e>Time time3 = <span class="hljs-keyword" data-v-6607c59e>new</span> Time(<span class="hljs-number" data-v-6607c59e>9</span>, <span class="hljs-number" data-v-6607c59e>30</span>, <span class="hljs-number" data-v-6607c59e>0</span>);
+</span></code><div class="function-btn-container" data-v-6607c59e><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-0eabf1c4></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -214,47 +211,47 @@
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-0eabf1c4></path>
+      5.1054688 z " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><ul data-v-0eabf1c4><li data-v-0eabf1c4>The assignment operator copies references, so <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>time1</code> and <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>time2</code> refer to the same object. Because they are identical, <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>time1 == time2</code> is <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>true</code>.</li> <li data-v-0eabf1c4>But <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>time1</code> and <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>time3</code> refer to different objects. Because they are not identical, <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>time1 == time3</code> is <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>false</code>.</li></ul></div> <!----></div></div></div> <p>By default, the <code class="line-numbers hljs inline no-lang">equals</code> method inherited from the <code class="line-numbers hljs inline no-lang">Object</code> class does the same thing as <code class="line-numbers hljs inline no-lang">==</code>. <strong>As the definition of equivalence is different for different classes, you can override the <code class="line-numbers hljs inline no-lang">equals</code> method to define your own criteria for equivalence</strong> of objects of your class.</p> <div class="alert box-container alert-default" data-v-0eabf1c4><!----> <div class="header-and-body" data-v-0eabf1c4><!----> <div class="box-body-wrapper" data-v-0eabf1c4><!----> <!----> <div class="contents" data-v-0eabf1c4><p data-v-0eabf1c4><span data-v-0eabf1c4><span aria-hidden="true" class="fas fa-cube" data-v-0eabf1c4></span></span> Here's how you can override the <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>equals</code> method of the <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>Time</code> class to provide an <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>equals</code> method that considers two <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>Time</code> objects equivalent as long as they represent the same time of the day:</p> <pre data-v-0eabf1c4><code class="line-numbers hljs java" data-v-0eabf1c4><span data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>public</span> <span class="hljs-class" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>class</span> <span class="hljs-title" data-v-0eabf1c4>Time</span> </span>{
-</span><span data-v-0eabf1c4>    <span class="hljs-keyword" data-v-0eabf1c4>int</span> hours;
-</span><span data-v-0eabf1c4>    <span class="hljs-keyword" data-v-0eabf1c4>int</span> minutes;
-</span><span data-v-0eabf1c4>    <span class="hljs-keyword" data-v-0eabf1c4>int</span> seconds;
-</span><span data-v-0eabf1c4>
-</span><span data-v-0eabf1c4>    <span class="hljs-comment" data-v-0eabf1c4>// ...</span>
-</span><span data-v-0eabf1c4>
-</span><span data-v-0eabf1c4>    <span class="hljs-meta" data-v-0eabf1c4>@Override</span>
-</span><span data-v-0eabf1c4>    <span class="hljs-function" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>public</span> <span class="hljs-keyword" data-v-0eabf1c4>boolean</span> <span class="hljs-title" data-v-0eabf1c4>equals</span><span class="hljs-params" data-v-0eabf1c4>(Object o)</span> </span>{
-</span><span data-v-0eabf1c4>        Time other = (Time) o;
-</span><span data-v-0eabf1c4>        <span class="hljs-keyword" data-v-0eabf1c4>return</span> <span class="hljs-keyword" data-v-0eabf1c4>this</span>.hours == other.hours
-</span><span data-v-0eabf1c4>                &amp;&amp; <span class="hljs-keyword" data-v-0eabf1c4>this</span>.minutes == other.minutes
-</span><span data-v-0eabf1c4>                &amp;&amp; <span class="hljs-keyword" data-v-0eabf1c4>this</span>.seconds == other.seconds;
-</span><span data-v-0eabf1c4>    }
-</span><span data-v-0eabf1c4>}
-</span></code><div class="function-btn-container" data-v-0eabf1c4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button></div></pre><ul data-v-6607c59e><li data-v-6607c59e>The assignment operator copies references, so <code class="line-numbers hljs inline no-lang" data-v-6607c59e>time1</code> and <code class="line-numbers hljs inline no-lang" data-v-6607c59e>time2</code> refer to the same object. Because they are identical, <code class="line-numbers hljs inline no-lang" data-v-6607c59e>time1 == time2</code> is <code class="line-numbers hljs inline no-lang" data-v-6607c59e>true</code>.</li> <li data-v-6607c59e>But <code class="line-numbers hljs inline no-lang" data-v-6607c59e>time1</code> and <code class="line-numbers hljs inline no-lang" data-v-6607c59e>time3</code> refer to different objects. Because they are not identical, <code class="line-numbers hljs inline no-lang" data-v-6607c59e>time1 == time3</code> is <code class="line-numbers hljs inline no-lang" data-v-6607c59e>false</code>.</li></ul></div> <!----></div></div></div> <p>By default, the <code class="line-numbers hljs inline no-lang">equals</code> method inherited from the <code class="line-numbers hljs inline no-lang">Object</code> class does the same thing as <code class="line-numbers hljs inline no-lang">==</code>. <strong>As the definition of equivalence is different for different classes, you can override the <code class="line-numbers hljs inline no-lang">equals</code> method to define your own criteria for equivalence</strong> of objects of your class.</p> <div class="alert box-container alert-default" data-v-6607c59e><!----> <div class="header-and-body" data-v-6607c59e><!----> <div class="box-body-wrapper" data-v-6607c59e><!----> <!----> <div class="contents" data-v-6607c59e><p data-v-6607c59e><span data-v-6607c59e><span aria-hidden="true" class="fas fa-cube" data-v-6607c59e></span></span> Here's how you can override the <code class="line-numbers hljs inline no-lang" data-v-6607c59e>equals</code> method of the <code class="line-numbers hljs inline no-lang" data-v-6607c59e>Time</code> class to provide an <code class="line-numbers hljs inline no-lang" data-v-6607c59e>equals</code> method that considers two <code class="line-numbers hljs inline no-lang" data-v-6607c59e>Time</code> objects equivalent as long as they represent the same time of the day:</p> <pre data-v-6607c59e><code class="line-numbers hljs java" data-v-6607c59e><span data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>public</span> <span class="hljs-class" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>class</span> <span class="hljs-title" data-v-6607c59e>Time</span> </span>{
+</span><span data-v-6607c59e>    <span class="hljs-keyword" data-v-6607c59e>int</span> hours;
+</span><span data-v-6607c59e>    <span class="hljs-keyword" data-v-6607c59e>int</span> minutes;
+</span><span data-v-6607c59e>    <span class="hljs-keyword" data-v-6607c59e>int</span> seconds;
+</span><span data-v-6607c59e>
+</span><span data-v-6607c59e>    <span class="hljs-comment" data-v-6607c59e>// ...</span>
+</span><span data-v-6607c59e>
+</span><span data-v-6607c59e>    <span class="hljs-meta" data-v-6607c59e>@Override</span>
+</span><span data-v-6607c59e>    <span class="hljs-function" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>public</span> <span class="hljs-keyword" data-v-6607c59e>boolean</span> <span class="hljs-title" data-v-6607c59e>equals</span><span class="hljs-params" data-v-6607c59e>(Object o)</span> </span>{
+</span><span data-v-6607c59e>        Time other = (Time) o;
+</span><span data-v-6607c59e>        <span class="hljs-keyword" data-v-6607c59e>return</span> <span class="hljs-keyword" data-v-6607c59e>this</span>.hours == other.hours
+</span><span data-v-6607c59e>                &amp;&amp; <span class="hljs-keyword" data-v-6607c59e>this</span>.minutes == other.minutes
+</span><span data-v-6607c59e>                &amp;&amp; <span class="hljs-keyword" data-v-6607c59e>this</span>.seconds == other.seconds;
+</span><span data-v-6607c59e>    }
+</span><span data-v-6607c59e>}
+</span></code><div class="function-btn-container" data-v-6607c59e><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-0eabf1c4></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -264,36 +261,36 @@
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-0eabf1c4></path>
+      5.1054688 z " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><pre data-v-0eabf1c4><code class="line-numbers hljs java" data-v-0eabf1c4><span data-v-0eabf1c4>Time t1 = <span class="hljs-keyword" data-v-0eabf1c4>new</span> Time(<span class="hljs-number" data-v-0eabf1c4>5</span>, <span class="hljs-number" data-v-0eabf1c4>20</span>, <span class="hljs-number" data-v-0eabf1c4>13</span>);
-</span><span data-v-0eabf1c4>Time t2 = <span class="hljs-keyword" data-v-0eabf1c4>new</span> Time(<span class="hljs-number" data-v-0eabf1c4>5</span>, <span class="hljs-number" data-v-0eabf1c4>20</span>, <span class="hljs-number" data-v-0eabf1c4>13</span>);
-</span><span data-v-0eabf1c4>System.out.println(t1 == t2);
-</span><span data-v-0eabf1c4>System.out.println(t1.equals(t2));
-</span></code><div class="function-btn-container" data-v-0eabf1c4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button></div></pre><pre data-v-6607c59e><code class="line-numbers hljs java" data-v-6607c59e><span data-v-6607c59e>Time t1 = <span class="hljs-keyword" data-v-6607c59e>new</span> Time(<span class="hljs-number" data-v-6607c59e>5</span>, <span class="hljs-number" data-v-6607c59e>20</span>, <span class="hljs-number" data-v-6607c59e>13</span>);
+</span><span data-v-6607c59e>Time t2 = <span class="hljs-keyword" data-v-6607c59e>new</span> Time(<span class="hljs-number" data-v-6607c59e>5</span>, <span class="hljs-number" data-v-6607c59e>20</span>, <span class="hljs-number" data-v-6607c59e>13</span>);
+</span><span data-v-6607c59e>System.out.println(t1 == t2);
+</span><span data-v-6607c59e>System.out.println(t1.equals(t2));
+</span></code><div class="function-btn-container" data-v-6607c59e><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-0eabf1c4></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -303,34 +300,34 @@
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-0eabf1c4></path>
+      5.1054688 z " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><p data-v-0eabf1c4><span data-v-0eabf1c4><span aria-hidden="true" class="fas fa-arrow-down" data-v-0eabf1c4></span></span></p> <pre data-v-0eabf1c4><code class="line-numbers hljs" data-v-0eabf1c4><span data-v-0eabf1c4>false
-</span><span data-v-0eabf1c4>true
-</span></code><div class="function-btn-container" data-v-0eabf1c4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button></div></pre><p data-v-6607c59e><span data-v-6607c59e><span aria-hidden="true" class="fas fa-arrow-down" data-v-6607c59e></span></span></p> <pre data-v-6607c59e><code class="line-numbers hljs" data-v-6607c59e><span data-v-6607c59e>false
+</span><span data-v-6607c59e>true
+</span></code><div class="function-btn-container" data-v-6607c59e><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-0eabf1c4></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -340,43 +337,43 @@
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-0eabf1c4></path>
+      5.1054688 z " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><p data-v-0eabf1c4><span style="color:red;" data-v-0eabf1c4><big data-v-0eabf1c4><span data-v-0eabf1c4><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign" data-v-0eabf1c4></span></span></big></span> Note that a proper <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>equals</code> method implementation is more complex than the example above. See the article <a href="https://www.sitepoint.com/implement-javas-equals-method-correctly/" data-v-0eabf1c4><em data-v-0eabf1c4>How to Implement Java’s equals Method Correctly</em> by Nicolai Parlog</a> for a detailed explanation before you implement your own <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>equals</code> method.</p></div> <!----></div></div></div></div></div> <div><div><br> <h5 id="exercises"><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span></span> Exercises:<a href="#exercises" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <div><div><div expanded="" class="card-container" data-v-3602e6fc><div class="card expandable-card border-dark" data-v-3602e6fc><div class="card-header header-toggle bg-dark border-dark" data-v-3602e6fc><div class="caret-wrapper" data-v-3602e6fc><!----></div> <div class="header-wrapper card-title bg-dark text-white" data-v-3602e6fc><h3 id="key-exercise-override-the-tostring-method" data-v-3602e6fc><small data-v-3602e6fc><small data-v-3602e6fc><span data-v-3602e6fc><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign" data-v-3602e6fc></span></span> [Key Exercise] override the <code class="line-numbers hljs inline no-lang" data-v-3602e6fc>toString</code> method</small></small><a href="#key-exercise-override-the-tostring-method" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-3602e6fc></a></h3></div> <div class="button-wrapper" data-v-3602e6fc><button type="button" class="collapse-button btn btn-outline-light" data-v-3602e6fc><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button> <button type="button" class="close-button btn btn-outline-light" data-v-3602e6fc><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-3602e6fc></span></button> <button type="button" class="popup-button btn btn-outline-light" style="display:none;" data-v-3602e6fc><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-3602e6fc></span></button></div></div> <div class="card-collapse" data-v-3602e6fc><div class="card-body" data-v-3602e6fc> <p data-v-3602e6fc>Suppose you have the following classes <code class="line-numbers hljs inline no-lang" data-v-3602e6fc>Task</code>, <code class="line-numbers hljs inline no-lang" data-v-3602e6fc>Todo</code>, <code class="line-numbers hljs inline no-lang" data-v-3602e6fc>Deadline</code>:</p> <pre data-v-3602e6fc><code class="line-numbers hljs java" data-v-3602e6fc><span data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>public</span> <span class="hljs-class" data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>class</span> <span class="hljs-title" data-v-3602e6fc>Task</span> </span>{
-</span><span data-v-3602e6fc>    <span class="hljs-keyword" data-v-3602e6fc>protected</span> String description;
-</span><span data-v-3602e6fc>
-</span><span data-v-3602e6fc>    <span class="hljs-function" data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>public</span> <span class="hljs-title" data-v-3602e6fc>Task</span><span class="hljs-params" data-v-3602e6fc>(String description)</span> </span>{
-</span><span data-v-3602e6fc>        <span class="hljs-keyword" data-v-3602e6fc>this</span>.description = description;
-</span><span data-v-3602e6fc>    }
-</span><span data-v-3602e6fc>
-</span><span data-v-3602e6fc>    <span class="hljs-function" data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>public</span> String <span class="hljs-title" data-v-3602e6fc>getDescription</span><span class="hljs-params" data-v-3602e6fc>()</span> </span>{
-</span><span data-v-3602e6fc>        <span class="hljs-keyword" data-v-3602e6fc>return</span> description;
-</span><span data-v-3602e6fc>    }
-</span><span data-v-3602e6fc>}
-</span></code><div class="function-btn-container" data-v-3602e6fc><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-3602e6fc>
-    <div class="function-btn-body" data-v-3602e6fc>
+    </button></div></pre><p data-v-6607c59e><span style="color:red;" data-v-6607c59e><big data-v-6607c59e><span data-v-6607c59e><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign" data-v-6607c59e></span></span></big></span> Note that a proper <code class="line-numbers hljs inline no-lang" data-v-6607c59e>equals</code> method implementation is more complex than the example above. See the article <a href="https://www.sitepoint.com/implement-javas-equals-method-correctly/" data-v-6607c59e><em data-v-6607c59e>How to Implement Java’s equals Method Correctly</em> by Nicolai Parlog</a> for a detailed explanation before you implement your own <code class="line-numbers hljs inline no-lang" data-v-6607c59e>equals</code> method.</p></div> <!----></div></div></div></div></div> <div><div><br> <h5 id="exercises"><span><span aria-hidden="true" class="glyphicon glyphicon-question-sign"></span></span><span><span aria-hidden="true" class="glyphicon glyphicon-ok-sign"></span></span> Exercises:<a href="#exercises" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h5> <div><div><div expanded="" class="card-container" data-v-c545cba4><div class="card expandable-card border-dark" data-v-c545cba4><div class="card-header header-toggle bg-dark border-dark" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><!----></div> <div class="header-wrapper card-title bg-dark text-white" data-v-c545cba4><h3 id="key-exercise-override-the-tostring-method" data-v-c545cba4><small data-v-c545cba4><small data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-exclamation-sign" data-v-c545cba4></span></span> [Key Exercise] override the <code class="line-numbers hljs inline no-lang" data-v-c545cba4>toString</code> method</small></small><a href="#key-exercise-override-the-tostring-method" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h3></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button> <button type="button" class="close-button btn btn-outline-light" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><div class="card-body" data-v-c545cba4> <p data-v-c545cba4>Suppose you have the following classes <code class="line-numbers hljs inline no-lang" data-v-c545cba4>Task</code>, <code class="line-numbers hljs inline no-lang" data-v-c545cba4>Todo</code>, <code class="line-numbers hljs inline no-lang" data-v-c545cba4>Deadline</code>:</p> <pre data-v-c545cba4><code class="line-numbers hljs java" data-v-c545cba4><span data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-class" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>class</span> <span class="hljs-title" data-v-c545cba4>Task</span> </span>{
+</span><span data-v-c545cba4>    <span class="hljs-keyword" data-v-c545cba4>protected</span> String description;
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-title" data-v-c545cba4>Task</span><span class="hljs-params" data-v-c545cba4>(String description)</span> </span>{
+</span><span data-v-c545cba4>        <span class="hljs-keyword" data-v-c545cba4>this</span>.description = description;
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> String <span class="hljs-title" data-v-c545cba4>getDescription</span><span class="hljs-params" data-v-c545cba4>()</span> </span>{
+</span><span data-v-c545cba4>        <span class="hljs-keyword" data-v-c545cba4>return</span> description;
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>}
+</span></code><div class="function-btn-container" data-v-c545cba4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-3602e6fc>
-    <g id="surface1" data-v-3602e6fc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-3602e6fc></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-c545cba4></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-3602e6fc>
-    <div class="function-btn-body" data-v-3602e6fc>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-3602e6fc>
-    <g id="surface1" data-v-3602e6fc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -386,48 +383,48 @@
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-3602e6fc></path>
+      5.1054688 z " data-v-c545cba4></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><pre data-v-3602e6fc><code class="line-numbers hljs java" data-v-3602e6fc><span data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>public</span> <span class="hljs-class" data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>class</span> <span class="hljs-title" data-v-3602e6fc>Todo</span> <span class="hljs-keyword" data-v-3602e6fc>extends</span> <span class="hljs-title" data-v-3602e6fc>Task</span> </span>{
-</span><span data-v-3602e6fc>    <span class="hljs-keyword" data-v-3602e6fc>protected</span> <span class="hljs-keyword" data-v-3602e6fc>boolean</span> isDone;
-</span><span data-v-3602e6fc>
-</span><span data-v-3602e6fc>    <span class="hljs-function" data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>public</span> <span class="hljs-title" data-v-3602e6fc>Todo</span><span class="hljs-params" data-v-3602e6fc>(String description)</span> </span>{
-</span><span data-v-3602e6fc>        <span class="hljs-keyword" data-v-3602e6fc>super</span>(description);
-</span><span data-v-3602e6fc>        isDone = <span class="hljs-keyword" data-v-3602e6fc>false</span>;
-</span><span data-v-3602e6fc>    }
-</span><span data-v-3602e6fc>
-</span><span data-v-3602e6fc>    <span class="hljs-function" data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>public</span> <span class="hljs-keyword" data-v-3602e6fc>void</span> <span class="hljs-title" data-v-3602e6fc>setDone</span><span class="hljs-params" data-v-3602e6fc>(<span class="hljs-keyword" data-v-3602e6fc>boolean</span> done)</span> </span>{
-</span><span data-v-3602e6fc>        isDone = done;
-</span><span data-v-3602e6fc>    }
-</span><span data-v-3602e6fc>
-</span><span data-v-3602e6fc>    <span class="hljs-function" data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>public</span> <span class="hljs-keyword" data-v-3602e6fc>boolean</span> <span class="hljs-title" data-v-3602e6fc>isDone</span><span class="hljs-params" data-v-3602e6fc>()</span> </span>{
-</span><span data-v-3602e6fc>        <span class="hljs-keyword" data-v-3602e6fc>return</span> isDone;
-</span><span data-v-3602e6fc>    }
-</span><span data-v-3602e6fc>}
-</span></code><div class="function-btn-container" data-v-3602e6fc><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-3602e6fc>
-    <div class="function-btn-body" data-v-3602e6fc>
+    </button></div></pre><pre data-v-c545cba4><code class="line-numbers hljs java" data-v-c545cba4><span data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-class" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>class</span> <span class="hljs-title" data-v-c545cba4>Todo</span> <span class="hljs-keyword" data-v-c545cba4>extends</span> <span class="hljs-title" data-v-c545cba4>Task</span> </span>{
+</span><span data-v-c545cba4>    <span class="hljs-keyword" data-v-c545cba4>protected</span> <span class="hljs-keyword" data-v-c545cba4>boolean</span> isDone;
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-title" data-v-c545cba4>Todo</span><span class="hljs-params" data-v-c545cba4>(String description)</span> </span>{
+</span><span data-v-c545cba4>        <span class="hljs-keyword" data-v-c545cba4>super</span>(description);
+</span><span data-v-c545cba4>        isDone = <span class="hljs-keyword" data-v-c545cba4>false</span>;
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-keyword" data-v-c545cba4>void</span> <span class="hljs-title" data-v-c545cba4>setDone</span><span class="hljs-params" data-v-c545cba4>(<span class="hljs-keyword" data-v-c545cba4>boolean</span> done)</span> </span>{
+</span><span data-v-c545cba4>        isDone = done;
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-keyword" data-v-c545cba4>boolean</span> <span class="hljs-title" data-v-c545cba4>isDone</span><span class="hljs-params" data-v-c545cba4>()</span> </span>{
+</span><span data-v-c545cba4>        <span class="hljs-keyword" data-v-c545cba4>return</span> isDone;
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>}
+</span></code><div class="function-btn-container" data-v-c545cba4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-3602e6fc>
-    <g id="surface1" data-v-3602e6fc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-3602e6fc></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-c545cba4></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-3602e6fc>
-    <div class="function-btn-body" data-v-3602e6fc>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-3602e6fc>
-    <g id="surface1" data-v-3602e6fc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -437,49 +434,49 @@
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-3602e6fc></path>
+      5.1054688 z " data-v-c545cba4></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><pre data-v-3602e6fc><code class="line-numbers hljs java" data-v-3602e6fc><span data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>public</span> <span class="hljs-class" data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>class</span> <span class="hljs-title" data-v-3602e6fc>Deadline</span> <span class="hljs-keyword" data-v-3602e6fc>extends</span> <span class="hljs-title" data-v-3602e6fc>Todo</span> </span>{
-</span><span data-v-3602e6fc>
-</span><span data-v-3602e6fc>    <span class="hljs-keyword" data-v-3602e6fc>protected</span> String by;
-</span><span data-v-3602e6fc>
-</span><span data-v-3602e6fc>    <span class="hljs-function" data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>public</span> <span class="hljs-title" data-v-3602e6fc>Deadline</span><span class="hljs-params" data-v-3602e6fc>(String description, String by)</span> </span>{
-</span><span data-v-3602e6fc>        <span class="hljs-keyword" data-v-3602e6fc>super</span>(description);
-</span><span data-v-3602e6fc>        <span class="hljs-keyword" data-v-3602e6fc>this</span>.by = by;
-</span><span data-v-3602e6fc>    }
-</span><span data-v-3602e6fc>
-</span><span data-v-3602e6fc>    <span class="hljs-function" data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>public</span> <span class="hljs-keyword" data-v-3602e6fc>void</span> <span class="hljs-title" data-v-3602e6fc>setBy</span><span class="hljs-params" data-v-3602e6fc>(String by)</span> </span>{
-</span><span data-v-3602e6fc>        <span class="hljs-keyword" data-v-3602e6fc>this</span>.by = by;
-</span><span data-v-3602e6fc>    }
-</span><span data-v-3602e6fc>
-</span><span data-v-3602e6fc>    <span class="hljs-function" data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>public</span> String <span class="hljs-title" data-v-3602e6fc>getBy</span><span class="hljs-params" data-v-3602e6fc>()</span> </span>{
-</span><span data-v-3602e6fc>        <span class="hljs-keyword" data-v-3602e6fc>return</span> by;
-</span><span data-v-3602e6fc>    }
-</span><span data-v-3602e6fc>}
-</span></code><div class="function-btn-container" data-v-3602e6fc><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-3602e6fc>
-    <div class="function-btn-body" data-v-3602e6fc>
+    </button></div></pre><pre data-v-c545cba4><code class="line-numbers hljs java" data-v-c545cba4><span data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-class" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>class</span> <span class="hljs-title" data-v-c545cba4>Deadline</span> <span class="hljs-keyword" data-v-c545cba4>extends</span> <span class="hljs-title" data-v-c545cba4>Todo</span> </span>{
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-keyword" data-v-c545cba4>protected</span> String by;
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-title" data-v-c545cba4>Deadline</span><span class="hljs-params" data-v-c545cba4>(String description, String by)</span> </span>{
+</span><span data-v-c545cba4>        <span class="hljs-keyword" data-v-c545cba4>super</span>(description);
+</span><span data-v-c545cba4>        <span class="hljs-keyword" data-v-c545cba4>this</span>.by = by;
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-keyword" data-v-c545cba4>void</span> <span class="hljs-title" data-v-c545cba4>setBy</span><span class="hljs-params" data-v-c545cba4>(String by)</span> </span>{
+</span><span data-v-c545cba4>        <span class="hljs-keyword" data-v-c545cba4>this</span>.by = by;
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> String <span class="hljs-title" data-v-c545cba4>getBy</span><span class="hljs-params" data-v-c545cba4>()</span> </span>{
+</span><span data-v-c545cba4>        <span class="hljs-keyword" data-v-c545cba4>return</span> by;
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>}
+</span></code><div class="function-btn-container" data-v-c545cba4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-3602e6fc>
-    <g id="surface1" data-v-3602e6fc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-3602e6fc></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-c545cba4></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-3602e6fc>
-    <div class="function-btn-body" data-v-3602e6fc>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-3602e6fc>
-    <g id="surface1" data-v-3602e6fc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -489,52 +486,52 @@
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-3602e6fc></path>
+      5.1054688 z " data-v-c545cba4></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><p data-v-3602e6fc>Override the <code class="line-numbers hljs inline no-lang" data-v-3602e6fc>toString</code> method of the three classes to produce the following behavior.</p> <pre data-v-3602e6fc><code class="line-numbers hljs java" data-v-3602e6fc><span data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>public</span> <span class="hljs-class" data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>class</span> <span class="hljs-title" data-v-3602e6fc>Main</span> </span>{
-</span><span data-v-3602e6fc>    <span class="hljs-function" data-v-3602e6fc><span class="hljs-keyword" data-v-3602e6fc>public</span> <span class="hljs-keyword" data-v-3602e6fc>static</span> <span class="hljs-keyword" data-v-3602e6fc>void</span> <span class="hljs-title" data-v-3602e6fc>main</span><span class="hljs-params" data-v-3602e6fc>(String[] args)</span> </span>{
-</span><span data-v-3602e6fc>        <span class="hljs-comment" data-v-3602e6fc>// create a todo task and print it</span>
-</span><span data-v-3602e6fc>        Todo t = <span class="hljs-keyword" data-v-3602e6fc>new</span> Todo(<span class="hljs-string" data-v-3602e6fc>&quot;Read a good book&quot;</span>);
-</span><span data-v-3602e6fc>        System.out.println(t);
-</span><span data-v-3602e6fc>
-</span><span data-v-3602e6fc>        <span class="hljs-comment" data-v-3602e6fc>// change todo fields and print again</span>
-</span><span data-v-3602e6fc>        t.setDone(<span class="hljs-keyword" data-v-3602e6fc>true</span>);
-</span><span data-v-3602e6fc>        System.out.println(t);
-</span><span data-v-3602e6fc>
-</span><span data-v-3602e6fc>        <span class="hljs-comment" data-v-3602e6fc>// create a deadline task and print it</span>
-</span><span data-v-3602e6fc>        Deadline d = <span class="hljs-keyword" data-v-3602e6fc>new</span> Deadline(<span class="hljs-string" data-v-3602e6fc>&quot;Read textbook&quot;</span>, <span class="hljs-string" data-v-3602e6fc>&quot;Nov 16&quot;</span>);
-</span><span data-v-3602e6fc>        System.out.println(d);
-</span><span data-v-3602e6fc>
-</span><span data-v-3602e6fc>        <span class="hljs-comment" data-v-3602e6fc>// change deadline details and print again</span>
-</span><span data-v-3602e6fc>        d.setDone(<span class="hljs-keyword" data-v-3602e6fc>true</span>);
-</span><span data-v-3602e6fc>        d.setBy(<span class="hljs-string" data-v-3602e6fc>&quot;Postponed to Nov 18th&quot;</span>);
-</span><span data-v-3602e6fc>        System.out.println(d);
-</span><span data-v-3602e6fc>    }
-</span><span data-v-3602e6fc>}
-</span></code><div class="function-btn-container" data-v-3602e6fc><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-3602e6fc>
-    <div class="function-btn-body" data-v-3602e6fc>
+    </button></div></pre><p data-v-c545cba4>Override the <code class="line-numbers hljs inline no-lang" data-v-c545cba4>toString</code> method of the three classes to produce the following behavior.</p> <pre data-v-c545cba4><code class="line-numbers hljs java" data-v-c545cba4><span data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-class" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>class</span> <span class="hljs-title" data-v-c545cba4>Main</span> </span>{
+</span><span data-v-c545cba4>    <span class="hljs-function" data-v-c545cba4><span class="hljs-keyword" data-v-c545cba4>public</span> <span class="hljs-keyword" data-v-c545cba4>static</span> <span class="hljs-keyword" data-v-c545cba4>void</span> <span class="hljs-title" data-v-c545cba4>main</span><span class="hljs-params" data-v-c545cba4>(String[] args)</span> </span>{
+</span><span data-v-c545cba4>        <span class="hljs-comment" data-v-c545cba4>// create a todo task and print it</span>
+</span><span data-v-c545cba4>        Todo t = <span class="hljs-keyword" data-v-c545cba4>new</span> Todo(<span class="hljs-string" data-v-c545cba4>&quot;Read a good book&quot;</span>);
+</span><span data-v-c545cba4>        System.out.println(t);
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>        <span class="hljs-comment" data-v-c545cba4>// change todo fields and print again</span>
+</span><span data-v-c545cba4>        t.setDone(<span class="hljs-keyword" data-v-c545cba4>true</span>);
+</span><span data-v-c545cba4>        System.out.println(t);
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>        <span class="hljs-comment" data-v-c545cba4>// create a deadline task and print it</span>
+</span><span data-v-c545cba4>        Deadline d = <span class="hljs-keyword" data-v-c545cba4>new</span> Deadline(<span class="hljs-string" data-v-c545cba4>&quot;Read textbook&quot;</span>, <span class="hljs-string" data-v-c545cba4>&quot;Nov 16&quot;</span>);
+</span><span data-v-c545cba4>        System.out.println(d);
+</span><span data-v-c545cba4>
+</span><span data-v-c545cba4>        <span class="hljs-comment" data-v-c545cba4>// change deadline details and print again</span>
+</span><span data-v-c545cba4>        d.setDone(<span class="hljs-keyword" data-v-c545cba4>true</span>);
+</span><span data-v-c545cba4>        d.setBy(<span class="hljs-string" data-v-c545cba4>&quot;Postponed to Nov 18th&quot;</span>);
+</span><span data-v-c545cba4>        System.out.println(d);
+</span><span data-v-c545cba4>    }
+</span><span data-v-c545cba4>}
+</span></code><div class="function-btn-container" data-v-c545cba4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-3602e6fc>
-    <g id="surface1" data-v-3602e6fc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-3602e6fc></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-c545cba4></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-3602e6fc>
-    <div class="function-btn-body" data-v-3602e6fc>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-3602e6fc>
-    <g id="surface1" data-v-3602e6fc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -544,42 +541,42 @@
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-3602e6fc></path>
+      5.1054688 z " data-v-c545cba4></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><p data-v-3602e6fc><span data-v-3602e6fc><span aria-hidden="true" class="fas fa-arrow-down" data-v-3602e6fc></span></span></p> <pre data-v-3602e6fc><code class="line-numbers hljs" data-v-3602e6fc><span data-v-3602e6fc>description: Read a good book
-</span><span data-v-3602e6fc>is done? No
-</span><span data-v-3602e6fc>description: Read a good book
-</span><span data-v-3602e6fc>is done? Yes
-</span><span data-v-3602e6fc>description: Read textbook
-</span><span data-v-3602e6fc>is done? No
-</span><span data-v-3602e6fc>do by: Nov 16
-</span><span data-v-3602e6fc>description: Read textbook
-</span><span data-v-3602e6fc>is done? Yes
-</span><span data-v-3602e6fc>do by: Postponed to Nov 18th
-</span></code><div class="function-btn-container" data-v-3602e6fc><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-3602e6fc>
-    <div class="function-btn-body" data-v-3602e6fc>
+    </button></div></pre><p data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-arrow-down" data-v-c545cba4></span></span></p> <pre data-v-c545cba4><code class="line-numbers hljs" data-v-c545cba4><span data-v-c545cba4>description: Read a good book
+</span><span data-v-c545cba4>is done? No
+</span><span data-v-c545cba4>description: Read a good book
+</span><span data-v-c545cba4>is done? Yes
+</span><span data-v-c545cba4>description: Read textbook
+</span><span data-v-c545cba4>is done? No
+</span><span data-v-c545cba4>do by: Nov 16
+</span><span data-v-c545cba4>description: Read textbook
+</span><span data-v-c545cba4>is done? Yes
+</span><span data-v-c545cba4>do by: Postponed to Nov 18th
+</span></code><div class="function-btn-container" data-v-c545cba4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-3602e6fc>
-    <g id="surface1" data-v-3602e6fc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-3602e6fc></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-c545cba4></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-3602e6fc>
-    <div class="function-btn-body" data-v-3602e6fc>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-c545cba4>
+    <div class="function-btn-body" data-v-c545cba4>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-3602e6fc>
-    <g id="surface1" data-v-3602e6fc>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-c545cba4>
+    <g id="surface1" data-v-c545cba4>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -589,13 +586,17 @@
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-3602e6fc></path>
+      5.1054688 z " data-v-c545cba4></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><p data-v-3602e6fc><span class="badge rounded-pill bg-success text-white" data-v-3602e6fc><span aria-hidden="true" class="fas fa-lightbulb" data-v-3602e6fc></span></span> You can use the <code class="line-numbers hljs inline no-lang" data-v-3602e6fc>super.toString</code> from the subclass to invoke the behavior of the method you are overriding. This is useful here because the overriding method is simply <em data-v-3602e6fc>adding onto</em> the behavior of the overridden method.</p> <div class="algolia-no-index card-container" data-v-3602e6fc><div class="card expandable-card border-0" data-v-3602e6fc><div class="card-header header-toggle bg-white border-0" data-v-3602e6fc><div class="caret-wrapper" data-v-3602e6fc><span class="glyphicon glyphicon-chevron-right" data-v-3602e6fc></span></div> <div class="header-wrapper card-title bg-white" data-v-3602e6fc><p data-v-3602e6fc>Hint</p></div> <div class="button-wrapper" data-v-3602e6fc><button type="button" class="collapse-button btn btn-outline-secondary" style="display:none;" data-v-3602e6fc><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down"></span></button> <button type="button" class="close-button btn btn-outline-secondary seamless-button" data-v-3602e6fc><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-3602e6fc></span></button> <button type="button" class="popup-button btn btn-outline-secondary seamless-button" style="display:none;" data-v-3602e6fc><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-3602e6fc></span></button></div></div> <div class="card-collapse" data-v-3602e6fc><!----> <hr style="display:;" data-v-3602e6fc></div> <!----></div></div> <!----> <div class="bottom-button-wrapper" data-v-3602e6fc><button type="button" class="collapse-button btn btn-outline-secondary" data-v-3602e6fc><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button></div></div> <hr style="display:none;" data-v-3602e6fc></div> <!----></div></div></div></div></div></div></div></div></div></div></div></div> <nav id="page-nav" class="fixed-header-padding" data-v-e6005420><div class="nav-component slim-scroll" data-v-e6005420></div> <!----></nav> <div aria-hidden="true" class="scroll-top-button fa-lg d-print-none" style="display:none;bottom:2%;right:2%;position:fixed;"><i class="fas fa-arrow-circle-up"></i></div></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 5.4.0</a>, generated on Wed, 24 Apr 2024, 15:20:58 GMT+8]</small></div></footer></div>
+    </button></div></pre><p data-v-c545cba4><span class="badge rounded-pill bg-success text-white" data-v-c545cba4><span aria-hidden="true" class="fas fa-lightbulb" data-v-c545cba4></span></span> You can use the <code class="line-numbers hljs inline no-lang" data-v-c545cba4>super.toString</code> from the subclass to invoke the behavior of the method you are overriding. This is useful here because the overriding method is simply <em data-v-c545cba4>adding onto</em> the behavior of the overridden method.</p> <div class="algolia-no-index card-container" data-v-c545cba4><div class="card expandable-card card-seamless border-0" data-v-c545cba4><div class="card-header header-toggle bg-transparent border-0" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><span class="glyphicon glyphicon-chevron-right" data-v-c545cba4></span></div> <div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-c545cba4><p data-v-c545cba4>Hint</p></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down"></span></button> <button type="button" class="close-button btn btn-outline-light seamless-button" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light seamless-button" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><!----> <hr style="display:;" data-v-c545cba4></div> <!----></div></div> <!----> <div class="bottom-button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-secondary" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button></div></div> <hr style="display:none;" data-v-c545cba4></div> <!----></div></div></div></div></div></div></div></div></div></div></div></div> <nav id="page-nav" class="fixed-header-padding" data-v-e6005420><div class="nav-component slim-scroll" data-v-e6005420></div> <!----></nav> <div aria-hidden="true" class="scroll-top-button fa-lg d-print-none" style="display:none;bottom:2%;right:2%;position:fixed;"><i class="fas fa-arrow-circle-up"></i></div></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 5.5.2</a>, generated on Fri, 3 May 2024, 17:50:55 GMT+8]</small></div></footer></div>
 </body><script src="/website/markbind/js/bootstrap-utility.min.js"></script>
+<script src="/website/markbind/js/polyfill.min.js"></script>
+<script src="/website/markbind/js/vue.min.js"></script>
+<script src="/website/markbind/js/markbind.min.js"></script>
+<script src="index.page-vue-render.js"></script>
 <script>
   MarkBind.setup()
 </script>
@@ -651,4 +652,55 @@
       }
     }
     </script>
+    <script src="/website/plugins/dataTable/datatables.min.js"></script>
+    
+  <script>
+    function getTableOptions(el) {
+      const options = {};
+      if ($(el).hasClass('sortable-table')) {
+        options.searching = false;
+        options.paging = false;
+        options.info = false;
+      } else if ($(el).hasClass('searchable-table')) {
+        options.ordering = false;
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      } else if ($(el).hasClass('sortable-searchable-table')) {
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      }
+      return options;
+    }
+
+    Vue.directive('datatable', {
+      inserted: function(el, binding) {
+        const options = binding.value || {};
+        const tableOptions = getTableOptions(el);
+        $(el).DataTable({ ...tableOptions, ...options });
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+      $('table.sortable-table, table.searchable-table, table.sortable-searchable-table').each(function() {
+        const options = getTableOptions(this);
+        $(this).DataTable(options);
+      });
+    });
+  </script>
+
+    <script type="module">
+    import mermaid from 'https://unpkg.com/mermaid@10/dist/mermaid.esm.min.mjs';
+    document.addEventListener('DOMContentLoaded', () => {
+      mermaid.initialize({});
+      Vue.directive('mermaid', {
+        inserted: function(el) {
+          mermaid.run({
+            nodes: [el]
+          });
+        }
+      });
+    });
+  </script>
 </html>

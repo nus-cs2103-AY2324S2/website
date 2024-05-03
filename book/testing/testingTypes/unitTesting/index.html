@@ -3,11 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="generator" content="MarkBind 5.4.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1"><title>CS2103/T - Testing: Testing Types: Unit Testing</title> <link rel="stylesheet" href="/website/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/website/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/website/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/website/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/website/markbind/css/markbind.min.css"><script src="/website/markbind/js/polyfill.min.js"></script>
-    <script src="/website/markbind/js/vue.min.js"></script>
-    <script src="/website/markbind/js/markbind.min.js"></script>
-    <script src="index.page-vue-render.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.0/dist/style.css"><link rel="preconnect" href="https://3DU4XTBX4T-dsn.algolia.net" crossorigin><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
+    <meta name="generator" content="MarkBind 5.5.2">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><title>CS2103/T - Testing: Testing Types: Unit Testing</title> <link rel="stylesheet" href="/website/markbind/css/bootstrap.min.css"> <link rel="stylesheet" href="/website/markbind/fontawesome/css/all.min.css"> <link rel="stylesheet" href="/website/markbind/glyphicons/css/bootstrap-glyphicons.min.css"><link rel="stylesheet" href="/website/markbind/css/codeblock-light.min.css"><link rel="stylesheet" href="/website/markbind/css/markbind.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3.2.0/dist/style.css"><link rel="preconnect" href="https://3DU4XTBX4T-dsn.algolia.net" crossorigin><link rel="stylesheet" href="/website/plugins/dataTable/datatables.min.css"><link rel="stylesheet" href="/website/plugins/dataTable/datatables-additional.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-anchors/markbind-plugin-anchors.css"><link rel="stylesheet" href="/website/plugins/markbind-plugin-tree/markbind-plugin-tree.css">
     
 <link rel="stylesheet" href="/website/css/main.css">
 <link rel="icon" href="/website/favicon.ico"></head>
@@ -16,37 +13,37 @@
 </script>
 <body >
 <div id="app" data-server-rendered="true"><header sticky=""><div placement="top" data-v-7c0fd418><nav class="navbar navbar-expand-md d-print-none navbar-dark bg-dark" data-v-7c0fd418><div class="container-fluid" data-v-7c0fd418><div class="navbar-left" data-v-7c0fd418><a href="/website/index.html" title="Home" class="navbar-brand" data-v-7c0fd418><span class="badge rounded-pill bg-success" data-v-7c0fd418>CS2103/T <small data-v-7c0fd418>2024 Jan-Apr</small></span></a></div> <div class="navbar-default" data-v-7c0fd418><ul class="navbar-nav me-auto mt-2 mt-lg-0" data-v-7c0fd418> <li class="nav-link algolia-no-index dropdown" data-v-ccda25c0><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle nav-link" data-v-ccda25c0><strong data-v-ccda25c0>Schedule</strong></a> <ul class="dropdown-menu" data-v-ccda25c0> <li data-v-ccda25c0><a href="/website/schedule/timeline.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Full Timeline</strong></span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week1/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 1</strong> [Mon, Jan 15th] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week2/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 2</strong> [Fri, Jan 19th] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week3/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 3</strong> [Fri, Jan 26th] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week4/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 4</strong> [Fri, Feb 2nd] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week5/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 5</strong> [Fri, Feb 9th] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week6/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 6</strong> [Fri, Feb 16th] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week7/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 7</strong> [Fri, Feb 23rd] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week8/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 8</strong> [Fri, Mar 8th] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week9/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 9</strong> [Fri, Mar 15th] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week10/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 10</strong> [Fri, Mar 22nd] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week11/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 11</strong> [Fri, Mar 29th] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week12/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 12</strong> [Fri, Apr 5th] </span></a></li> <li data-v-ccda25c0><a href="/website/schedule/week13/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><strong data-v-ccda25c0>Week 13</strong> [Fri, Apr 12th]  <span aria-hidden="true" class="fas fa-arrow-circle-left" data-v-ccda25c0></span></span></a></li></ul></li> <li data-v-7c0fd418><a href="/website/se-book-adapted/index.html" class="nav-link" data-v-7c0fd418><span data-v-7c0fd418><strong data-v-7c0fd418>Textbook</strong></span></a></li> <li data-v-7c0fd418><a href="/website/admin/index.html" class="nav-link" data-v-7c0fd418><span data-v-7c0fd418><strong data-v-7c0fd418>Admin Info</strong></span></a></li> <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" data-v-7c0fd418><a href="https://nus-cs2103-ay2324s2.github.io/dashboards" target="_blank" highlight-on="none" class="nav-link" data-v-7c0fd418><span data-v-7c0fd418><strong data-v-7c0fd418>Dashboards</strong></span></a></li> <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" class="nav-link algolia-no-index dropdown" data-v-ccda25c0><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle nav-link" data-v-ccda25c0><strong data-v-ccda25c0>Project Links</strong></a> <ul class="dropdown-menu" data-v-ccda25c0> <span data-v-ccda25c0><strong data-v-ccda25c0> Individual Project (iP):</strong></span> <li data-v-ccda25c0><a href="/website/admin/ip-overview.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-drafting-compass" data-v-ccda25c0></span></span></span> Individual Project Info</a></li> <li data-v-ccda25c0><a href="https://github.com/nus-cs2103-AY2324S2/ip" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-code-branch" data-v-ccda25c0></span></span></span> iP Upstream Repo</a></li> <li tags="m--cs2103 m--tic4001 m--tic4002" data-v-ccda25c0><a href="/website/admin/ip-showcase.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="glyphicon glyphicon-list-alt" data-v-ccda25c0></span> iP Showcase</span></a></li> <li data-v-ccda25c0><a href="https://nus-cs2103-ay2324s2.github.io/ip-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=java~md~fxml~sh~bat~gradle~txt" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-chart-area" data-v-ccda25c0></span> iP Code Dashboard</span></a></li> <li data-v-ccda25c0><a href="https://nus-cs2103-ay2324s2.github.io/dashboards/contents/ip-progress.html" target="_blank" class="dropdown-item text-success" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-trophy" data-v-ccda25c0></span> iP Progress Dashboard</span></a></li> <hr data-v-ccda25c0> <span data-v-ccda25c0><strong data-v-ccda25c0> Team Project (tP):</strong></span> <li data-v-ccda25c0><a href="/website/admin/tp-expectations.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-drafting-compass" data-v-ccda25c0></span></span></span> Team Project Info</a></li> <li tags="m--cs2103 m--cs2113 m--tic4002" data-v-ccda25c0><a href="https://github.com/nus-cs2103-AY2324S2/tp" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-code-branch" data-v-ccda25c0></span></span></span> tP Upstream Repo (AB3)</a></li> <li data-v-ccda25c0><a href="/website/admin/teamList.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="glyphicon glyphicon-list-alt" data-v-ccda25c0></span> Team List</span></a></li> <li data-v-ccda25c0><a href="https://nus-cs2103-ay2324s2.github.io/tp-dashboard/?search=&amp;sort=groupTitle&amp;sortWithin=title&amp;timeframe=commit&amp;mergegroup=&amp;groupSelect=groupByRepos&amp;breakdown=true&amp;checkedFileTypes=docs~functional-code~test-code~other" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-chart-area" data-v-ccda25c0></span> tP Code Dashboard</span></a></li> <li data-v-ccda25c0><a href="https://nus-cs2103-ay2324s2.github.io/dashboards/contents/tp-progress.html" target="_blank" class="dropdown-item text-success" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-trophy" data-v-ccda25c0></span> tP Progress Dashboard</span></a></li></ul></li> <li class="nav-link algolia-no-index dropdown" data-v-ccda25c0><a role="button" data-bs-toggle="dropdown" class="dropdown-toggle nav-link" data-v-ccda25c0><strong data-v-ccda25c0>Other Links</strong></a> <ul class="dropdown-menu" data-v-ccda25c0> <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" data-v-ccda25c0><a href="https://github.com/nus-cs2103-AY2324S2/forum/issues" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-bug" data-v-ccda25c0></span> Report Bugs</span></a></li> <li data-v-ccda25c0><a href="https://github.com/nus-cs2103-AY2324S2/forum/issues" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-comment" data-v-ccda25c0></span> Forum</span></a></li> <li data-v-ccda25c0><a href="/website/admin/instructors.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-user-tie" data-v-ccda25c0></span> Instructors</span></a></li> <li data-v-ccda25c0><a href="https://canvas.nus.edu.sg/courses/56105/announcements" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="glyphicon glyphicon-bullhorn" data-v-ccda25c0></span> Announcements</span></a></li> <li data-v-ccda25c0><a href="https://canvas.nus.edu.sg/courses/56105/files" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-file-upload" data-v-ccda25c0></span> Files (handouts, submissions etc.)</span></a></li> <li tags="m--cs2113 m--cs2103" data-v-ccda25c0><a href="/website/admin/tutorials.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="glyphicon glyphicon-calendar" data-v-ccda25c0></span> Tutorial Schedule</span></a></li> <li data-v-ccda25c0><a href="https://teams.microsoft.com/l/team/19%3AYCe26jtZ6Trwa-l0rrppXwjAAojUIcYQRpKFiBES4FI1%40thread.tacv2/conversations?groupId=0e16445f-71b1-4996-be7a-fec0560a1e17&amp;tenantId=" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-users-cog" data-v-ccda25c0></span> MS Teams link</span></a></li> <li data-v-ccda25c0><a href="/website/git-trail/index.html" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-route" data-v-ccda25c0></span> Git Learning Trail</span></a></li> <li tags="m--cs2103 m--cs2113 m--tic2002 m--tic4001 m--tic4002" data-v-ccda25c0><a href="https://se-education.org/guides/conventions/java/intermediate.html" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-code" data-v-ccda25c0></span> Java Coding Standard</span></a></li> <li tags="m--cs2103 m--cs2113 m--tic4001 m--tic4002" data-v-ccda25c0><a href="https://se-education.org/guides/conventions/git.html" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fab fa-git-square" data-v-ccda25c0></span> Git Conventions</span></a></li> <li tags="m--cs2103 m--cs2113" data-v-ccda25c0><a href="https://nus-cs2103-ay2324s2.github.io/dashboards/contents/forum-activities.html" target="_blank" class="dropdown-item" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-trophy" data-v-ccda25c0></span> Forum Activities Dashboard</span></a></li> <li data-v-ccda25c0><a href="https://nus-cs2103-ay2324s2.github.io/dashboards/contents/participation.html" target="_blank" class="dropdown-item text-success" data-v-ccda25c0><span data-v-ccda25c0><span aria-hidden="true" class="fas fa-trophy" data-v-ccda25c0></span> Participation Dashboard</span></a></li></ul></li></ul></div> <ul class="navbar-nav navbar-right" data-v-7c0fd418><li class="nav-link" data-v-7c0fd418><form class="navbar-form" data-v-7c0fd418><div class="dropdown" style="position:relative;" data-v-cea1a814><div id="algolia-search-input" data-v-cea1a814></div> <ul class="dropdown-menu search-dropdown-menu d-none dropdown-menu-end" data-v-cea1a814></ul></div></form></li></ul></div></nav> <div class="lower-navbar-container" style="display:none;" data-v-7c0fd418><!----> <!----></div></div></header> <div id="flex-body"><div id="content-wrapper" class="fixed-header-padding"><div><link rel="stylesheet" href="/website/book/css/textbook.css"> <div id="all" class="website-content"><p><span class="dimmed"><strong><span>Quality Assurance → Testing → Test Types →
-</span></strong></span></p> <div id="title"><h1 id="unit-testing"><span>Unit testing</span><a href="#unit-testing" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h1></div> <div id="main"><div><div><div expanded="" class="card-container" data-v-3602e6fc><div class="card expandable-card border-0" data-v-3602e6fc><div class="card-header header-toggle bg-white border-0" data-v-3602e6fc><div class="caret-wrapper" data-v-3602e6fc><span class="glyphicon glyphicon-chevron-down" data-v-3602e6fc></span></div> <div class="header-wrapper card-title bg-white" data-v-3602e6fc><span class="card-title" data-v-3602e6fc><div data-v-3602e6fc><h4 id="what" data-v-3602e6fc><span data-v-3602e6fc>What</span><a href="#what" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-3602e6fc></a></h4></div></span></div> <div class="button-wrapper" data-v-3602e6fc><button type="button" class="collapse-button btn btn-outline-secondary" style="display:none;" data-v-3602e6fc><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button> <button type="button" class="close-button btn btn-outline-secondary seamless-button" data-v-3602e6fc><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-3602e6fc></span></button> <button type="button" class="popup-button btn btn-outline-secondary seamless-button" style="display:none;" data-v-3602e6fc><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-3602e6fc></span></button></div></div> <div class="card-collapse" data-v-3602e6fc><div class="card-body" data-v-3602e6fc> <div class="indented" data-v-3602e6fc><p data-v-3602e6fc><span class="badge bg-light text-dark" data-v-3602e6fc><span data-v-3602e6fc><span class="dimmed" data-v-3602e6fc><span data-v-3602e6fc><span data-v-3602e6fc><span aria-hidden="true" class="fas fa-trophy" data-v-3602e6fc></span></span> Can explain unit testing</span></span></span></span></p><p data-v-3602e6fc></p><p data-v-3602e6fc></p> <p data-v-3602e6fc></p> <div data-v-3602e6fc><div class="alert box-container seamless" data-v-0eabf1c4><!----> <div class="header-and-body" data-v-0eabf1c4><!----> <div class="box-body-wrapper" data-v-0eabf1c4><div class="icon-wrapper  text-primary" data-v-0eabf1c4><i class="fas fa-atlas" data-v-0eabf1c4></i></div> <div aria-hidden="true" class="vertical-divider alert-primary" data-v-0eabf1c4></div> <div class="contents" data-v-0eabf1c4><div data-v-0eabf1c4><p data-v-0eabf1c4><strong data-v-0eabf1c4>Unit testing</strong>: testing individual units (methods, classes, subsystems, ...) to ensure each piece works correctly.</p></div></div> <!----></div></div></div> <p data-v-3602e6fc>In OOP code, it is common to write one or more unit tests for each public method of a class.</p> <div class="alert box-container alert-default" data-v-0eabf1c4><!----> <div class="header-and-body" data-v-0eabf1c4><!----> <div class="box-body-wrapper" data-v-0eabf1c4><!----> <!----> <div class="contents" data-v-0eabf1c4><p data-v-0eabf1c4><span data-v-0eabf1c4><span aria-hidden="true" class="fas fa-cube" data-v-0eabf1c4></span></span> Here are the code skeletons for a <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>Foo</code> class containing two methods and a <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>FooTest</code> class that contains unit tests for those two methods.</p> <div class="alt-java" data-v-0eabf1c4><div data-v-0eabf1c4><pre data-v-0eabf1c4><code class="line-numbers hljs java" data-v-0eabf1c4><span data-v-0eabf1c4><span class="hljs-class" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>class</span> <span class="hljs-title" data-v-0eabf1c4>Foo</span> </span>{
-</span><span data-v-0eabf1c4>    <span class="hljs-function" data-v-0eabf1c4>String <span class="hljs-title" data-v-0eabf1c4>read</span><span class="hljs-params" data-v-0eabf1c4>()</span> </span>{
-</span><span data-v-0eabf1c4>        <span class="hljs-comment" data-v-0eabf1c4>// ...</span>
-</span><span data-v-0eabf1c4>    }
-</span><span data-v-0eabf1c4>    
-</span><span data-v-0eabf1c4>    <span class="hljs-function" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>void</span> <span class="hljs-title" data-v-0eabf1c4>write</span><span class="hljs-params" data-v-0eabf1c4>(String input)</span> </span>{
-</span><span data-v-0eabf1c4>        <span class="hljs-comment" data-v-0eabf1c4>// ...</span>
-</span><span data-v-0eabf1c4>    }
-</span><span data-v-0eabf1c4>    
-</span><span data-v-0eabf1c4>}
-</span></code><div class="function-btn-container" data-v-0eabf1c4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+</span></strong></span></p> <div id="title"><h1 id="unit-testing"><span>Unit testing</span><a href="#unit-testing" onclick="event.stopPropagation()" class="fa fa-anchor"></a></h1></div> <div id="main"><div><div><div expanded="" class="card-container" data-v-c545cba4><div class="card expandable-card card-seamless border-0" data-v-c545cba4><div class="card-header header-toggle bg-transparent border-0" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><span class="glyphicon glyphicon-chevron-down" data-v-c545cba4></span></div> <div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-c545cba4><span class="card-title" data-v-c545cba4><div data-v-c545cba4><h4 id="what" data-v-c545cba4><span data-v-c545cba4>What</span><a href="#what" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h4></div></span></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button> <button type="button" class="close-button btn btn-outline-light seamless-button" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light seamless-button" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><div class="card-body" data-v-c545cba4> <div class="indented" data-v-c545cba4><p data-v-c545cba4><span class="badge bg-light text-dark" data-v-c545cba4><span data-v-c545cba4><span class="dimmed" data-v-c545cba4><span data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-trophy" data-v-c545cba4></span></span> Can explain unit testing</span></span></span></span></p><p data-v-c545cba4></p><p data-v-c545cba4></p> <p data-v-c545cba4></p> <div data-v-c545cba4><div class="alert box-container seamless" data-v-6607c59e><!----> <div class="header-and-body" data-v-6607c59e><!----> <div class="box-body-wrapper" data-v-6607c59e><div class="icon-wrapper  text-primary" data-v-6607c59e><i class="fas fa-atlas" data-v-6607c59e></i></div> <div aria-hidden="true" class="vertical-divider alert-primary" data-v-6607c59e></div> <div class="contents" data-v-6607c59e><div data-v-6607c59e><p data-v-6607c59e><strong data-v-6607c59e>Unit testing</strong>: testing individual units (methods, classes, subsystems, ...) to ensure each piece works correctly.</p></div></div> <!----></div></div></div> <p data-v-c545cba4>In OOP code, it is common to write one or more unit tests for each public method of a class.</p> <div class="alert box-container alert-default" data-v-6607c59e><!----> <div class="header-and-body" data-v-6607c59e><!----> <div class="box-body-wrapper" data-v-6607c59e><!----> <!----> <div class="contents" data-v-6607c59e><p data-v-6607c59e><span data-v-6607c59e><span aria-hidden="true" class="fas fa-cube" data-v-6607c59e></span></span> Here are the code skeletons for a <code class="line-numbers hljs inline no-lang" data-v-6607c59e>Foo</code> class containing two methods and a <code class="line-numbers hljs inline no-lang" data-v-6607c59e>FooTest</code> class that contains unit tests for those two methods.</p> <div class="alt-java" data-v-6607c59e><div data-v-6607c59e><pre data-v-6607c59e><code class="line-numbers hljs java" data-v-6607c59e><span data-v-6607c59e><span class="hljs-class" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>class</span> <span class="hljs-title" data-v-6607c59e>Foo</span> </span>{
+</span><span data-v-6607c59e>    <span class="hljs-function" data-v-6607c59e>String <span class="hljs-title" data-v-6607c59e>read</span><span class="hljs-params" data-v-6607c59e>()</span> </span>{
+</span><span data-v-6607c59e>        <span class="hljs-comment" data-v-6607c59e>// ...</span>
+</span><span data-v-6607c59e>    }
+</span><span data-v-6607c59e>    
+</span><span data-v-6607c59e>    <span class="hljs-function" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>void</span> <span class="hljs-title" data-v-6607c59e>write</span><span class="hljs-params" data-v-6607c59e>(String input)</span> </span>{
+</span><span data-v-6607c59e>        <span class="hljs-comment" data-v-6607c59e>// ...</span>
+</span><span data-v-6607c59e>    }
+</span><span data-v-6607c59e>    
+</span><span data-v-6607c59e>}
+</span></code><div class="function-btn-container" data-v-6607c59e><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-0eabf1c4></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -56,49 +53,49 @@
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-0eabf1c4></path>
+      5.1054688 z " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><pre data-v-0eabf1c4><code class="line-numbers hljs java" data-v-0eabf1c4><span data-v-0eabf1c4><span class="hljs-class" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>class</span> <span class="hljs-title" data-v-0eabf1c4>FooTest</span> </span>{
-</span><span data-v-0eabf1c4>    
-</span><span data-v-0eabf1c4>    <span class="hljs-meta" data-v-0eabf1c4>@Test</span>
-</span><span data-v-0eabf1c4>    <span class="hljs-function" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>void</span> <span class="hljs-title" data-v-0eabf1c4>read</span><span class="hljs-params" data-v-0eabf1c4>()</span> </span>{
-</span><span data-v-0eabf1c4>        <span class="hljs-comment" data-v-0eabf1c4>// a unit test for Foo#read() method</span>
-</span><span data-v-0eabf1c4>    }
-</span><span data-v-0eabf1c4>    
-</span><span data-v-0eabf1c4>    <span class="hljs-meta" data-v-0eabf1c4>@Test</span>
-</span><span data-v-0eabf1c4>    <span class="hljs-function" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>void</span> <span class="hljs-title" data-v-0eabf1c4>write_emptyInput_exceptionThrown</span><span class="hljs-params" data-v-0eabf1c4>()</span> </span>{
-</span><span data-v-0eabf1c4>        <span class="hljs-comment" data-v-0eabf1c4>// a unit tests for Foo#write(String) method</span>
-</span><span data-v-0eabf1c4>    }  
-</span><span data-v-0eabf1c4>    
-</span><span data-v-0eabf1c4>    <span class="hljs-meta" data-v-0eabf1c4>@Test</span>
-</span><span data-v-0eabf1c4>    <span class="hljs-function" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>void</span> <span class="hljs-title" data-v-0eabf1c4>write_normalInput_writtenCorrectly</span><span class="hljs-params" data-v-0eabf1c4>()</span> </span>{
-</span><span data-v-0eabf1c4>        <span class="hljs-comment" data-v-0eabf1c4>// another unit tests for Foo#write(String) method</span>
-</span><span data-v-0eabf1c4>    }
-</span><span data-v-0eabf1c4>}
-</span></code><div class="function-btn-container" data-v-0eabf1c4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button></div></pre><pre data-v-6607c59e><code class="line-numbers hljs java" data-v-6607c59e><span data-v-6607c59e><span class="hljs-class" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>class</span> <span class="hljs-title" data-v-6607c59e>FooTest</span> </span>{
+</span><span data-v-6607c59e>    
+</span><span data-v-6607c59e>    <span class="hljs-meta" data-v-6607c59e>@Test</span>
+</span><span data-v-6607c59e>    <span class="hljs-function" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>void</span> <span class="hljs-title" data-v-6607c59e>read</span><span class="hljs-params" data-v-6607c59e>()</span> </span>{
+</span><span data-v-6607c59e>        <span class="hljs-comment" data-v-6607c59e>// a unit test for Foo#read() method</span>
+</span><span data-v-6607c59e>    }
+</span><span data-v-6607c59e>    
+</span><span data-v-6607c59e>    <span class="hljs-meta" data-v-6607c59e>@Test</span>
+</span><span data-v-6607c59e>    <span class="hljs-function" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>void</span> <span class="hljs-title" data-v-6607c59e>write_emptyInput_exceptionThrown</span><span class="hljs-params" data-v-6607c59e>()</span> </span>{
+</span><span data-v-6607c59e>        <span class="hljs-comment" data-v-6607c59e>// a unit tests for Foo#write(String) method</span>
+</span><span data-v-6607c59e>    }  
+</span><span data-v-6607c59e>    
+</span><span data-v-6607c59e>    <span class="hljs-meta" data-v-6607c59e>@Test</span>
+</span><span data-v-6607c59e>    <span class="hljs-function" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>void</span> <span class="hljs-title" data-v-6607c59e>write_normalInput_writtenCorrectly</span><span class="hljs-params" data-v-6607c59e>()</span> </span>{
+</span><span data-v-6607c59e>        <span class="hljs-comment" data-v-6607c59e>// another unit tests for Foo#write(String) method</span>
+</span><span data-v-6607c59e>    }
+</span><span data-v-6607c59e>}
+</span></code><div class="function-btn-container" data-v-6607c59e><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-0eabf1c4></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -108,52 +105,52 @@
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-0eabf1c4></path>
+      5.1054688 z " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre></div></div> <div class="alt-python" data-v-0eabf1c4><div data-v-0eabf1c4><pre data-v-0eabf1c4><code class="line-numbers hljs python" data-v-0eabf1c4><span data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>import</span> unittest
-</span><span data-v-0eabf1c4>
-</span><span data-v-0eabf1c4><span class="hljs-class" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>class</span> <span class="hljs-title" data-v-0eabf1c4>Foo</span>:</span>
-</span><span data-v-0eabf1c4>  <span class="hljs-function" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>def</span> <span class="hljs-title" data-v-0eabf1c4>read</span>(<span class="hljs-params" data-v-0eabf1c4>self</span>):</span>
-</span><span data-v-0eabf1c4>      <span class="hljs-comment" data-v-0eabf1c4># ...</span>
-</span><span data-v-0eabf1c4>  
-</span><span data-v-0eabf1c4>  <span class="hljs-function" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>def</span> <span class="hljs-title" data-v-0eabf1c4>write</span>(<span class="hljs-params" data-v-0eabf1c4>self, <span class="hljs-built_in" data-v-0eabf1c4>input</span></span>):</span>
-</span><span data-v-0eabf1c4>      <span class="hljs-comment" data-v-0eabf1c4># ...</span>
-</span><span data-v-0eabf1c4>
-</span><span data-v-0eabf1c4>
-</span><span data-v-0eabf1c4><span class="hljs-class" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>class</span> <span class="hljs-title" data-v-0eabf1c4>FooTest</span>(<span class="hljs-params" data-v-0eabf1c4>unittest.TestCase</span>):</span>
-</span><span data-v-0eabf1c4>  
-</span><span data-v-0eabf1c4>  <span class="hljs-function" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>def</span> <span class="hljs-title" data-v-0eabf1c4>test_read</span>(<span class="hljs-params" data-v-0eabf1c4>self</span>):</span>
-</span><span data-v-0eabf1c4>      <span class="hljs-comment" data-v-0eabf1c4># a unit test for read() method</span>
-</span><span data-v-0eabf1c4>  
-</span><span data-v-0eabf1c4>  <span class="hljs-function" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>def</span> <span class="hljs-title" data-v-0eabf1c4>test_write_emptyIntput_ignored</span>(<span class="hljs-params" data-v-0eabf1c4>self</span>):</span>
-</span><span data-v-0eabf1c4>      <span class="hljs-comment" data-v-0eabf1c4># a unit test for write(string) method</span>
-</span><span data-v-0eabf1c4>  
-</span><span data-v-0eabf1c4>  <span class="hljs-function" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>def</span> <span class="hljs-title" data-v-0eabf1c4>test_write_normalInput_writtenCorrectly</span>(<span class="hljs-params" data-v-0eabf1c4>self</span>):</span>
-</span><span data-v-0eabf1c4>      <span class="hljs-comment" data-v-0eabf1c4># another unit test for write(string) method</span>
-</span></code><div class="function-btn-container" data-v-0eabf1c4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button></div></pre></div></div> <div class="alt-python" data-v-6607c59e><div data-v-6607c59e><pre data-v-6607c59e><code class="line-numbers hljs python" data-v-6607c59e><span data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>import</span> unittest
+</span><span data-v-6607c59e>
+</span><span data-v-6607c59e><span class="hljs-class" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>class</span> <span class="hljs-title" data-v-6607c59e>Foo</span>:</span>
+</span><span data-v-6607c59e>  <span class="hljs-function" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>def</span> <span class="hljs-title" data-v-6607c59e>read</span>(<span class="hljs-params" data-v-6607c59e>self</span>):</span>
+</span><span data-v-6607c59e>      <span class="hljs-comment" data-v-6607c59e># ...</span>
+</span><span data-v-6607c59e>  
+</span><span data-v-6607c59e>  <span class="hljs-function" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>def</span> <span class="hljs-title" data-v-6607c59e>write</span>(<span class="hljs-params" data-v-6607c59e>self, <span class="hljs-built_in" data-v-6607c59e>input</span></span>):</span>
+</span><span data-v-6607c59e>      <span class="hljs-comment" data-v-6607c59e># ...</span>
+</span><span data-v-6607c59e>
+</span><span data-v-6607c59e>
+</span><span data-v-6607c59e><span class="hljs-class" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>class</span> <span class="hljs-title" data-v-6607c59e>FooTest</span>(<span class="hljs-params" data-v-6607c59e>unittest.TestCase</span>):</span>
+</span><span data-v-6607c59e>  
+</span><span data-v-6607c59e>  <span class="hljs-function" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>def</span> <span class="hljs-title" data-v-6607c59e>test_read</span>(<span class="hljs-params" data-v-6607c59e>self</span>):</span>
+</span><span data-v-6607c59e>      <span class="hljs-comment" data-v-6607c59e># a unit test for read() method</span>
+</span><span data-v-6607c59e>  
+</span><span data-v-6607c59e>  <span class="hljs-function" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>def</span> <span class="hljs-title" data-v-6607c59e>test_write_emptyIntput_ignored</span>(<span class="hljs-params" data-v-6607c59e>self</span>):</span>
+</span><span data-v-6607c59e>      <span class="hljs-comment" data-v-6607c59e># a unit test for write(string) method</span>
+</span><span data-v-6607c59e>  
+</span><span data-v-6607c59e>  <span class="hljs-function" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>def</span> <span class="hljs-title" data-v-6607c59e>test_write_normalInput_writtenCorrectly</span>(<span class="hljs-params" data-v-6607c59e>self</span>):</span>
+</span><span data-v-6607c59e>      <span class="hljs-comment" data-v-6607c59e># another unit test for write(string) method</span>
+</span></code><div class="function-btn-container" data-v-6607c59e><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-0eabf1c4></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -163,44 +160,44 @@
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-0eabf1c4></path>
+      5.1054688 z " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre></div></div></div> <!----></div></div></div></div> <div data-v-3602e6fc><div data-v-3602e6fc><br data-v-3602e6fc> <h5 id="resources" data-v-3602e6fc><span data-v-3602e6fc><span aria-hidden="true" class="fas fa-paperclip" data-v-3602e6fc></span></span> Resources:<a href="#resources" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-3602e6fc></a></h5> <div data-v-3602e6fc><ul data-v-3602e6fc><li data-v-3602e6fc><a href="http://avandeursen.com/2014/02/22/gotofail-security/" data-v-3602e6fc>Learning from Apple’s #gotofail Security Bug</a> -
-How unit testing (and other good coding practices) could have prevented a major security bug.</li></ul></div></div></div></div> <!----> <div class="bottom-button-wrapper" data-v-3602e6fc><button type="button" class="collapse-button btn btn-outline-secondary" data-v-3602e6fc><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button></div></div> <hr style="display:;" data-v-3602e6fc></div> <!----></div></div></div> <div><div expanded="" class="card-container" data-v-3602e6fc><div class="card expandable-card border-0" data-v-3602e6fc><div class="card-header header-toggle bg-white border-0" data-v-3602e6fc><div class="caret-wrapper" data-v-3602e6fc><span class="glyphicon glyphicon-chevron-down" data-v-3602e6fc></span></div> <div class="header-wrapper card-title bg-white" data-v-3602e6fc><span class="card-title" data-v-3602e6fc><div data-v-3602e6fc><h4 id="stubs" data-v-3602e6fc><span data-v-3602e6fc>Stubs</span><a href="#stubs" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-3602e6fc></a></h4></div></span></div> <div class="button-wrapper" data-v-3602e6fc><button type="button" class="collapse-button btn btn-outline-secondary" style="display:none;" data-v-3602e6fc><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button> <button type="button" class="close-button btn btn-outline-secondary seamless-button" data-v-3602e6fc><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-3602e6fc></span></button> <button type="button" class="popup-button btn btn-outline-secondary seamless-button" style="display:none;" data-v-3602e6fc><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-3602e6fc></span></button></div></div> <div class="card-collapse" data-v-3602e6fc><div class="card-body" data-v-3602e6fc> <div class="indented" data-v-3602e6fc><p data-v-3602e6fc><span class="badge bg-light text-dark" data-v-3602e6fc><span data-v-3602e6fc><span class="dimmed" data-v-3602e6fc><span data-v-3602e6fc><span data-v-3602e6fc><span aria-hidden="true" class="fas fa-trophy" data-v-3602e6fc></span></span> Can use stubs to isolate an SUT from its dependencies</span></span></span></span></p><p data-v-3602e6fc></p><p data-v-3602e6fc></p> <p data-v-3602e6fc></p> <div data-v-3602e6fc><p data-v-3602e6fc><strong data-v-3602e6fc>A proper unit test requires the <em data-v-3602e6fc>unit</em> to be tested <mark data-v-3602e6fc>in isolation</mark></strong> so that bugs in the <span data-mb-component-type="tooltip" tabindex="0" class="trigger"><!----> <!----></span> cannot influence the test <span class="dimmed" data-v-3602e6fc>i.e. bugs outside of the unit should not affect the unit tests</span>.</p> <div class="alert box-container alert-default" data-v-0eabf1c4><!----> <div class="header-and-body" data-v-0eabf1c4><!----> <div class="box-body-wrapper" data-v-0eabf1c4><!----> <!----> <div class="contents" data-v-0eabf1c4><p data-v-0eabf1c4><span data-v-0eabf1c4><span aria-hidden="true" class="fas fa-cube" data-v-0eabf1c4></span></span> If a <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>Logic</code> class depends on a <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>Storage</code> class, unit testing the <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>Logic</code> class requires isolating the <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>Logic</code> class from the <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>Storage</code> class.</p></div> <!----></div></div></div> <p data-v-3602e6fc><strong data-v-3602e6fc><em data-v-3602e6fc>Stubs</em> can isolate the <span data-mb-component-type="popover" tabindex="0" class="trigger"><!----> <!----></span> from its dependencies</strong>.</p> <div class="alert box-container seamless" data-v-0eabf1c4><!----> <div class="header-and-body" data-v-0eabf1c4><!----> <div class="box-body-wrapper" data-v-0eabf1c4><div class="icon-wrapper  text-primary" data-v-0eabf1c4><i class="fas fa-atlas" data-v-0eabf1c4></i></div> <div aria-hidden="true" class="vertical-divider alert-primary" data-v-0eabf1c4></div> <div class="contents" data-v-0eabf1c4><div data-v-0eabf1c4><p data-v-0eabf1c4><strong data-v-0eabf1c4>Stub</strong>: A stub has the same interface as the component it replaces, but its implementation is so simple that it is unlikely to have any bugs. It mimics the responses of the component, but only for a limited set of predetermined inputs. That is, it does not know how to respond to any other inputs. Typically, these mimicked responses are hard-coded in the stub rather than computed or retrieved from elsewhere, e.g. from a database.</p></div></div> <!----></div></div></div> <div class="alert box-container alert-default" data-v-0eabf1c4><!----> <div class="header-and-body" data-v-0eabf1c4><!----> <div class="box-body-wrapper" data-v-0eabf1c4><!----> <!----> <div class="contents" data-v-0eabf1c4><p data-v-0eabf1c4><span data-v-0eabf1c4><span aria-hidden="true" class="fas fa-cube" data-v-0eabf1c4></span></span> Consider the code below:</p> <pre data-v-0eabf1c4><code class="line-numbers hljs java" data-v-0eabf1c4><span data-v-0eabf1c4><span class="hljs-class" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>class</span> <span class="hljs-title" data-v-0eabf1c4>Logic</span> </span>{
-</span><span data-v-0eabf1c4>    Storage s;
-</span><span data-v-0eabf1c4>
-</span><span data-v-0eabf1c4>    Logic(Storage s) {
-</span><span data-v-0eabf1c4>        <span class="hljs-keyword" data-v-0eabf1c4>this</span>.s = s;
-</span><span data-v-0eabf1c4>    }
-</span><span data-v-0eabf1c4>
-</span><span data-v-0eabf1c4>    <span class="hljs-function" data-v-0eabf1c4>String <span class="hljs-title" data-v-0eabf1c4>getName</span><span class="hljs-params" data-v-0eabf1c4>(<span class="hljs-keyword" data-v-0eabf1c4>int</span> index)</span> </span>{
-</span><span data-v-0eabf1c4>        <span class="hljs-keyword" data-v-0eabf1c4>return</span> <span class="hljs-string" data-v-0eabf1c4>&quot;Name: &quot;</span> + s.getName(index);
-</span><span data-v-0eabf1c4>    }
-</span><span data-v-0eabf1c4>}
-</span></code><div class="function-btn-container" data-v-0eabf1c4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button></div></pre></div></div></div> <!----></div></div></div></div> <div data-v-c545cba4><div data-v-c545cba4><br data-v-c545cba4> <h5 id="resources" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-paperclip" data-v-c545cba4></span></span> Resources:<a href="#resources" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h5> <div data-v-c545cba4><ul data-v-c545cba4><li data-v-c545cba4><a href="http://avandeursen.com/2014/02/22/gotofail-security/" data-v-c545cba4>Learning from Apple’s #gotofail Security Bug</a> -
+How unit testing (and other good coding practices) could have prevented a major security bug.</li></ul></div></div></div></div> <!----> <div class="bottom-button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-seamless" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button></div></div> <hr style="display:;" data-v-c545cba4></div> <!----></div></div></div> <div><div expanded="" class="card-container" data-v-c545cba4><div class="card expandable-card card-seamless border-0" data-v-c545cba4><div class="card-header header-toggle bg-transparent border-0" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><span class="glyphicon glyphicon-chevron-down" data-v-c545cba4></span></div> <div class="header-wrapper-seamless header-wrapper card-title bg-transparent" data-v-c545cba4><span class="card-title" data-v-c545cba4><div data-v-c545cba4><h4 id="stubs" data-v-c545cba4><span data-v-c545cba4>Stubs</span><a href="#stubs" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h4></div></span></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-light" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button> <button type="button" class="close-button btn btn-outline-light seamless-button" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-light seamless-button" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><div class="card-body" data-v-c545cba4> <div class="indented" data-v-c545cba4><p data-v-c545cba4><span class="badge bg-light text-dark" data-v-c545cba4><span data-v-c545cba4><span class="dimmed" data-v-c545cba4><span data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-trophy" data-v-c545cba4></span></span> Can use stubs to isolate an SUT from its dependencies</span></span></span></span></p><p data-v-c545cba4></p><p data-v-c545cba4></p> <p data-v-c545cba4></p> <div data-v-c545cba4><p data-v-c545cba4><strong data-v-c545cba4>A proper unit test requires the <em data-v-c545cba4>unit</em> to be tested <mark data-v-c545cba4>in isolation</mark></strong> so that bugs in the <span data-mb-component-type="tooltip" tabindex="0" class="trigger"><!----><!----></span> cannot influence the test <span class="dimmed" data-v-c545cba4>i.e. bugs outside of the unit should not affect the unit tests</span>.</p> <div class="alert box-container alert-default" data-v-6607c59e><!----> <div class="header-and-body" data-v-6607c59e><!----> <div class="box-body-wrapper" data-v-6607c59e><!----> <!----> <div class="contents" data-v-6607c59e><p data-v-6607c59e><span data-v-6607c59e><span aria-hidden="true" class="fas fa-cube" data-v-6607c59e></span></span> If a <code class="line-numbers hljs inline no-lang" data-v-6607c59e>Logic</code> class depends on a <code class="line-numbers hljs inline no-lang" data-v-6607c59e>Storage</code> class, unit testing the <code class="line-numbers hljs inline no-lang" data-v-6607c59e>Logic</code> class requires isolating the <code class="line-numbers hljs inline no-lang" data-v-6607c59e>Logic</code> class from the <code class="line-numbers hljs inline no-lang" data-v-6607c59e>Storage</code> class.</p></div> <!----></div></div></div> <p data-v-c545cba4><strong data-v-c545cba4><em data-v-c545cba4>Stubs</em> can isolate the <span data-mb-component-type="popover" tabindex="0" class="trigger"><!----><!----></span> from its dependencies</strong>.</p> <div class="alert box-container seamless" data-v-6607c59e><!----> <div class="header-and-body" data-v-6607c59e><!----> <div class="box-body-wrapper" data-v-6607c59e><div class="icon-wrapper  text-primary" data-v-6607c59e><i class="fas fa-atlas" data-v-6607c59e></i></div> <div aria-hidden="true" class="vertical-divider alert-primary" data-v-6607c59e></div> <div class="contents" data-v-6607c59e><div data-v-6607c59e><p data-v-6607c59e><strong data-v-6607c59e>Stub</strong>: A stub has the same interface as the component it replaces, but its implementation is so simple that it is unlikely to have any bugs. It mimics the responses of the component, but only for a limited set of predetermined inputs. That is, it does not know how to respond to any other inputs. Typically, these mimicked responses are hard-coded in the stub rather than computed or retrieved from elsewhere, e.g. from a database.</p></div></div> <!----></div></div></div> <div class="alert box-container alert-default" data-v-6607c59e><!----> <div class="header-and-body" data-v-6607c59e><!----> <div class="box-body-wrapper" data-v-6607c59e><!----> <!----> <div class="contents" data-v-6607c59e><p data-v-6607c59e><span data-v-6607c59e><span aria-hidden="true" class="fas fa-cube" data-v-6607c59e></span></span> Consider the code below:</p> <pre data-v-6607c59e><code class="line-numbers hljs java" data-v-6607c59e><span data-v-6607c59e><span class="hljs-class" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>class</span> <span class="hljs-title" data-v-6607c59e>Logic</span> </span>{
+</span><span data-v-6607c59e>    Storage s;
+</span><span data-v-6607c59e>
+</span><span data-v-6607c59e>    Logic(Storage s) {
+</span><span data-v-6607c59e>        <span class="hljs-keyword" data-v-6607c59e>this</span>.s = s;
+</span><span data-v-6607c59e>    }
+</span><span data-v-6607c59e>
+</span><span data-v-6607c59e>    <span class="hljs-function" data-v-6607c59e>String <span class="hljs-title" data-v-6607c59e>getName</span><span class="hljs-params" data-v-6607c59e>(<span class="hljs-keyword" data-v-6607c59e>int</span> index)</span> </span>{
+</span><span data-v-6607c59e>        <span class="hljs-keyword" data-v-6607c59e>return</span> <span class="hljs-string" data-v-6607c59e>&quot;Name: &quot;</span> + s.getName(index);
+</span><span data-v-6607c59e>    }
+</span><span data-v-6607c59e>}
+</span></code><div class="function-btn-container" data-v-6607c59e><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-0eabf1c4></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -210,35 +207,35 @@ How unit testing (and other good coding practices) could have prevented a major 
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-0eabf1c4></path>
+      5.1054688 z " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><pre data-v-0eabf1c4><code class="line-numbers hljs java" data-v-0eabf1c4><span data-v-0eabf1c4><span class="hljs-class" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>interface</span> <span class="hljs-title" data-v-0eabf1c4>Storage</span> </span>{
-</span><span data-v-0eabf1c4>    <span class="hljs-function" data-v-0eabf1c4>String <span class="hljs-title" data-v-0eabf1c4>getName</span><span class="hljs-params" data-v-0eabf1c4>(<span class="hljs-keyword" data-v-0eabf1c4>int</span> index)</span></span>;
-</span><span data-v-0eabf1c4>}
-</span></code><div class="function-btn-container" data-v-0eabf1c4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button></div></pre><pre data-v-6607c59e><code class="line-numbers hljs java" data-v-6607c59e><span data-v-6607c59e><span class="hljs-class" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>interface</span> <span class="hljs-title" data-v-6607c59e>Storage</span> </span>{
+</span><span data-v-6607c59e>    <span class="hljs-function" data-v-6607c59e>String <span class="hljs-title" data-v-6607c59e>getName</span><span class="hljs-params" data-v-6607c59e>(<span class="hljs-keyword" data-v-6607c59e>int</span> index)</span></span>;
+</span><span data-v-6607c59e>}
+</span></code><div class="function-btn-container" data-v-6607c59e><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-0eabf1c4></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -248,43 +245,43 @@ How unit testing (and other good coding practices) could have prevented a major 
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-0eabf1c4></path>
+      5.1054688 z " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><pre data-v-0eabf1c4><code class="line-numbers hljs java" data-v-0eabf1c4><span data-v-0eabf1c4><span class="hljs-class" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>class</span> <span class="hljs-title" data-v-0eabf1c4>DatabaseStorage</span> <span class="hljs-keyword" data-v-0eabf1c4>implements</span> <span class="hljs-title" data-v-0eabf1c4>Storage</span> </span>{
-</span><span data-v-0eabf1c4>
-</span><span data-v-0eabf1c4>    <span class="hljs-meta" data-v-0eabf1c4>@Override</span>
-</span><span data-v-0eabf1c4>    <span class="hljs-function" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>public</span> String <span class="hljs-title" data-v-0eabf1c4>getName</span><span class="hljs-params" data-v-0eabf1c4>(<span class="hljs-keyword" data-v-0eabf1c4>int</span> index)</span> </span>{
-</span><span data-v-0eabf1c4>        <span class="hljs-keyword" data-v-0eabf1c4>return</span> readValueFromDatabase(index);
-</span><span data-v-0eabf1c4>    }
-</span><span data-v-0eabf1c4>
-</span><span data-v-0eabf1c4>    <span class="hljs-function" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>private</span> String <span class="hljs-title" data-v-0eabf1c4>readValueFromDatabase</span><span class="hljs-params" data-v-0eabf1c4>(<span class="hljs-keyword" data-v-0eabf1c4>int</span> index)</span> </span>{
-</span><span data-v-0eabf1c4>        <span class="hljs-comment" data-v-0eabf1c4>// retrieve name from the database</span>
-</span><span data-v-0eabf1c4>    }
-</span><span data-v-0eabf1c4>}
-</span></code><div class="function-btn-container" data-v-0eabf1c4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button></div></pre><pre data-v-6607c59e><code class="line-numbers hljs java" data-v-6607c59e><span data-v-6607c59e><span class="hljs-class" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>class</span> <span class="hljs-title" data-v-6607c59e>DatabaseStorage</span> <span class="hljs-keyword" data-v-6607c59e>implements</span> <span class="hljs-title" data-v-6607c59e>Storage</span> </span>{
+</span><span data-v-6607c59e>
+</span><span data-v-6607c59e>    <span class="hljs-meta" data-v-6607c59e>@Override</span>
+</span><span data-v-6607c59e>    <span class="hljs-function" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>public</span> String <span class="hljs-title" data-v-6607c59e>getName</span><span class="hljs-params" data-v-6607c59e>(<span class="hljs-keyword" data-v-6607c59e>int</span> index)</span> </span>{
+</span><span data-v-6607c59e>        <span class="hljs-keyword" data-v-6607c59e>return</span> readValueFromDatabase(index);
+</span><span data-v-6607c59e>    }
+</span><span data-v-6607c59e>
+</span><span data-v-6607c59e>    <span class="hljs-function" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>private</span> String <span class="hljs-title" data-v-6607c59e>readValueFromDatabase</span><span class="hljs-params" data-v-6607c59e>(<span class="hljs-keyword" data-v-6607c59e>int</span> index)</span> </span>{
+</span><span data-v-6607c59e>        <span class="hljs-comment" data-v-6607c59e>// retrieve name from the database</span>
+</span><span data-v-6607c59e>    }
+</span><span data-v-6607c59e>}
+</span></code><div class="function-btn-container" data-v-6607c59e><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-0eabf1c4></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -294,34 +291,34 @@ How unit testing (and other good coding practices) could have prevented a major 
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-0eabf1c4></path>
+      5.1054688 z " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><p data-v-0eabf1c4>Normally, you would use the <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>Logic</code> class as follows (note how the <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>Logic</code> object depends on a <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>DatabaseStorage</code> object to perform the <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>getName()</code> operation):</p> <pre data-v-0eabf1c4><code class="line-numbers hljs java" data-v-0eabf1c4><span data-v-0eabf1c4>Logic logic = <span class="hljs-keyword" data-v-0eabf1c4>new</span> Logic(<span class="hljs-keyword" data-v-0eabf1c4>new</span> DatabaseStorage());
-</span><span data-v-0eabf1c4>String name = logic.getName(<span class="hljs-number" data-v-0eabf1c4>23</span>);
-</span></code><div class="function-btn-container" data-v-0eabf1c4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button></div></pre><p data-v-6607c59e>Normally, you would use the <code class="line-numbers hljs inline no-lang" data-v-6607c59e>Logic</code> class as follows (note how the <code class="line-numbers hljs inline no-lang" data-v-6607c59e>Logic</code> object depends on a <code class="line-numbers hljs inline no-lang" data-v-6607c59e>DatabaseStorage</code> object to perform the <code class="line-numbers hljs inline no-lang" data-v-6607c59e>getName()</code> operation):</p> <pre data-v-6607c59e><code class="line-numbers hljs java" data-v-6607c59e><span data-v-6607c59e>Logic logic = <span class="hljs-keyword" data-v-6607c59e>new</span> Logic(<span class="hljs-keyword" data-v-6607c59e>new</span> DatabaseStorage());
+</span><span data-v-6607c59e>String name = logic.getName(<span class="hljs-number" data-v-6607c59e>23</span>);
+</span></code><div class="function-btn-container" data-v-6607c59e><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-0eabf1c4></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -331,37 +328,37 @@ How unit testing (and other good coding practices) could have prevented a major 
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-0eabf1c4></path>
+      5.1054688 z " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><p data-v-0eabf1c4>You can test it like this:</p> <pre data-v-0eabf1c4><code class="line-numbers hljs java" data-v-0eabf1c4><span data-v-0eabf1c4><span class="hljs-meta" data-v-0eabf1c4>@Test</span>
-</span><span data-v-0eabf1c4><span class="hljs-function" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>void</span> <span class="hljs-title" data-v-0eabf1c4>getName</span><span class="hljs-params" data-v-0eabf1c4>()</span> </span>{
-</span><span data-v-0eabf1c4>    Logic logic = <span class="hljs-keyword" data-v-0eabf1c4>new</span> Logic(<span class="hljs-keyword" data-v-0eabf1c4>new</span> DatabaseStorage());
-</span><span data-v-0eabf1c4>    assertEquals(<span class="hljs-string" data-v-0eabf1c4>&quot;Name: John&quot;</span>, logic.getName(<span class="hljs-number" data-v-0eabf1c4>5</span>));
-</span><span data-v-0eabf1c4>}
-</span></code><div class="function-btn-container" data-v-0eabf1c4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button></div></pre><p data-v-6607c59e>You can test it like this:</p> <pre data-v-6607c59e><code class="line-numbers hljs java" data-v-6607c59e><span data-v-6607c59e><span class="hljs-meta" data-v-6607c59e>@Test</span>
+</span><span data-v-6607c59e><span class="hljs-function" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>void</span> <span class="hljs-title" data-v-6607c59e>getName</span><span class="hljs-params" data-v-6607c59e>()</span> </span>{
+</span><span data-v-6607c59e>    Logic logic = <span class="hljs-keyword" data-v-6607c59e>new</span> Logic(<span class="hljs-keyword" data-v-6607c59e>new</span> DatabaseStorage());
+</span><span data-v-6607c59e>    assertEquals(<span class="hljs-string" data-v-6607c59e>&quot;Name: John&quot;</span>, logic.getName(<span class="hljs-number" data-v-6607c59e>5</span>));
+</span><span data-v-6607c59e>}
+</span></code><div class="function-btn-container" data-v-6607c59e><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-0eabf1c4></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -371,43 +368,43 @@ How unit testing (and other good coding practices) could have prevented a major 
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-0eabf1c4></path>
+      5.1054688 z " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><p data-v-0eabf1c4>However, this <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>logic</code> object being tested is making use of a <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>DataBaseStorage</code> object which means a bug in the <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>DatabaseStorage</code> class can affect the test. Therefore, this test is not testing <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>Logic</code> <em data-v-0eabf1c4>in isolation from its dependencies</em> and hence it is not a pure unit test.</p> <p data-v-0eabf1c4>Here is a stub class you can use in place of <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>DatabaseStorage</code>:</p> <pre data-v-0eabf1c4><code class="line-numbers hljs java" data-v-0eabf1c4><span data-v-0eabf1c4><span class="hljs-class" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>class</span> <span class="hljs-title" data-v-0eabf1c4>StorageStub</span> <span class="hljs-keyword" data-v-0eabf1c4>implements</span> <span class="hljs-title" data-v-0eabf1c4>Storage</span> </span>{
-</span><span data-v-0eabf1c4>
-</span><span data-v-0eabf1c4>    <span class="hljs-meta" data-v-0eabf1c4>@Override</span>
-</span><span data-v-0eabf1c4>    <span class="hljs-function" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>public</span> String <span class="hljs-title" data-v-0eabf1c4>getName</span><span class="hljs-params" data-v-0eabf1c4>(<span class="hljs-keyword" data-v-0eabf1c4>int</span> index)</span> </span>{
-</span><span data-v-0eabf1c4>        <span class="hljs-keyword" data-v-0eabf1c4>if</span> (index == <span class="hljs-number" data-v-0eabf1c4>5</span>) {
-</span><span data-v-0eabf1c4>            <span class="hljs-keyword" data-v-0eabf1c4>return</span> <span class="hljs-string" data-v-0eabf1c4>&quot;Adam&quot;</span>;
-</span><span data-v-0eabf1c4>        } <span class="hljs-keyword" data-v-0eabf1c4>else</span> {
-</span><span data-v-0eabf1c4>            <span class="hljs-keyword" data-v-0eabf1c4>throw</span> <span class="hljs-keyword" data-v-0eabf1c4>new</span> UnsupportedOperationException();
-</span><span data-v-0eabf1c4>        }
-</span><span data-v-0eabf1c4>    }
-</span><span data-v-0eabf1c4>}
-</span></code><div class="function-btn-container" data-v-0eabf1c4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button></div></pre><p data-v-6607c59e>However, this <code class="line-numbers hljs inline no-lang" data-v-6607c59e>logic</code> object being tested is making use of a <code class="line-numbers hljs inline no-lang" data-v-6607c59e>DataBaseStorage</code> object which means a bug in the <code class="line-numbers hljs inline no-lang" data-v-6607c59e>DatabaseStorage</code> class can affect the test. Therefore, this test is not testing <code class="line-numbers hljs inline no-lang" data-v-6607c59e>Logic</code> <em data-v-6607c59e>in isolation from its dependencies</em> and hence it is not a pure unit test.</p> <p data-v-6607c59e>Here is a stub class you can use in place of <code class="line-numbers hljs inline no-lang" data-v-6607c59e>DatabaseStorage</code>:</p> <pre data-v-6607c59e><code class="line-numbers hljs java" data-v-6607c59e><span data-v-6607c59e><span class="hljs-class" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>class</span> <span class="hljs-title" data-v-6607c59e>StorageStub</span> <span class="hljs-keyword" data-v-6607c59e>implements</span> <span class="hljs-title" data-v-6607c59e>Storage</span> </span>{
+</span><span data-v-6607c59e>
+</span><span data-v-6607c59e>    <span class="hljs-meta" data-v-6607c59e>@Override</span>
+</span><span data-v-6607c59e>    <span class="hljs-function" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>public</span> String <span class="hljs-title" data-v-6607c59e>getName</span><span class="hljs-params" data-v-6607c59e>(<span class="hljs-keyword" data-v-6607c59e>int</span> index)</span> </span>{
+</span><span data-v-6607c59e>        <span class="hljs-keyword" data-v-6607c59e>if</span> (index == <span class="hljs-number" data-v-6607c59e>5</span>) {
+</span><span data-v-6607c59e>            <span class="hljs-keyword" data-v-6607c59e>return</span> <span class="hljs-string" data-v-6607c59e>&quot;Adam&quot;</span>;
+</span><span data-v-6607c59e>        } <span class="hljs-keyword" data-v-6607c59e>else</span> {
+</span><span data-v-6607c59e>            <span class="hljs-keyword" data-v-6607c59e>throw</span> <span class="hljs-keyword" data-v-6607c59e>new</span> UnsupportedOperationException();
+</span><span data-v-6607c59e>        }
+</span><span data-v-6607c59e>    }
+</span><span data-v-6607c59e>}
+</span></code><div class="function-btn-container" data-v-6607c59e><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-0eabf1c4></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -417,37 +414,37 @@ How unit testing (and other good coding practices) could have prevented a major 
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-0eabf1c4></path>
+      5.1054688 z " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre><p data-v-0eabf1c4>Note how the <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>StorageStub</code> has the same interface as <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>DatabaseStorage</code>, but is so simple that it is unlikely to contain bugs, and is pre-configured to respond with a hard-coded response, presumably, the correct response <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>DatabaseStorage</code> is expected to return for the given test input.</p> <p data-v-0eabf1c4>Here is how you can use the stub to write a unit test. This test is not affected by any bugs in the <code class="line-numbers hljs inline no-lang" data-v-0eabf1c4>DatabaseStorage</code> class and hence is a pure unit test.</p> <pre data-v-0eabf1c4><code class="line-numbers hljs java" data-v-0eabf1c4><span data-v-0eabf1c4><span class="hljs-meta" data-v-0eabf1c4>@Test</span>
-</span><span data-v-0eabf1c4><span class="hljs-function" data-v-0eabf1c4><span class="hljs-keyword" data-v-0eabf1c4>void</span> <span class="hljs-title" data-v-0eabf1c4>getName</span><span class="hljs-params" data-v-0eabf1c4>()</span> </span>{
-</span><span data-v-0eabf1c4>    Logic logic = <span class="hljs-keyword" data-v-0eabf1c4>new</span> Logic(<span class="hljs-keyword" data-v-0eabf1c4>new</span> StorageStub());
-</span><span data-v-0eabf1c4>    assertEquals(<span class="hljs-string" data-v-0eabf1c4>&quot;Name: Adam&quot;</span>, logic.getName(<span class="hljs-number" data-v-0eabf1c4>5</span>));
-</span><span data-v-0eabf1c4>}
-</span></code><div class="function-btn-container" data-v-0eabf1c4><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button></div></pre><p data-v-6607c59e>Note how the <code class="line-numbers hljs inline no-lang" data-v-6607c59e>StorageStub</code> has the same interface as <code class="line-numbers hljs inline no-lang" data-v-6607c59e>DatabaseStorage</code>, but is so simple that it is unlikely to contain bugs, and is pre-configured to respond with a hard-coded response, presumably, the correct response <code class="line-numbers hljs inline no-lang" data-v-6607c59e>DatabaseStorage</code> is expected to return for the given test input.</p> <p data-v-6607c59e>Here is how you can use the stub to write a unit test. This test is not affected by any bugs in the <code class="line-numbers hljs inline no-lang" data-v-6607c59e>DatabaseStorage</code> class and hence is a pure unit test.</p> <pre data-v-6607c59e><code class="line-numbers hljs java" data-v-6607c59e><span data-v-6607c59e><span class="hljs-meta" data-v-6607c59e>@Test</span>
+</span><span data-v-6607c59e><span class="hljs-function" data-v-6607c59e><span class="hljs-keyword" data-v-6607c59e>void</span> <span class="hljs-title" data-v-6607c59e>getName</span><span class="hljs-params" data-v-6607c59e>()</span> </span>{
+</span><span data-v-6607c59e>    Logic logic = <span class="hljs-keyword" data-v-6607c59e>new</span> Logic(<span class="hljs-keyword" data-v-6607c59e>new</span> StorageStub());
+</span><span data-v-6607c59e>    assertEquals(<span class="hljs-string" data-v-6607c59e>&quot;Name: Adam&quot;</span>, logic.getName(<span class="hljs-number" data-v-6607c59e>5</span>));
+</span><span data-v-6607c59e>}
+</span></code><div class="function-btn-container" data-v-6607c59e><button onclick="copyCodeBlock(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
     
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path d="M 11.273438 0 L 2.546875 0 C 1.746094 0 1.089844 0.613281 1.089844
       1.363281 L 1.089844 10.910156 L 2.546875 10.910156 L 2.546875 1.363281 L 11.273438
       1.363281 Z M 13.453125 2.726562 L 5.453125 2.726562 C 4.65625 2.726562 4 3.339844 4
       4.089844 L 4 13.636719 C 4 14.386719 4.65625 15 5.453125 15 L 13.453125 15 C 14.253906
       15 14.910156 14.386719 14.910156 13.636719 L 14.910156 4.089844 C 14.910156 3.339844
       14.253906 2.726562 13.453125 2.726562 Z M 13.453125 13.636719 L 5.453125 13.636719 L
-      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-0eabf1c4></path>
+      5.453125 4.089844 L 13.453125 4.089844 Z M 13.453125 13.636719 " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-0eabf1c4>
-    <div class="function-btn-body" data-v-0eabf1c4>
+    </button><button onclick="toggleCodeBlockWrap(this)" class="function-btn d-print-none" data-v-6607c59e>
+    <div class="function-btn-body" data-v-6607c59e>
       
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-0eabf1c4>
-    <g id="surface1" data-v-0eabf1c4>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18" version="1.1" data-v-6607c59e>
+    <g id="surface1" data-v-6607c59e>
       <path id="path17964" d="M 1.109375 0 L 1.109375 2.5351562 L 2.0410156 2.5351562 L
       2.0410156 0.93164062 L 4.8203125 0.93164062 L 4.8203125 9.3222656 L 3.4746094
       9.3222656 L 3.4746094 10.144531 L 8.8027344 10.144531 L 8.8027344 9.3222656 L
@@ -457,13 +454,17 @@ How unit testing (and other good coding practices) could have prevented a major 
       10.185673 12.827237 11.055036 11.978516 11.470703 L 11.978516 9.5175781 L 7.1386719
       12.3125 L 11.978516 15.105469 L 11.978516 13.072266 C 13.66701 12.577757 14.910156
       11.012746 14.910156 9.1699219 C 14.910156 6.9333638 13.080308 5.1054688 10.84375
-      5.1054688 z " data-v-0eabf1c4></path>
+      5.1054688 z " data-v-6607c59e></path>
     </g>
 </svg>
 
     </div>
-    </button></div></pre></div> <!----></div></div></div> <p data-v-3602e6fc>In addition to Stubs, there are other type of replacements you can use during testing, e.g. <em data-v-3602e6fc>Mocks</em>, <em data-v-3602e6fc>Fakes</em>, <em data-v-3602e6fc>Dummies</em>, <em data-v-3602e6fc>Spies</em>.</p></div> <div data-v-3602e6fc><div data-v-3602e6fc><br data-v-3602e6fc> <h5 id="resources-2" data-v-3602e6fc><span data-v-3602e6fc><span aria-hidden="true" class="fas fa-paperclip" data-v-3602e6fc></span></span> Resources:<a href="#resources-2" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-3602e6fc></a></h5> <div data-v-3602e6fc><ul data-v-3602e6fc><li data-v-3602e6fc><a href="https://martinfowler.com/articles/mocksArentStubs.html" data-v-3602e6fc><strong data-v-3602e6fc>Mocks Aren't Stubs</strong></a> by Martin Fowler -- An in-depth article about how Stubs differ from other types of test helpers.</li></ul></div></div> <div data-v-3602e6fc><br data-v-3602e6fc> <h5 id="exercises" data-v-3602e6fc><span data-v-3602e6fc><span aria-hidden="true" class="glyphicon glyphicon-question-sign" data-v-3602e6fc></span></span><span data-v-3602e6fc><span aria-hidden="true" class="glyphicon glyphicon-ok-sign" data-v-3602e6fc></span></span> Exercises:<a href="#exercises" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-3602e6fc></a></h5> <div data-v-3602e6fc><div data-v-3602e6fc><div class="algolia-no-index card-container" data-v-3602e6fc><div class="card expandable-card" data-v-3602e6fc><div class="card-header header-toggle bg-light" data-v-3602e6fc><div class="caret-wrapper" data-v-3602e6fc><!----></div> <div class="header-wrapper card-title bg-light" data-v-3602e6fc><p data-v-3602e6fc><span data-v-3602e6fc><span aria-hidden="true" class="glyphicon glyphicon-question-sign" data-v-3602e6fc></span></span><span data-v-3602e6fc><span aria-hidden="true" class="glyphicon glyphicon-ok-sign" data-v-3602e6fc></span></span> Purpose of stubs</p></div> <div class="button-wrapper" data-v-3602e6fc><button type="button" class="collapse-button btn btn-outline-secondary" data-v-3602e6fc><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down"></span></button> <button type="button" class="close-button btn btn-outline-secondary" data-v-3602e6fc><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-3602e6fc></span></button> <button type="button" class="popup-button btn btn-outline-secondary" style="display:none;" data-v-3602e6fc><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-3602e6fc></span></button></div></div> <div class="card-collapse" data-v-3602e6fc><!----> <hr style="display:none;" data-v-3602e6fc></div> <!----></div></div></div></div></div></div></div> <!----> <div class="bottom-button-wrapper" data-v-3602e6fc><button type="button" class="collapse-button btn btn-outline-secondary" data-v-3602e6fc><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button></div></div> <hr style="display:;" data-v-3602e6fc></div> <!----></div></div></div></div></div></div></div></div> <nav id="page-nav" class="fixed-header-padding" data-v-e6005420><div class="nav-component slim-scroll" data-v-e6005420></div> <!----></nav> <div aria-hidden="true" class="scroll-top-button fa-lg d-print-none" style="display:none;bottom:2%;right:2%;position:fixed;"><i class="fas fa-arrow-circle-up"></i></div></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 5.4.0</a>, generated on Wed, 24 Apr 2024, 15:20:58 GMT+8]</small></div></footer></div>
+    </button></div></pre></div> <!----></div></div></div> <p data-v-c545cba4>In addition to Stubs, there are other type of replacements you can use during testing, e.g. <em data-v-c545cba4>Mocks</em>, <em data-v-c545cba4>Fakes</em>, <em data-v-c545cba4>Dummies</em>, <em data-v-c545cba4>Spies</em>.</p></div> <div data-v-c545cba4><div data-v-c545cba4><br data-v-c545cba4> <h5 id="resources-2" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="fas fa-paperclip" data-v-c545cba4></span></span> Resources:<a href="#resources-2" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h5> <div data-v-c545cba4><ul data-v-c545cba4><li data-v-c545cba4><a href="https://martinfowler.com/articles/mocksArentStubs.html" data-v-c545cba4><strong data-v-c545cba4>Mocks Aren't Stubs</strong></a> by Martin Fowler -- An in-depth article about how Stubs differ from other types of test helpers.</li></ul></div></div> <div data-v-c545cba4><br data-v-c545cba4> <h5 id="exercises" data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-question-sign" data-v-c545cba4></span></span><span data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-ok-sign" data-v-c545cba4></span></span> Exercises:<a href="#exercises" onclick="event.stopPropagation()" class="fa fa-anchor" data-v-c545cba4></a></h5> <div data-v-c545cba4><div data-v-c545cba4><div class="algolia-no-index card-container" data-v-c545cba4><div class="card expandable-card" data-v-c545cba4><div class="card-header header-toggle bg-light" data-v-c545cba4><div class="caret-wrapper" data-v-c545cba4><!----></div> <div class="header-wrapper card-title bg-light" data-v-c545cba4><p data-v-c545cba4><span data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-question-sign" data-v-c545cba4></span></span><span data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-ok-sign" data-v-c545cba4></span></span> Purpose of stubs</p></div> <div class="button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-outline-secondary" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down"></span></button> <button type="button" class="close-button btn btn-outline-secondary" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-remove" data-v-c545cba4></span></button> <button type="button" class="popup-button btn btn-outline-secondary" style="display:none;" data-v-c545cba4><span aria-hidden="true" class="glyphicon glyphicon-new-window" data-v-c545cba4></span></button></div></div> <div class="card-collapse" data-v-c545cba4><!----> <hr style="display:none;" data-v-c545cba4></div> <!----></div></div></div></div></div></div></div> <!----> <div class="bottom-button-wrapper" data-v-c545cba4><button type="button" class="collapse-button btn btn-seamless" data-v-c545cba4><span aria-hidden="true" class="collapse-icon glyphicon glyphicon-menu-down opened"></span></button></div></div> <hr style="display:;" data-v-c545cba4></div> <!----></div></div></div></div></div></div></div></div> <nav id="page-nav" class="fixed-header-padding" data-v-e6005420><div class="nav-component slim-scroll" data-v-e6005420></div> <!----></nav> <div aria-hidden="true" class="scroll-top-button fa-lg d-print-none" style="display:none;bottom:2%;right:2%;position:fixed;"><i class="fas fa-arrow-circle-up"></i></div></div> <footer><div class="text-center"><small>[<span><strong>Powered by</strong></span> <img src="https://markbind.org/favicon.ico" width="30"> <a href="https://markbind.org/">MarkBind 5.5.2</a>, generated on Fri, 3 May 2024, 17:50:55 GMT+8]</small></div></footer></div>
 </body><script src="/website/markbind/js/bootstrap-utility.min.js"></script>
+<script src="/website/markbind/js/polyfill.min.js"></script>
+<script src="/website/markbind/js/vue.min.js"></script>
+<script src="/website/markbind/js/markbind.min.js"></script>
+<script src="index.page-vue-render.js"></script>
 <script>
   MarkBind.setup()
 </script>
@@ -519,4 +520,55 @@ How unit testing (and other good coding practices) could have prevented a major 
       }
     }
     </script>
+    <script src="/website/plugins/dataTable/datatables.min.js"></script>
+    
+  <script>
+    function getTableOptions(el) {
+      const options = {};
+      if ($(el).hasClass('sortable-table')) {
+        options.searching = false;
+        options.paging = false;
+        options.info = false;
+      } else if ($(el).hasClass('searchable-table')) {
+        options.ordering = false;
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      } else if ($(el).hasClass('sortable-searchable-table')) {
+        options.paging = false;
+        options.info = false;
+        options.dom = '<"row"<"col-sm-12"f>>' + '<"row"<"col-sm-12"t>>';
+      }
+      return options;
+    }
+
+    Vue.directive('datatable', {
+      inserted: function(el, binding) {
+        const options = binding.value || {};
+        const tableOptions = getTableOptions(el);
+        $(el).DataTable({ ...tableOptions, ...options });
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+      $('table.sortable-table, table.searchable-table, table.sortable-searchable-table').each(function() {
+        const options = getTableOptions(this);
+        $(this).DataTable(options);
+      });
+    });
+  </script>
+
+    <script type="module">
+    import mermaid from 'https://unpkg.com/mermaid@10/dist/mermaid.esm.min.mjs';
+    document.addEventListener('DOMContentLoaded', () => {
+      mermaid.initialize({});
+      Vue.directive('mermaid', {
+        inserted: function(el) {
+          mermaid.run({
+            nodes: [el]
+          });
+        }
+      });
+    });
+  </script>
 </html>
