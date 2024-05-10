@@ -1,0 +1,113 @@
+2024-05-10T16:01:56.899Z - info: [12:01:56 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2024-05-10T16:01:56.915Z - info: Synchronizing opened pages list before reload
+2024-05-10T16:01:56.915Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T16:01:56.915Z - info: 1. admin/tp-expectations
+2024-05-10T16:01:57.925Z - info: Rebuilding 1 pages
+2024-05-10T16:01:58.434Z - info: Site data built
+2024-05-10T16:01:58.434Z - info: Pages rebuilt
+2024-05-10T16:01:58.434Z - info: Website regeneration complete! Total build time: 0.51s
+2024-05-10T16:03:51.833Z - info: [12:03:51 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2024-05-10T16:03:51.833Z - info: Synchronizing opened pages list before reload
+2024-05-10T16:03:51.834Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T16:03:51.834Z - info: 1. admin/tp-expectations
+2024-05-10T16:03:52.846Z - info: Rebuilding 1 pages
+2024-05-10T16:03:53.251Z - info: Site data built
+2024-05-10T16:03:53.251Z - info: Pages rebuilt
+2024-05-10T16:03:53.251Z - info: Website regeneration complete! Total build time: 0.406s
+2024-05-10T16:07:18.461Z - info: [12:07:18 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2024-05-10T16:07:18.462Z - info: Synchronizing opened pages list before reload
+2024-05-10T16:07:18.462Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T16:07:18.462Z - info: 1. admin/tp-expectations
+2024-05-10T16:07:19.471Z - info: Rebuilding 1 pages
+2024-05-10T16:07:19.970Z - info: Site data built
+2024-05-10T16:07:19.971Z - info: Pages rebuilt
+2024-05-10T16:07:19.971Z - info: Website regeneration complete! Total build time: 0.501s
+2024-05-10T16:09:17.066Z - info: [12:09:17 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2024-05-10T16:09:17.066Z - info: Synchronizing opened pages list before reload
+2024-05-10T16:09:17.067Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T16:09:17.067Z - info: 1. admin/tp-expectations
+2024-05-10T16:09:18.079Z - info: Rebuilding 1 pages
+2024-05-10T16:09:18.276Z - error:  Error: Empty src attribute in include in: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+    at processInclude (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\includePanelProcessor.js:172:23)
+    at NodeProcessor.processNode (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodeProcessor.js:173:71)
+    at NodeProcessor.traverse (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodeProcessor.js:342:24)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodeProcessor.js:345:27)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodeProcessor.js:345:27)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodeProcessor.js:345:27)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodeProcessor.js:346:22
+    at Array.forEach (<anonymous>)
+    at NodeProcessor.traverse (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodeProcessor.js:345:27)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\@markbind\core\src\html\NodeProcessor.js:346:22
+2024-05-10T16:09:18.485Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\tp-grading as some of its dependencies were changed since the last visit
+2024-05-10T16:09:18.989Z - info: Site data built
+2024-05-10T16:09:18.989Z - info: Pages rebuilt
+2024-05-10T16:09:18.989Z - info: Website regeneration complete! Total build time: 0.912s
+2024-05-10T16:09:19.001Z - info: Site data built
+2024-05-10T16:09:19.001Z - info: Lazy website regeneration complete! Total build time: 0.516s
+2024-05-10T16:11:57.783Z - info: [12:11:57 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-grading.md
+2024-05-10T16:11:57.784Z - info: Synchronizing opened pages list before reload
+2024-05-10T16:11:57.784Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T16:11:57.784Z - info: 1. admin/tp-grading
+2024-05-10T16:11:57.814Z - info: [12:11:57 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2024-05-10T16:11:57.814Z - info: Synchronizing opened pages list before reload
+2024-05-10T16:11:57.814Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T16:11:57.814Z - info: 1. admin/tp-grading
+2024-05-10T16:11:58.795Z - info: Rebuilding 1 pages
+2024-05-10T16:11:59.488Z - info: Site data built
+2024-05-10T16:11:59.489Z - info: Pages rebuilt
+2024-05-10T16:11:59.489Z - info: Website regeneration complete! Total build time: 0.695s
+2024-05-10T16:12:04.299Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations as some of its dependencies were changed since the last visit
+2024-05-10T16:12:04.755Z - info: Site data built
+2024-05-10T16:12:04.755Z - info: Lazy website regeneration complete! Total build time: 0.456s
+2024-05-10T16:13:33.232Z - info: [12:13:33 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2024-05-10T16:13:33.233Z - info: Synchronizing opened pages list before reload
+2024-05-10T16:13:33.233Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T16:13:33.233Z - info: 1. admin/tp-expectations
+2024-05-10T16:13:34.251Z - info: Rebuilding 1 pages
+2024-05-10T16:13:34.793Z - info: Site data built
+2024-05-10T16:13:34.793Z - info: Pages rebuilt
+2024-05-10T16:13:34.793Z - info: Website regeneration complete! Total build time: 0.542s
+2024-05-10T16:14:01.167Z - info: [12:14:01 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2024-05-10T16:14:01.168Z - info: Synchronizing opened pages list before reload
+2024-05-10T16:14:01.168Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T16:14:01.168Z - info: 1. admin/tp-expectations
+2024-05-10T16:14:02.173Z - info: Rebuilding 1 pages
+2024-05-10T16:14:02.709Z - info: Site data built
+2024-05-10T16:14:02.709Z - info: Pages rebuilt
+2024-05-10T16:14:02.710Z - info: Website regeneration complete! Total build time: 0.538s
+2024-05-10T16:14:35.387Z - info: [12:14:35 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2024-05-10T16:14:35.387Z - info: Synchronizing opened pages list before reload
+2024-05-10T16:14:35.388Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T16:14:35.388Z - info: 1. admin/tp-expectations
+2024-05-10T16:14:36.404Z - info: Rebuilding 1 pages
+2024-05-10T16:14:36.842Z - info: Site data built
+2024-05-10T16:14:36.842Z - info: Pages rebuilt
+2024-05-10T16:14:36.842Z - info: Website regeneration complete! Total build time: 0.438s
+2024-05-10T16:15:24.540Z - info: [12:15:24 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-grading.md
+2024-05-10T16:15:24.540Z - info: Synchronizing opened pages list before reload
+2024-05-10T16:15:24.541Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T16:15:24.541Z - info: 1. admin/tp-expectations
+2024-05-10T16:15:25.555Z - info: Rebuilding 1 pages
+2024-05-10T16:15:26.096Z - info: Site data built
+2024-05-10T16:15:26.096Z - info: Pages rebuilt
+2024-05-10T16:15:26.096Z - info: Website regeneration complete! Total build time: 0.542s
+2024-05-10T16:15:44.477Z - info: [12:15:44 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-grading.md
+2024-05-10T16:15:44.478Z - info: Synchronizing opened pages list before reload
+2024-05-10T16:15:44.478Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T16:15:44.478Z - info: 1. admin/tp-expectations
+2024-05-10T16:15:45.491Z - info: Rebuilding 1 pages
+2024-05-10T16:15:45.921Z - info: Site data built
+2024-05-10T16:15:45.922Z - info: Pages rebuilt
+2024-05-10T16:15:45.922Z - info: Website regeneration complete! Total build time: 0.433s
+2024-05-10T16:15:52.120Z - info: [12:15:52 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-grading.md
+2024-05-10T16:15:52.120Z - info: Synchronizing opened pages list before reload
+2024-05-10T16:15:52.120Z - info: No pages are currently opened
+2024-05-10T16:15:53.126Z - info: No pages needed to be rebuilt
+2024-05-10T16:18:12.512Z - info: Website generation started at 12:18:10 am
+2024-05-10T16:18:20.151Z - info: Building assets...

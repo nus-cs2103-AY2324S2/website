@@ -1,0 +1,385 @@
+2024-05-10T13:35:28.433Z - info: Website generation (lazy) started at 9:35:21 pm
+2024-05-10T13:35:37.420Z - info: Building assets...
+2024-05-10T13:35:43.493Z - info: Assets built
+2024-05-10T13:35:43.494Z - info: Generating landing page...
+2024-05-10T13:35:44.875Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-05-10T13:35:46.914Z - info: Site data built
+2024-05-10T13:35:46.914Z - info: Website generation (lazy) complete! Total build time: 25.486s
+2024-05-10T13:35:47.313Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-05-10T13:35:47.314Z - info: Press CTRL+C to stop ...
+2024-05-10T13:38:33.364Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\index as some of its dependencies were changed since the last visit
+2024-05-10T13:38:33.972Z - info: Site data built
+2024-05-10T13:38:33.972Z - info: Lazy website regeneration complete! Total build time: 0.608s
+2024-05-10T13:38:49.935Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations as some of its dependencies were changed since the last visit
+2024-05-10T13:38:50.345Z - info: Site data built
+2024-05-10T13:38:50.345Z - info: Lazy website regeneration complete! Total build time: 0.41s
+2024-05-10T13:40:57.636Z - info: [9:40:57 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2024-05-10T13:40:57.637Z - info: Synchronizing opened pages list before reload
+2024-05-10T13:40:57.638Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T13:40:57.638Z - info: 1. admin/tp-expectations
+2024-05-10T13:40:58.658Z - info: Rebuilding 1 pages
+2024-05-10T13:40:59.133Z - info: Site data built
+2024-05-10T13:40:59.134Z - info: Pages rebuilt
+2024-05-10T13:40:59.134Z - info: Website regeneration complete! Total build time: 0.477s
+2024-05-10T13:45:52.161Z - info: [9:45:52 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2024-05-10T13:45:52.161Z - info: Synchronizing opened pages list before reload
+2024-05-10T13:45:52.162Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T13:45:52.162Z - info: 1. admin/tp-expectations
+2024-05-10T13:45:53.181Z - info: Rebuilding 1 pages
+2024-05-10T13:45:53.528Z - info: Site data built
+2024-05-10T13:45:53.528Z - info: Pages rebuilt
+2024-05-10T13:45:53.528Z - info: Website regeneration complete! Total build time: 0.348s
+2024-05-10T13:51:26.816Z - info: [9:51:26 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2024-05-10T13:51:26.816Z - info: Synchronizing opened pages list before reload
+2024-05-10T13:51:26.816Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T13:51:26.817Z - info: 1. admin/tp-expectations
+2024-05-10T13:51:27.835Z - info: Rebuilding 1 pages
+2024-05-10T13:51:28.246Z - info: Site data built
+2024-05-10T13:51:28.247Z - info: Pages rebuilt
+2024-05-10T13:51:28.247Z - info: Website regeneration complete! Total build time: 0.413s
+2024-05-10T13:55:44.349Z - info: [9:55:44 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2024-05-10T13:55:44.349Z - info: Synchronizing opened pages list before reload
+2024-05-10T13:55:44.349Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T13:55:44.349Z - info: 1. admin/tp-expectations
+2024-05-10T13:55:45.354Z - info: Rebuilding 1 pages
+2024-05-10T13:55:45.746Z - info: Site data built
+2024-05-10T13:55:45.746Z - info: Pages rebuilt
+2024-05-10T13:55:45.746Z - info: Website regeneration complete! Total build time: 0.393s
+2024-05-10T13:56:48.032Z - info: [9:56:48 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2024-05-10T13:56:48.034Z - info: Synchronizing opened pages list before reload
+2024-05-10T13:56:48.034Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T13:56:48.034Z - info: 1. admin/tp-expectations
+2024-05-10T13:56:49.041Z - info: Rebuilding 1 pages
+2024-05-10T13:56:49.564Z - info: Site data built
+2024-05-10T13:56:49.564Z - info: Pages rebuilt
+2024-05-10T13:56:49.564Z - info: Website regeneration complete! Total build time: 0.524s
+2024-05-10T13:58:17.438Z - info: [9:58:17 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2024-05-10T13:58:17.438Z - info: Synchronizing opened pages list before reload
+2024-05-10T13:58:17.439Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T13:58:17.439Z - info: 1. admin/tp-expectations
+2024-05-10T13:58:18.448Z - info: Rebuilding 1 pages
+2024-05-10T13:58:18.822Z - info: Site data built
+2024-05-10T13:58:18.822Z - info: Pages rebuilt
+2024-05-10T13:58:18.822Z - info: Website regeneration complete! Total build time: 0.375s
+2024-05-10T14:01:33.269Z - info: [10:01:33 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2024-05-10T14:01:33.270Z - info: Synchronizing opened pages list before reload
+2024-05-10T14:01:33.270Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T14:01:33.270Z - info: 1. admin/tp-expectations
+2024-05-10T14:01:34.286Z - info: Rebuilding 1 pages
+2024-05-10T14:01:34.770Z - info: Site data built
+2024-05-10T14:01:34.770Z - info: Pages rebuilt
+2024-05-10T14:01:34.770Z - info: Website regeneration complete! Total build time: 0.486s
+2024-05-10T14:05:37.473Z - info: [10:05:37 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2024-05-10T14:05:37.474Z - info: Synchronizing opened pages list before reload
+2024-05-10T14:05:37.474Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T14:05:37.474Z - info: 1. admin/tp-expectations
+2024-05-10T14:05:38.489Z - info: Rebuilding 1 pages
+2024-05-10T14:05:38.865Z - info: Site data built
+2024-05-10T14:05:38.866Z - info: Pages rebuilt
+2024-05-10T14:05:38.866Z - info: Website regeneration complete! Total build time: 0.378s
+2024-05-10T14:05:50.058Z - info: [10:05:50 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2024-05-10T14:05:50.058Z - info: Synchronizing opened pages list before reload
+2024-05-10T14:05:50.058Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T14:05:50.058Z - info: 1. admin/tp-expectations
+2024-05-10T14:05:51.064Z - info: Rebuilding 1 pages
+2024-05-10T14:05:51.528Z - info: Site data built
+2024-05-10T14:05:51.528Z - info: Pages rebuilt
+2024-05-10T14:05:51.529Z - info: Website regeneration complete! Total build time: 0.466s
+2024-05-10T15:04:25.961Z - info: [11:04:25 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2024-05-10T15:04:25.966Z - info: Synchronizing opened pages list before reload
+2024-05-10T15:04:25.972Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T15:04:25.974Z - info: 1. admin/tp-expectations
+2024-05-10T15:04:27.005Z - info: Rebuilding 1 pages
+2024-05-10T15:04:27.586Z - info: Site data built
+2024-05-10T15:04:27.586Z - info: Pages rebuilt
+2024-05-10T15:04:27.586Z - info: Website regeneration complete! Total build time: 0.59s
+2024-05-10T15:05:22.629Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\tp-pe as some of its dependencies were changed since the last visit
+2024-05-10T15:05:24.233Z - info: Site data built
+2024-05-10T15:05:24.235Z - info: Lazy website regeneration complete! Total build time: 1.605s
+2024-05-10T15:11:03.477Z - info: [11:11:03 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-pe-fragment.md
+2024-05-10T15:11:03.479Z - info: Synchronizing opened pages list before reload
+2024-05-10T15:11:03.479Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T15:11:03.480Z - info: 1. admin/tp-pe
+2024-05-10T15:11:04.501Z - info: Rebuilding 1 pages
+2024-05-10T15:11:05.577Z - info: Site data built
+2024-05-10T15:11:05.578Z - info: Pages rebuilt
+2024-05-10T15:11:05.578Z - info: Website regeneration complete! Total build time: 1.08s
+2024-05-10T15:11:18.717Z - info: [11:11:18 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-pe-fragment.md
+2024-05-10T15:11:18.717Z - info: Synchronizing opened pages list before reload
+2024-05-10T15:11:18.718Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T15:11:18.718Z - info: 1. admin/tp-pe
+2024-05-10T15:11:19.729Z - info: Rebuilding 1 pages
+2024-05-10T15:11:20.417Z - info: Site data built
+2024-05-10T15:11:20.417Z - info: Pages rebuilt
+2024-05-10T15:11:20.417Z - info: Website regeneration complete! Total build time: 0.688s
+2024-05-10T15:22:23.508Z - info: [11:22:23 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-pe-fragment.md
+2024-05-10T15:22:23.508Z - info: Synchronizing opened pages list before reload
+2024-05-10T15:22:23.509Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T15:22:23.509Z - info: 1. admin/tp-pe
+2024-05-10T15:22:24.514Z - info: Rebuilding 1 pages
+2024-05-10T15:22:25.486Z - info: Site data built
+2024-05-10T15:22:25.486Z - info: Pages rebuilt
+2024-05-10T15:22:25.486Z - info: Website regeneration complete! Total build time: 0.972s
+2024-05-10T15:22:56.642Z - info: [11:22:56 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-pe-fragment.md
+2024-05-10T15:22:56.642Z - info: Synchronizing opened pages list before reload
+2024-05-10T15:22:56.642Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T15:22:56.642Z - info: 1. admin/tp-pe
+2024-05-10T15:22:57.656Z - info: Rebuilding 1 pages
+2024-05-10T15:22:58.388Z - info: Site data built
+2024-05-10T15:22:58.389Z - info: Pages rebuilt
+2024-05-10T15:22:58.389Z - info: Website regeneration complete! Total build time: 0.734s
+2024-05-10T15:24:30.303Z - info: [11:24:30 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-pe-fragment.md
+2024-05-10T15:24:30.303Z - info: Synchronizing opened pages list before reload
+2024-05-10T15:24:30.303Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T15:24:30.304Z - info: 1. admin/tp-pe
+2024-05-10T15:24:31.316Z - info: Rebuilding 1 pages
+2024-05-10T15:24:32.196Z - info: Site data built
+2024-05-10T15:24:32.197Z - info: Pages rebuilt
+2024-05-10T15:24:32.197Z - info: Website regeneration complete! Total build time: 0.882s
+2024-05-10T15:33:43.123Z - info: [11:33:43 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-pe-fragment.md
+2024-05-10T15:33:43.124Z - info: Synchronizing opened pages list before reload
+2024-05-10T15:33:43.124Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T15:33:43.124Z - info: 1. admin/tp-pe
+2024-05-10T15:33:44.142Z - info: Rebuilding 1 pages
+2024-05-10T15:33:45.561Z - info: Site data built
+2024-05-10T15:33:45.561Z - info: Pages rebuilt
+2024-05-10T15:33:45.561Z - info: Website regeneration complete! Total build time: 1.42s
+2024-05-10T15:35:32.705Z - info: [11:35:32 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-pe-fragment.md
+2024-05-10T15:35:32.706Z - info: Synchronizing opened pages list before reload
+2024-05-10T15:35:32.706Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T15:35:32.706Z - info: 1. admin/tp-pe
+2024-05-10T15:35:33.711Z - info: Rebuilding 1 pages
+2024-05-10T15:35:34.959Z - info: Site data built
+2024-05-10T15:35:34.959Z - info: Pages rebuilt
+2024-05-10T15:35:34.959Z - info: Website regeneration complete! Total build time: 1.249s
+2024-05-10T15:36:09.647Z - info: [11:36:09 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-pe-fragment.md
+2024-05-10T15:36:09.648Z - info: Synchronizing opened pages list before reload
+2024-05-10T15:36:09.648Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T15:36:09.648Z - info: 1. admin/tp-pe
+2024-05-10T15:36:10.658Z - info: Rebuilding 1 pages
+2024-05-10T15:36:11.715Z - info: Site data built
+2024-05-10T15:36:11.715Z - info: Pages rebuilt
+2024-05-10T15:36:11.715Z - info: Website regeneration complete! Total build time: 1.058s
+2024-05-10T15:37:21.937Z - info: [11:37:21 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-pe-fragment.md
+2024-05-10T15:37:21.938Z - info: Synchronizing opened pages list before reload
+2024-05-10T15:37:21.938Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T15:37:21.938Z - info: 1. admin/tp-pe
+2024-05-10T15:37:22.949Z - info: Rebuilding 1 pages
+2024-05-10T15:37:23.997Z - info: Site data built
+2024-05-10T15:37:23.998Z - info: Pages rebuilt
+2024-05-10T15:37:23.998Z - info: Website regeneration complete! Total build time: 1.051s
+2024-05-10T15:38:59.357Z - info: [11:38:59 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-pe-fragment.md
+2024-05-10T15:38:59.358Z - info: Synchronizing opened pages list before reload
+2024-05-10T15:38:59.358Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T15:38:59.358Z - info: 1. admin/tp-pe
+2024-05-10T15:39:00.368Z - info: Rebuilding 1 pages
+2024-05-10T15:39:01.580Z - info: Site data built
+2024-05-10T15:39:01.580Z - info: Pages rebuilt
+2024-05-10T15:39:01.580Z - info: Website regeneration complete! Total build time: 1.213s
+2024-05-10T15:41:17.972Z - info: Website generation started at 11:41:15 pm
+2024-05-10T15:41:25.465Z - info: Building assets...
+2024-05-10T15:41:30.890Z - info: Assets built
+2024-05-10T15:41:30.891Z - info: Generating pages...
+2024-05-10T15:41:59.063Z - debug:  
+2024-05-10T15:41:59.068Z - debug:  
+2024-05-10T15:41:59.087Z - debug:  
+2024-05-10T15:41:59.144Z - debug:  
+2024-05-10T15:41:59.341Z - debug:  
+2024-05-10T15:41:59.372Z - debug:  
+2024-05-10T15:41:59.373Z - debug:  
+2024-05-10T15:41:59.429Z - debug:  
+2024-05-10T15:41:59.430Z - debug:  
+2024-05-10T15:41:59.438Z - debug:  
+2024-05-10T15:41:59.472Z - debug:  
+2024-05-10T15:41:59.538Z - debug:  
+2024-05-10T15:41:59.544Z - debug:  
+2024-05-10T15:41:59.568Z - debug:  
+2024-05-10T15:41:59.590Z - debug:  
+2024-05-10T15:42:01.743Z - debug:  
+2024-05-10T15:42:01.888Z - debug:  
+2024-05-10T15:42:03.731Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\uml\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:10.074Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\testing\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:11.828Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:13.283Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\teamwork\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:14.409Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:15.190Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\softwareEngineering\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:15.482Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\revisionControl\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:16.169Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\reuse\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:17.035Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\requirements\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:17.600Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\refactoring\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:17.965Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\qualityAssurance\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:18.523Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\projectPlanning\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:18.658Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\projectDuke\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:19.510Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\processModels\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:20.830Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\principles\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:22.788Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\oop\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:24.253Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\modeling\modelingStructures\ooStructures\text.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\modeling\modelingStructures\ooStructures\exercises.md is empty or contains only whitespace
+2024-05-10T15:42:24.413Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\modeling\modelingStructures\ooStructures\text.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\modeling\modelingStructures\ooStructures\exercises.md is empty or contains only whitespace
+2024-05-10T15:42:27.155Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\modeling\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:27.220Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\modeling\modelingStructures\ooStructures\text.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\modeling\modelingStructures\ooStructures\exercises.md is empty or contains only whitespace
+2024-05-10T15:42:28.458Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\intellij\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:28.870Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\integration\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:29.509Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\ides\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:30.201Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\gitAndGithub\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:31.706Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\gatheringRequirements\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:32.162Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\errorHandling\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:34.380Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\documentation\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:36.193Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\designPatterns\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:36.792Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\designFundamentals\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:37.767Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\designApproaches\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:38.016Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\design\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:42.380Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\cppToJava\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:42.394Z - warn: Empty reference in C:\repos\nus-cs2103\cs2103-website-base\book\cppToJava\about\unit-inParent-asPanel.md:
+Segment '#outcomes' in file: C:\repos\nus-cs2103\cs2103-website-base\book\cppToJava\about\text.md is empty
+2024-05-10T15:42:47.877Z - warn: Empty reference in C:\repos\nus-cs2103\cs2103-website-base\book\cppToJava\about\unit-inPage-asFlat.md:
+Segment '#outcomes' in file: C:\repos\nus-cs2103\cs2103-website-base\book\cppToJava\about\text.md is empty
+2024-05-10T15:42:49.733Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\codeQuality\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:42:51.958Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\architecture\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:01.643Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\uml.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:02.681Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testing.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:03.474Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:03.983Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\teamwork.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:04.071Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\specifyingRequirements.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:04.628Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\softwareEngineering.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:04.664Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\revisionControl.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:04.780Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\reuse.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:05.147Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\requirements.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:05.261Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\refactoring.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:05.392Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\qualityAssurance.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:05.455Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\projectPlanning.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:05.617Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\processModels.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:05.855Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\principles.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:06.319Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\oop.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:06.675Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\modeling.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:06.737Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\modeling\modelingStructures\ooStructures\text.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\modeling\modelingStructures\ooStructures\exercises.md is empty or contains only whitespace
+2024-05-10T15:43:07.998Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\intellij.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:08.332Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\integration.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:08.446Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\ides.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:08.476Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\gitAndGithub.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:09.176Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\gatheringRequirements.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:09.414Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\errorHandling.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:09.846Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\documentation.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:10.058Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\designPatterns.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:10.229Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\designFundamentals.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:10.625Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\designApproaches.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:10.726Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\design.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:10.747Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\cppToJava.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:10.752Z - warn: Empty reference in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\cppToJava.md:
+Segment '#outcomes' in file: C:\repos\nus-cs2103\cs2103-website-base\book\cppToJava\about\text.md is empty
+2024-05-10T15:43:11.561Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\codeQuality.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:13.519Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\architecture.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-10T15:43:23.237Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\modeling\modelingStructures\ooStructures\text.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\modeling\modelingStructures\ooStructures\exercises.md is empty or contains only whitespace
+2024-05-10T15:44:02.266Z - debug:  
+2024-05-10T15:44:17.647Z - debug:  
+2024-05-10T15:44:17.772Z - debug:  
+2024-05-10T15:44:28.741Z - info: Pages built
+2024-05-10T15:44:29.766Z - info: Site data built
+2024-05-10T15:44:29.766Z - info: Website generation complete! Total build time: 194.069s
+2024-05-10T15:44:29.766Z - info: Build success!
+2024-05-10T15:46:41.971Z - error: The "path" argument must be of type string. Received undefined
+2024-05-10T15:47:50.234Z - info: Website generation (lazy) started at 11:47:44 pm
+2024-05-10T15:47:57.029Z - info: Building assets...
+2024-05-10T15:48:01.951Z - info: Assets built
+2024-05-10T15:48:01.952Z - info: Generating landing page...
+2024-05-10T15:48:03.039Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-05-10T15:48:03.848Z - info: Site data built
+2024-05-10T15:48:03.849Z - info: Website generation (lazy) complete! Total build time: 19.18s
+2024-05-10T15:48:03.886Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-05-10T15:48:03.886Z - info: Press CTRL+C to stop ...
+2024-05-10T15:49:24.390Z - info: [11:49:24 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\path.md
+2024-05-10T15:49:24.391Z - info: Synchronizing opened pages list before reload
+2024-05-10T15:49:24.391Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T15:49:24.391Z - info: 1. index
+2024-05-10T15:49:24.407Z - info: [11:49:24 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\book\modeling\modelingStructures\ooStructures\exercises.md
+2024-05-10T15:49:24.407Z - info: Synchronizing opened pages list before reload
+2024-05-10T15:49:24.408Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T15:49:24.408Z - info: 1. index
+2024-05-10T15:49:25.406Z - info: Assets built
+2024-05-10T15:49:37.563Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\index as some of its dependencies were changed since the last visit
+2024-05-10T15:49:38.071Z - info: Site data built
+2024-05-10T15:49:38.072Z - info: Lazy website regeneration complete! Total build time: 0.509s
+2024-05-10T15:49:58.132Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations as some of its dependencies were changed since the last visit
+2024-05-10T15:49:58.539Z - info: Site data built
+2024-05-10T15:49:58.540Z - info: Lazy website regeneration complete! Total build time: 0.408s
+2024-05-10T15:54:49.636Z - info: [11:54:49 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2024-05-10T15:54:49.637Z - info: Synchronizing opened pages list before reload
+2024-05-10T15:54:49.637Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T15:54:49.637Z - info: 1. admin/tp-expectations
+2024-05-10T15:54:50.650Z - info: Rebuilding 1 pages
+2024-05-10T15:54:51.185Z - info: Site data built
+2024-05-10T15:54:51.185Z - info: Pages rebuilt
+2024-05-10T15:54:51.185Z - info: Website regeneration complete! Total build time: 0.536s
+2024-05-10T15:57:31.487Z - info: [11:57:31 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\admin\tp-expectations.md
+2024-05-10T15:57:31.487Z - info: Synchronizing opened pages list before reload
+2024-05-10T15:57:31.487Z - info: Current opened pages, from most-to-least recent:
+2024-05-10T15:57:31.488Z - info: 1. admin/tp-expectations
+2024-05-10T15:57:32.494Z - info: Rebuilding 1 pages
+2024-05-10T15:57:32.857Z - info: Site data built
+2024-05-10T15:57:32.858Z - info: Pages rebuilt
+2024-05-10T15:57:32.858Z - info: Website regeneration complete! Total build time: 0.365s

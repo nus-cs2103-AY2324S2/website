@@ -652,3 +652,171 @@
 2024-05-03T09:47:51.572Z - info: Website regeneration complete! Total build time: 0.492s
 2024-05-03T09:50:43.412Z - info: Website generation started at 5:50:41 pm
 2024-05-03T09:50:49.746Z - info: Building assets...
+2024-05-03T09:50:55.258Z - info: Assets built
+2024-05-03T09:50:55.259Z - info: Generating pages...
+2024-05-03T09:51:21.213Z - debug:  
+2024-05-03T09:51:21.242Z - debug:  
+2024-05-03T09:51:21.343Z - debug:  
+2024-05-03T09:51:21.344Z - debug:  
+2024-05-03T09:51:21.370Z - debug:  
+2024-05-03T09:51:21.445Z - debug:  
+2024-05-03T09:51:21.468Z - debug:  
+2024-05-03T09:51:21.543Z - debug:  
+2024-05-03T09:51:21.543Z - debug:  
+2024-05-03T09:51:21.545Z - debug:  
+2024-05-03T09:51:21.560Z - debug:  
+2024-05-03T09:51:21.576Z - debug:  
+2024-05-03T09:51:21.584Z - debug:  
+2024-05-03T09:51:21.649Z - debug:  
+2024-05-03T09:51:21.664Z - debug:  
+2024-05-03T09:51:24.110Z - debug:  
+2024-05-03T09:51:24.110Z - debug:  
+2024-05-03T09:51:25.905Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\uml\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:32.379Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\testing\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:34.375Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\testCaseDesign\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:35.905Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\teamwork\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:37.166Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\specifyingRequirements\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:37.893Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\softwareEngineering\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:38.319Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\revisionControl\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:39.016Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\reuse\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:39.980Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\requirements\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:40.877Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\refactoring\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:41.193Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\qualityAssurance\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:41.784Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\projectPlanning\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:41.899Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\projectDuke\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:42.881Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\processModels\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:44.195Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\principles\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:46.292Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\oop\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:47.944Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\modeling\modelingStructures\ooStructures\text.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\modeling\modelingStructures\ooStructures\exercises.md is empty or contains only whitespace
+2024-05-03T09:51:48.140Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\modeling\modelingStructures\ooStructures\text.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\modeling\modelingStructures\ooStructures\exercises.md is empty or contains only whitespace
+2024-05-03T09:51:51.071Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\modeling\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:51.144Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\modeling\modelingStructures\ooStructures\text.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\modeling\modelingStructures\ooStructures\exercises.md is empty or contains only whitespace
+2024-05-03T09:51:52.532Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\intellij\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:52.976Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\integration\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:53.687Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\ides\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:54.417Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\gitAndGithub\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:56.072Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\gatheringRequirements\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:56.567Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\errorHandling\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:51:59.029Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\documentation\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:00.944Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\designPatterns\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:01.665Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\designFundamentals\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:02.703Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\designApproaches\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:03.031Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\design\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:07.704Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\cppToJava\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:07.719Z - warn: Empty reference in C:\repos\nus-cs2103\cs2103-website-base\book\cppToJava\about\unit-inParent-asPanel.md:
+Segment '#outcomes' in file: C:\repos\nus-cs2103\cs2103-website-base\book\cppToJava\about\text.md is empty
+2024-05-03T09:52:14.009Z - warn: Empty reference in C:\repos\nus-cs2103\cs2103-website-base\book\cppToJava\about\unit-inPage-asFlat.md:
+Segment '#outcomes' in file: C:\repos\nus-cs2103\cs2103-website-base\book\cppToJava\about\text.md is empty
+2024-05-03T09:52:15.994Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\codeQuality\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:18.390Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\architecture\container-inPage-asFlat.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:29.057Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\uml.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:30.152Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testing.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:31.033Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\testCaseDesign.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:31.585Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\teamwork.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:31.778Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\specifyingRequirements.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:32.242Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\softwareEngineering.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:32.281Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\revisionControl.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:32.531Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\reuse.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:32.838Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\requirements.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:32.964Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\refactoring.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:33.029Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\qualityAssurance.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:33.277Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\projectPlanning.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:33.393Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\processModels.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:33.589Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\principles.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:33.942Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\oop.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:34.845Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\modeling.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:34.917Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\modeling\modelingStructures\ooStructures\text.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\modeling\modelingStructures\ooStructures\exercises.md is empty or contains only whitespace
+2024-05-03T09:52:36.159Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\intellij.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:36.232Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\integration.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:36.306Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\ides.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:36.617Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\gitAndGithub.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:37.379Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\gatheringRequirements.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:37.495Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\errorHandling.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:37.704Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\documentation.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:38.355Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\designPatterns.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:38.704Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\designFundamentals.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:38.910Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\designApproaches.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:39.042Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\design.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:39.102Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\cppToJava.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:39.106Z - warn: Empty reference in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\cppToJava.md:
+Segment '#outcomes' in file: C:\repos\nus-cs2103\cs2103-website-base\book\cppToJava\about\text.md is empty
+2024-05-03T09:52:40.004Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\codeQuality.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:42.090Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\architecture.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\path.md is empty or contains only whitespace
+2024-05-03T09:52:52.218Z - warn: Empty file included in C:\repos\nus-cs2103\cs2103-website-base\book\modeling\modelingStructures\ooStructures\text.md:
+File: C:\repos\nus-cs2103\cs2103-website-base\book\modeling\modelingStructures\ooStructures\exercises.md is empty or contains only whitespace
+2024-05-03T09:53:31.010Z - debug:  
+2024-05-03T09:53:57.221Z - debug:  
+2024-05-03T09:53:57.243Z - debug:  
+2024-05-03T09:54:09.907Z - info: Pages built
+2024-05-03T09:54:11.191Z - info: Site data built
+2024-05-03T09:54:11.191Z - info: Website generation complete! Total build time: 209.48s
+2024-05-03T09:54:11.192Z - info: Build success!
+2024-05-03T09:56:50.887Z - error: The "path" argument must be of type string. Received undefined
+2024-05-03T10:28:49.239Z - error: The "path" argument must be of type string. Received undefined
+2024-05-03T10:30:05.398Z - error: C:\repos\nus-cs2103\cs2103-website-base\"c:\todoete"\gh-pages contains invalid WIN32 path characters.
+2024-05-03T10:33:08.263Z - info: The website has been deployed at: https://nus-cs2103-ay2324s2.github.io/website
