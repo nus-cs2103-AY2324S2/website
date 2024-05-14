@@ -1,0 +1,148 @@
+2024-05-13T16:08:30.260Z - info: [12:08:30 am] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\site.json
+2024-05-13T16:08:30.271Z - info: Synchronizing opened pages list before reload
+2024-05-13T16:08:30.272Z - info: Current opened pages, from most-to-least recent:
+2024-05-13T16:08:30.272Z - info: 1. index
+2024-05-13T16:08:34.772Z - info: Pages or site config modified, updating pages...
+2024-05-13T16:08:38.293Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\index as some of its dependencies were changed since the last visit
+2024-05-13T16:08:39.117Z - info: Site data built
+2024-05-13T16:08:39.117Z - info: Lazy website regeneration complete! Total build time: 0.825s
+2024-05-13T16:08:39.123Z - info: Site data built
+2024-05-14T04:35:02.161Z - info: Website generation (lazy) started at 12:34:48 pm
+2024-05-14T04:35:13.546Z - warn: ENOENT: no such file or directory, open 'C:\repos\nus-cs2103\cs2103-website-base\cache\gh-pages\https!github.com!nus-cs2103-AY2324S2!website.git\book\_markbind\variables.md'
+2024-05-14T04:35:13.548Z - warn: ENOENT: no such file or directory, open 'C:\repos\nus-cs2103\cs2103-website-base\cache\gh-pages\https!github.com!nus-cs2103-AY2324S2!website.git\_markbind\variables.md'
+2024-05-14T04:35:13.631Z - info: Building assets...
+2024-05-14T04:36:04.065Z - info: Assets built
+2024-05-14T04:36:04.066Z - info: Generating landing page...
+2024-05-14T04:36:05.374Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-05-14T04:36:06.610Z - info: Site data built
+2024-05-14T04:36:06.611Z - info: Website generation (lazy) complete! Total build time: 78.287s
+2024-05-14T04:36:07.040Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-05-14T04:36:07.040Z - info: Press CTRL+C to stop ...
+2024-05-14T04:40:37.641Z - info: Website generation (lazy) started at 12:40:24 pm
+2024-05-14T04:40:47.356Z - warn: ENOENT: no such file or directory, open 'C:\repos\nus-cs2103\cs2103-website-base\cache\gh-pages\https!github.com!nus-cs2103-AY2324S2!website.git\book\_markbind\variables.md'
+2024-05-14T04:40:47.358Z - warn: ENOENT: no such file or directory, open 'C:\repos\nus-cs2103\cs2103-website-base\cache\gh-pages\https!github.com!nus-cs2103-AY2324S2!website.git\_markbind\variables.md'
+2024-05-14T04:40:47.428Z - info: Building assets...
+2024-05-14T04:41:20.210Z - info: Assets built
+2024-05-14T04:41:20.211Z - info: Generating landing page...
+2024-05-14T04:41:21.312Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-05-14T04:41:22.350Z - info: Site data built
+2024-05-14T04:41:22.351Z - info: Website generation (lazy) complete! Total build time: 57.955s
+2024-05-14T04:41:22.392Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-05-14T04:41:22.393Z - info: Press CTRL+C to stop ...
+2024-05-14T04:42:25.134Z - info: [12:42:25 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\site.json
+2024-05-14T05:07:00.562Z - info: Website generation (lazy) started at 1:06:47 pm
+2024-05-14T05:07:10.265Z - warn: ENOENT: no such file or directory, open 'C:\repos\nus-cs2103\cs2103-website-base\cache\gh-pages\https!github.com!nus-cs2103-AY2324S2!website.git\book\_markbind\variables.md'
+2024-05-14T05:07:10.266Z - warn: ENOENT: no such file or directory, open 'C:\repos\nus-cs2103\cs2103-website-base\cache\gh-pages\https!github.com!nus-cs2103-AY2324S2!website.git\_markbind\variables.md'
+2024-05-14T05:07:10.354Z - info: Building assets...
+2024-05-14T05:07:49.508Z - info: Assets built
+2024-05-14T05:07:49.509Z - info: Generating landing page...
+2024-05-14T05:07:50.752Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-05-14T05:07:51.888Z - info: Site data built
+2024-05-14T05:07:51.889Z - info: Website generation (lazy) complete! Total build time: 64.224s
+2024-05-14T05:07:51.941Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-05-14T05:07:51.942Z - info: Press CTRL+C to stop ...
+2024-05-14T05:43:40.889Z - info: Website generation (lazy) started at 1:43:30 pm
+2024-05-14T05:43:48.991Z - warn: ENOENT: no such file or directory, open 'C:\repos\nus-cs2103\cs2103-website-base\cache\gh-pages\https!github.com!nus-cs2103-AY2324S2!website.git\book\_markbind\variables.md'
+2024-05-14T05:43:48.993Z - warn: ENOENT: no such file or directory, open 'C:\repos\nus-cs2103\cs2103-website-base\cache\gh-pages\https!github.com!nus-cs2103-AY2324S2!website.git\_markbind\variables.md'
+2024-05-14T05:43:49.048Z - info: Building assets...
+2024-05-14T05:44:21.065Z - info: Assets built
+2024-05-14T05:44:21.066Z - info: Generating landing page...
+2024-05-14T05:44:22.037Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-05-14T05:44:22.943Z - info: Site data built
+2024-05-14T05:44:22.944Z - info: Website generation (lazy) complete! Total build time: 52.178s
+2024-05-14T05:44:22.979Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-05-14T05:44:22.979Z - info: Press CTRL+C to stop ...
+2024-05-14T05:44:49.630Z - info: [1:44:49 pm] Reload for file change: C:\repos\nus-cs2103\cs2103-website-base\site.json
+2024-05-14T05:44:49.630Z - info: Synchronizing opened pages list before reload
+2024-05-14T05:44:49.631Z - info: Current opened pages, from most-to-least recent:
+2024-05-14T05:44:49.631Z - info: 1. index
+2024-05-14T05:44:53.693Z - info: Pages or site config modified, updating pages...
+2024-05-14T05:44:57.267Z - info: Building C:\repos\nus-cs2103\cs2103-website-base\index as some of its dependencies were changed since the last visit
+2024-05-14T05:44:57.818Z - info: Site data built
+2024-05-14T05:44:57.819Z - info: Lazy website regeneration complete! Total build time: 0.552s
+2024-05-14T05:44:57.825Z - info: Site data built
+2024-05-14T05:46:13.091Z - info: Website generation started at 1:46:01 pm
+2024-05-14T05:46:19.794Z - info: Building assets...
+2024-05-14T05:46:24.699Z - info: Assets built
+2024-05-14T05:46:24.700Z - info: Generating pages...
+2024-05-14T05:46:48.467Z - debug:  
+2024-05-14T05:46:48.470Z - debug:  
+2024-05-14T05:46:48.474Z - debug:  
+2024-05-14T05:46:48.475Z - debug:  
+2024-05-14T05:46:48.476Z - debug:  
+2024-05-14T05:46:48.476Z - debug:  
+2024-05-14T05:46:48.497Z - debug:  
+2024-05-14T05:46:48.498Z - debug:  
+2024-05-14T05:46:48.593Z - debug:  
+2024-05-14T05:46:48.594Z - debug:  
+2024-05-14T05:46:48.605Z - debug:  
+2024-05-14T05:46:48.622Z - debug:  
+2024-05-14T05:46:48.623Z - debug:  
+2024-05-14T05:46:48.623Z - debug:  
+2024-05-14T05:46:48.673Z - debug:  
+2024-05-14T05:46:50.527Z - debug:  
+2024-05-14T05:46:50.578Z - debug:  
+2024-05-14T05:48:53.014Z - debug:  
+2024-05-14T05:49:14.641Z - debug:  
+2024-05-14T05:49:14.785Z - debug:  
+2024-05-14T05:49:26.733Z - info: Pages built
+2024-05-14T05:49:27.764Z - info: Site data built
+2024-05-14T05:49:27.764Z - info: Website generation complete! Total build time: 206.003s
+2024-05-14T05:49:27.802Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-05-14T05:49:27.802Z - info: Press CTRL+C to stop ...
+2024-05-14T06:35:04.749Z - info: Website generation (lazy) started at 2:34:58 pm
+2024-05-14T06:35:14.104Z - info: Building assets...
+2024-05-14T06:35:20.430Z - info: Assets built
+2024-05-14T06:35:20.431Z - info: Generating landing page...
+2024-05-14T06:35:21.698Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-05-14T06:35:22.833Z - info: Site data built
+2024-05-14T06:35:22.834Z - info: Website generation (lazy) complete! Total build time: 24.488s
+2024-05-14T06:35:22.895Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-05-14T06:35:22.895Z - info: Press CTRL+C to stop ...
+2024-05-14T07:58:43.713Z - info: Website generation (lazy) started at 3:58:39 pm
+2024-05-14T07:58:52.774Z - info: Building assets...
+2024-05-14T07:58:58.808Z - info: Assets built
+2024-05-14T07:58:58.809Z - info: Generating landing page...
+2024-05-14T07:59:00.151Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-05-14T07:59:01.367Z - info: Site data built
+2024-05-14T07:59:01.368Z - info: Website generation (lazy) complete! Total build time: 21.383s
+2024-05-14T07:59:01.416Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-05-14T07:59:01.417Z - info: Press CTRL+C to stop ...
+2024-05-14T08:01:05.940Z - info: Website generation started at 4:01:03 pm
+2024-05-14T08:01:12.870Z - info: Building assets...
+2024-05-14T08:01:18.184Z - info: Assets built
+2024-05-14T08:01:18.185Z - info: Generating pages...
+2024-05-14T08:01:43.441Z - debug:  
+2024-05-14T08:01:43.446Z - debug:  
+2024-05-14T08:01:43.447Z - debug:  
+2024-05-14T08:01:43.448Z - debug:  
+2024-05-14T08:01:43.449Z - debug:  
+2024-05-14T08:01:44.068Z - debug:  
+2024-05-14T08:01:44.070Z - debug:  
+2024-05-14T08:01:44.070Z - debug:  
+2024-05-14T08:01:44.071Z - debug:  
+2024-05-14T08:01:44.072Z - debug:  
+2024-05-14T08:01:44.072Z - debug:  
+2024-05-14T08:01:44.075Z - debug:  
+2024-05-14T08:01:44.076Z - debug:  
+2024-05-14T08:01:44.077Z - debug:  
+2024-05-14T08:01:44.078Z - debug:  
+2024-05-14T08:01:46.416Z - debug:  
+2024-05-14T08:01:46.416Z - debug:  
+2024-05-14T08:04:00.997Z - debug:  
+2024-05-14T08:04:19.104Z - debug:  
+2024-05-14T08:04:19.131Z - debug:  
+2024-05-14T08:04:31.622Z - info: Pages built
+2024-05-14T08:04:32.767Z - info: Site data built
+2024-05-14T08:04:32.767Z - info: Website generation complete! Total build time: 208.987s
+2024-05-14T08:04:32.768Z - info: Build success!
+2024-05-14T08:04:33.940Z - error: uncaughtException: The "path" argument must be of type string. Received undefined date=Tue May 14 2024 16:04:33 GMT+0800 (Singapore Standard Time), pid=18708, uid=null, gid=null, cwd=C:\repos\nus-cs2103\cs2103-website-base, execPath=C:\Program Files\nodejs\node.exe, version=v20.10.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\index.js, deploy], rss=1471430656, heapTotal=1412796416, heapUsed=1346736976, external=2900470, arrayBuffers=542153, loadavg=[0, 0, 0], uptime=13193.687
+TypeError [ERR_INVALID_ARG_TYPE]: The "path" argument must be of type string. Received undefined
+    at validateString (node:internal/validators:162:11)
+    at Object.join (node:path:433:7)
+    at getCacheDir (C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\gh-pages\lib\index.js:24:15)
+    at C:\Users\dcsdcr\AppData\Roaming\npm\node_modules\markbind-cli\node_modules\gh-pages\lib\index.js:127:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-05-14T08:05:29.509Z - error: The "path" argument must be of type string. Received undefined
+2024-05-14T08:06:52.044Z - info: Website generation started at 4:06:46 pm
+2024-05-14T08:06:59.556Z - info: Building assets...

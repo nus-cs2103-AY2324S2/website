@@ -111,3 +111,66 @@
 2024-05-10T16:15:53.126Z - info: No pages needed to be rebuilt
 2024-05-10T16:18:12.512Z - info: Website generation started at 12:18:10 am
 2024-05-10T16:18:20.151Z - info: Building assets...
+2024-05-10T16:18:26.227Z - info: Assets built
+2024-05-10T16:18:26.228Z - info: Generating pages...
+2024-05-10T16:18:52.224Z - debug:  
+2024-05-10T16:18:52.227Z - debug:  
+2024-05-10T16:18:52.227Z - debug:  
+2024-05-10T16:18:52.228Z - debug:  
+2024-05-10T16:18:52.790Z - debug:  
+2024-05-10T16:18:52.792Z - debug:  
+2024-05-10T16:18:52.793Z - debug:  
+2024-05-10T16:18:52.793Z - debug:  
+2024-05-10T16:18:52.794Z - debug:  
+2024-05-10T16:18:52.804Z - debug:  
+2024-05-10T16:18:52.806Z - debug:  
+2024-05-10T16:18:52.811Z - debug:  
+2024-05-10T16:18:52.869Z - debug:  
+2024-05-10T16:18:52.883Z - debug:  
+2024-05-10T16:18:52.905Z - debug:  
+2024-05-10T16:18:55.290Z - debug:  
+2024-05-10T16:18:55.290Z - debug:  
+2024-05-10T16:19:35.999Z - warn: Empty reference in C:\repos\nus-cs2103\cs2103-website-base\book\cppToJava\about\unit-inParent-asPanel.md:
+Segment '#outcomes' in file: C:\repos\nus-cs2103\cs2103-website-base\book\cppToJava\about\text.md is empty
+2024-05-10T16:19:41.822Z - warn: Empty reference in C:\repos\nus-cs2103\cs2103-website-base\book\cppToJava\about\unit-inPage-asFlat.md:
+Segment '#outcomes' in file: C:\repos\nus-cs2103\cs2103-website-base\book\cppToJava\about\text.md is empty
+2024-05-10T16:20:05.224Z - warn: Empty reference in C:\repos\nus-cs2103\cs2103-website-base\se-book-adapted\chapters\cppToJava.md:
+Segment '#outcomes' in file: C:\repos\nus-cs2103\cs2103-website-base\book\cppToJava\about\text.md is empty
+2024-05-10T16:20:57.920Z - debug:  
+2024-05-10T16:21:14.299Z - debug:  
+2024-05-10T16:21:14.335Z - debug:  
+2024-05-10T16:21:25.644Z - info: Pages built
+2024-05-10T16:21:26.633Z - info: Site data built
+2024-05-10T16:21:26.634Z - info: Website generation complete! Total build time: 196.409s
+2024-05-10T16:21:26.634Z - info: Build success!
+2024-05-10T16:27:19.488Z - info: The website has been deployed at: https://nus-cs2103-ay2324s2.github.io/website
+2024-05-10T16:38:47.208Z - info: Website generation started at 12:38:29 am
+2024-05-10T16:39:00.762Z - warn: ENOENT: no such file or directory, open 'C:\repos\nus-cs2103\cs2103-website-base\cache\gh-pages\https!github.com!nus-cs2103-AY2324S2!website.git\book\_markbind\variables.md'
+2024-05-10T16:39:00.764Z - warn: ENOENT: no such file or directory, open 'C:\repos\nus-cs2103\cs2103-website-base\cache\gh-pages\https!github.com!nus-cs2103-AY2324S2!website.git\_markbind\variables.md'
+2024-05-10T16:39:00.852Z - info: Building assets...
+2024-05-10T16:39:36.847Z - info: Assets built
+2024-05-10T16:39:36.848Z - info: Generating pages...
+2024-05-10T16:40:02.294Z - debug:  
+2024-05-10T16:40:02.296Z - debug:  
+2024-05-10T16:40:02.297Z - debug:  
+2024-05-10T16:40:02.300Z - debug:  
+2024-05-10T16:40:02.300Z - debug:  
+2024-05-10T16:40:02.300Z - debug:  
+2024-05-10T16:40:02.314Z - debug:  
+2024-05-10T16:40:02.316Z - debug:  
+2024-05-10T16:40:02.316Z - debug:  
+2024-05-10T16:40:02.349Z - debug:  
+2024-05-10T16:40:02.404Z - debug:  
+2024-05-10T16:40:02.404Z - debug:  
+2024-05-10T16:40:02.411Z - debug:  
+2024-05-10T16:40:02.578Z - debug:  
+2024-05-10T16:40:02.598Z - debug:  
+2024-05-10T16:40:04.748Z - debug:  
+2024-05-10T16:40:04.915Z - debug:  
+2024-05-10T16:42:24.905Z - debug:  
+2024-05-10T16:42:43.097Z - debug:  
+2024-05-10T16:42:43.200Z - debug:  
+2024-05-10T16:43:01.404Z - info: Pages built
+2024-05-10T16:43:02.799Z - info: Site data built
+2024-05-10T16:43:02.799Z - info: Website generation complete! Total build time: 273.762s
+2024-05-10T16:43:02.800Z - info: Build success!

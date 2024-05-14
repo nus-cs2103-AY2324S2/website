@@ -1,0 +1,22 @@
+2024-05-13T15:53:20.184Z - info: Website generation (lazy) started at 11:53:01 pm
+2024-05-13T15:53:30.304Z - warn: ENOENT: no such file or directory, open 'C:\repos\nus-cs2103\cs2103-website-base\cache\gh-pages\https!github.com!nus-cs2103-AY2324S2!website.git\book\_markbind\variables.md'
+2024-05-13T15:53:30.306Z - warn: ENOENT: no such file or directory, open 'C:\repos\nus-cs2103\cs2103-website-base\cache\gh-pages\https!github.com!nus-cs2103-AY2324S2!website.git\_markbind\variables.md'
+2024-05-13T15:53:30.372Z - info: Building assets...
+2024-05-13T15:54:13.316Z - info: Assets built
+2024-05-13T15:54:13.317Z - info: Generating landing page...
+2024-05-13T15:54:14.530Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-05-13T15:54:15.624Z - info: Site data built
+2024-05-13T15:54:15.625Z - info: Website generation (lazy) complete! Total build time: 73.914s
+2024-05-13T15:54:16.008Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-05-13T15:54:16.008Z - info: Press CTRL+C to stop ...
+2024-05-13T15:58:13.679Z - info: Website generation (lazy) started at 11:57:59 pm
+2024-05-13T15:58:23.076Z - warn: ENOENT: no such file or directory, open 'C:\repos\nus-cs2103\cs2103-website-base\cache\gh-pages\https!github.com!nus-cs2103-AY2324S2!website.git\book\_markbind\variables.md'
+2024-05-13T15:58:23.078Z - warn: ENOENT: no such file or directory, open 'C:\repos\nus-cs2103\cs2103-website-base\cache\gh-pages\https!github.com!nus-cs2103-AY2324S2!website.git\_markbind\variables.md'
+2024-05-13T15:58:23.151Z - info: Building assets...
+2024-05-13T15:59:03.601Z - info: Assets built
+2024-05-13T15:59:03.602Z - info: Generating landing page...
+2024-05-13T15:59:05.013Z - info: Landing page built, other pages will be built as you navigate to them!
+2024-05-13T15:59:06.062Z - info: Site data built
+2024-05-13T15:59:06.062Z - info: Website generation (lazy) complete! Total build time: 66.697s
+2024-05-13T15:59:06.102Z - info: Serving "C:\repos\nus-cs2103\cs2103-website-base\_site" at http://127.0.0.1:8080
+2024-05-13T15:59:06.102Z - info: Press CTRL+C to stop ...
